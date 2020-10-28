@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class Loadcod : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField]
     private GameObject logoimg;
@@ -24,8 +23,8 @@ public class Loadcod : MonoBehaviour
     }
     IEnumerator LoadGameProg(string val)
     {
-        AsyncOperation async = SceneManager.LoadSceneAsync(val);
-        while (!async.isDone)
+        AsyncOperation Async = SceneManager.LoadSceneAsync(val);
+        while (!Async.isDone)
         {
             if (logoimg != null)
             {
