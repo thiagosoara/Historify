@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class TWEENLOAD : MonoBehaviour
+public class TweenLOGOMARCA : MonoBehaviour
 {
     private Image img;
     // Start is called before the first frame update
