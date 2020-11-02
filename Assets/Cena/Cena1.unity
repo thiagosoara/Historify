@@ -14989,34 +14989,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 33.211304, y: 1.9447393}
   m_EdgeRadius: 0
---- !u!68 &900326890
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900326888}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 16.05206, y: -4.184331}
-  - {x: 30.607777, y: -4.1941323}
-  - {x: 30.613539, y: -0.19311142}
-  - {x: 22.656816, y: -0.18081999}
-  - {x: 22.609344, y: -1.2203305}
-  - {x: 16.58784, y: -1.1080747}
-  - {x: 16.548534, y: -2.187025}
-  - {x: 16.051338, y: -2.1988661}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!4 &900326891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3064958396931295644, guid: 5e8d48482168e78498d31061bacec366, type: 3}
@@ -15035,7 +15007,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 38.42134, y: -1.0227938}
+  m_Offset: {x: 43.26308, y: -1.0227938}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -15046,7 +15018,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 31.4169, y: 1.6225643}
+  m_Size: {x: 41.10035, y: 1.6225643}
   m_EdgeRadius: 0
 --- !u!61 &900326893
 BoxCollider2D:
@@ -15108,10 +15080,10 @@ RectTransform:
   m_Father: {fileID: 806220839}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 209, y: 189.42}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.5991874, y: 0.8683876}
+  m_AnchorMax: {x: 0.72678125, y: 0.9324833}
+  m_AnchoredPosition: {x: 0.5, y: 1.4199982}
+  m_SizeDelta: {x: -3, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &961689311
 MonoBehaviour:
@@ -15634,7 +15606,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.10735607, y: -3.177751}
+  m_Offset: {x: 27.460014, y: -1.2722778}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -15645,10 +15617,10 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 31.875696, y: 1.9447393}
+  m_Size: {x: 9.2697525, y: 2.1309128}
   m_EdgeRadius: 0
---- !u!68 &1259357567
-EdgeCollider2D:
+--- !u!61 &1259357567
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15660,20 +15632,19 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 19.861675, y: -2.0851212}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.513153, y: 1.9188652}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -16.28666, y: -2.1558874}
-  - {x: -8.418629, y: -2.296723}
-  - {x: 16.439053, y: -2.1336763}
-  - {x: 16.449554, y: -1.0743787}
-  - {x: 22.525967, y: -1.1397394}
-  - {x: 22.539936, y: -0.10900915}
-  - {x: 31.516945, y: -0.06954479}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!1 &1325543294
 GameObject:
   m_ObjectHideFlags: 0
@@ -15854,7 +15825,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329777170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 2.1, z: 0}
+  m_LocalPosition: {x: -0.16, y: 2.1, z: -1}
   m_LocalScale: {x: -0.7364133, y: 0.62480927, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16249,10 +16220,10 @@ RectTransform:
   m_Father: {fileID: 806220839}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 209, y: 105}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.5991874, y: 0.6937751}
+  m_AnchorMax: {x: 0.72678125, y: 0.74500006}
+  m_AnchoredPosition: {x: 0.5, y: 2}
+  m_SizeDelta: {x: -3, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677715205
 MonoBehaviour:
@@ -16299,7 +16270,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 136214949}
         m_TargetAssemblyTypeName: teste, Assembly-CSharp
-        m_MethodName: VidaBarMenos
+        m_MethodName: VidaBarMais
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
