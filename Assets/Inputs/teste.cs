@@ -49,7 +49,7 @@ public class teste : MonoBehaviour
             ValorAtual = 100;
             txtVida.text = ValorAtual.ToString();
         }
-        if (ValorAtual >= 0)
+        if (ValorAtual <= 0)
         {
             ValorAtual = 0;
             txtVida.text = ValorAtual.ToString();
