@@ -35,7 +35,7 @@ public class teste : MonoBehaviour
     {
         if (ValorAtual > 0)
         {
-            ValorAtual -= energia;
+            ValorAtual += energia;
             lifeBar.fillAmount = (float)ValorAtual / 100;
             string temp = ValorAtual.ToString();
             txtVida.text = temp;
@@ -49,7 +49,7 @@ public class teste : MonoBehaviour
             ValorAtual = 100;
             txtVida.text = ValorAtual.ToString();
         }
-        if (ValorAtual >= 0)
+        if (ValorAtual <= 0)
         {
             ValorAtual = 0;
             txtVida.text = ValorAtual.ToString();
