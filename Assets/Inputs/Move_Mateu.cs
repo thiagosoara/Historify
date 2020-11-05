@@ -58,8 +58,8 @@ public class Move_Mateu : MonoBehaviour
                 if (Input.GetKey(KeyCode.UpArrow) && liberapulo == true)
                 {
                     HeroiRB.AddForce(new Vector2(0, forca), ForceMode2D.Impulse);
-                    anim.SetBool("Idle", false);
-                    anim.SetBool("Pulo", true);
+                    //anim.SetBool("Idle", false);
+                    //anim.SetBool("Pulo", true);
                 }
             }
         }
@@ -88,6 +88,8 @@ public class Move_Mateu : MonoBehaviour
         if (outro.gameObject.CompareTag("chao"))
         {
             liberapulo = false;
+            anim.SetBool("Idle", false);
+            anim.SetBool("Pulo", true);
         }
     }
 }
