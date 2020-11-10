@@ -10,6 +10,7 @@ public class teste : MonoBehaviour
     public int ValorAtual = 100;
     public int dano = 15;
     public int energia = 10;
+    public int life = 20;
     void Start()
     {
         
@@ -53,6 +54,14 @@ public class teste : MonoBehaviour
         {
             ValorAtual = 0;
             txtVida.text = ValorAtual.ToString();
+        }
+    }
+    void OnTriggerEnter2D(Collider2D outro)
+    {
+        if (outro.gameObject.CompareTag("vida"))
+        {
+            ValorAtual = ValorAtual + life;
+            Destroy(outro.gameObject);
         }
     }
 }

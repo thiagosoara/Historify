@@ -12,6 +12,7 @@ public class Move_Mateu : MonoBehaviour
     public bool liberapulo = false;
     public Animator anim;
     public bool vivo = true;
+    public int fruta = 20;
 
     void Start()
     {
@@ -58,8 +59,7 @@ public class Move_Mateu : MonoBehaviour
                 if (Input.GetKey(KeyCode.UpArrow) && liberapulo == true)
                 {
                     HeroiRB.AddForce(new Vector2(0, forca), ForceMode2D.Impulse);
-                    //anim.SetBool("Idle", false);
-                    //anim.SetBool("Pulo", true);
+                    
                 }
             }
         }
@@ -90,6 +90,15 @@ public class Move_Mateu : MonoBehaviour
             liberapulo = false;
             anim.SetBool("Idle", false);
             anim.SetBool("Pulo", true);
+
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D outro)
+    {
+        if (outro.gameObject.CompareTag("vida"))
+        {
+            //ValorAtual = ValorAtual + fruta;
+            Destroy(outro.gameObject);
         }
     }
 }
