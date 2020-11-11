@@ -11,6 +11,7 @@ public class teste : MonoBehaviour
     public int dano = 15;
     public int energia = 10;
     public int life = 20;
+    
     void Start()
     {
         
@@ -34,7 +35,7 @@ public class teste : MonoBehaviour
     }
     public void VidaBarMais()
     {
-        if (ValorAtual > 0)
+        if (ValorAtual < 100)
         {
             ValorAtual += energia;
             lifeBar.fillAmount = (float)ValorAtual / 100;
@@ -60,8 +61,16 @@ public class teste : MonoBehaviour
     {
         if (outro.gameObject.CompareTag("vida"))
         {
-            ValorAtual = ValorAtual + life;
+            if (ValorAtual < 100)
+            {
+                ValorAtual += life;
+                lifeBar.fillAmount = (float)ValorAtual / 100;
+                string temp = ValorAtual.ToString();
+                txtVida.text = temp;
+
+            }
             Destroy(outro.gameObject);
         }
     }
+    
 }
