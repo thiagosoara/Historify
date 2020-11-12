@@ -12,7 +12,7 @@ public class Move_Mateu : MonoBehaviour
     public bool liberapulo = false;
     public Animator anim;
     public bool vivo = true;
-    public int fruta = 20;
+    //public int fruta = 20;
 
     void Start()
     {
@@ -93,12 +93,12 @@ public class Move_Mateu : MonoBehaviour
 
         }
     }
-    private void OnTriggerEnter2D(Collider2D outro)
+    /*private void OnTriggerEnter2D(Collider2D outro)
     {
         if (outro.gameObject.CompareTag("vida"))
         {
             //ValorAtual = ValorAtual + fruta;
             Destroy(outro.gameObject);
         }
-    }
+    }*/
 }
