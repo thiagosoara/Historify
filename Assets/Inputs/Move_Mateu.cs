@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Move_Mateu : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class Move_Mateu : MonoBehaviour
         HeroiT = GetComponent<Transform>();
         HeroiRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+       
+        
     }
 
     // Update is called once per frame
@@ -93,12 +96,5 @@ public class Move_Mateu : MonoBehaviour
 
         }
     }
-    /*private void OnTriggerEnter2D(Collider2D outro)
-    {
-        if (outro.gameObject.CompareTag("vida"))
-        {
-            //ValorAtual = ValorAtual + fruta;
-            Destroy(outro.gameObject);
-        }
-    }*/
+    
 }
