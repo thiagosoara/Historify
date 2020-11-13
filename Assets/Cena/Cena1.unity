@@ -687,6 +687,7 @@ MonoBehaviour:
   dano: 15
   energia: 10
   life: 20
+  vel: 0
 --- !u!1 &180755611
 GameObject:
   m_ObjectHideFlags: 0
@@ -15272,7 +15273,7 @@ GameObject:
   - component: {fileID: 961689311}
   - component: {fileID: 961689314}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15395,9 +15396,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1329777176}
-          m_TargetAssemblyTypeName: Move_Mateu, Assembly-CSharp
-          m_MethodName: Esquerda
+        - m_Target: {fileID: 1329777179}
+          m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
+          m_MethodName: esquerda
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -15411,9 +15412,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1329777176}
-          m_TargetAssemblyTypeName: Move_Mateu, Assembly-CSharp
-          m_MethodName: Parado
+        - m_Target: {fileID: 1329777179}
+          m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
+          m_MethodName: parado
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -15517,8 +15518,9 @@ GameObject:
   - component: {fileID: 1034669771}
   - component: {fileID: 1034669770}
   - component: {fileID: 1034669769}
+  - component: {fileID: 1034669772}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15538,10 +15540,10 @@ RectTransform:
   m_Father: {fileID: 806220839}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 439, y: -155.7}
-  m_SizeDelta: {x: 160, y: 96.19798}
+  m_AnchorMin: {x: 0.8082188, y: 0.0614694}
+  m_AnchorMax: {x: 0.88056254, y: 0.2786459}
+  m_AnchoredPosition: {x: -2, y: -0.7000122}
+  m_SizeDelta: {x: 68, y: -5.802017}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1034669769
 MonoBehaviour:
@@ -15585,7 +15587,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1034669770}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1329777180}
+        m_TargetAssemblyTypeName: BotaoPulo, Assembly-CSharp
+        m_MethodName: pulo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1034669770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15624,6 +15638,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034669767}
   m_CullTransparentMesh: 0
+--- !u!114 &1034669772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034669767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!1 &1074658240
 GameObject:
   m_ObjectHideFlags: 0
@@ -16025,6 +16052,8 @@ GameObject:
   - component: {fileID: 1329777174}
   - component: {fileID: 1329777177}
   - component: {fileID: 1329777178}
+  - component: {fileID: 1329777179}
+  - component: {fileID: 1329777180}
   m_Layer: 0
   m_Name: Armature_ido_00
   m_TagString: Untagged
@@ -16201,6 +16230,7 @@ MonoBehaviour:
   dano: 15
   energia: 10
   life: 20
+  vel: 0
 --- !u!114 &1329777178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16217,6 +16247,40 @@ MonoBehaviour:
   txtVida: {fileID: 109191589}
   life: 20
   ValorAtual: 100
+--- !u!114 &1329777179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329777170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0555bbca64fcfa54f8b1f7c29ab15cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vel: 0
+  face: 1
+  x: 1
+  y: 0
+  HeroiT: {fileID: 1329777173}
+  anim: {fileID: 0}
+--- !u!114 &1329777180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329777170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c36fcdffa18d94bb95a13235bfe526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forca: 0
+  liberapulo: 0
+  HeroiRB: {fileID: 1329777175}
+  anim: {fileID: 0}
 --- !u!1 &1359511298
 GameObject:
   m_ObjectHideFlags: 0
@@ -16477,7 +16541,7 @@ GameObject:
   - component: {fileID: 1677715205}
   - component: {fileID: 1677715208}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16509,7 +16573,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677715203}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -16600,9 +16664,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1329777176}
-          m_TargetAssemblyTypeName: Move_Mateu, Assembly-CSharp
-          m_MethodName: Direita
+        - m_Target: {fileID: 1329777179}
+          m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
+          m_MethodName: direita
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -16616,9 +16680,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1329777176}
-          m_TargetAssemblyTypeName: Move_Mateu, Assembly-CSharp
-          m_MethodName: Parado
+        - m_Target: {fileID: 1329777179}
+          m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
+          m_MethodName: parado
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

@@ -11,6 +11,7 @@ public class teste : MonoBehaviour
     public int dano = 15;
     public int energia = 10;
     public int life = 20;
+    public int vel = 0;
     
     void Start()
     {
@@ -72,5 +73,20 @@ public class teste : MonoBehaviour
             Destroy(outro.gameObject);
         }
     }
-    
+    void direita()
+    {
+        vel = 3;
+        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
+    }
+    void esquerda()
+    {
+        vel = -3;
+        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
+    }
+    void parado()
+    {
+        vel = 0;
+        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
+    }
+
 }

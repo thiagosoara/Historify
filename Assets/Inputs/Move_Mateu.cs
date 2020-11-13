@@ -20,11 +20,11 @@ public class Move_Mateu : MonoBehaviour
         HeroiT = GetComponent<Transform>();
         HeroiRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-       
         
     }
 
     // Update is called once per frame
+    //TECLAS
     void Update()
     {
         if (vivo==true)
@@ -96,5 +96,19 @@ public class Move_Mateu : MonoBehaviour
 
         }
     }
-    
+    //BOTOES
+    /*public void esquerda()
+    {
+        transform.Translate(new Vector2(-vel * Time.deltaTime, 0));
+    }
+    public void direita()
+    {
+        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
+    }
+    public void parado()
+    {
+        vel = 0;
+        transform.Translate(new Vector2(vel*Time.deltaTime, 0));
+    }*/
+
 }
