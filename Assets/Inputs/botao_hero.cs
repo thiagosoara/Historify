@@ -10,13 +10,17 @@ public class botao_hero : MonoBehaviour
     public bool face = true;
     public bool x = true;
     public bool y = false;
+    public bool z = false;
     public Transform HeroiT;
     public Animator anim;
+    public Rigidbody2D HeroiRB;
     // Start is called before the first frame update
     void Start()
     {
         HeroiT = GetComponent<Transform>();
         anim = GetComponent<Animator>();
+        HeroiRB = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
@@ -59,6 +63,8 @@ public class botao_hero : MonoBehaviour
         vel = 0;
         x = true;
         y = false;
+        z = false;
+        
     }
     public void mover()
     {
@@ -69,5 +75,23 @@ public class botao_hero : MonoBehaviour
     {
         anim.SetBool("Idle", x);
         anim.SetBool("Andando", y);
+        anim.SetBool("Chute", z);
+    }
+    public void golpe()
+    {
+        x= false;
+        y = false;
+        z = true;
+
+    }
+    void OnCollisionEnter2D(Collision2D outro)
+    {
+        if ((z == true) && (outro.gameObject.CompareTag("inimigo")))
+        {
+            Destroy(outro.gameObject);
+
+        }
+        
+        
     }
 }

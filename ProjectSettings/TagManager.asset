@@ -6,6 +6,7 @@ TagManager:
   tags:
   - chao
   - vida
+  - inimigo
   layers:
   - Default
   - TransparentFX

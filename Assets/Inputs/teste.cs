@@ -73,20 +73,6 @@ public class teste : MonoBehaviour
             Destroy(outro.gameObject);
         }
     }
-    void direita()
-    {
-        vel = 3;
-        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
-    }
-    void esquerda()
-    {
-        vel = -3;
-        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
-    }
-    void parado()
-    {
-        vel = 0;
-        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
-    }
+    
 
 }

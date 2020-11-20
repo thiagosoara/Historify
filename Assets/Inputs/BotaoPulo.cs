@@ -34,6 +34,10 @@ public class BotaoPulo : MonoBehaviour
 
         }
     }
+    public void golpe()
+    {
+
+    }
     void OnCollisionEnter2D(Collision2D outro)
     {
         if (outro.gameObject.CompareTag("chao"))
@@ -42,6 +46,7 @@ public class BotaoPulo : MonoBehaviour
            anim.SetBool("Idle", true);
             anim.SetBool("Pulo", false);
         }
+        
     }
     void OnCollisionExit2D(Collision2D outro)
     {
@@ -53,4 +58,5 @@ public class BotaoPulo : MonoBehaviour
 
         }
     }
+
 }

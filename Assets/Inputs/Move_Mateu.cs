@@ -13,7 +13,6 @@ public class Move_Mateu : MonoBehaviour
     public bool liberapulo = false;
     public Animator anim;
     public bool vivo = true;
-    //public int fruta = 20;
 
     void Start()
     {
@@ -96,19 +95,5 @@ public class Move_Mateu : MonoBehaviour
 
         }
     }
-    //BOTOES
-    /*public void esquerda()
-    {
-        transform.Translate(new Vector2(-vel * Time.deltaTime, 0));
-    }
-    public void direita()
-    {
-        transform.Translate(new Vector2(vel * Time.deltaTime, 0));
-    }
-    public void parado()
-    {
-        vel = 0;
-        transform.Translate(new Vector2(vel*Time.deltaTime, 0));
-    }*/
-
+    
 }
