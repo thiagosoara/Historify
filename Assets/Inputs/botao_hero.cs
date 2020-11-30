@@ -29,6 +29,7 @@ public class botao_hero : MonoBehaviour
 
         animacao();
         mover();
+        golpe();
     }
     void Flip()
     {
@@ -84,7 +85,7 @@ public class botao_hero : MonoBehaviour
         z = true;
 
     }
-    void OnCollisionEnter2D(Collision2D outro)
+    /*void OnCollisionEnter2D(Collision2D outro)
     {
         if ((z == true) && (outro.gameObject.CompareTag("inimigo")))
         {
@@ -93,5 +94,5 @@ public class botao_hero : MonoBehaviour
         }
         
         
-    }
+    }*/
 }
