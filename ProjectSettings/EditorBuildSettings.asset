@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cena/Cena1.unity
     guid: d886e660bce4ef24d85e723303ca122d
+  - enabled: 1
+    path: Assets/Cena/Escolha.unity
+    guid: 8ead54ca2151bba4cbf0e1b0e625234b
   m_configObjects: {}
