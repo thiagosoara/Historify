@@ -38,6 +38,7 @@ public class botao_hero : MonoBehaviour
         scala.x *= -1;
         HeroiT.localScale = scala;
     }
+    //ANIMAÇÃO MOVIMENTO PARA A DIREITA
     public void direita()
     {
         vel = 3;
@@ -48,6 +49,7 @@ public class botao_hero : MonoBehaviour
             Flip();
         }
     }
+    //ANIMAÇÃO MOVIMENTO PARA A ESQUERDA
     public void esquerda()
     {
         vel = -3;
@@ -59,6 +61,7 @@ public class botao_hero : MonoBehaviour
         }
 
     }
+    //ANIMAÇÃO PARADO
     public void parado()
     {
         vel = 0;
@@ -67,24 +70,27 @@ public class botao_hero : MonoBehaviour
         z = false;
         
     }
+    //ANIMAÇÃO GOLPES
+    public void golpe()
+    {
+        x = false;
+        //y = false;
+        z = true;
+
+    }
     public void mover()
     {
         transform.Translate(new Vector2(vel * Time.deltaTime, 0));
 
     }
+    //VARIAVEL BASE DAS ANIMAÇÕES
     public void animacao()
     {
         anim.SetBool("Idle", x);
         anim.SetBool("Andando", y);
-        anim.SetBool("Chute", z);
+        anim.SetBool("Golpe", z);
     }
-    public void golpe()
-    {
-        x= false;
-        y = false;
-        z = true;
-
-    }
+    
     /*void OnCollisionEnter2D(Collision2D outro)
     {
         if ((z == true) && (outro.gameObject.CompareTag("inimigo")))

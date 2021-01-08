@@ -16615,7 +16615,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.71665627, y: 0.089}
   m_AnchorMax: {x: 0.78343755, y: 0.2786459}
-  m_AnchoredPosition: {x: -0.1661377, y: -13.311996}
+  m_AnchoredPosition: {x: -0.1661377, y: -13.312012}
   m_SizeDelta: {x: 0.33233643, y: -5.1659317}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1245447875
@@ -16712,13 +16712,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 3
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1329777179}
           m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
-          m_MethodName: parado
+          m_MethodName: golpe
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -16728,13 +16728,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - eventID: 2
+  - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1329777179}
           m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
-          m_MethodName: golpe
+          m_MethodName: parado
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

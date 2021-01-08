@@ -23,11 +23,12 @@ public class Move_Mateu : MonoBehaviour
     }
 
     // Update is called once per frame
-    //TECLAS
+   
     void Update()
     {
         if (vivo==true)
         {
+            //DIRECIONAMENTO DE MATEU
             if (Input.GetKey(KeyCode.RightArrow) && !face)
             {
                 Flip();
@@ -36,6 +37,7 @@ public class Move_Mateu : MonoBehaviour
             {
                 Flip();
             }
+            //MOVIMENTO DE MATEU
             if (vivo == true)
             {
                 if (Input.GetKey(KeyCode.RightArrow))
@@ -50,12 +52,14 @@ public class Move_Mateu : MonoBehaviour
                     anim.SetBool("Idle", false);
                     anim.SetBool("Andando", true);
                 }
+                //MATEU PARADO
                 else
                 {
                     anim.SetBool("Idle", true);
                     anim.SetBool("Andando", false);
                 }
             }
+            //PULO DE MATEU
             if (vivo == true)
             {
                 if (Input.GetKey(KeyCode.UpArrow) && liberapulo == true)
@@ -69,6 +73,7 @@ public class Move_Mateu : MonoBehaviour
       
 
     }
+    //VERIFICAÇÃO DA DIREÇÃO DE MATEU
     void Flip()
     {
         face = !face;
@@ -76,6 +81,7 @@ public class Move_Mateu : MonoBehaviour
         scala.x *= -1;
         HeroiT.localScale = scala;
     }
+    //VERIFICAÇÃO DE PULO
     void OnCollisionEnter2D(Collision2D outro)
     {
         if (outro.gameObject.CompareTag("chao"))
