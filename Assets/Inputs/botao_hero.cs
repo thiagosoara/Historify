@@ -11,9 +11,6 @@ public class botao_hero : MonoBehaviour
     public bool x = true;
     public bool y = false;
     public bool z = false;
-    public bool facao = false;
-    public bool rifle = false;
-    public bool garruncha = false;
     public Transform HeroiT;
     public Animator anim;
     public Rigidbody2D HeroiRB;
@@ -29,25 +26,6 @@ public class botao_hero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("F"))
-        {
-            facao = true;
-        }
-        else if (Input.GetKey("G"))
-        {
-            garruncha = true;
-        }
-        else if (Input.GetKey("R"))
-        {
-            rifle = true;
-        }
-        else
-        {
-            facao = false;
-            garruncha = false;
-            rifle = false;
-        }
-
         animacao();
         mover();
         golpe();
@@ -92,13 +70,13 @@ public class botao_hero : MonoBehaviour
         
     }
     //ANIMAÇÃO GOLPES
-    public void golpe()
+    /*public void golpe()
     {
         x = false;
         y = false;
         z = true;
 
-    }
+    }*/
     public void mover()
     {
         transform.Translate(new Vector2(vel * Time.deltaTime, 0));
