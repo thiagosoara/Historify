@@ -15,12 +15,12 @@ EditorBuildSettings:
     path: Assets/Menu.unity
     guid: f4e7bef8b02d6964684221e01df5060d
   - enabled: 1
-    path: Assets/Cena/Loading.unity
+    path: Assets/Cena/01 - Loading.unity
     guid: c974b824de2390a4785a14c570f18b52
   - enabled: 1
-    path: Assets/Cena/Cena1.unity
+    path: Assets/Cena/02.1 - Cena1.unity
     guid: d886e660bce4ef24d85e723303ca122d
   - enabled: 1
-    path: Assets/Cena/Escolha.unity
+    path: Assets/Cena/02.2Escolha.unity
     guid: 8ead54ca2151bba4cbf0e1b0e625234b
   m_configObjects: {}
