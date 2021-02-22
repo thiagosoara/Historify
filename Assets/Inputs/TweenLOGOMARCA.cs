@@ -13,7 +13,7 @@ public class TweenLOGOMARCA : MonoBehaviour
     {
         img = GetComponent<Image>();
         //efeitos
-        img.DOFade(0, 8);
+        img.DOFade(0, 30);
     }
 
     // Update is called once per frame
