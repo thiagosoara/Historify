@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class TweenLOGOMARCA : MonoBehaviour
+public class TWEEN : MonoBehaviour
 {
     private Image img;
     // Start is called before the first frame update
@@ -19,6 +19,6 @@ public class TweenLOGOMARCA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
