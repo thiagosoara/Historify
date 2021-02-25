@@ -34,10 +34,7 @@ public class BotaoPulo : MonoBehaviour
 
         }
     }
-    public void golpe()
-    {
-
-    }
+    
     void OnCollisionEnter2D(Collision2D outro)
     {
         if (outro.gameObject.CompareTag("chao"))
