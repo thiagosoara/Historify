@@ -30,6 +30,8 @@ public class botao_hero : MonoBehaviour
     {
         animacao();
         mover();
+
+
         if (Input.GetKey(KeyCode.F))
         {
             f = true;
