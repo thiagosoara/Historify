@@ -13,7 +13,6 @@ public class Move_Mateu : MonoBehaviour
     public bool liberapulo = false;
     public Animator anim;
     public bool vivo = true;
-
     void Start()
     {
         HeroiT = GetComponent<Transform>();
@@ -44,7 +43,7 @@ public class Move_Mateu : MonoBehaviour
                 {
                     transform.Translate(new Vector2(vel * Time.deltaTime, 0));
                     anim.SetBool("Idle", false);
-                    anim.SetBool("Andando", true);
+                     anim.SetBool("Andando", true);
                 }
                 else if (Input.GetKey(KeyCode.LeftArrow))
                 {

@@ -10,7 +10,9 @@ public class botao_hero : MonoBehaviour
     public bool face = true;
     public bool x = true;
     public bool y = false;
-    //public bool z = false;
+    public bool z = false;
+    public bool f = false;
+    public bool g = false;
     public Transform HeroiT;
     public Animator anim;
     public Rigidbody2D HeroiRB;
@@ -28,7 +30,22 @@ public class botao_hero : MonoBehaviour
     {
         animacao();
         mover();
-        //golpe();
+
+
+        if (Input.GetKey(KeyCode.F))
+        {
+            f = true;
+        }
+        else if (Input.GetKey(KeyCode.G))
+        { 
+            g = true;
+        }
+            
+        else
+        {
+            f = false;
+            g = false;
+        }
     }
     void Flip()
     {
@@ -43,6 +60,7 @@ public class botao_hero : MonoBehaviour
         vel = 3;
         x = false;
         y = true;
+        z = false;
         if (!face)
         {
             Flip();
@@ -54,6 +72,7 @@ public class botao_hero : MonoBehaviour
         vel = -3;
         x = false;
         y = true;
+        z = false;
         if (face)
         {
             Flip();
@@ -66,17 +85,17 @@ public class botao_hero : MonoBehaviour
         vel = 0;
         x = true;
         y = false;
-        //z = false;
+        z = false;
         
     }
     //ANIMAÇÃO GOLPES
-    /*public void golpe()
+    public void golpe()
     {
         x = false;
         y = false;
         z = true;
 
-    }*/
+    }
     public void mover()
     {
         transform.Translate(new Vector2(vel * Time.deltaTime, 0));
@@ -87,7 +106,9 @@ public class botao_hero : MonoBehaviour
     {
         anim.SetBool("Idle", x);
         anim.SetBool("Andando", y);
-        //anim.SetBool("Golpe", z);
+        anim.SetBool("Golpe", z);
+        anim.SetBool("Facao", f);
+        anim.SetBool("Garruncha", g);
     }
     
     /*void OnCollisionEnter2D(Collision2D outro)
