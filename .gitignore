@@ -29,7 +29,7 @@
 ExportedObj/
 .consulo/
 *.csproj
-*.unityproj
+.unityproj
 *.sln
 *.suo
 *.tmp
@@ -52,14 +52,14 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
-*.unitypackage
+.apk
+.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
 
 Assets/historia em quadrinhos/dialogo sobre o plano.PNG.meta
-*.unity
+.unity
 Assets/Fungus/Integrations/Playmaker/Fungus-PlayMaker.unitypackage.meta
 Assets/Cena/Cena1.unity
 Assets/Cena/Cena1.unity
