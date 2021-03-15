@@ -528,7 +528,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &432005212
@@ -1151,6 +1151,88 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &922038791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922038793}
+  - component: {fileID: 922038792}
+  m_Layer: 0
+  m_Name: download
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &922038792
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922038791}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -2
+  m_Sprite: {fileID: 21300000, guid: 4075eecf424df0e489b70b820656cda4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.94, y: 1.71}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &922038793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922038791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.009, y: -0.013, z: 0}
+  m_LocalScale: {x: 8.499789, y: 6.005509, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928408766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,11 +1267,11 @@ RectTransform:
   m_Father: {fileID: 1623654167}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.6086876, y: 0}
-  m_AnchorMax: {x: 0.679, y: 0.20211503}
-  m_AnchoredPosition: {x: -4, y: 3.2000122}
-  m_SizeDelta: {x: 4.6370697, y: 5.8266144}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.8767501, y: 0.055257943}
+  m_AnchorMax: {x: 0.9484688, y: 0.25355655}
+  m_AnchoredPosition: {x: 3, y: 2}
+  m_SizeDelta: {x: 4.7051697, y: 7.8266144}
+  m_Pivot: {x: 0.5, y: 0.49999988}
 --- !u!114 &928408768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1309,6 +1391,10 @@ GameObject:
   - component: {fileID: 1139254520}
   - component: {fileID: 1139254519}
   - component: {fileID: 1139254518}
+  - component: {fileID: 1139254523}
+  - component: {fileID: 1139254526}
+  - component: {fileID: 1139254525}
+  - component: {fileID: 1139254524}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1330,7 +1416,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: ihbeskjxfbvibzdjnkjnfdnjnxknfxnzfdz
+  storyText: 'Dirceu lindoso entrando na sala de aula e cumprimentando os estudantes.
+
+'
   description: 
   character: {fileID: 2047711162}
   portrait: {fileID: 0}
@@ -1384,6 +1472,10 @@ MonoBehaviour:
   eventHandler: {fileID: 1139254519}
   commandList:
   - {fileID: 1139254518}
+  - {fileID: 1139254523}
+  - {fileID: 1139254526}
+  - {fileID: 1139254524}
+  - {fileID: 1139254525}
   suppressAllAutoSelections: 0
 --- !u!114 &1139254521
 MonoBehaviour:
@@ -1412,7 +1504,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1139254520}
   selectedCommands:
-  - {fileID: 1139254518}
+  - {fileID: 1139254525}
   variables: []
   description: 
   stepPause: 0
@@ -1437,6 +1529,175 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1139254523
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139254517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  storyText: "Ol\xE1, alunos! Sei que voc\xEAs esperavam a aula do seu professor,
+    meu amigo. Mas serei eu que substituirei ele hoje, pois ele tem coisas um tanto
+    urgentes para resolver.\n"
+  description: 
+  character: {fileID: 1445162864}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1139254524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139254517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  storyText: "Meu nome \xE9 Dirceu Lindoso e tenho uma proposta especial a fazer-lhes."
+  description: 
+  character: {fileID: 1445162864}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1139254525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139254517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: "N\xE3o sei como o professor ministra as aulas para voc\xEAs, mas como
+    hoje o estudo \xE9 sobre Guerra dos Cabanos, ele me convidou por saber da minha
+    experi\xEAncia de pesquisa com essa importante parte da hist\xF3ria do pa\xEDs.
+    Bem, eu poderia contar a voc\xEAs a vers\xE3o que \xE9 mais difundida nos livros,
+    na qual a guerra teve seu in\xEDcio com a sa\xEDda de D. pedro I, numa dura\xE7\xE3o
+    entre 1832 a 1835. Citaria alguns nomes importantes desse evento e  acabar\xEDamos,
+    ent\xE3o, a aula por isso mesmo. Mas aqui a minha proposta \xE9 outra: contar
+    a hist\xF3ria pelo de acordo com o lado de quem mais sofreu e que levou essa
+    luta a durar por mais tempo...\r\n"
+  description: 
+  character: {fileID: 1445162864}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1139254526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139254517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: Dirceu olha fixamente para todos os alunos e se apresenta.
+  description: 
+  character: {fileID: 2047711162}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!1 &1445162863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1445162865}
+  - component: {fileID: 1445162864}
+  m_Layer: 0
+  m_Name: Dirceu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1445162864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445162863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Dirceu
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1445162865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445162863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1539310242
 GameObject:
@@ -1494,7 +1755,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d95dea909aea7c54b8cc0410720b4790, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1514,8 +1775,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539310242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.94, y: 0.013, z: 90}
-  m_LocalScale: {x: 1.8234608, y: 1.5641829, z: 1}
+  m_LocalPosition: {x: -8.2, y: 0.039, z: 90}
+  m_LocalScale: {x: 1.461414, y: 1.3568999, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1675,7 +1936,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1695,8 +1956,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623998614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.67, y: -0.12, z: 90}
-  m_LocalScale: {x: 0.7132568, y: 0.79154956, z: 1}
+  m_LocalPosition: {x: 7.64, y: 0.041, z: 90}
+  m_LocalScale: {x: 0.6820015, y: 0.7339886, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1882,7 +2143,8 @@ MonoBehaviour:
   nameText: NARRADOR
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1956,7 +2218,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d05bef7a2c66c514ba5126dc06e24766, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1976,8 +2238,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101187565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.347, y: 0.146, z: 90}
-  m_LocalScale: {x: 1.3870265, y: 1.4944866, z: 1}
+  m_LocalPosition: {x: -0.51, y: 0.051, z: 90}
+  m_LocalScale: {x: 1.0625739, y: 1.3977433, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
