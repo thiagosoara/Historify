@@ -7473,7 +7473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.127, y: 0}
   m_AnchorMax: {x: 1, y: 0.8683876}
-  m_AnchoredPosition: {x: -477.10544, y: 221.96579}
+  m_AnchoredPosition: {x: -477.1054, y: 221.96579}
   m_SizeDelta: {x: -943.0178, y: -373.81857}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &774330482
@@ -17190,17 +17190,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329777170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 334916cdfe8248f419e7b166ca25c5e5, type: 3}
+  m_Script: {fileID: 11500000, guid: c2bece717bc74d84f9b1e0d52d23e04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  face: 1
-  HeroiT: {fileID: 1329777173}
-  vel: 2.5
-  forca: 3
-  HeroiRB: {fileID: 1329777175}
-  liberapulo: 0
-  anim: {fileID: 0}
-  vivo: 1
 --- !u!114 &1329777177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17210,16 +17202,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329777170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ec79f33e2731749b257ae248a7cfd1, type: 3}
+  m_Script: {fileID: 11500000, guid: be04cf293be20574083cf343a3468cc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeBar: {fileID: 723214553}
-  txtVida: {fileID: 109191589}
-  ValorAtual: 100
-  dano: 15
-  energia: 10
-  life: 20
-  vel: 0
 --- !u!114 &1329777178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17229,13 +17214,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329777170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 476a4491bf9e80d41b8c7039e3b5fc8d, type: 3}
+  m_Script: {fileID: 11500000, guid: d931c98bfed744a40a11ce008f739485, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeBar: {fileID: 723214553}
-  txtVida: {fileID: 109191589}
-  life: 20
-  ValorAtual: 100
 --- !u!114 &1329777179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17245,17 +17226,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329777170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0555bbca64fcfa54f8b1f7c29ab15cd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 77f9a3ac92527b4428bb04ebcdfda100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: 0
-  face: 1
-  x: 1
-  y: 0
-  z: 0
-  HeroiT: {fileID: 1329777173}
-  anim: {fileID: 0}
-  HeroiRB: {fileID: 0}
 --- !u!114 &1329777180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17265,13 +17238,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329777170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c36fcdffa18d94bb95a13235bfe526, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ed1072ce4be10141a4d7c6965f45d2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forca: 0
-  liberapulo: 0
-  HeroiRB: {fileID: 1329777175}
-  anim: {fileID: 0}
 --- !u!1 &1359511298
 GameObject:
   m_ObjectHideFlags: 0
@@ -17598,7 +17567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.18431252, y: 0.042224918}
   m_AnchorMax: {x: 0.27037498, y: 0.2786459}
-  m_AnchoredPosition: {x: -1.762207, y: -0.10003662}
+  m_AnchoredPosition: {x: -1.762207, y: -0.099975586}
   m_SizeDelta: {x: 3.524414, y: -7.02343}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677715205
