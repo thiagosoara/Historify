@@ -55,11 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Nova pasta\estudar\pasta1\variaveis.cs" />
      <Compile Include="Assets\Inputs\TWEEN.cs" />
      <Compile Include="Assets\Inputs\BotaoPulo.cs" />
      <Compile Include="Assets\Inputs\Tween_move_hori.cs" />
-     <Compile Include="Assets\Nova pasta\estudar\pasta3\teste2.cs" />
      <Compile Include="Assets\Inputs\LOADCOD.cs" />
      <Compile Include="Assets\Inputs\estudo\estudo.cs" />
      <Compile Include="Assets\Inputs\Colisao.cs" />
@@ -71,7 +69,6 @@
      <Compile Include="Assets\Inputs\CameraSegue.cs" />
      <Compile Include="Assets\Inputs\teste.cs" />
      <Compile Include="Assets\Inputs\botao_hero.cs" />
-     <Compile Include="Assets\Nova pasta\estudar\pasta2\test.cs" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\ColorfulButtons\Credits.txt" />
  <Reference Include="Unity.Timeline.Editor">
