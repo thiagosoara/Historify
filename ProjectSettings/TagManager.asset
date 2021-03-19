@@ -16,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - Can
+  - chao
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: chao
+    uniqueID: 262839233
     locked: 0
