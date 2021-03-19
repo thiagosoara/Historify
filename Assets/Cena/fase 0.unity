@@ -1715,8 +1715,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040994050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.843, y: -0.003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.8579, y: -0.003, z: 0}
+  m_LocalScale: {x: 1.0058169, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 88524640}
   m_RootOrder: 2
@@ -1732,8 +1732,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.9944205, y: 1.3240306, z: 0.2}
-  m_Center: {x: 0.082790844, y: -0.26798418, z: 0}
+  m_Size: {x: 0.6008484, y: 1.3240306, z: 0.2}
+  m_Center: {x: -2.8, y: -0.26798418, z: 0}
 --- !u!212 &1040994053
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2941,7 +2941,7 @@ MonoBehaviour:
   face: 1
   HeroiT: {fileID: 0}
   vel: 2.5
-  forca: 1.2
+  forca: 1.1
   HeroiRB: {fileID: 0}
   liberapulo: 1
   anim: {fileID: 0}
@@ -3171,7 +3171,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841767957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.07, y: -4.6, z: -10}
+  m_LocalPosition: {x: -15.26, y: -4.6, z: -10}
   m_LocalScale: {x: 1.4, y: 3.86, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
