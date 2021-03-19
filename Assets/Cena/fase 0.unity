@@ -3356,7 +3356,7 @@ MonoBehaviour:
   forca: 1.1
   HeroiRB: {fileID: 0}
   liberapulo: 1
-  anim: {fileID: 0}
+  anim: {fileID: 1760005668}
   vivo: 1
 --- !u!61 &1760005665
 BoxCollider2D:
@@ -3396,7 +3396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bece717bc74d84f9b1e0d52d23e04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forca: 0
+  forca: 1
   liberapulo: 1
   HeroiRB: {fileID: 0}
   anim: {fileID: 0}
