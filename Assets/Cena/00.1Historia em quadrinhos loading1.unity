@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 3, y: 14.130005}
+  m_AnchoredPosition: {x: 3, y: 14.12999}
   m_SizeDelta: {x: -61, y: -63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102193043
@@ -483,7 +483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.7481941}
   m_AnchorMax: {x: 0.59145087, y: 1}
-  m_AnchoredPosition: {x: 13.999878, y: 3.630066}
+  m_AnchoredPosition: {x: 13.999878, y: 3.630188}
   m_SizeDelta: {x: -39, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &383226156
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: NARRADOR
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.13069598, g: 0.26787502, b: 0.8396226, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -1139,10 +1139,10 @@ RectTransform:
   m_Father: {fileID: 1914705022}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.29687, y: 0}
-  m_AnchorMax: {x: 0.8278272, y: 0.27583334}
-  m_AnchoredPosition: {x: -13.000122, y: 0}
-  m_SizeDelta: {x: 10.867432, y: 4}
+  m_AnchorMin: {x: 0.07639669, y: 0}
+  m_AnchorMax: {x: 0.93100005, y: 0.26416668}
+  m_AnchoredPosition: {x: 0.000091553, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1410589389
 GameObject:
@@ -1189,7 +1189,7 @@ MonoBehaviour:
   storyText: "A esquerda dirceu lindoso e  a direita \xE9 o professor."
   description: 
   character: {fileID: 569087486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1275,7 +1275,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1410589392}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1410589399}
   variables: []
   description: 
   stepPause: 0
@@ -1303,7 +1304,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1410589395
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1318,7 +1319,7 @@ MonoBehaviour:
   storyText: "_Tudo bem, meu amigo! Hoje eu o ajudo e um dia talvez, voc\xEA me ajude...\r\n"
   description: 
   character: {fileID: 1741119728}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1330,7 +1331,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1410589396
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1346,7 +1347,7 @@ MonoBehaviour:
     coisas a fazer.\r\n"
   description: 
   character: {fileID: 1636910887}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1358,7 +1359,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1410589397
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1373,7 +1374,7 @@ MonoBehaviour:
   storyText: Dirceu visto de costa olhando para o professor.
   description: 
   character: {fileID: 569087486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1385,7 +1386,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1410589399
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1401,7 +1402,7 @@ MonoBehaviour:
     de professor! Ser\xE1 bom para revirar a mem\xF3ria!\r\n"
   description: 
   character: {fileID: 1741119728}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1413,7 +1414,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1410589400
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1430,7 +1431,7 @@ MonoBehaviour:
     casa, certo? Mais uma vez muito obrigado.\r\n"
   description: 
   character: {fileID: 1636910887}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1442,7 +1443,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1410589401
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1457,7 +1458,7 @@ MonoBehaviour:
   storyText: Professor, ao longe, encostado no carro, e Dirceu defronte.
   description: 
   character: {fileID: 569087486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1469,7 +1470,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1410589402
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1484,7 +1485,7 @@ MonoBehaviour:
   storyText: "_ Sim, mas um dia de descanso n\xE3o mata ningu\xE9m."
   description: 
   character: {fileID: 1741119728}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1496,7 +1497,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1410589403
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1512,7 +1513,7 @@ MonoBehaviour:
     falta pouco \n"
   description: 
   character: {fileID: 1636910887}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1648,7 +1649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Professor
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.0141509175, g: 0.18148655, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -1699,7 +1700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Dirceu
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.039649326, g: 0.1847525, b: 0.9339623, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -1802,7 +1803,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1845677428}
+      - m_Target: {fileID: 2045310053}
         m_TargetAssemblyTypeName: LOADCOD, Assembly-CSharp
         m_MethodName: BtnClick
         m_Mode: 5
@@ -1864,7 +1865,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0fdf323c4fe6c64d9f8104559114762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logoImg: {fileID: 0}
 --- !u!1 &1859241684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,6 +2331,7 @@ GameObject:
   - component: {fileID: 2045310052}
   - component: {fileID: 2045310051}
   - component: {fileID: 2045310050}
+  - component: {fileID: 2045310053}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2403,3 +2404,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045310053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045310049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec80a5f7935a6409b27951517239e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logoImg: {fileID: 0}
