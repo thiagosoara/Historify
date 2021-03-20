@@ -69,7 +69,6 @@
      <Compile Include="Assets\Inputs\CameraSegue.cs" />
      <Compile Include="Assets\Inputs\teste.cs" />
      <Compile Include="Assets\Inputs\botao_hero.cs" />
-     <Compile Include="Assets\Inputs\inimigo.cs" />
      <Compile Include="Assets\Inputs\Input1\loadingInfo.cs" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\ColorfulButtons\Credits.txt" />
