@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Cena/01 - Loading.unity
     guid: c974b824de2390a4785a14c570f18b52
   - enabled: 1
-    path: Assets/Menu.unity
-    guid: f4e7bef8b02d6964684221e01df5060d
+    path: Assets/Cena/00 - Menu.unity
+    guid: 7a48834fe2dfdde40815b8d34072ba08
   - enabled: 1
     path: Assets/Cena/00.1Historia em quadrinhos loading1.unity
     guid: 04a23449f301e444a9625bfdbd8ab24b
