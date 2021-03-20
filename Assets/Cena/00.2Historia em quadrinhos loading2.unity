@@ -414,10 +414,10 @@ RectTransform:
   m_Father: {fileID: 847078291}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.25483167, y: 0}
-  m_AnchorMax: {x: 0.73700005, y: 0.275}
-  m_AnchoredPosition: {x: 14.5, y: 0}
-  m_SizeDelta: {x: -9.355713, y: 5}
+  m_AnchorMin: {x: 0.064443216, y: 0}
+  m_AnchorMax: {x: 0.91800004, y: 0.31}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &429305826
 GameObject:
@@ -1315,7 +1315,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 928408771}
+      - m_Target: {fileID: 1830127837}
         m_TargetAssemblyTypeName: LOADCOD, Assembly-CSharp
         m_MethodName: BtnClick
         m_Mode: 5
@@ -1324,7 +1324,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 01 - Loading
+          m_StringArgument: 01.1Historia em quadrinhos cena1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &928408769
@@ -1377,7 +1377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0fdf323c4fe6c64d9f8104559114762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logoImg: {fileID: 0}
 --- !u!1 &1139254517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,7 +1420,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 2047711162}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1549,7 +1548,7 @@ MonoBehaviour:
     urgentes para resolver.\n"
   description: 
   character: {fileID: 1445162864}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1576,7 +1575,7 @@ MonoBehaviour:
   storyText: "Meu nome \xE9 Dirceu Lindoso e tenho uma proposta especial a fazer-lhes."
   description: 
   character: {fileID: 1445162864}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1611,7 +1610,7 @@ MonoBehaviour:
     luta a durar por mais tempo...\r\n"
   description: 
   character: {fileID: 1445162864}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1638,7 +1637,7 @@ MonoBehaviour:
   storyText: Dirceu olha fixamente para todos os alunos e se apresenta.
   description: 
   character: {fileID: 2047711162}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1973,6 +1972,7 @@ GameObject:
   - component: {fileID: 1830127836}
   - component: {fileID: 1830127835}
   - component: {fileID: 1830127834}
+  - component: {fileID: 1830127837}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2045,6 +2045,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830127837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830127833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ec80a5f7935a6409b27951517239e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logoImg: {fileID: 0}
 --- !u!1 &1961435072
 GameObject:
   m_ObjectHideFlags: 0
