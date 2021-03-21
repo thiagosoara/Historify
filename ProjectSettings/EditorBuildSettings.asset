@@ -18,27 +18,30 @@ EditorBuildSettings:
     path: Assets/Cena/00 - Menu.unity
     guid: 7a48834fe2dfdde40815b8d34072ba08
   - enabled: 1
-    path: Assets/Cena/00.1Historia em quadrinhos loading1.unity
-    guid: 04a23449f301e444a9625bfdbd8ab24b
-  - enabled: 1
-    path: Assets/Cena/00.2Historia em quadrinhos loading2.unity
-    guid: 028f178be687e5047963da9146e2a153
-  - enabled: 1
-    path: Assets/Cena/01.1Historia em quadrinhos cena1.unity
-    guid: 303bc579f7185f1458de09a4cbbaff39
-  - enabled: 1
-    path: Assets/Cena/02.1 - Cena1.unity
-    guid: d886e660bce4ef24d85e723303ca122d
-  - enabled: 1
     path: Assets/Cena/02.2Escolha.unity
     guid: 8ead54ca2151bba4cbf0e1b0e625234b
   - enabled: 1
-    path: Assets/Cena/00.4Historia em quadrinhos.unity
+    path: Assets/Cena/H.quadrinho.unity
+    guid: 32dfc6e4e25d2cb45b48794e2d12a48e
+  - enabled: 1
+    path: Assets/Cena/02.1 - Cena1.unity
+    guid: d886e660bce4ef24d85e723303ca122d
+  - enabled: 0
+    path: Assets/Cena/historia em quadrinho/00.1Historia em quadrinhos loading1.unity
+    guid: 04a23449f301e444a9625bfdbd8ab24b
+  - enabled: 0
+    path: Assets/Cena/historia em quadrinho/00.2Historia em quadrinhos loading2.unity
+    guid: 028f178be687e5047963da9146e2a153
+  - enabled: 0
+    path: Assets/Cena/historia em quadrinho/01.1Historia em quadrinhos cena1.unity
+    guid: 303bc579f7185f1458de09a4cbbaff39
+  - enabled: 0
+    path: Assets/Cena/historia em quadrinho/00.4Historia em quadrinhos.unity
     guid: b70152424d9f2ae4ebea4c962138b9d7
-  - enabled: 1
-    path: Assets/Cena/00.5Historia em quadrinhos.unity
+  - enabled: 0
+    path: Assets/Cena/historia em quadrinho/00.5Historia em quadrinhos.unity
     guid: 2daceca357ecac04bb471e03a2a227e0
-  - enabled: 1
-    path: Assets/Cena/00.6Historia em quadrinhos.unity
+  - enabled: 0
+    path: Assets/Cena/historia em quadrinho/00.6Historia em quadrinhos.unity
     guid: a05a8dd6488e3ff46ba96b5e1114e31b
   m_configObjects: {}
