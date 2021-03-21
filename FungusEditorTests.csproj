@@ -64,7 +64,6 @@
      <Compile Include="Assets\Tests\Editor\FungusPrioritySignalsTest.cs" />
      <None Include="Assets\Tests\Editor\FungusEditorTests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
-<<<<<<< HEAD
  <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
@@ -75,18 +74,6 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-=======
- <HintPath>E:/historify/Historify/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.TestRunner">
- <HintPath>E:/historify/Historify/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>E:/historify/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>E:/historify/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
->>>>>>> 5a65a2e55cfcee8caf087031beb3959a09a91194
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -274,23 +261,14 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
  <Reference Include="UnityEditor.WebGL.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
-=======
- <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
->>>>>>> 5a65a2e55cfcee8caf087031beb3959a09a91194
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
-<<<<<<< HEAD
  <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
-=======
- <HintPath>E:/historify/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
->>>>>>> 5a65a2e55cfcee8caf087031beb3959a09a91194
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
