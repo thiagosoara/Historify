@@ -8,7 +8,7 @@ public class Move_Mateu : MonoBehaviour
     public bool face = true;
     public Transform HeroiT;
     public float vel = 2.5f;
-    public float forca = 6.5f;
+    public float forca = 1.2f;
     public Rigidbody2D HeroiRB;
     public bool liberapulo = false;
     public Animator anim;
