@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Move_Mateu : MonoBehaviour
+public class Move_inimigo : MonoBehaviour
 {
     public bool face = true;
     public Transform HeroiT;
-    public float vel = 2.5f;
+    public float vel = 1.2f;
     public float forca = 1.2f;
     public Rigidbody2D HeroiRB;
     public bool liberapulo = false;
