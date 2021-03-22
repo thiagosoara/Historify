@@ -15817,7 +15817,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1329777181}
           m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
-          m_MethodName: animacao
+          m_MethodName: parado
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -16535,9 +16535,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1329777170}
+        - m_Target: {fileID: 1329777181}
           m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
-          m_MethodName: 
+          m_MethodName: mover
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -16678,7 +16678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 80
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16955,7 +16955,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.59, y: 3.77}
+    oldSize: {x: 1.5904688, y: 3.77}
     newSize: {x: 1.59, y: 3.77}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17623,7 +17623,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1329777181}
           m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
-          m_MethodName: animacao
+          m_MethodName: parado
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

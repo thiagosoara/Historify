@@ -1746,7 +1746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65
     y: 64
-    width: 80
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3525,7 +3525,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 02.1 - Cena1
+          m_StringArgument: 04 - ComandoJogo
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1677715206
