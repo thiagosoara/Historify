@@ -1,18 +1,38 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class EntitY : MonoBehaviour
+[Serializable]
+//referências.
+public class EntitY
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Hearder("Name")]
+    public string Name;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Hearder("Health")]
+
+    public int currentHealth;
+
+    public int maxHealth;
+
+    [Hearder("Stamina")]
+
+    public int currentStamina;
+
+    public int maxStamina;
+
+    [Hearder("Stats")]
+
+    public int forca;
+
+    public int resistencia;
+
+    public int dano = 1;
+
+    public int defensa = 1;
+
+    public float Vel = 2f;
+
+
 }
