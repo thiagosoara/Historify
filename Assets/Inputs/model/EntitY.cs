@@ -7,26 +7,30 @@ using System;
 //referências.
 public class EntitY
 {
-    [Hearder("Name")]
+    [Header("Name")]
     public string Name;
 
-    [Hearder("Health")]
+    public int Level;
+
+    [Header("Health")]
 
     public int currentHealth;
 
     public int maxHealth;
 
-    [Hearder("Stamina")]
+    [Header("Stamina")]
 
     public int currentStamina;
 
     public int maxStamina;
 
-    [Hearder("Stats")]
+    [Header("Stats")]
 
-    public int forca;
+    public int forca = 1;
 
-    public int resistencia;
+    public int resistencia = 1;
+
+    public int astucia = 1;
 
     public int dano = 1;
 
