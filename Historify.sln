@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus", "Fungus.csproj", "{cfdcc978-b453-b621-a0fd-446bf52819c6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8b9f0206-9b57-71ec-ef7b-a2150908ec28}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusExamples", "FungusExamples.csproj", "{4ccfea0d-f41d-2021-7a51-1fd1402f253e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8b9f0206-9b57-71ec-ef7b-a2150908ec28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{def0e2e9-da8c-9711-1b95-457469b73fd9}"
 EndProject
@@ -30,10 +30,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{cfdcc978-b453-b621-a0fd-446bf52819c6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cfdcc978-b453-b621-a0fd-446bf52819c6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8b9f0206-9b57-71ec-ef7b-a2150908ec28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8b9f0206-9b57-71ec-ef7b-a2150908ec28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ccfea0d-f41d-2021-7a51-1fd1402f253e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4ccfea0d-f41d-2021-7a51-1fd1402f253e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8b9f0206-9b57-71ec-ef7b-a2150908ec28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8b9f0206-9b57-71ec-ef7b-a2150908ec28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{def0e2e9-da8c-9711-1b95-457469b73fd9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{def0e2e9-da8c-9711-1b95-457469b73fd9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94c1660b-c787-513a-b08a-560d398db1fe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
