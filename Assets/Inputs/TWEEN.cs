@@ -13,7 +13,7 @@ public class TWEEN : MonoBehaviour
     {
         img = GetComponent<Image>();
         //efeitos
-        img.DOFade(0, 80);
+        object p = img.DOFade(0, 80);
     }
 
     // Update is called once per frame

@@ -10,10 +10,15 @@ public class sequirHeroi : MonoBehaviour
     //public bool face = true;
     
 
+    public Animation anim;
+
+    public bool vivo;
+
     // Start is called before the first frame update
     void Start()
     {
         Target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        anim= GetComponent<Animation>();
     }
 
     // Update is called once per frame
