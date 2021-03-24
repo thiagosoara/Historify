@@ -2749,6 +2749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 2.5
+  distancia: 1.5
 --- !u!70 &1268441435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3442,7 +3443,7 @@ MonoBehaviour:
   face: 1
   HeroiT: {fileID: 1760005670}
   vel: 2.5
-  forca: 6.5
+  forca: 5
   HeroiRB: {fileID: 1760005667}
   liberapulo: 1
   anim: {fileID: 1760005668}
@@ -3523,7 +3524,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: d41ca51ad2e694b4b89968db491a4b99, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
