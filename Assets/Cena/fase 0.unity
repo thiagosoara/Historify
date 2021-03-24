@@ -3443,7 +3443,7 @@ MonoBehaviour:
   face: 1
   HeroiT: {fileID: 1760005670}
   vel: 2.5
-  forca: 5
+  forca: 6.5
   HeroiRB: {fileID: 1760005667}
   liberapulo: 1
   anim: {fileID: 1760005668}
@@ -4036,7 +4036,7 @@ GameObject:
   - component: {fileID: 2074436844}
   m_Layer: 0
   m_Name: estrada
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
