@@ -973,7 +973,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
-    m_FontSize: 80
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9858491, b: 0.9858491, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1675,12 +1675,8 @@ GameObject:
   - component: {fileID: 1259198850}
   - component: {fileID: 1259198853}
   - component: {fileID: 1259198852}
-  - component: {fileID: 1259198855}
-  - component: {fileID: 1259198854}
-  - component: {fileID: 1259198858}
-  - component: {fileID: 1259198857}
-  - component: {fileID: 1259198856}
   - component: {fileID: 1259198859}
+  - component: {fileID: 1259198860}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1702,7 +1698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Narrador _a esquerda dirceu lindoso e  a direita \xE9 o professor."
+  storyText: "Narrador: A esquerda dirceu lindoso e  a direita \xE9 o professor."
   description: 
   character: {fileID: 2138322092}
   portrait: {fileID: 21300000, guid: 6872ac8a240ba334c900e59baeba373d, type: 3}
@@ -1744,9 +1740,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65
+    x: 63
     y: 64
-    width: 60
+    width: 80.85106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1778,6 +1774,7 @@ MonoBehaviour:
   - {fileID: 1259198828}
   - {fileID: 1259198835}
   - {fileID: 1259198832}
+  - {fileID: 1259198860}
   - {fileID: 1259198833}
   - {fileID: 1259198834}
   - {fileID: 1259198838}
@@ -1798,11 +1795,6 @@ MonoBehaviour:
   - {fileID: 1259198852}
   - {fileID: 1259198853}
   - {fileID: 1259198851}
-  - {fileID: 1259198854}
-  - {fileID: 1259198855}
-  - {fileID: 1259198858}
-  - {fileID: 1259198857}
-  - {fileID: 1259198856}
   suppressAllAutoSelections: 0
 --- !u!114 &1259198811
 MonoBehaviour:
@@ -1817,11 +1809,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 7.454922, y: -0.77582735}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 213
-  zoom: 1
+  blockViewHeight: 200
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1831,7 +1823,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198859}
+  - {fileID: 1259198848}
   variables: []
   description: 
   stepPause: 0
@@ -1871,7 +1863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Professor _ Obrigado, Dirceu, por me ajudar hoje! sei que voc\xEA tinha
+  storyText: "Professor: Obrigado, Dirceu, por me ajudar hoje! sei que voc\xEA tinha
     outras coisas a fazer."
   description: 
   character: {fileID: 2138322092}
@@ -1887,7 +1879,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198814
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1899,7 +1891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: "Professor _ Espero n\xE3o estar atrapalhando voc\xEA em suas pesquisas,
+  storyText: "Professor: Espero n\xE3o estar atrapalhando voc\xEA em suas pesquisas,
     sei que falta pouco para a publica\xE7\xE3o.\r\n"
   description: 
   character: {fileID: 2079304731}
@@ -1915,7 +1907,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198815
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1927,7 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "Dirceu _ Sim, mas um dia de descanso n\xE3o mata ningu\xE9m.\r\n"
+  storyText: "Dirceu: Sim, mas um dia de descanso n\xE3o mata ningu\xE9m.\r\n"
   description: 
   character: {fileID: 2079304731}
   portrait: {fileID: 21300000, guid: c36634f73e6f51a40a49be35182d3900, type: 3}
@@ -1942,7 +1934,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198816
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1954,7 +1946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Narrador _Professor, ao longe, encostado no carro, e Dirceu defronte.
+  storyText: 'Narrador: Professor, ao longe, encostado no carro, e Dirceu defronte.'
   description: 
   character: {fileID: 1257132201}
   portrait: {fileID: 21300000, guid: ff50fd5aba0dc0c408499937ea4dae96, type: 3}
@@ -1969,7 +1961,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198817
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1981,7 +1973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Narrador _Dirceu visto de costa olhando para o professor.
+  storyText: 'Narrador: Dirceu visto de costa olhando para o professor.'
   description: 
   character: {fileID: 2079304731}
   portrait: {fileID: 21300000, guid: c36634f73e6f51a40a49be35182d3900, type: 3}
@@ -1996,7 +1988,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198818
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2008,7 +2000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Dirceu _ Tudo bem, meu amigo! Hoje eu o ajudo e um dia talvez, voc\xEA
+  storyText: "Dirceu: Tudo bem, meu amigo! Hoje eu o ajudo e um dia talvez, voc\xEA
     me ajude...\r\n"
   description: 
   character: {fileID: 2138322092}
@@ -2024,7 +2016,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198819
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2036,7 +2028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "Professor - Acredito que eles gostar\xE3o do dia de hoje, j\xE1 que
+  storyText: "Professor: Acredito que eles gostar\xE3o do dia de hoje, j\xE1 que
     voc\xEA \xE9 um perito no assunto, Dirceu. Estou indo e mais tarde o levaria
     de volta para casa, certo? Mais uma vez muito obrigado."
   description: 
@@ -2053,7 +2045,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198820
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2065,7 +2057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "Dirceu _ Obrigado digo eu meu amigo, por me fazer relembrar minha \xE9poca
+  storyText: "Dirceu: Obrigado digo eu meu amigo, por me fazer relembrar minha \xE9poca
     de professor! Ser\xE1 bom para revirar a mem\xF3ria!\r\n\r\n"
   description: 
   character: {fileID: 1257132201}
@@ -2081,7 +2073,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198821
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2093,7 +2085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "Dirceu - Ol\xE1, alunos! Sei que voc\xEAs esperavam a aula do seu professor,
+  storyText: "Dirceu: Ol\xE1, alunos! Sei que voc\xEAs esperavam a aula do seu professor,
     meu amigo. Mas serei eu que substituirei ele hoje, pois ele tem coisas um tanto
     urgentes para resolver."
   description: 
@@ -2110,7 +2102,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198822
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2122,7 +2114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Narrador _Dirceu olha fixamente para todos os alunos e se apresenta.
+  storyText: 'Narrador: Dirceu olha fixamente para todos os alunos e se apresenta.'
   description: 
   character: {fileID: 1082322235}
   portrait: {fileID: 21300000, guid: d05bef7a2c66c514ba5126dc06e24766, type: 3}
@@ -2137,7 +2129,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198823
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2149,7 +2141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "Dirceu - Meu nome \xE9 Dirceu Lindoso e tenho uma proposta especial
+  storyText: "Dirceu: Meu nome \xE9 Dirceu Lindoso e tenho uma proposta especial
     a fazer-lhes.\r\n"
   description: 
   character: {fileID: 1082322235}
@@ -2165,7 +2157,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198824
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2177,7 +2169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "Narrador _Dirceu, apoiando-se no bir\xF4, come\xE7a a falar:"
+  storyText: "Narrador: Dirceu, apoiando-se no bir\xF4, come\xE7a a falar"
   description: 
   character: {fileID: 313755409}
   portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
@@ -2192,7 +2184,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198825
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2204,7 +2196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 'Narrador _Dirceu lindoso entrando na sala de aula e cumprimentando
+  storyText: 'Narrador: Dirceu lindoso entrando na sala de aula e cumprimentando
     os estudantes.
 
 '
@@ -2222,7 +2214,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198826
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2234,8 +2226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Dirceu _ Que bom que voc\xEAs est\xE3o prop\xEDcios a aprender uma
-    nova perspectiva da Hist\xF3ria.\r\n"
+  storyText: "Dirceu: Que bom que voc\xEAs est\xE3o prop\xEDcios a aprender uma nova
+    perspectiva da Hist\xF3ria.\r\n"
   description: 
   character: {fileID: 1270511021}
   portrait: {fileID: 21300000, guid: 00474c260ed8bbf4bb479e8d4a97c06d, type: 3}
@@ -2250,7 +2242,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198827
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2262,7 +2254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "Narrador _A passagem do tempo \xE9 mostrada com a narrativa de Dirceu."
+  storyText: "Narrador: A passagem do tempo \xE9 mostrada com a narrativa de Dirceu."
   description: 
   character: {fileID: 349042139}
   portrait: {fileID: 21300000, guid: 3451b4c1aa604da4892b852c865cfa2a, type: 3}
@@ -2277,7 +2269,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198828
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2289,7 +2281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Dirceu _ Muito bem! Vamos come\xE7ar a falar sobre essa hist\xF3ria
+  storyText: "Dirceu: Muito bem! Vamos come\xE7ar a falar sobre essa hist\xF3ria
     e como ela se inicia, nos anos 1832, \xE9 claro. Convido voc\xEAs a conhecerem
     um jovem chamado\u2026\r\n"
   description: 
@@ -2306,7 +2298,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198829
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2318,7 +2310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "Dirceu - N\xE3o sei como o professor ministra as aulas para voc\xEAs,
+  storyText: "Dirceu: N\xE3o sei como o professor ministra as aulas para voc\xEAs,
     mas como hoje o estudo \xE9 sobre Guerra dos Cabanos, ele me convidou por saber
     da minha experi\xEAncia de pesquisa com essa importante parte da hist\xF3ria
     do pa\xEDs.  "
@@ -2336,7 +2328,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198830
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2366,7 +2358,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198831
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2378,7 +2370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'Narrador _Dirceu continua sua aula.
+  storyText: 'Narrador: Dirceu continua sua aula.
 
 '
   description: 
@@ -2395,7 +2387,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198832
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2409,8 +2401,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Mateu _ Me chamo Mateus. Vim da Bahia. Meu dono vendeu eu pra um sinh\xF4
     de pernambuco. Quando moleque falavam que eu s\xF3 ia saber ser escravo. Meus
-    pais j\xE1 morreram na escravid\xE3o, sem conhecer liberdade. Quero isso n\xE3o!
-    Meus companheiros e eu vamos fugir na noite de hoje."
+    pais j\xE1 morreram na escravid\xE3o, sem conhecer liberdade."
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -2425,7 +2416,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198833
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2437,7 +2428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: 'Narrador _Mateu dialoga com seu aliado, enquanto voltam do trabalho
+  storyText: 'Narrador: Mateu dialoga com seu aliado, enquanto voltam do trabalho
     para a senzala.
 
 '
@@ -2455,7 +2446,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198834
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2467,7 +2458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Aliado - Mateu j\xE1 est\xE1 tudo certo para hoje \xE0 noite! Falei
+  storyText: "Aliado: Mateu j\xE1 est\xE1 tudo certo para hoje \xE0 noite! Falei
     com todos os outros e v\xE3o fugir com a gente.\r\n"
   description: 
   character: {fileID: 675922201}
@@ -2483,7 +2474,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198835
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2495,7 +2486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Narrador _Inicia-se a narrativa do personagem Mateus.
+  storyText: 'Narrador: Inicia-se a narrativa do personagem Mateus.'
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -2510,7 +2501,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198836
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2522,7 +2513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: 'Capataz _ fiquem calados e andem!
+  storyText: 'Capataz: fiquem calados e andem!
 
 '
   description: 
@@ -2539,7 +2530,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198837
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2551,7 +2542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "Narrador _Chegando \xE0 fazenda, Mateu continua o di\xE1logo.\r\n"
+  storyText: "Narrador: Chegando \xE0 fazenda, Mateu continua o di\xE1logo.\r\n"
   description: 
   character: {fileID: 1089665313}
   portrait: {fileID: 21300000, guid: add39d97e4041e54abec8fbe1de1cd06, type: 3}
@@ -2566,7 +2557,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198838
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2578,7 +2569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "Mateu - Certo! Bora deixar para falar disso quando o capataz n\xE3o
+  storyText: "Mateu: Certo! Bora deixar para falar disso quando o capataz n\xE3o
     estiver olhando.\r\n"
   description: 
   character: {fileID: 675922201}
@@ -2594,7 +2585,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198839
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2606,7 +2597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Mateu - Tonico, me repassa o plano! Fala baixo pro capataz n\xE3o escutar.\r\n"
+  storyText: "Mateu: Tonico, me repassa o plano! Fala baixo pro capataz n\xE3o escutar.\r\n"
   description: 
   character: {fileID: 1089665313}
   portrait: {fileID: 21300000, guid: add39d97e4041e54abec8fbe1de1cd06, type: 3}
@@ -2621,7 +2612,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198840
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2633,7 +2624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "Narrador _O aliado come\xE7a, ent\xE3o, a explicar o plano de fuga.\r\n"
+  storyText: "Narrador: O aliado come\xE7a, ent\xE3o, a explicar o plano de fuga.\r\n"
   description: 
   character: {fileID: 344196440}
   portrait: {fileID: 21300000, guid: 1b69a79c299e1674f8b8833c48a705c3, type: 3}
@@ -2648,7 +2639,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198841
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2660,7 +2651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "Tonico:  - T\xE1 vendo os dois camaradas jogando angola? T\xE3o distraindo
+  storyText: "Tonico:  T\xE1 vendo os dois camaradas jogando angola? T\xE3o distraindo
     os capatazes. Outros companheiros v\xE3o segurar os homens pra gente escapar
     e buscar ajuda. Depois a gente volta pra soltar o restante.\r\n"
   description: 
@@ -2677,7 +2668,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198842
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2689,7 +2680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: 'Narrador _Ao chegarem na senzala, os dois sentam-se, encostados em
+  storyText: 'Narrador: Ao chegarem na senzala, os dois sentam-se, encostados em
     uma das paredes, para conversarem sobre detalhes do plano.
 
 
@@ -2709,7 +2700,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198843
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2721,7 +2712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: 'Tonico: - Fica atento ao sinal pra gente fugir!
+  storyText: 'Tonico:  Fica atento ao sinal pra gente fugir!
 
 '
   description: 
@@ -2738,7 +2729,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198844
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2750,7 +2741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: 'Narrador _Mateu pergunta diretamente ao aliado:
+  storyText: 'Narrador: Mateu pergunta diretamente ao aliado:
 
 '
   description: 
@@ -2767,7 +2758,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198845
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2779,7 +2770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "Mateu -Que sinal? tomara que eu n\xE3o seja pego de novo! A sova da
+  storyText: "Mateu: Que sinal? tomara que eu n\xE3o seja pego de novo! A sova da
     outra vez ainda d\xF3i.\r\n"
   description: 
   character: {fileID: 1363389287}
@@ -2795,7 +2786,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198846
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2807,7 +2798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: "Capataz - PAREM, SEUS VERMES! SE N\xC3O SABEM SE DISTRAIR COMO GENTE,
+  storyText: "Capataz: PAREM, SEUS VERMES! SE N\xC3O SABEM SE DISTRAIR COMO GENTE,
     V\xC3O APRENDER NA CHIBATA!\r\n"
   description: 
   character: {fileID: 911209138}
@@ -2823,7 +2814,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198847
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2835,8 +2826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: "Narrador _O capataz fica enfurecido com a briga entre os escravos.
-    Tentar apart\xE1-los, gritando em alto e com tom.\r\n"
+  storyText: "Narrador: O capataz fica enfurecido com a briga entre os escravos.
+    Tentar apart\xE1-los, gritando em alto e Bom tom.\r\n"
   description: 
   character: {fileID: 911209138}
   portrait: {fileID: 21300000, guid: 84a33d81a9fa59f4bad72b6fa0e1b147, type: 3}
@@ -2851,7 +2842,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198848
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2863,7 +2854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "Narrador _As batidas dos tambores aumentam e T\xF4nico alerta Mateu:\r\n"
+  storyText: "Narrador: As batidas dos tambores aumentam e T\xF4nico alerta Mateu\n"
   description: 
   character: {fileID: 1762435727}
   portrait: {fileID: 21300000, guid: 44645d415d655c2439dcf6a4b4dd90b7, type: 3}
@@ -2878,7 +2869,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198849
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2890,7 +2881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: "Tonico: - Bora Mateus, levanta e corre! Bora fugir! Esse \xE9 o sinal!\r\n"
+  storyText: "Tonico: Bora Mateus, levanta e corre! Bora fugir! Esse \xE9 o sinal!\r\n"
   description: 
   character: {fileID: 1762435727}
   portrait: {fileID: 21300000, guid: 44645d415d655c2439dcf6a4b4dd90b7, type: 3}
@@ -2905,7 +2896,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198850
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2917,7 +2908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Narrador _Ao come\xE7ar a correr, o aliados de Mateu \xE9 capturado
+  storyText: "Narrador: Ao come\xE7ar a correr, o aliados de Mateu \xE9 capturado
     e os outros s\xE3o contidos. Mateu no entanto,  consegue escapar.\r\n"
   description: 
   character: {fileID: 1351988064}
@@ -2933,7 +2924,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198851
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2945,7 +2936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: Correndo...
+  storyText: Correndo...........
   description: 
   character: {fileID: 1351988064}
   portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
@@ -2960,7 +2951,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198852
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2972,7 +2963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: 'Tonico: - FOGE, MATEU! SEJA LIVRE! E TRAZ AJUDA PRA TIRAR A GENTE DAQUI!
+  storyText: 'Tonico:  FOGE, MATEU! SEJA LIVRE! E TRAZ AJUDA PRA TIRAR A GENTE DAQUI!
 
 '
   description: 
@@ -2989,7 +2980,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198853
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3001,148 +2992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: "Mateu - Obrigado meu irm\xE3o! n\xE3o vou me esquecer de voc\xEA! prometo
+  storyText: "Mateu: Obrigado meu irm\xE3o! n\xE3o vou me esquecer de voc\xEA! prometo
     que vou volto!\r\n"
-  description: 
-  character: {fileID: 1351988064}
-  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1259198854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 44
-  indentLevel: 0
-  storyText: "Mateu - Tenho que ser ligeiro, sen\xE3o eles pegam eu. Mais uma sova
-    daquelas e morro.\r\n"
-  description: 
-  character: {fileID: 1351988064}
-  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1259198855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 43
-  indentLevel: 0
-  storyText: 'Narrador - Para movimentar mateu use as setas para direita e esquerda.
-
-'
-  description: 
-  character: {fileID: 1351988064}
-  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1259198856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  indentLevel: 0
-  storyText: "Mateu - Os capatazes t\xE3o chegando.\r\n"
-  description: 
-  character: {fileID: 1351988064}
-  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1259198857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 46
-  indentLevel: 0
-  storyText: "Narrador _ Para pular sobre o obst\xE1culo use espa\xE7o ou seta para
-    cima.\r\n"
-  description: 
-  character: {fileID: 1351988064}
-  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1259198858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 45
-  indentLevel: 0
-  storyText: "Mateu - Uma barreira na frente, tenho que ir ligeiro porque eles est\xE3o
-    chegando perto.\r\n\r\n"
   description: 
   character: {fileID: 1351988064}
   portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
@@ -3157,7 +3008,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1259198859
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3175,6 +3026,33 @@ MonoBehaviour:
   description: 
   character: {fileID: 313755409}
   portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  storyText: "Quero isso n\xE3o! Meus companheiros e eu vamos fugir na noite de hoje."
+  description: 
+  character: {fileID: 719295793}
+  portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3669,10 +3547,10 @@ RectTransform:
   m_Father: {fileID: 589052609}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.66200006, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11.5, y: 0.2000122}
-  m_SizeDelta: {x: -23.128113, y: -90.79382}
+  m_AnchorMin: {x: 0.43269312, y: 0}
+  m_AnchorMax: {x: 1, y: 0.95500004}
+  m_AnchoredPosition: {x: -0.014221191, y: 22.797974}
+  m_SizeDelta: {x: -0.028808594, y: -45.59619}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771239403
 MonoBehaviour:
@@ -3791,12 +3669,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
-    m_FontSize: 75
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 85
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -4127,7 +4005,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -38.900024, y: 38.074993}
+  m_AnchoredPosition: {x: -38.90039, y: 38.075195}
   m_SizeDelta: {x: 77.900024, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139346244
