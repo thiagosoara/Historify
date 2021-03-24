@@ -9,10 +9,12 @@ public class Vilao : MonoBehaviour
     public float distancia;
     public Transform Hero;
     public bool face = true;
+    public Animator vilao;
+
 
     void Start()
     {
-        
+        vilao = GetComponent<Animator> ();
     }
 
     // Update is called once per frame
@@ -35,9 +37,17 @@ public class Vilao : MonoBehaviour
             if (Hero.transform.position.x < this.transform.position.x)
             {
                 transform.Translate (new Vector2 (-vel *  Time.deltaTime, 0));
+                vilao.SetBool ("andando",true);
+                vilao.SetBool ("idle",false);
             }
             else if (Hero.transform.position.x > this.transform.position.x){
                 transform.Translate(new Vector2 (vel * Time.deltaTime, 0));
+                vilao.SetBool ("andando",true);
+                vilao.SetBool ("idle",false);
+            }
+            else{
+                vilao.SetBool ("andando",false);
+                vilao.SetBool ("idle",true);
             }
         }
     }
