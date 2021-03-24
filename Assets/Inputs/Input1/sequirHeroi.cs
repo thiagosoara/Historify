@@ -6,6 +6,8 @@ public class sequirHeroi : MonoBehaviour
 {
     public float Speed;
     private Transform Target;
+    public float distancia;
+    
 
     public Animation anim;
 
@@ -21,6 +23,7 @@ public class sequirHeroi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);
+        if (Vector2.Distance(transform.position, Target.position) > distancia){
+        transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);}
     }
 }
