@@ -59,4 +59,12 @@ public class sequirHeroi : MonoBehaviour
         this.transform.localScale = scala;
 
     }*/
+    // Quando o vilão chegar perto do heroi
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<PlayerLife>().perdeVida();
+        }
+    }
 }

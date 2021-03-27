@@ -74,6 +74,9 @@
      <Compile Include="Assets\Inputs\CameraSegue.cs" />
      <Compile Include="Assets\Inputs\teste.cs" />
      <Compile Include="Assets\Inputs\botao_hero.cs" />
+     <Compile Include="Assets\Inputs\Input1\barraDeVida.cs" />
+     <Compile Include="Assets\Inputs\PlayerLife.cs" />
+     <Compile Include="Assets\Inputs\GameManager.cs" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\ColorfulButtons\Credits.txt" />
  <Reference Include="Unity.Timeline.Editor">
