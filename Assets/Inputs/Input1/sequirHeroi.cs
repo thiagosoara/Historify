@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class sequirHeroi : MonoBehaviour
 {
+    public int health;
     public float Speed;
     private Transform Target;
     public float distancia;
     //public bool face = true;
+
+    protected bool isMoving = false;
+    protected Rigidbody2D rb2d;
     
 
-    public Animation anim;
+    public Animator anim;
 
     public bool vivo;
 
@@ -18,7 +22,7 @@ public class sequirHeroi : MonoBehaviour
     void Start()
     {
         Target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        anim= GetComponent<Animation>();
+        anim= GetComponent<Animator>();
     }
 
     // Update is called once per frame
