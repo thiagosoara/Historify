@@ -335,6 +335,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &157905300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157905301}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157905301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157905300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02, y: -2.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1760005670}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &171110821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,7 +1407,7 @@ GameObject:
   - component: {fileID: 357055025}
   - component: {fileID: 357055027}
   - component: {fileID: 357055026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pedra grande (4)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -1644,6 +1674,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &398537261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 398537262}
+  m_Layer: 0
+  m_Name: BulletSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &398537262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398537261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.97, y: 0.51, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1760005670}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415066977
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,7 +3102,7 @@ GameObject:
   - component: {fileID: 995038513}
   - component: {fileID: 995038512}
   - component: {fileID: 995038511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pedra grande
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -3154,8 +3214,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995038510}
   m_LocalRotation: {x: -0, y: -0, z: -0.009627956, w: -0.9999537}
-  m_LocalPosition: {x: 12.94, y: -6.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.041, y: -7.001, z: 0}
+  m_LocalScale: {x: 1.0663667, y: 0.91110814, z: 1}
   m_Children:
   - {fileID: 1400786953}
   m_Father: {fileID: 0}
@@ -3711,7 +3771,7 @@ GameObject:
   - component: {fileID: 1153331180}
   - component: {fileID: 1153331182}
   - component: {fileID: 1153331181}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pedra grande (3)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -4077,8 +4137,6 @@ GameObject:
   - component: {fileID: 1268441430}
   - component: {fileID: 1268441428}
   - component: {fileID: 1268441429}
-  - component: {fileID: 1268441433}
-  - component: {fileID: 1268441432}
   - component: {fileID: 1268441435}
   - component: {fileID: 1268441434}
   m_Layer: 0
@@ -4193,48 +4251,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1268441432
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268441427}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 9.43
---- !u!61 &1268441433
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268441427}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.61, y: 3.83}
-    newSize: {x: 2.34, y: 3.69}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.61, y: 3.83}
-  m_EdgeRadius: 0
 --- !u!114 &1268441434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4279,7 +4295,7 @@ GameObject:
   - component: {fileID: 1337571422}
   - component: {fileID: 1337571421}
   - component: {fileID: 1337571420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: estrada (1)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -4671,7 +4687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1400786953}
   - component: {fileID: 1400786952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pedra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5312,7 +5328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1678289951}
   - component: {fileID: 1678289952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: grama auta (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5477,7 +5493,7 @@ GameObject:
   - component: {fileID: 1699783448}
   - component: {fileID: 1699783447}
   - component: {fileID: 1699783446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pedra grande (1)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -5679,7 +5695,7 @@ GameObject:
   - component: {fileID: 1749473355}
   - component: {fileID: 1749473354}
   m_Layer: 0
-  m_Name: pedra
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5694,7 +5710,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1749473353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 388778f369b22bd4ea87bb64c49789b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 34fab0cce8ccb3c479530ea9375c4b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
@@ -5774,43 +5790,35 @@ GameObject:
   - component: {fileID: 1760005670}
   - component: {fileID: 1760005669}
   - component: {fileID: 1760005667}
-  - component: {fileID: 1760005666}
-  - component: {fileID: 1760005665}
-  - component: {fileID: 1760005664}
-  - component: {fileID: 1760005663}
+  - component: {fileID: 1760005672}
   - component: {fileID: 1760005661}
   - component: {fileID: 1760005662}
-  - component: {fileID: 1760005672}
-  - component: {fileID: 1760005668}
+  - component: {fileID: 1760005663}
+  - component: {fileID: 1760005664}
+  - component: {fileID: 1760005665}
   m_Layer: 0
-  m_Name: Armature_ido_00
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1760005661
-MonoBehaviour:
+--- !u!70 &1760005661
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13ac107e2db5a6748b905b022333357e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vel: 0
-  face: 1
-  x: 1
-  y: 0
-  z: 0
-  f: 0
-  g: 0
-  HeroiT: {fileID: 1760005670}
-  anim: {fileID: 1760005668}
-  HeroiRB: {fileID: 1760005667}
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.060035046, y: 0}
+  m_Size: {x: 1.1862113, y: 3.7700005}
+  m_Direction: 0
 --- !u!114 &1760005662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5818,27 +5826,37 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a899e922d4321b4eb63cdcd83b0370c, type: 3}
+  m_Script: {fileID: 11500000, guid: 789536b3e063fcb48882a7623972462b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeBar: {fileID: 1341554415}
-  valorAtual: 100
-  dano: 10
-  energia: 10
---- !u!114 &1760005663
-MonoBehaviour:
+  maxSpeed: 2.5
+  jumpForce: 700
+  groundCheck: {fileID: 157905301}
+  bulletSpawn: {fileID: 398537262}
+  bulletObject: {fileID: 1749473353}
+  fireRate: 0.5
+  nextFire: 1
+--- !u!95 &1760005663
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d931c98bfed744a40a11ce008f739485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d41ca51ad2e694b4b89968db491a4b99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1760005664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5852,40 +5870,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   face: 1
-  HeroiT: {fileID: 1760005670}
+  HeroiT: {fileID: 0}
   vel: 2.5
   forca: 8.5
-  HeroiRB: {fileID: 1760005667}
-  liberapulo: 1
-  anim: {fileID: 1760005668}
+  HeroiRB: {fileID: 0}
+  liberapulo: 0
+  anim: {fileID: 0}
   vivo: 1
---- !u!61 &1760005665
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760005660}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5904688, y: 3.77}
-    newSize: {x: 1.5904688, y: 3.77}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.59, y: 3.77}
-  m_EdgeRadius: 0
---- !u!114 &1760005666
+--- !u!114 &1760005665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5899,8 +5891,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forca: 0
   liberapulo: 1
-  HeroiRB: {fileID: 1760005667}
-  anim: {fileID: 1760005668}
+  HeroiRB: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!50 &1760005667
 Rigidbody2D:
   serializedVersion: 4
@@ -5922,25 +5914,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &1760005668
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760005660}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d41ca51ad2e694b4b89968db491a4b99, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1760005669
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6002,7 +5975,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -18.87, y: -6.56, z: -1}
   m_LocalScale: {x: -0.76730734, y: 0.7229496, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 157905301}
+  - {fileID: 398537262}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6013,7 +5988,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afe4cfa22e958164eb67565340054f3e, type: 3}
   m_Name: 
@@ -6111,7 +6086,7 @@ GameObject:
   - component: {fileID: 1838127577}
   - component: {fileID: 1838127579}
   - component: {fileID: 1838127578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pedra grande (2)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -7002,7 +6977,7 @@ GameObject:
   - component: {fileID: 2036403503}
   - component: {fileID: 2036403505}
   - component: {fileID: 2036403504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: estrada (1)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -7259,7 +7234,7 @@ GameObject:
   - component: {fileID: 2074436842}
   - component: {fileID: 2074436841}
   - component: {fileID: 2074436844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: estrada
   m_TagString: chao
   m_Icon: {fileID: 0}
