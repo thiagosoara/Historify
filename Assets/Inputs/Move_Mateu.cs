@@ -13,6 +13,10 @@ public class Move_Mateu : MonoBehaviour
     public bool liberapulo = false;
     public Animator anim;
     public bool vivo = true;
+    // dano 
+    public int health;
+    public bool invunerable = false;
+    protected SpriteRenderer sprite;
     void Start()
     {
         HeroiT = GetComponent<Transform>();
@@ -109,7 +113,25 @@ public class Move_Mateu : MonoBehaviour
 
         }
     }
-    // Tiro
+    // Dano ao heroi
+    IEnumerator Damage(){
+        for (float i=0f; i < 1f; i +=0.1f){
+            sprite.enabled = false;
+            yield return new WaitForSeconds (0.1f);
+            sprite.enabled= true;
+            yield return new WaitForSeconds (0.1f);
+
+
+        }
+        invunerable = false;
+    }
+    public void DamagePlayer(){
+        invunerable = true;
+        health --;
+        StartCoroutine ( Damage());
+        if(health <1){}
+        Debug.Log ("Morreu");
+    }
     
     
 }
