@@ -49,7 +49,7 @@ public class EnemyController : MonoBehaviour
 
         StartCoroutine (Damage());
 
-        if (health >1)
+        if (health < 1)
         {
             Destroy(gameObject);
         }
