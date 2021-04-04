@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sequirHeroi : MonoBehaviour
+public class sequirHeroi : EnemyController
 {
     public int health;
     public float Speed;
