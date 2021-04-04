@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.92156863, g: 0.035294134, b: 0.07614813, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1957,7 +1957,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4075eecf424df0e489b70b820656cda4, type: 3}
   m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.627451}
   m_FlipX: 0
@@ -3969,6 +3969,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203107632}
+  - component: {fileID: 1203107633}
+  - component: {fileID: 1203107634}
   m_Layer: 14
   m_Name: Trigger
   m_TagString: Untagged
@@ -3990,6 +3992,34 @@ Transform:
   m_Father: {fileID: 1760005670}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203107633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203107631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bfc6cc08ef670488d3c9ba2a30c759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &1203107634
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203107631}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.07838872, y: 0.008320497}
+  m_Size: {x: 1.2211787, y: 3.845385}
+  m_Direction: 0
 --- !u!1 &1237295631
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,9 +4323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6507f263f5d518b4b8293c02aa9fef6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceAttack: 0
-  speed: 0
-  health: 0
+  health: 2
   Speed: 2.5
   distancia: 1.5
   anim: {fileID: 0}
@@ -6024,7 +6052,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afe4cfa22e958164eb67565340054f3e, type: 3}
   m_Name: 
