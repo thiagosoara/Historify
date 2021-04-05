@@ -14,14 +14,15 @@ public class sequirHeroi : MonoBehaviour
     
 
     public Animator anim;
-
     public bool vivo;
 
+    //public float contagem = 1.0f;
     
     void Start()
     {
+        //if(contagem == 0.0f){
         Target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        anim= GetComponent<Animator>();
+        anim= GetComponent<Animator>(); //}
     }
 
     void Update()
