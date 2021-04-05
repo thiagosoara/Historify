@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class CharacterMenu : MonoBehaviour
 {
-    private CharacterAtributes atributo;
+    public CharacterAtributes atributo;
     public Slider vida;
 
     public Slider Stamina;
     public Slider exp;
+
     void Start()
     {
         atributo.currentVida = atributo.maxvida;
