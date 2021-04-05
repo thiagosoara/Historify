@@ -8,6 +8,7 @@ TagManager:
   - vida
   - inimigo
   - Enemy
+  - Atributos
   layers:
   - Default
   - TransparentFX

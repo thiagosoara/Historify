@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class CharacterMenu : MonoBehaviour
 {
-    public CharacterAtributes atributo;
+    private CharacterAtributes atributo;
     public Slider vida;
 
     public Slider Stamina;
