@@ -928,7 +928,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.025338382, y: 0.02162765}
   m_AnchorMax: {x: 0.9662253, y: 0.79582286}
-  m_AnchoredPosition: {x: 10.614014, y: 9.797791}
+  m_AnchoredPosition: {x: 10.614014, y: 9.7977295}
   m_SizeDelta: {x: -21.22705, y: -19.595886}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542260350
@@ -1669,7 +1669,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1259198808
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   storyText: 'Narrador: Mateu dialoga com seu aliado, enquanto voltam do trabalho
     para a senzala.
 
-    
+
 
 
 '
@@ -2842,7 +2842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39275002, y: 0.37348333}
   m_AnchorMax: {x: 0.60562503, y: 0.6187417}
-  m_AnchoredPosition: {x: 0.000015258789, y: -6.262001}
+  m_AnchoredPosition: {x: 0, y: -6.2619934}
   m_SizeDelta: {x: 0.000030517578, y: -12.523987}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1677715205
@@ -3042,9 +3042,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43269312, y: 0}
-  m_AnchorMax: {x: 1, y: 0.95500004}
-  m_AnchoredPosition: {x: -0.014221191, y: 22.797974}
-  m_SizeDelta: {x: -0.028808594, y: -45.59619}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 32, y: -18}
+  m_SizeDelta: {x: 0.049194336, y: -2.9075928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771239403
 MonoBehaviour:
