@@ -17,8 +17,15 @@ public class Move_Mateu : MonoBehaviour
     public int health;
     public bool invunerable = false;
     protected SpriteRenderer sprite;
+    
+    // tiro
+   // public bool podeAtirar;
+    //public GameObject bala;
+
     void Start()
     {
+        //podeAtirar = true;
+
         HeroiT = GetComponent<Transform>();
         HeroiRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -82,7 +89,18 @@ public class Move_Mateu : MonoBehaviour
                 
             }
         }
-        
+        // jogar pedra 
+        if (vivo == true){
+            if (Input.GetKeyDown(KeyCode.Space)){
+                anim.SetBool("Idle", false);
+                anim.SetBool("Pedra", true);
+            }
+            else{
+                anim.SetBool("Idle", true);
+                anim.SetBool("Pedra", false);
+            }
+
+        }
       
 
     }

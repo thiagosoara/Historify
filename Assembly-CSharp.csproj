@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Inputs\Input1\MoveBalas.cs" />
      <Compile Include="Assets\Inputs\TWEEN.cs" />
      <Compile Include="Assets\Inputs\BotaoPulo.cs" />
      <Compile Include="Assets\Inputs\Input1\EnemyController.cs" />
@@ -66,6 +67,7 @@
      <Compile Include="Assets\Inputs\Input1\MoverHorei.cs" />
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterAtributes.cs" />
      <Compile Include="Assets\Inputs\LOADCOD.cs" />
+     <Compile Include="Assets\Inputs\Input1\CriaBalas.cs" />
      <Compile Include="Assets\Inputs\Input1\Vilao.cs" />
      <Compile Include="Assets\Inputs\estudo\estudo.cs" />
      <Compile Include="Assets\Inputs\Colisao.cs" />

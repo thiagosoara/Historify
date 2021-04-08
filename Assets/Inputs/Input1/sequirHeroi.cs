@@ -18,6 +18,7 @@ public class sequirHeroi : MonoBehaviour
 
     //public float contagem = 1.0f;
     
+    
     void Start()
     {
         //if(contagem == 0.0f){

@@ -6,19 +6,29 @@ public class Tiro : Move_Mateu
 {
     //variaveis do tiro
     public Transform bulletSpawn;
-    public float fireRate;
-    public float nextFire;
-    public GameObject bulletObject;
-    protected SpriteRenderer sprite;
+     public Animator anim;
+    //public float fireRate;
+    //public float nextFire;
+    //public GameObject bulletObject;
+    //protected SpriteRenderer sprite;
+
+    //public bool podeAtirar;
+    public GameObject bala;
+
     void Start()
     {
-        
+        //podeAtirar = true;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton ("Fire1") && Time.time > nextFire){
+        //if (Input.GetMouseButtonDown(0)){
+         //   GameObject objeto = Instantiate (bala, transform.position,transform.rotation);
+         //   objeto.GetComponent<Rigidbody>().AddForce (Vector3.forward * 100);
+       // }
+        if (Input.GetMouseButtonDown(0)){
             Fire(); }
     }
     void Flip () {
@@ -31,12 +41,14 @@ public class Tiro : Move_Mateu
     }
 
      void Fire(){
-        anim.SetTrigger("Fire");
-        nextFire = Time.time + fireRate;
-        GameObject cloneBullet = Instantiate (bulletObject, bulletSpawn.position, bulletSpawn.rotation);
+        anim.SetBool("Idle", false);
+        anim.SetBool("Pedra", true);
+        //nextFire = Time.time + fireRate;
+        GameObject objeto = Instantiate (bala, bulletSpawn.position, bulletSpawn.rotation);
+        objeto.GetComponent<Rigidbody>().AddForce (Vector3.forward * 100);
         
-        if (sprite.flipX){
-            cloneBullet.transform.eulerAngles = new Vector3 (0,0,180);}
+        //if (sprite.flipX){
+           // objeto.transform.eulerAngles = new Vector3 (0,0,180);}
         
 
     }
