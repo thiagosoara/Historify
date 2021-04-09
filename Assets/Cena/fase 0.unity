@@ -5265,7 +5265,7 @@ MonoBehaviour:
   health: 2
   Speed: 2.5
   distancia: 1.5
-  anim: {fileID: 0}
+  anim: {fileID: 1268441428}
   vivo: 0
 --- !u!70 &1268441435
 CapsuleCollider2D:

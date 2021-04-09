@@ -21,15 +21,25 @@ public class sequirHeroi : MonoBehaviour
     
     void Start()
     {
-        //if(contagem == 0.0f){
         Target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        anim= GetComponent<Animator>(); //}
+        anim= GetComponent<Animator>();
     }
 
     void Update()
     {
         if (Vector2.Distance(transform.position, Target.position) > distancia){
         transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);}
+
+        else if (Vector2.Distance(transform.position, Target.position) == distancia){
+            if (vivo == true){
+                anim.SetBool("Idle", false);
+                anim.SetBool("Chicote", true);
+            }
+            else{
+                anim.SetBool("Idle", true);
+                anim.SetBool("Chicote", false);
+            }
+        }
 
 
       

@@ -21,13 +21,13 @@ public class PlayerLife : MonoBehaviour
     }
     public void perdeVida()
     {
-        anim.SetTrigger("Morte");
+        anim.SetTrigger("Morte 0");
         GameManager.gm.SetVidas(-1);
     
     }
     public void Reset ()
     {
-        if (GameManager.gm.GetVidas() >= 0)
+        if (GameManager.gm.GetVidas()>= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }

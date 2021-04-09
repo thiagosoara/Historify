@@ -17,14 +17,15 @@ public class Move_Mateu : MonoBehaviour
     public int health;
     public bool invunerable = false;
     protected SpriteRenderer sprite;
+
+    //vida 
+
+
     
-    // tiro
-   // public bool podeAtirar;
-    //public GameObject bala;
+
 
     void Start()
     {
-        //podeAtirar = true;
 
         HeroiT = GetComponent<Transform>();
         HeroiRB = GetComponent<Rigidbody2D>();
