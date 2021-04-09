@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveBalas : MonoBehaviour
 {
-    public float vel = 2.5f;
+    public float forca = 100;
 
 
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class MoveBalas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector2 (vel * Time.deltaTime,0));
+        transform.Translate(new Vector2 (forca * Time.deltaTime,0));
        
         
     }
