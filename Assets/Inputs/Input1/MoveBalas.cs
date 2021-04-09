@@ -6,6 +6,7 @@ public class MoveBalas : MonoBehaviour
 {
     public float vel = 2.5f;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,5 +17,7 @@ public class MoveBalas : MonoBehaviour
     void Update()
     {
         transform.Translate(new Vector2 (vel * Time.deltaTime,0));
+       
+        
     }
 }
