@@ -10,6 +10,7 @@ public class CharacterMenu : MonoBehaviour
 
     public Slider Stamina;
     public Slider exp;
+
     void Start()
     {
         atributo.currentVida = atributo.maxvida;
