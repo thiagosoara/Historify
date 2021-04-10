@@ -27,18 +27,26 @@ public class sequirHeroi : MonoBehaviour
 
     void Update()
     {
+            
         if (Vector2.Distance(transform.position, Target.position) > distancia){
-        transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);}
-
-        else if (Vector2.Distance(transform.position, Target.position) == distancia){
+        transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);
             if (vivo == true){
                 anim.SetBool("Idle", false);
-                anim.SetBool("Chicote", true);
-            }
+                anim.SetBool("Correndo", true);}
+            
             else{
                 anim.SetBool("Idle", true);
-                anim.SetBool("Chicote", false);
-            }
+                anim.SetBool("Correndo", false);}
+        } 
+        if (Vector2.Distance(transform.position, Target.position) == distancia){
+            if (vivo == true){
+                    anim.SetBool("Idle", false);
+                    anim.SetBool("Chicote", true);
+                }
+                else{
+                    anim.SetBool("Idle", true);
+                    anim.SetBool("Chicote", false);
+                }
         }
 
 
