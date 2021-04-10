@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using Unity.UI;
 
 public class CharacterMenu : MonoBehaviour
 {
@@ -9,6 +9,7 @@ public class CharacterMenu : MonoBehaviour
     public Slider vida;
 
     public Slider Stamina;
+    
     public Slider exp;
 
     void Start()
