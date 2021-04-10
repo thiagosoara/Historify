@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 72280783}
   - component: {fileID: 72280785}
   - component: {fileID: 72280784}
+  - component: {fileID: 72280786}
   m_Layer: 5
   m_Name: 'BarraDeVida '
   m_TagString: Untagged
@@ -375,6 +376,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72280782}
   m_CullTransparentMesh: 0
+--- !u!114 &72280786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72280782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe4cfa22e958164eb67565340054f3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &88524638
 GameObject:
   m_ObjectHideFlags: 0
@@ -5244,7 +5257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268441427}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.874596, y: -1.86554, z: 24.161074}
+  m_LocalPosition: {x: -35.884, y: -1.944, z: 24.161074}
   m_LocalScale: {x: -0.7128568, y: 0.7036543, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
@@ -6403,8 +6416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.84900004, y: 0.777}
   m_AnchorMax: {x: 0.89456254, y: 0.8326187}
-  m_AnchoredPosition: {x: -0.6999512, y: 2.477478}
-  m_SizeDelta: {x: -6.6140213, y: -4.9550266}
+  m_AnchoredPosition: {x: -15.679993, y: 3.688797}
+  m_SizeDelta: {x: 18.48153, y: -7.377508}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1541743763
 MonoBehaviour:
