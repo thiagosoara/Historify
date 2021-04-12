@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 235107659}
   - component: {fileID: 235107658}
   m_Layer: 13
-  m_Name: Policia1  (1)
+  m_Name: Capataz-01
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1424,7 +1424,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 12s
+  m_Text: 30s
 --- !u!222 &313660955
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1813,8 +1813,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357055024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.063, y: 0.419, z: 0}
-  m_LocalScale: {x: 0.9706979, y: 0.58098274, z: 1}
+  m_LocalPosition: {x: 7.137, y: 0.14, z: 0}
+  m_LocalScale: {x: 0.89629453, y: 0.61732334, z: 1}
   m_Children: []
   m_Father: {fileID: 1699783448}
   m_RootOrder: 2
@@ -1835,9 +1835,12 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.0176575, y: 0.34175885}
+  - {x: -1.4942508, y: -0.8139684}
+  - {x: -1.2576898, y: -0.2661761}
+  - {x: -1.0165247, y: 0.13681601}
   - {x: -0.85953456, y: 0.5799159}
   - {x: -0.62062407, y: 0.66914904}
+  - {x: -0.60365397, y: 0.6868949}
   - {x: -0.37863547, y: 0.9221921}
   - {x: -0.19191195, y: 0.9517455}
   - {x: -0.006459996, y: 1.1394787}
@@ -1845,7 +1848,9 @@ EdgeCollider2D:
   - {x: 0.3351496, y: 1.1517816}
   - {x: 0.55146307, y: 0.88724315}
   - {x: 0.698421, y: 0.60592085}
-  - {x: 0.7943858, y: 0.32277265}
+  - {x: 1.0573581, y: -0.23787661}
+  - {x: 1.4578457, y: -0.98293346}
+  - {x: 1.3740243, y: -0.7404965}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -3587,6 +3592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87db93e2a7ef48f4eb90cf8538cf3487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidas: 2
 --- !u!4 &790094970
 Transform:
   m_ObjectHideFlags: 0
@@ -3615,7 +3621,7 @@ GameObject:
   - component: {fileID: 833921563}
   - component: {fileID: 833921562}
   m_Layer: 13
-  m_Name: Policia1  (2)
+  m_Name: Capataz-02
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4514,8 +4520,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153331179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.729, y: 0.016, z: 0}
-  m_LocalScale: {x: 0.85351735, y: 1.0291817, z: 1}
+  m_LocalPosition: {x: 4.79, y: 0.039, z: 0}
+  m_LocalScale: {x: 0.8124293, y: 1.0093684, z: 1}
   m_Children: []
   m_Father: {fileID: 1699783448}
   m_RootOrder: 1
@@ -4536,7 +4542,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.0717206, y: 0.22245674}
+  - {x: -1.460551, y: -0.64707893}
+  - {x: -1.2470632, y: -0.30030638}
+  - {x: -1.131987, y: 0.08382952}
   - {x: -0.8646976, y: 0.56732565}
   - {x: -0.5450411, y: 0.7399472}
   - {x: -0.38735116, y: 0.9492011}
@@ -4550,7 +4558,8 @@ EdgeCollider2D:
   - {x: 0.6352986, y: 0.6594293}
   - {x: 0.69052666, y: 0.4602459}
   - {x: 0.77170116, y: 0.34253502}
-  - {x: 0.88830197, y: 0.22245577}
+  - {x: 1.08838, y: -0.24224128}
+  - {x: 1.4931512, y: -0.99489474}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -5244,7 +5253,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268441427}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.874596, y: -1.86554, z: 24.161074}
+  m_LocalPosition: {x: -35.78, y: -1.94, z: 24.161074}
   m_LocalScale: {x: -0.7128568, y: 0.7036543, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
@@ -5267,6 +5276,7 @@ MonoBehaviour:
   distancia: 1.5
   anim: {fileID: 1268441428}
   vivo: 0
+  contagem: 30
 --- !u!70 &1268441435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6850,7 +6860,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.0300299, y: 0.3421136}
+  - {x: -1.4824715, y: -0.6390959}
+  - {x: -1.1872691, y: -0.2737956}
+  - {x: -1.130232, y: 0.17567426}
   - {x: -0.7750994, y: 0.61895084}
   - {x: -0.5384505, y: 0.7376479}
   - {x: -0.3690805, y: 0.9228071}
@@ -6926,8 +6938,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699783445}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -81.922844, y: -2.9365807, z: 1}
-  m_LocalScale: {x: -3.1103427, y: 1.3602561, z: 1}
+  m_LocalPosition: {x: -81.761, y: -3.005, z: 1}
+  m_LocalScale: {x: -3.002264, y: 1.4193913, z: 1}
   m_Children:
   - {fileID: 1838127577}
   - {fileID: 1153331180}
@@ -7162,7 +7174,7 @@ MonoBehaviour:
   face: 1
   HeroiT: {fileID: 0}
   vel: 2.5
-  forca: 9.5
+  forca: 10.5
   HeroiRB: {fileID: 1760005667}
   liberapulo: 0
   anim: {fileID: 0}
@@ -7408,8 +7420,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838127576}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.364, y: -0.06, z: 0}
-  m_LocalScale: {x: 0.8879831, y: 1, z: 1}
+  m_LocalPosition: {x: 2.476, y: 0.494, z: 0}
+  m_LocalScale: {x: 0.67818207, y: 0.5150275, z: 1}
   m_Children: []
   m_Father: {fileID: 1699783448}
   m_RootOrder: 0
@@ -7430,11 +7442,16 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.0152847, y: 0.31514695}
+  - {x: -1.4808036, y: -0.6288456}
+  - {x: -1.3266369, y: -0.51691675}
+  - {x: -1.2263414, y: -0.29295096}
+  - {x: -1.1636783, y: 0.012706682}
+  - {x: -1.047135, y: 0.33874902}
   - {x: -0.87736857, y: 0.54053724}
   - {x: -0.56578916, y: 0.6984314}
   - {x: -0.38070658, y: 0.9400743}
   - {x: -0.2368046, y: 0.9906476}
+  - {x: -0.07134989, y: 1.1236697}
   - {x: -0.00071886554, y: 1.1804559}
   - {x: 0.12092828, y: 1.1511985}
   - {x: 0.23133409, y: 1.1283287}
@@ -7444,7 +7461,9 @@ EdgeCollider2D:
   - {x: 0.6386771, y: 0.726717}
   - {x: 0.68182826, y: 0.5997166}
   - {x: 0.7417468, y: 0.47586823}
-  - {x: 0.7542627, y: 0.40783715}
+  - {x: 0.90304583, y: 0.2736026}
+  - {x: 0.98499465, y: 0.021785617}
+  - {x: 1.3243952, y: -0.6329746}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -7617,7 +7636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayContagem: {fileID: 313660954}
   aviso: {fileID: 1888459116}
-  contagem: 12
+  contagem: 30
 --- !u!114 &1841767963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8340,7 +8359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 64
-    width: 80.58823
+    width: 81.64556
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8371,11 +8390,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 36.03659, y: -3.3544066}
+  scrollPos: {x: 56.40886, y: -4.3372793}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.85000014
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -8423,8 +8442,9 @@ GameObject:
   - component: {fileID: 1949789399}
   - component: {fileID: 1949789398}
   - component: {fileID: 1949789402}
+  - component: {fileID: 1949789403}
   m_Layer: 13
-  m_Name: 'Policia1 '
+  m_Name: Capataz-03
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8546,6 +8566,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceAttack: 10
   speed: 4
+--- !u!95 &1949789403
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949789397}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7afb8d921b734024f8eb291b381ff49c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1974882070
 GameObject:
   m_ObjectHideFlags: 0
