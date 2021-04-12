@@ -1,16 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
-//using Unity.UI;
-=======
+using Unity.UI;
 using System;
 using UnityEngine.UI;
->>>>>>> 98b9cb5262e9d146a0f2b9cd8757e8a6107baf3a
 
 public class CharacterMenu : MonoBehaviour
 {
-   /* public CharacterAtributes atributo;
+    public CharacterAtributes atributo;
     public Slider vida;
 
     public Slider Stamina;
@@ -31,7 +28,7 @@ public class CharacterMenu : MonoBehaviour
     {
         vida.value = atributo.currentVida;
         Stamina.value= atributo.currentStamina;
-    }*/
+    }
 
 
 }
