@@ -815,7 +815,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169967115}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!1 &201318860
 GameObject:
   m_ObjectHideFlags: 0
@@ -5635,7 +5635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6593172, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.005004883, y: 21.366943}
+  m_AnchoredPosition: {x: 54, y: 21.322021}
   m_SizeDelta: {x: -0.010131836, y: -48.54956}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1330612265
@@ -8182,8 +8182,8 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   storyText: "Muitas dessas fugas poderiam provocar um embate de fato, mas sendo
-    voc\xEA um fugitivo o melhor n\xE3o seria combater os seus captores, por\xE9m
-    deix\xE1-los distra\xEDdos ou apag\xE1-los.."
+    voc\xEA um fugitido o melhor n\xE3o seria combater os seus captores e sim deix\xE1-los
+    distra\xEDdos ou apag\xE1-los..\r\n"
   description: 
   character: {fileID: 1725552426}
   portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -8268,9 +8268,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Naquela \xE9poca, ap\xF3s a captura diante de fugas, muitos  escravos
-    eram  e alguns  acabavam morrendo por causa  desses castigos feitos, inclusive, 
-    em pra\xE7a p\xFAblica.\r\n"
+  storyText: "Naquela \xE9poca ap\xF3s a captura diante de uma fugas, muitos  escravos
+    eram mortos imediatamente ou  acabavam morrendo por causa  de castigos feitos 
+    em pra\xE7a p\xFAblica isso tudo por desejar a liberdade.\r\n\n"
   description: 
   character: {fileID: 1725552426}
   portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -8325,9 +8325,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Pular, correr e se esgueirar era o certo a se fazer, pois devido a
-    isso a pratica da capoeira pois todos os movimentos eram disfar\xE7ados como
-    a pratica de uma dan\xE7a t\xEDpica que agrada os olhos dos senhores de escravos."
+  storyText: "Pular, correr e se esgueirar era o certo a se fazer, pois para isso
+    a pr\xE1tica da capoeira tinham todos esses movimentos disfar\xE7ados, como uma
+    dan\xE7a t\xEDpica que agrada os olhos dos senhores de escravos."
   description: 
   character: {fileID: 1725552426}
   portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -8398,7 +8398,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 63
-    y: 64
+    y: 62.734177
     width: 81.64556
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8433,7 +8433,7 @@ MonoBehaviour:
   scrollPos: {x: 56.40886, y: -4.3372793}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 474
   zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
@@ -8443,7 +8443,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1927804662}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1927804654}
   variables: []
   description: 
   stepPause: 0
