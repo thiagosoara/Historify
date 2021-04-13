@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CharacterMenu : MonoBehaviour
 {
-   /* public CharacterAtributes atributo;
+    /*public CharacterAtributes atributo;
     public Slider vida;
 
     public Slider Stamina;
