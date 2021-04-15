@@ -335,7 +335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.80731255, y: 0.7374582}
   m_AnchorMax: {x: 0.8976563, y: 0.80948186}
-  m_AnchoredPosition: {x: -1.730011, y: 2.960022}
+  m_AnchoredPosition: {x: -1.7300415, y: 2.960022}
   m_SizeDelta: {x: -1.3086243, y: 0.22418976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72280784
@@ -750,9 +750,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.025338382, y: 0.02162765}
-  m_AnchorMax: {x: 0.9662253, y: 0.79582286}
-  m_AnchoredPosition: {x: 10.614014, y: 9.7977295}
-  m_SizeDelta: {x: -21.22705, y: -19.595886}
+  m_AnchorMax: {x: 0.025338382, y: 0.8291531}
+  m_AnchoredPosition: {x: 1947.63, y: 4.7977905}
+  m_SizeDelta: {x: 3852.742, y: -29.595581}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &169967117
 MonoBehaviour:
@@ -3327,7 +3327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.046}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.4814453, y: 0.59155273}
+  m_AnchoredPosition: {x: -0.48156738, y: 0.59155273}
   m_SizeDelta: {x: 0.001953125, y: 2.164917}
   m_Pivot: {x: 0.51805395, y: 0.5}
 --- !u!1 &742437729
@@ -8433,7 +8433,7 @@ MonoBehaviour:
   scrollPos: {x: 56.40886, y: -4.3372793}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 474
+  blockViewHeight: 276
   zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
