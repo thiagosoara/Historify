@@ -18,7 +18,11 @@ public class Move_Mateu : MonoBehaviour
     public bool invunerable = false;
     protected SpriteRenderer sprite;
 
-    //vida 
+    //vida
+
+    //coleta itens
+    public int pedra = 0; 
+    public Text texPedra;
 
 
     
@@ -37,6 +41,7 @@ public class Move_Mateu : MonoBehaviour
    
     void Update()
     {
+        print(pedra);
         if (vivo==true)
         {
             //DIRECIONAMENTO DE MATEU
@@ -154,5 +159,13 @@ public class Move_Mateu : MonoBehaviour
     }
     // Mateu morto
     
+    //coleta itens
+    void OnTriggerEnter2D(Collider2D outro){
+        if (outro.gameObject.CompareTag("pedra")){
+           pedra++;
+           texPedra.text = pedra.ToString();
+           Destroy(outro.gameObject); 
+        }
+    }
     
 }

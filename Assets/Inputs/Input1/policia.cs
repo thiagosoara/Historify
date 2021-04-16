@@ -15,13 +15,14 @@ public class policia : EnemyController
     {
         float distance = PlayerDistance();
         isMoving = (distance <= distanceAttack);
-
+        
+        
         if(isMoving){
             if((player.position.x > transform.position.x && sprite.flipX)||(player.position.x < transform.position.x && !sprite.flipX)){
                 Flip();
             }
         }
-        Debug.Log (distance);
+        //Debug.Log (distance);
 
     }
     void FixedUpdate() {

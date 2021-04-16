@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerTrigger : MonoBehaviour
 {
-     private Move_Mateu player;
+     /*private Move_Mateu player;
 
 
      void Awake()
@@ -29,5 +29,5 @@ public class PlayerTrigger : MonoBehaviour
                 player.DamagePlayer();
             }
         }
-    }
+    }*/
 }
