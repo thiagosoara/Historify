@@ -39,7 +39,7 @@ public class sequirHeroi : MonoBehaviour
             if (Vector2.Distance(transform.position, Target.position) > distancia){
                 transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);
                 anim.SetBool("Idle", false);
-                anim.SetBool("Correndo", true);
+                anim.SetBool("Correndo", true); 
                 }
                 
             else{

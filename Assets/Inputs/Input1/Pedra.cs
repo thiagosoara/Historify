@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pedra : Move_Mateu
 {
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    /*private void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.gameObject.CompareTag("Player")){
             pedra++;
@@ -13,7 +13,7 @@ public class Pedra : Move_Mateu
             //print ("voce coletou um item");
 
     }
-    }
+    }*/
     // Start is called before the first frame update
     void Start()
     {

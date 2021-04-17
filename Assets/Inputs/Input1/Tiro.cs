@@ -5,7 +5,7 @@ using UnityEngine;
 public class Tiro : Move_Mateu
 {
     //variaveis do tiro
-    public Transform bulletSpawn;
+    /*public Transform bulletSpawn;
      public Animator anim;
     //public float fireRate;
     //public float nextFire;
@@ -51,5 +51,5 @@ public class Tiro : Move_Mateu
            // objeto.transform.eulerAngles = new Vector3 (0,0,180);}
         
 
-    }
+    }*/
 }

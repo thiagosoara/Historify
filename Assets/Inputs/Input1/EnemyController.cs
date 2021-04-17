@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     protected Animator anim;
     protected Transform player;
     protected SpriteRenderer sprite;
+    public float distancia;
 
     // Start is called before the first frame update
     void Awake()
@@ -44,7 +45,7 @@ public class EnemyController : MonoBehaviour
         } 
     }
     //dano 
-    public void DamageEnemy (int damageBullet){
+    /*public void DamageEnemy (int damageBullet){
         health -= damageBullet;
 
         StartCoroutine (Damage());
@@ -61,5 +62,5 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         sprite.color = Color.white;
 
-    }
+    }*/
 }

@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Vilao : MonoBehaviour
 {
-    public float vel = 1.5f;
+    public float vel = 2.5f;
     public bool liberaPer = false;
     public float distancia;
     public Transform Hero;
     public bool face = true;
-    public Animator vilao;
+    public Animator anim;
 
 
     void Start()
     {
-        vilao = GetComponent<Animator> ();
+        anim = GetComponent<Animator> ();
     }
 
     // Update is called once per frame
@@ -37,17 +37,17 @@ public class Vilao : MonoBehaviour
             if (Hero.transform.position.x < this.transform.position.x)
             {
                 transform.Translate (new Vector2 (-vel *  Time.deltaTime, 0));
-                vilao.SetBool ("andando",true);
-                vilao.SetBool ("idle",false);
+                anim.SetBool("Idle", false);
+                anim.SetBool("Correndo", true);
             }
             else if (Hero.transform.position.x > this.transform.position.x){
                 transform.Translate(new Vector2 (vel * Time.deltaTime, 0));
-                vilao.SetBool ("andando",true);
-                vilao.SetBool ("idle",false);
+                anim.SetBool("Idle", false);
+                anim.SetBool("Correndo", true);
             }
             else{
-                vilao.SetBool ("andando",false);
-                vilao.SetBool ("idle",true);
+                anim.SetBool("Idle", true);
+                anim.SetBool("Correndo", false);
             }
         }
     }

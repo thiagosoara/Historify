@@ -67,6 +67,7 @@
      <Compile Include="Assets\Inputs\Input1\MoverHorei.cs" />
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterAtributes.cs" />
      <Compile Include="Assets\Inputs\LOADCOD.cs" />
+     <Compile Include="Assets\Inputs\Input1\Pedra.cs" />
      <Compile Include="Assets\Inputs\Input1\CriaBalas.cs" />
      <Compile Include="Assets\Inputs\Input1\Vilao.cs" />
      <Compile Include="Assets\Inputs\estudo\estudo.cs" />
@@ -87,7 +88,6 @@
      <Compile Include="Assets\Inputs\CameraSegue.cs" />
      <Compile Include="Assets\Inputs\teste.cs" />
      <Compile Include="Assets\Inputs\botao_hero.cs" />
-     <Compile Include="Assets\Inputs\Input1\Pedra.cs" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\ColorfulButtons\Credits.txt" />
  <Reference Include="Unity.Timeline.Editor">

@@ -13,10 +13,12 @@ public class Move_Mateu : MonoBehaviour
     public bool liberapulo = false;
     public Animator anim;
     public bool vivo = true;
-    // dano 
-    public int health;
-    public bool invunerable = false;
-    protected SpriteRenderer sprite;
+    // dano
+    public int vida = 100;
+
+    //public int health;
+    //public bool invunerable = false;
+    //protected SpriteRenderer sprite;
 
     //vida
 
@@ -41,7 +43,8 @@ public class Move_Mateu : MonoBehaviour
    
     void Update()
     {
-        print(pedra);
+        //print(pedra);
+        //print (vida);
         if (vivo==true)
         {
             //DIRECIONAMENTO DE MATEU
@@ -139,7 +142,7 @@ public class Move_Mateu : MonoBehaviour
         }
     }
     // Dano ao heroi
-    IEnumerator Damage(){
+    /*IEnumerator Damage(){
         for (float i=0f; i < 1f; i +=0.1f){
             sprite.enabled = false;
             yield return new WaitForSeconds (0.1f);
@@ -156,7 +159,8 @@ public class Move_Mateu : MonoBehaviour
         StartCoroutine ( Damage());
         if(health <1){}
         Debug.Log ("Morreu");
-    }
+    }*/
+
     // Mateu morto
     
     //coleta itens
@@ -166,6 +170,17 @@ public class Move_Mateu : MonoBehaviour
            texPedra.text = pedra.ToString();
            Destroy(outro.gameObject); 
         }
+         //dano no heroi
+         
+        if (outro.gameObject.CompareTag("Enemy")){
+            //vida = vida-40;
+            if (vida >=1){
+                vida = vida-40;
+                print(vida);
+            }
+            else{print("morreu");}
+        }
     }
+
     
 }

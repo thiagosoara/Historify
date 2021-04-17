@@ -1028,6 +1028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceAttack: 7
   speed: 4
+  distancia: 1.5
 --- !u!70 &235107659
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1041,8 +1042,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.05062037}
-  m_Size: {x: 1.0407344, y: 3.9575195}
+  m_Offset: {x: 0.003546607, y: 0.20374736}
+  m_Size: {x: 1.304858, y: 3.5315137}
   m_Direction: 0
 --- !u!50 &235107660
 Rigidbody2D:
@@ -1124,7 +1125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235107657}
   m_LocalRotation: {x: 0.003999501, y: -0.999868, z: 0.0088766785, w: 0.013011612}
-  m_LocalPosition: {x: 112.00501, y: -1.1377964, z: 21.496069}
+  m_LocalPosition: {x: 22.79, y: -1.29, z: 23.71}
   m_LocalScale: {x: 0.6766256, y: 0.75167996, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
@@ -3751,6 +3752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceAttack: 5
   speed: 4
+  distancia: 0
 --- !u!70 &833921563
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5313,6 +5315,7 @@ GameObject:
   - component: {fileID: 1268441429}
   - component: {fileID: 1268441435}
   - component: {fileID: 1268441434}
+  - component: {fileID: 1268441432}
   m_Layer: 13
   m_Name: 'Capataz '
   m_TagString: Enemy
@@ -5425,6 +5428,22 @@ Transform:
   m_Father: {fileID: 123708824}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1268441432
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268441427}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.32
 --- !u!114 &1268441434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7707,13 +7726,12 @@ MonoBehaviour:
   face: 1
   HeroiT: {fileID: 0}
   vel: 2.5
-  forca: 10.5
+  forca: 8.5
   HeroiRB: {fileID: 1760005667}
   liberapulo: 0
   anim: {fileID: 0}
   vivo: 1
-  health: 0
-  invunerable: 0
+  vida: 100
   pedra: 0
   texPedra: {fileID: 1410036187}
 --- !u!114 &1760005665
@@ -9150,6 +9168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceAttack: 10
   speed: 4
+  distancia: 0
 --- !u!95 &1949789403
 Animator:
   serializedVersion: 3
