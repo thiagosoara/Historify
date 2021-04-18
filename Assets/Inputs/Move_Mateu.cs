@@ -98,17 +98,43 @@ public class Move_Mateu : MonoBehaviour
                 
             }
         }
-        // jogar pedra 
+        // jogar pedra
+        /*if(pedra >=1)
+        {
+            if (vivo == true){
+                if (Input.GetKeyDown(KeyCode.Space)){
+                    anim.SetBool("Idle", false);
+                    anim.SetBool("Pedra", true);
+                    print ("jogar");
+                    pedra = pedra -1;
+
+                }
+                else{
+                    anim.SetBool("Idle", true);
+                    anim.SetBool("Pedra", false);
+                //print ("Nao jogar");
+                }
+            }
+
+        } */
+        if(pedra >=1){
         if (vivo == true){
             if (Input.GetKeyDown(KeyCode.Space)){
                 anim.SetBool("Idle", false);
                 anim.SetBool("Pedra", true);
+                pedra= pedra-1;
+                texPedra.text = pedra.ToString();
             }
             else{
                 anim.SetBool("Idle", true);
                 anim.SetBool("Pedra", false);
             }
 
+        }}
+
+        else if (pedra ==0){
+            anim.SetBool("Idle", true);
+            anim.SetBool("Pedra", false);
         }
       
 
@@ -179,13 +205,16 @@ public class Move_Mateu : MonoBehaviour
                 print(vida);
             }
             else{
-                vivo=false;
+                //vivo=false;
                 anim.SetBool("Idle", false);
                 anim.SetBool("Morreu", true);
+                vivo=false;
                 print("morreu");
                 }
         }
     }
+    
+
     
 
     
