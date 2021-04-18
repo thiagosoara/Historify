@@ -62,7 +62,7 @@ public class Move_Mateu : MonoBehaviour
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
                     transform.Translate(new Vector2(vel * Time.deltaTime, 0));
-                    anim.SetBool("Idle", false);
+                     anim.SetBool("Idle", false);
                      anim.SetBool("Andando", true);
                 }
                 else if (Input.GetKey(KeyCode.LeftArrow))
@@ -178,9 +178,15 @@ public class Move_Mateu : MonoBehaviour
                 vida = vida-40;
                 print(vida);
             }
-            else{print("morreu");}
+            else{
+                vivo=false;
+                anim.SetBool("Idle", false);
+                anim.SetBool("Morreu", true);
+                print("morreu");
+                }
         }
     }
+    
 
     
 }
