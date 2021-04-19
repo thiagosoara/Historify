@@ -26,6 +26,10 @@ public class Move_Mateu : MonoBehaviour
     public int pedra = 0; 
     public Text texPedra;
 
+    //cria Pedra
+    public GameObject balas;
+    public GameObject BulletSpawn;
+
 
     
 
@@ -99,29 +103,12 @@ public class Move_Mateu : MonoBehaviour
             }
         }
         // jogar pedra
-        /*if(pedra >=1)
-        {
-            if (vivo == true){
-                if (Input.GetKeyDown(KeyCode.Space)){
-                    anim.SetBool("Idle", false);
-                    anim.SetBool("Pedra", true);
-                    print ("jogar");
-                    pedra = pedra -1;
-
-                }
-                else{
-                    anim.SetBool("Idle", true);
-                    anim.SetBool("Pedra", false);
-                //print ("Nao jogar");
-                }
-            }
-
-        } */
         if(pedra >=1){
         if (vivo == true){
             if (Input.GetKeyDown(KeyCode.Space)){
                 anim.SetBool("Idle", false);
                 anim.SetBool("Pedra", true);
+                Instantiate(balas, new Vector3(BulletSpawn.transform.position.x,BulletSpawn.transform.position.y,BulletSpawn.transform.position.z),transform.rotation);
                 pedra= pedra-1;
                 texPedra.text = pedra.ToString();
             }

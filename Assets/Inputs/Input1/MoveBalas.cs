@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveBalas : MonoBehaviour
 {
-    public float forca = 100;
+    public float forca = 1.5f;
 
 
     // Start is called before the first frame update

@@ -7649,7 +7649,6 @@ GameObject:
   - component: {fileID: 1760005663}
   - component: {fileID: 1760005664}
   - component: {fileID: 1760005665}
-  - component: {fileID: 1760005668}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7685,13 +7684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789536b3e063fcb48882a7623972462b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 2.5
-  jumpForce: 700
-  groundCheck: {fileID: 157905301}
-  bulletSpawn: {fileID: 398537262}
-  bulletObject: {fileID: 0}
-  fireRate: 0.5
-  nextFire: 1
 --- !u!95 &1760005663
 Animator:
   serializedVersion: 3
@@ -7734,6 +7726,8 @@ MonoBehaviour:
   vida: 100
   pedra: 0
   texPedra: {fileID: 1410036187}
+  balas: {fileID: 1972831542}
+  BulletSpawn: {fileID: 398537261}
 --- !u!114 &1760005665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7771,20 +7765,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1760005668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760005660}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 124f8bf604afe2647a45f3bc83160678, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  balas: {fileID: 105814308}
-  BulletSpawn: {fileID: 398537261}
 --- !u!212 &1760005669
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9188,6 +9168,172 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1972831542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972831546}
+  - component: {fileID: 1972831545}
+  - component: {fileID: 1972831544}
+  - component: {fileID: 1972831543}
+  - component: {fileID: 1972831547}
+  - component: {fileID: 1972831548}
+  m_Layer: 0
+  m_Name: criaPedra
+  m_TagString: pedraCriada
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!50 &1972831543
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972831542}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1972831544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972831542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f0eda06b987ad46b10f137193783b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forca: 9.6
+--- !u!212 &1972831545
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972831542}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3359f03b410c24b4392f1b6c140fc9d1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.31, y: 0.14}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1972831546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972831542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.5, y: -5.78, z: 0}
+  m_LocalScale: {x: 1.3236151, y: 1.9325658, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972831547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972831542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86bc38308c3942b88cfbc3b0b068787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myString: 
+  timeToWait: 5
+--- !u!68 &1972831548
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972831542}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.010992214, y: -0.07279852}
+  - {x: -0.11430722, y: -0.0714743}
+  - {x: -0.14739147, y: -0.047388487}
+  - {x: -0.15759243, y: -0.019831078}
+  - {x: -0.12047909, y: 0.032669805}
+  - {x: -0.036012575, y: 0.0727985}
+  - {x: 0.05176106, y: 0.066503726}
+  - {x: 0.11054581, y: 0.02947405}
+  - {x: 0.13850294, y: -0.0018693041}
+  - {x: 0.15160753, y: -0.042650133}
+  - {x: 0.13041162, y: -0.06737153}
+  - {x: 0.004135862, y: -0.07045007}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1974882070
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Atributos
   - pedra
+  - pedraCriada
   layers:
   - Default
   - TransparentFX

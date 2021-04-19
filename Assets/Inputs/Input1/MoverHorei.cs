@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoverHorei : MonoBehaviour
 {
-    public float maxSpeed;
+    /*public float maxSpeed;
     public float jumpForce;
 
     private bool grounded;
@@ -68,5 +68,5 @@ public class MoverHorei : MonoBehaviour
             anim.SetTrigger("Fire");
             nextFire = Time.time + fireRate;
             GameObject cloneBullet = Instantiate (bulletObject, bulletSpawn.position, bulletSpawn.rotation);
-      }
+      }*/
 }
