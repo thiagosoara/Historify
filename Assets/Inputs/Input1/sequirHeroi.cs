@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class sequirHeroi : MonoBehaviour
 {
-    public int health;
+    public int vida = 100;
     public float Speed;
     private Transform Target;
     public float distancia;
@@ -13,9 +13,10 @@ public class sequirHeroi : MonoBehaviour
     protected bool isMoving = false;
     protected Rigidbody2D rb2d;
     
-
+    //vivo
     public Animator anim;
-    public bool vivo;
+    public bool vilaoVivo = true;
+
     //contagem para o vilão seguir o heroi
     public float contagem = 1.0f;
     
@@ -28,7 +29,8 @@ public class sequirHeroi : MonoBehaviour
 
     void Update()
     {
-        // vilão seguir heroi 
+        // vilão seguir heroi depois que a contagem acaba
+
          if(contagem > 0.0f)
         {
             contagem -= Time.deltaTime;
@@ -36,25 +38,31 @@ public class sequirHeroi : MonoBehaviour
         }
         else
         {
-            if (Vector2.Distance(transform.position, Target.position) > distancia){
+            // vilão seguir Player 
+            if(vilaoVivo==true){
+                if (Vector2.Distance(transform.position, Target.position) > distancia){
                 transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);
                 anim.SetBool("Idle", false);
-                anim.SetBool("Correndo", true); 
-                }
-                
-            else{
+                anim.SetBool("Correndo", true);}
+
+                else{
                 anim.SetBool("Idle", true);
                 anim.SetBool("Correndo", false);}
+            }
+
 
         }
         //chicote
-         if (Vector2.Distance(transform.position, Target.position) < distancia){
+        if (vilaoVivo==true){
+            if (Vector2.Distance(transform.position, Target.position) < distancia){
             anim.SetBool("Idle", false);
             anim.SetBool("Chicote", true);
          }
          else {
             anim.SetBool("Idle", true);
             anim.SetBool("Chicote", false);
+         }
+         
          }
 
       
