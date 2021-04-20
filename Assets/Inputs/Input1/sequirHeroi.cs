@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class sequirHeroi : MonoBehaviour
 {
-    public int vida = 100;
+    public int vidaVilao1 = 100;
     public float Speed;
     private Transform Target;
     public float distancia;
@@ -68,11 +68,33 @@ public class sequirHeroi : MonoBehaviour
       
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    /*void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<PlayerLife>().perdeVida();
         }
-    }
+    }*/
+
+
+    void OnTriggerEnter2D(Collider2D outro){
+        if (outro.gameObject.CompareTag("pedraCriada")){
+            if(vidaVilao1 >=1)
+            {
+                vidaVilao1 = vidaVilao1 -10;
+                print(vidaVilao1);
+            }
+
+            else{
+                //animação de morrente por pedra 
+                vilaoVivo=false;
+                print ("Vilão Morreu");
+            }
+
+
+           //pedra++;
+           //texPedra.text = pedra.ToString();
+           //Destroy(outro.gameObject); 
+        }
+        }
 }

@@ -180,8 +180,14 @@ public class Move_Mateu : MonoBehaviour
     void OnTriggerEnter2D(Collider2D outro){
         if (outro.gameObject.CompareTag("pedra")){
            pedra++;
+           //Debug.log(pedra);
+           print(pedra);
            texPedra.text = pedra.ToString();
            Destroy(outro.gameObject); 
+
+
+           //Physics2D.IgnoreCollision(outro, GetComponent<Collider2D>());
+
         }
          //dano no heroi
          
