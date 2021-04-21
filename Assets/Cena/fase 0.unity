@@ -5177,7 +5177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1268441428
 Animator:
   serializedVersion: 3
@@ -5312,7 +5312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaVilao1: 100
-  Speed: 2.5
+  Speed: 3.5
   distancia: 1.5
   anim: {fileID: 1268441428}
   vilaoVivo: 1
@@ -7572,8 +7572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   face: 1
   HeroiT: {fileID: 0}
-  vel: 2.5
-  forca: 8.5
+  vel: 3.5
+  forca: 7.5
   HeroiRB: {fileID: 1760005667}
   liberapulo: 0
   anim: {fileID: 0}

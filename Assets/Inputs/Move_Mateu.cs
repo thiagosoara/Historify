@@ -67,19 +67,19 @@ public class Move_Mateu : MonoBehaviour
                 {
                     transform.Translate(new Vector2(vel * Time.deltaTime, 0));
                      anim.SetBool("Idle", false);
-                     anim.SetBool("Andando", true);
+                     anim.SetBool("Corre", true);
                 }
                 else if (Input.GetKey(KeyCode.LeftArrow))
                 {
                     transform.Translate(new Vector2(-vel * Time.deltaTime, 0));
                     anim.SetBool("Idle", false);
-                    anim.SetBool("Andando", true);
+                    anim.SetBool("Corre", true);
                 }
                 //MATEU PARADO
                 else
                 {
                     anim.SetBool("Idle", true);
-                    anim.SetBool("Andando", false);
+                    anim.SetBool("Corre", false);
                 }
             }
             //PULO DE MATEU
