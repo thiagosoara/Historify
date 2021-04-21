@@ -14,9 +14,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.13023683
   m_TransitionOffset: 0
-  m_ExitTime: 0.25
+  m_ExitTime: 0.24999997
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -466,7 +466,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: chicote
-  m_Speed: 1
+  m_Speed: 0.6
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 501108791259871048}
@@ -683,7 +683,7 @@ AnimatorStateMachine:
     m_Position: {x: 680, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 843742923880210238}
-    m_Position: {x: 680, y: 310, z: 0}
+    m_Position: {x: 690, y: 470, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -534275597054731968}
     m_Position: {x: 340, y: -70, z: 0}
@@ -733,9 +733,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.2675956
   m_TransitionOffset: 0
-  m_ExitTime: 0.5
+  m_ExitTime: 0.49999988
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
