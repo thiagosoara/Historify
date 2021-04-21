@@ -29,6 +29,7 @@ public class Move_Mateu : MonoBehaviour
     //cria Pedra
     public GameObject balas;
     public GameObject BulletSpawn;
+    public Transform bulletSpawn;
 
 
     
@@ -133,6 +134,14 @@ public class Move_Mateu : MonoBehaviour
         Vector3 scala = HeroiT.localScale;
         scala.x *= -1;
         HeroiT.localScale = scala;
+
+        //flip para jogar a pedra
+        if (!face){
+            bulletSpawn.position = new Vector3 (this.transform.position.x - 0.36f, bulletSpawn.position.y, bulletSpawn.position.z);
+        }
+        else{
+            bulletSpawn.position = new Vector3 (this.transform.position.x + 0.36f, bulletSpawn.position.y, bulletSpawn.position.z);
+        }
     }
     //VERIFICAÇÃO DE PULO
     void OnCollisionEnter2D(Collision2D outro)
