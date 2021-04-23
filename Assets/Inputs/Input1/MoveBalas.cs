@@ -16,7 +16,8 @@ public class MoveBalas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector2 (forca * Time.deltaTime,0));
+        //transform.Translate(new Vector2 (forca * Time.deltaTime,0));
+        transform.Translate(Vector2.right * forca * Time.deltaTime);
        
         
     }

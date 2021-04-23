@@ -109,7 +109,13 @@ public class Move_Mateu : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space)){
                 anim.SetBool("Idle", false);
                 anim.SetBool("Pedra", true);
-                Instantiate(balas, new Vector3(BulletSpawn.transform.position.x,BulletSpawn.transform.position.y,BulletSpawn.transform.position.z),transform.rotation);
+                balas = Instantiate(balas, new Vector3(BulletSpawn.transform.position.x,BulletSpawn.transform.position.y,BulletSpawn.transform.position.z),transform.rotation);
+                
+                if(!face){
+                    balas.transform.eulerAngles = new Vector3 (0,0,180);
+                }
+
+
                 pedra= pedra-1;
                 texPedra.text = pedra.ToString();
             }
