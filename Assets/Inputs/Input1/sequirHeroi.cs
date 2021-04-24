@@ -19,6 +19,12 @@ public class sequirHeroi : MonoBehaviour
 
     //contagem para o vilão seguir o heroi
     public float contagem = 1.0f;
+
+    //dano 
+    public float tempoDano = 1.0f;
+    public bool vulneravel = false;
+    protected SpriteRenderer sprite;
+
     
     
     void Start()
@@ -75,21 +81,65 @@ public class sequirHeroi : MonoBehaviour
             other.gameObject.GetComponent<PlayerLife>().perdeVida();
         }
     }*/
+    IEnumerator Damage(){
+        for (float i=0f; i < 1f; i +=0.1f){
+            sprite.enabled = false;
+            yield return new WaitForSeconds (0.1f);
+            sprite.enabled= true;
+            yield return new WaitForSeconds (0.1f);
+
+
+        }}
 
 
     void OnTriggerEnter2D(Collider2D outro){
         if (outro.gameObject.CompareTag("pedraCriada")){
-            if(vidaVilao1 >=1)
-            {
-                vidaVilao1 = vidaVilao1 -10;
-                print(vidaVilao1);
-            }
+          for (float i=0f; i < 1f; i +=0.1f){
+              anim.SetBool("Idle", true);
+              anim.SetBool("Correndo", false);
+              vilaoVivo = false;
+              new WaitForSeconds (0.1f);
+                print("i"+i);
+                
 
-            else{
-                //animação de morrente por pedra 
-                vilaoVivo=false;
-                print ("Vilão Morreu");
+          }
+          print ("seguindo novamente");
+          vilaoVivo = true;
+          Update();
+
+            /*if(vidaVilao1 >=1)
+            {
+                for (float i=0f; i < 1f; i +=0.1f){
+                    anim.SetBool("Idle", true);
+                    anim.SetBool("Correndo", false);
+                    vidaVilao1 = vidaVilao1 -10;
+                    vilaoVivo=false;
+                    vulneravel= true;
+                    StartCoroutine ( Damage());
+                    print("vilão " + vidaVilao1);
+                }
+
+
+            if (vulneravel== true){
+                vilaoVivo = true;
+                Update();
+                print ("seguir novamente vilão");
             }
+                    //vilaoVivo = true;
+                     //Update();
+                    //anim.SetBool("Idle", false);
+                    //anim.SetBool("Correndo", true);
+                   // print ("seguir novamente vilão");
+
+            }*/
+
+            //else{
+                //animação de morrente por pedra 
+                //vilaoVivo=false;
+               // anim.SetBool("Idle", false);
+               // anim.SetBool("Correndo", true);
+               // print ("Vilão Morreu");
+          //  }
 
 
            //pedra++;

@@ -5287,6 +5287,8 @@ MonoBehaviour:
   anim: {fileID: 1268441428}
   vilaoVivo: 1
   contagem: 30
+  tempoDano: 0.1
+  vulneravel: 0
 --- !u!70 &1268441435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
