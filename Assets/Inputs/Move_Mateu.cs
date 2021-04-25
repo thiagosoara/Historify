@@ -220,7 +220,7 @@ public class Move_Mateu : MonoBehaviour
                 }
         }
     }
-
+    //reniciar a fase 
     void ReloadLevel(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

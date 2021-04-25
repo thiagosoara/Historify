@@ -83,19 +83,39 @@ public class sequirHeroi : MonoBehaviour
             other.gameObject.GetComponent<PlayerLife>().perdeVida();
         }
     }*/
-    /*IEnumerator Damage(){
+    public void DamageEnemy(int damagePedra){
+        vidaVilao1 -= damagePedra;
+        StartCoroutine (Damage());
+        if (vidaVilao1>1){
+            print("dano");
+            }
+        
+    }
+
+
+    IEnumerator Damage(){
+
         for (float i=0f; i < 1f; i +=0.1f){
-            sprite.enabled = false;
-            yield return new WaitForSeconds (0.1f);
-            sprite.enabled= true;
-            yield return new WaitForSeconds (0.1f);
+            vilaoVivo=false;
+            anim.SetBool("Idle", true);
+            anim.SetBool("Correndo", false);
 
+            GetComponent<SpriteRenderer>().enabled = false;
+            //sprite.enabled = false;
+            yield return new WaitForSeconds(0.1f);
+            GetComponent<SpriteRenderer>().enabled = true;
+            //sprite.enabled= true;
+            yield return new WaitForSeconds(0.1f);
 
-        }}*/
+        }
+        vilaoVivo = true;
 
-    void OnTriggerEnter2D(Collider2D outro){
-        if (outro.gameObject.CompareTag("pedraCriada")){
-          for (float i=0f; i < 1f; i +=0.1f){
+    }
+
+    //void OnTriggerEnter2D(Collider2D outro){
+      //  if (outro.gameObject.CompareTag("pedraCriada")){
+        //    StartCoroutine (Damage());
+          /*for (float i=0f; i < 1f; i +=0.1f){
               //anim.SetBool("Idle", true);
               //anim.SetBool("Correndo", false);
               vilaoVivo = false;
@@ -106,11 +126,11 @@ public class sequirHeroi : MonoBehaviour
               print("i"+i);
                 
 
-          }
-          }
-          print ("seguindo novamente");
-          vilaoVivo = true;
-          Update();
+          }*/
+        //  }
+          //print ("seguindo novamente");
+          //vilaoVivo = true;
+          //Update();
 
             /*if(vidaVilao1 >=1)
             {
@@ -151,5 +171,5 @@ public class sequirHeroi : MonoBehaviour
            //texPedra.text = pedra.ToString();
            //Destroy(outro.gameObject); 
         
-        }
+//        }
 }
