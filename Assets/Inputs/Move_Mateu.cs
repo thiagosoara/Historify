@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Move_Mateu : MonoBehaviour
 {
@@ -214,9 +215,14 @@ public class Move_Mateu : MonoBehaviour
                 anim.SetBool("Idle", false);
                 anim.SetBool("Morreu", true);
                 vivo=false;
+                Invoke ("ReloadLevel", 3f);
                 print("morreu");
                 }
         }
+    }
+
+    void ReloadLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
 

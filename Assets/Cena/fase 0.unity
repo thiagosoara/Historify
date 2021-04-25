@@ -851,8 +851,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8ef26a0696dca44bcc8725e6d60e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceAttack: 7
-  speed: 4
+  health: 0
+  distanceAttack: 10
+  speed: 3
+  anim: {fileID: 235107663}
   distancia: 1.5
 --- !u!70 &235107659
 CapsuleCollider2D:
@@ -950,7 +952,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235107657}
   m_LocalRotation: {x: 0.003999501, y: -0.999868, z: 0.0088766785, w: 0.013011612}
-  m_LocalPosition: {x: 112.38, y: -1.31, z: 21.6}
+  m_LocalPosition: {x: 50.99, y: -1.65, z: 23.19}
   m_LocalScale: {x: 0.6766256, y: 0.75167996, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
@@ -3575,9 +3577,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8ef26a0696dca44bcc8725e6d60e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceAttack: 5
-  speed: 4
-  distancia: 0
+  health: 0
+  distanceAttack: 7
+  speed: 3
+  anim: {fileID: 0}
+  distancia: 1.5
 --- !u!70 &833921563
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8973,9 +8977,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8ef26a0696dca44bcc8725e6d60e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceAttack: 10
-  speed: 4
-  distancia: 0
+  health: 0
+  distanceAttack: 5
+  speed: 3
+  anim: {fileID: 0}
+  distancia: 1.5
 --- !u!95 &1949789403
 Animator:
   serializedVersion: 3

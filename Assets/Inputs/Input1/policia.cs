@@ -11,23 +11,33 @@ public class policia : EnemyController
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-        float distance = PlayerDistance();
+        base.Update();
+        /*float distance = PlayerDistance();
         isMoving = (distance <= distanceAttack);
         
         
         if(isMoving){
-            if((player.position.x > transform.position.x && sprite.flipX)||(player.position.x < transform.position.x && !sprite.flipX)){
+            if((player.position.x > transform.position.x && sprite.flipX)||
+            (player.position.x < transform.position.x && !sprite.flipX)){
                 Flip();
             }
-        }
+        }*/
         //Debug.Log (distance);
 
     }
     void FixedUpdate() {
         if (isMoving) {
         rb2d.velocity = new Vector2(speed, rb2d.velocity.y);
+        anim.SetBool("Idle", false);
+        anim.SetBool("Correndo", true);
+        print("animação");
+        
         }
+        else{
+                anim.SetBool("Idle", true);
+                anim.SetBool("Correndo", false);}
+        
     }
 }

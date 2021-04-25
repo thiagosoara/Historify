@@ -31,6 +31,8 @@ public class sequirHeroi : MonoBehaviour
     {
         Target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         anim= GetComponent<Animator>();
+
+
     }
 
     void Update()
@@ -81,7 +83,7 @@ public class sequirHeroi : MonoBehaviour
             other.gameObject.GetComponent<PlayerLife>().perdeVida();
         }
     }*/
-    IEnumerator Damage(){
+    /*IEnumerator Damage(){
         for (float i=0f; i < 1f; i +=0.1f){
             sprite.enabled = false;
             yield return new WaitForSeconds (0.1f);
@@ -89,19 +91,22 @@ public class sequirHeroi : MonoBehaviour
             yield return new WaitForSeconds (0.1f);
 
 
-        }}
-
+        }}*/
 
     void OnTriggerEnter2D(Collider2D outro){
         if (outro.gameObject.CompareTag("pedraCriada")){
           for (float i=0f; i < 1f; i +=0.1f){
-              anim.SetBool("Idle", true);
-              anim.SetBool("Correndo", false);
+              //anim.SetBool("Idle", true);
+              //anim.SetBool("Correndo", false);
               vilaoVivo = false;
               new WaitForSeconds (0.1f);
-                print("i"+i);
+              gameObject.SetActive(false);
+              new WaitForSeconds (0.1f);
+              gameObject.SetActive(true);
+              print("i"+i);
                 
 
+          }
           }
           print ("seguindo novamente");
           vilaoVivo = true;
@@ -145,6 +150,6 @@ public class sequirHeroi : MonoBehaviour
            //pedra++;
            //texPedra.text = pedra.ToString();
            //Destroy(outro.gameObject); 
-        }
+        
         }
 }

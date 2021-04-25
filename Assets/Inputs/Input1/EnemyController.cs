@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    protected int health;
+    public int health;
     public float distanceAttack;
-    public int speed;
+    public float speed;
 
     protected bool isMoving = false;
 
     protected Rigidbody2D rb2d;
-    protected Animator anim;
+    public Animator anim;
     protected Transform player;
     protected SpriteRenderer sprite;
     public float distancia;
@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
     void Awake()
     {
         rb2d = GetComponent<Rigidbody2D> ();
-        anim = GetComponent <Animator> ();
+        anim= GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer> ();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform> ();
     }
