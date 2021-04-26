@@ -171,24 +171,21 @@ public class Move_Mateu : MonoBehaviour
         }
     }
     // Dano ao heroi
-    /*IEnumerator Damage(){
+    IEnumerator Damage(){
         for (float i=0f; i < 1f; i +=0.1f){
-            sprite.enabled = false;
+            GetComponent<SpriteRenderer>().enabled = false;
             yield return new WaitForSeconds (0.1f);
-            sprite.enabled= true;
+            GetComponent<SpriteRenderer>().enabled = true;
             yield return new WaitForSeconds (0.1f);
 
 
         }
-        invunerable = false;
+        
     }
+    // função que vai causa o dano
     public void DamagePlayer(){
-        invunerable = true;
-        health --;
         StartCoroutine ( Damage());
-        if(health <1){}
-        Debug.Log ("Morreu");
-    }*/
+    }
 
     // Mateu morto
     
@@ -207,6 +204,7 @@ public class Move_Mateu : MonoBehaviour
         if (outro.gameObject.CompareTag("Enemy")){
             //vida = vida-40;
             if (vida >=1){
+                DamagePlayer();
                 vida = vida-40;
                 print(vida);
             }
