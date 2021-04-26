@@ -5401,6 +5401,7 @@ GameObject:
   - component: {fileID: 1311918742}
   - component: {fileID: 1311918741}
   - component: {fileID: 1311918740}
+  - component: {fileID: 1311918750}
   m_Layer: 5
   m_Name: SayDialog
   m_TagString: Untagged
@@ -5677,6 +5678,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1311918750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311918739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a74db7c4589a3749acb4e3f14a26a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1317776299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3507517075712864441, guid: ad047a7c3408a9842a80292179df61ce, type: 3}

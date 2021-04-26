@@ -32,6 +32,9 @@ public class Move_Mateu : MonoBehaviour
     public GameObject BulletSpawn;
     public Transform bulletSpawn;
 
+    //inicio
+    
+
 
     
 

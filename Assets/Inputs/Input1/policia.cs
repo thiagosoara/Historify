@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class policia : EnemyController
 {
@@ -40,4 +41,15 @@ public class policia : EnemyController
                 anim.SetBool("Correndo", false);}
         
     }
+    //final de fase
+
+    void OnCollisionEnter2D(Collision2D outro){
+        if (outro.gameObject.CompareTag("Player")){
+            Invoke ("NextLevel", 1f);}
+            }
+
+    void NextLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+
+        }
 }
