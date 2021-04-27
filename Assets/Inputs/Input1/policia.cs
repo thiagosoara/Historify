@@ -15,6 +15,8 @@ public class policia : EnemyController
     protected override void Update()
     {
         base.Update();
+        anim.SetBool("Idle", false);
+        anim.SetBool("Chicote", true);
         /*float distance = PlayerDistance();
         isMoving = (distance <= distanceAttack);
         
