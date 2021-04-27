@@ -3,20 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class policia : EnemyController
+public class policia : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //animação
+    public Animator anim;
+    
     void Start()
     {
-        health = 2;
+        anim= GetComponent<Animator>();
+        //health = 2;
     }
 
     // Update is called once per frame
-    protected override void Update()
+    void Update()
     {
-        base.Update();
-        anim.SetBool("Idle", false);
-        anim.SetBool("Chicote", true);
+        //base.Update();
+
         /*float distance = PlayerDistance();
         isMoving = (distance <= distanceAttack);
         
@@ -30,7 +32,7 @@ public class policia : EnemyController
         //Debug.Log (distance);
 
     }
-    void FixedUpdate() {
+    /*void FixedUpdate() {
         if (isMoving) {
         rb2d.velocity = new Vector2(speed, rb2d.velocity.y);
         anim.SetBool("Idle", false);
@@ -42,7 +44,8 @@ public class policia : EnemyController
                 anim.SetBool("Idle", true);
                 anim.SetBool("Correndo", false);}
         
-    }
+    }*/
+
     //final de fase
 
     void OnCollisionEnter2D(Collision2D outro){

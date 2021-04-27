@@ -220,6 +220,9 @@ public class Move_Mateu : MonoBehaviour
                 print("morreu");
                 }
         }
+        if (outro.gameObject.CompareTag("Limbo")){
+            Invoke ("ReloadLevel", 2f);
+            }
     }
     //reniciar a fase 
     void ReloadLevel(){

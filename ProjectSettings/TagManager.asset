@@ -11,6 +11,7 @@ TagManager:
   - Atributos
   - pedra
   - pedraCriada
+  - Limbo
   layers:
   - Default
   - TransparentFX
