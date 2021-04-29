@@ -2925,9 +2925,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.80731255, y: 0.7197292}
   m_AnchorMax: {x: 0.864, y: 0.8326187}
-  m_AnchoredPosition: {x: -128.41, y: -56.178}
-  m_SizeDelta: {x: 59.84459, y: 40.91768}
-  m_Pivot: {x: 0.50000006, y: 0.55977315}
+  m_AnchoredPosition: {x: -127.26001, y: -58.677}
+  m_SizeDelta: {x: 40.236748, y: 26.806488}
+  m_Pivot: {x: 0.50000036, y: 0.50000006}
 --- !u!114 &595885450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7769,6 +7769,7 @@ MonoBehaviour:
   BarraDeVida: {fileID: 72280784}
   "cabe\xE7a": {fileID: 387651549}
   BarraDeEstamina: {fileID: 1541743763}
+  "cora\xE7ao": {fileID: 595885450}
   pedra: 0
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
