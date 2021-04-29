@@ -20,6 +20,7 @@ public class Move_Mateu : MonoBehaviour
     public Image BarraDeVida;
     public Image cabeça;
     public Image BarraDeEstamina;
+    public Image coraçao;
 
 
     //coleta itens
@@ -221,6 +222,7 @@ public class Move_Mateu : MonoBehaviour
                 if(vida<=0){
                     cabeça.fillAmount= 0;
                     BarraDeEstamina.fillAmount= 0;
+                    coraçao.fillAmount=0;
                 }
                 print("morreu");
                 }
