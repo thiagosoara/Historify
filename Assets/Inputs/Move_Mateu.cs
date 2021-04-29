@@ -18,6 +18,8 @@ public class Move_Mateu : MonoBehaviour
     public int vida = 100;
     //Barra de vida
     public Image BarraDeVida;
+    public Image cabeça;
+    public Image BarraDeEstamina;
 
 
     //coleta itens
@@ -216,6 +218,10 @@ public class Move_Mateu : MonoBehaviour
                 anim.SetBool("Morreu", true);
                 vivo=false;
                 Invoke ("ReloadLevel", 3f);
+                if(vida<=0){
+                    cabeça.fillAmount= 0;
+                    BarraDeEstamina.fillAmount= 0;
+                }
                 print("morreu");
                 }
         }
