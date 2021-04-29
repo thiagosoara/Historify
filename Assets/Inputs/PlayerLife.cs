@@ -1,17 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class PlayerLife : MonoBehaviour
 {
-    Animator anim;
-
+    public Image BarraDeVida;
+ 
     // Start is called before the first frame update
     void Start()
     {
-        anim = gameObject.GetComponent<Animator>();
+       
     }
 
     // Update is called once per frame
@@ -19,17 +19,5 @@ public class PlayerLife : MonoBehaviour
     {
         
     }
-    public void perdeVida()
-    {
-        anim.SetTrigger("Morte 0");
-        GameManager.gm.SetVidas(-1);
     
-    }
-    public void Reset ()
-    {
-        if (GameManager.gm.GetVidas()>= 0)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
 }

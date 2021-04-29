@@ -16,12 +16,9 @@ public class Move_Mateu : MonoBehaviour
     public bool vivo = true;
     // dano
     public int vida = 100;
+    //Barra de vida
+    public Image BarraDeVida;
 
-    //public int health;
-    //public bool invunerable = false;
-    //protected SpriteRenderer sprite;
-
-    //vida
 
     //coleta itens
     public int pedra = 0; 
@@ -32,7 +29,7 @@ public class Move_Mateu : MonoBehaviour
     public GameObject BulletSpawn;
     public Transform bulletSpawn;
 
-    //inicio
+
     
 
 
@@ -206,10 +203,12 @@ public class Move_Mateu : MonoBehaviour
          
         if (outro.gameObject.CompareTag("Enemy")){
             //vida = vida-40;
-            if (vida >=1){
+            if (vida>0){
                 DamagePlayer();
                 vida = vida-40;
+                BarraDeVida.fillAmount= (float) vida/100;
                 print(vida);
+
             }
             else{
                 //vivo=false;
