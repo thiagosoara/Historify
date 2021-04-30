@@ -5491,6 +5491,8 @@ MonoBehaviour:
   contagem: 30
   tempoDano: 0.1
   vulneravel: 0
+  objeto: {fileID: 1311918739}
+  pause: 1
 --- !u!70 &1268441435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5888,6 +5890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a74db7c4589a3749acb4e3f14a26a48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objeto: {fileID: 0}
 --- !u!4 &1317776299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3507517075712864441, guid: ad047a7c3408a9842a80292179df61ce, type: 3}
@@ -7775,6 +7778,8 @@ MonoBehaviour:
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
   BulletSpawn: {fileID: 398537261}
   bulletSpawn: {fileID: 0}
+  objeto: {fileID: 1311918739}
+  pausa: 1
 --- !u!114 &1760005665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8217,6 +8222,8 @@ MonoBehaviour:
   displayContagem: {fileID: 313660954}
   aviso: {fileID: 1888459116}
   contagem: 30
+  objeto: {fileID: 1311918739}
+  p: 1
 --- !u!114 &1841767963
 MonoBehaviour:
   m_ObjectHideFlags: 0

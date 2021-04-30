@@ -25,6 +25,10 @@ public class sequirHeroi : MonoBehaviour
     public bool vulneravel = false;
     protected SpriteRenderer sprite;
 
+    //inicio
+    public GameObject objeto;
+    public bool pause = true;
+
     
     
     void Start()
@@ -37,8 +41,18 @@ public class sequirHeroi : MonoBehaviour
 
     void Update()
     {
+        //libera a contagem para o vilão começa a seguir o heroi depois da historia
+        if(objeto.activeInHierarchy == true){
+            pause=true;
+            print("objeto ativo ");
+        }
+        else if (objeto.activeInHierarchy == false)
+        {
+            pause=false;
+            print("objeto desativado");
+        }
         // vilão seguir heroi depois que a contagem acaba
-
+        if (pause==false){
          if(contagem > 0.0f)
         {
             contagem -= Time.deltaTime;
@@ -57,11 +71,12 @@ public class sequirHeroi : MonoBehaviour
                 anim.SetBool("Idle", true);
                 anim.SetBool("Correndo", false);}
             }
+            
 
 
-        }
+        }}
         //chicote
-        if (vilaoVivo==true){
+        if (pause==false && vilaoVivo==true){
             if (Vector2.Distance(transform.position, Target.position) < distancia){
             anim.SetBool("Idle", false);
             anim.SetBool("Chicote", true);

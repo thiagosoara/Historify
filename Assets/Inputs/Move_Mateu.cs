@@ -32,6 +32,10 @@ public class Move_Mateu : MonoBehaviour
     public GameObject BulletSpawn;
     public Transform bulletSpawn;
 
+    //inicio
+    public GameObject objeto;
+    public bool pausa = true;
+
 
     
 
@@ -45,6 +49,7 @@ public class Move_Mateu : MonoBehaviour
         HeroiT = GetComponent<Transform>();
         HeroiRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
         
     }
 
@@ -52,9 +57,19 @@ public class Move_Mateu : MonoBehaviour
    
     void Update()
     {
+        if(objeto.activeInHierarchy == true){
+            pausa=true;
+            print("objeto ativo ");
+        }
+        else if (objeto.activeInHierarchy == false)
+        {
+            pausa=false;
+            print("objeto desativado");
+        }
+
         //print(pedra);
         //print (vida);
-        if (vivo==true)
+        if (pausa==false && vivo==true)
         {
             //DIRECIONAMENTO DE MATEU
             if (Input.GetKey(KeyCode.RightArrow) && !face)
@@ -66,7 +81,7 @@ public class Move_Mateu : MonoBehaviour
                 Flip();
             }
             //MOVIMENTO DE MATEU
-            if (vivo == true)
+            if (pausa==false && vivo == true)
             {
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
@@ -88,7 +103,7 @@ public class Move_Mateu : MonoBehaviour
                 }
             }
             //PULO DE MATEU
-            if (vivo == true)
+            if (pausa==false && vivo == true)
             {
                 if (Input.GetKey(KeyCode.UpArrow) && liberapulo == true)
                 {
@@ -109,7 +124,7 @@ public class Move_Mateu : MonoBehaviour
         }
         // jogar pedra
         if(pedra >=1){
-        if (vivo == true){
+        if (pausa==false && vivo == true){
             if (Input.GetKeyDown(KeyCode.Space)){
                 anim.SetBool("Idle", false);
                 anim.SetBool("Pedra", true);
