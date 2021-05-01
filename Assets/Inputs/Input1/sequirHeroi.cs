@@ -44,12 +44,12 @@ public class sequirHeroi : MonoBehaviour
         //libera a contagem para o vilão começa a seguir o heroi depois da historia
         if(objeto.activeInHierarchy == true){
             pause=true;
-            print("objeto ativo ");
+            //print("objeto ativo ");
         }
         else if (objeto.activeInHierarchy == false)
         {
             pause=false;
-            print("objeto desativado");
+            //print("objeto desativado");
         }
         // vilão seguir heroi depois que a contagem acaba
         if (pause==false){

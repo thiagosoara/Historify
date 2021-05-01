@@ -23,12 +23,12 @@ public class segundos : MonoBehaviour
     {
         if(objeto.activeInHierarchy == true){
             p=true;
-            print("objeto ativo ");
+            //print("objeto ativo ");
         }
         else if (objeto.activeInHierarchy == false)
         {
             p=false;
-            print("objeto desativado");
+            //print("objeto desativado");
         }
         if(p==false){
          if(contagem > 0.0f)

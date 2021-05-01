@@ -59,12 +59,12 @@ public class Move_Mateu : MonoBehaviour
     {
         if(objeto.activeInHierarchy == true){
             pausa=true;
-            print("objeto ativo ");
+            //print("objeto ativo ");
         }
         else if (objeto.activeInHierarchy == false)
         {
             pausa=false;
-            print("objeto desativado");
+            //print("objeto desativado");
         }
 
         //print(pedra);
@@ -246,6 +246,8 @@ public class Move_Mateu : MonoBehaviour
             Invoke ("ReloadLevel", 2f);
             }
     }
+    //desativa a leitura quando o jogo for reniciado
+
     //reniciar a fase 
     void ReloadLevel(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
