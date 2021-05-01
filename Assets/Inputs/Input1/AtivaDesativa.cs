@@ -7,6 +7,9 @@ public class AtivaDesativa : MonoBehaviour
     public GameObject Imagem19;
     public GameObject texto19;
 
+    public GameObject Imagem;
+    public GameObject texto;
+
     public GameObject Imagem20;
     public GameObject texto20;
 
@@ -40,10 +43,23 @@ public class AtivaDesativa : MonoBehaviour
             Imagem19.SetActive(false);
             texto19.SetActive(false);
 
-            desativa = 14;
+            desativa = 10;
+            }
+
+            if (Imagem.activeInHierarchy == true && Imagem19.activeInHierarchy == false){
+                if(desativa > 0.0f){
+                        desativa -= Time.deltaTime;
+                        texto.SetActive(true);
+                    }
+                else{
+                    Imagem.SetActive(false);
+                    texto.SetActive(false);
+                    desativa = 14;
+                }
+
             }
             //imagem numero 20 
-            if (Imagem20.activeInHierarchy == true && Imagem19.activeInHierarchy == false){
+            if (Imagem20.activeInHierarchy == true && Imagem.activeInHierarchy == false){
                  if(desativa > 0.0f){
                         desativa -= Time.deltaTime;
                         texto20.SetActive(true);

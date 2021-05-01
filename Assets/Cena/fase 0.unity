@@ -5890,7 +5890,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a74db7c4589a3749acb4e3f14a26a48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objeto: {fileID: 0}
+  Imagem19: {fileID: 0}
+  texto19: {fileID: 0}
+  Imagem20: {fileID: 0}
+  texto20: {fileID: 0}
+  Imagem21: {fileID: 0}
+  texto21: {fileID: 0}
+  Imagem22: {fileID: 0}
+  desativa: 1
 --- !u!4 &1317776299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3507517075712864441, guid: ad047a7c3408a9842a80292179df61ce, type: 3}
@@ -7780,6 +7787,8 @@ MonoBehaviour:
   bulletSpawn: {fileID: 0}
   objeto: {fileID: 1311918739}
   pausa: 1
+  panel: {fileID: 695659382}
+  reniciar: 0
 --- !u!114 &1760005665
 MonoBehaviour:
   m_ObjectHideFlags: 0
