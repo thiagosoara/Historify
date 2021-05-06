@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class botao_hero : MonoBehaviour
 {
     [SerializeField]
-    private int vel = 0;
+    private float vel = 0;
     public bool face = true;
     public bool x = true;
     public bool y = false;
@@ -57,7 +57,7 @@ public class botao_hero : MonoBehaviour
     //ANIMAÇÃO MOVIMENTO PARA A DIREITA
     public void direita()
     {
-        vel = 3;
+        vel = 3.5f;
         x = false;
         y = true;
         z = false;
@@ -69,7 +69,7 @@ public class botao_hero : MonoBehaviour
     //ANIMAÇÃO MOVIMENTO PARA A ESQUERDA
     public void esquerda()
     {
-        vel = -3;
+        vel = -3.5f;
         x = false;
         y = true;
         z = false;
@@ -105,7 +105,7 @@ public class botao_hero : MonoBehaviour
     public void animacao()
     {
         anim.SetBool("Idle", x);
-        anim.SetBool("Andando", y);
+        anim.SetBool("Corre", y);
         anim.SetBool("Golpe", z);
         anim.SetBool("Facao", f);
         anim.SetBool("Garruncha", g);
