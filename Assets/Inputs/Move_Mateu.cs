@@ -255,6 +255,8 @@ public class Move_Mateu : MonoBehaviour
             }
     }
     //desativa a leitura quando o jogo for reniciado
+    //jogar pedra pelo o botão na tela 
+
 
     //reniciar a fase 
     void ReloadLevel(){

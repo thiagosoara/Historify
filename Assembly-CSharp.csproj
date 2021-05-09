@@ -65,6 +65,7 @@
      <Compile Include="Assets\Inputs\Tween_move_hori.cs" />
      <Compile Include="Assets\Inputs\Input1\sequirHeroi.cs" />
      <Compile Include="Assets\Inputs\Input1\MoverHorei.cs" />
+     <Compile Include="Assets\Inputs\Input1\botao.cs" />
      <Compile Include="Assets\Inputs\Input1\DanoHeroi.cs" />
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterAtributes.cs" />
      <Compile Include="Assets\Inputs\LOADCOD.cs" />

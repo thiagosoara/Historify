@@ -1,28 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class botao_hero : Move_Mateu
+public class botao : MonoBehaviour
 {
     [SerializeField]
+    //botão de mover
     private float vel = 0;
     public bool face = true;
-    //x = idle
     public bool x = true;
-
-    //y = andando
     public bool y = false;
-
-    //z = golpe 
-    //public bool z = false;
-
-    //f=fação
+    public bool z = false;
     public bool f = false;
-
-    // g =garruncha
     public bool g = false;
-
     public Transform HeroiT;
     public Animator anim;
     public Rigidbody2D HeroiRB;
@@ -38,8 +28,6 @@ public class botao_hero : Move_Mateu
     // Update is called once per frame
     void Update()
     {
-        
-
         animacao();
         mover();
 
@@ -65,14 +53,6 @@ public class botao_hero : Move_Mateu
         Vector3 scala = HeroiT.localScale;
         scala.x *= -1;
         HeroiT.localScale = scala;
-
-         //flip para jogar a pedra
-        if (!face){
-            bulletSpawn.position = new Vector3 (this.transform.position.x - 0.36f, bulletSpawn.position.y, bulletSpawn.position.z);
-        }
-        else{
-            bulletSpawn.position = new Vector3 (this.transform.position.x + 0.36f, bulletSpawn.position.y, bulletSpawn.position.z);
-        }
     }
     //ANIMAÇÃO MOVIMENTO PARA A DIREITA
     public void direita()
@@ -80,7 +60,7 @@ public class botao_hero : Move_Mateu
         vel = 3.5f;
         x = true;
         y = true;
-        //z = false;
+        z = false;
         if (!face)
         {
             Flip();
@@ -90,9 +70,9 @@ public class botao_hero : Move_Mateu
     public void esquerda()
     {
         vel = -3.5f;
-        x = true;
+        x = false;
         y = true;
-        //z = false;
+        z = false;
         if (face)
         {
             Flip();
@@ -105,17 +85,10 @@ public class botao_hero : Move_Mateu
         vel = 0;
         x = true;
         y = false;
-        //z = false;
+        z = false;
         
     }
-    //ANIMAÇÃO GOLPES
-    public void golpe()
-    {
-        x = false;
-        y = false;
-        //z = true;
-
-    }
+   
     public void mover()
     {
         transform.Translate(new Vector2(vel * Time.deltaTime, 0));
@@ -126,30 +99,9 @@ public class botao_hero : Move_Mateu
     {
         anim.SetBool("Idle", x);
         anim.SetBool("Corre", y);
-        //anim.SetBool("Golpe", z);
-        //anim.SetBool("Facao", f);
-        //anim.SetBool("Garruncha", g);
-    }
-    public void jogarPedra(){
-        if (pedra>0){
-            anim.SetBool("Idle", false);
-            anim.SetBool("Pedra", true);
-            balas = Instantiate(balas, new Vector3(BulletSpawn.transform.position.x,BulletSpawn.transform.position.y,BulletSpawn.transform.position.z),transform.rotation);
+        
+        
 
-            if(!face){
-                    balas.transform.eulerAngles = new Vector3 (0,0,180);
-                }
-            
-            pedra= pedra-1;
-            texPedra.text = pedra.ToString();    
-            print("quantidade de pedra:"+pedra);
-        }
-        else{
-            anim.SetBool("Idle", true);
-            anim.SetBool("Pedra", false);
-            print("sem pedra");
-        }
-        //print("aqui é para jogar pedra");
     }
     
     /*void OnCollisionEnter2D(Collision2D outro)
@@ -161,6 +113,5 @@ public class botao_hero : Move_Mateu
         }
         
         
-    }*/
-        
+    }*/   
 }

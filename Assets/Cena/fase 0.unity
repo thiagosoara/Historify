@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 418349}
   - component: {fileID: 418348}
   m_Layer: 5
-  m_Name: Image
+  m_Name: "bot\xE3o"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 43032426}
   - component: {fileID: 43032429}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Direita
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3795,6 +3795,7 @@ GameObject:
   - component: {fileID: 796652934}
   - component: {fileID: 796652933}
   - component: {fileID: 796652932}
+  - component: {fileID: 796652935}
   m_Layer: 5
   m_Name: Button de tiro
   m_TagString: Untagged
@@ -3902,6 +3903,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796652930}
   m_CullTransparentMesh: 0
+--- !u!114 &796652935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796652930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1760005666}
+          m_TargetAssemblyTypeName: botao_hero, Assembly-CSharp
+          m_MethodName: jogarPedra
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &833921561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,7 +4516,7 @@ GameObject:
   - component: {fileID: 999677202}
   - component: {fileID: 999677201}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Baixo
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7523,7 +7553,7 @@ GameObject:
   - component: {fileID: 1589878757}
   - component: {fileID: 1589878760}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Esquerda
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -8647,10 +8677,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bece717bc74d84f9b1e0d52d23e04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forca: 0
-  liberapulo: 1
-  HeroiRB: {fileID: 0}
-  anim: {fileID: 0}
+  forca: 7.5
+  liberapulo: 0
+  HeroiRB: {fileID: 1760005667}
+  anim: {fileID: 1760005663}
 --- !u!114 &1760005666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8663,11 +8693,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13ac107e2db5a6748b905b022333357e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  face: 1
+  HeroiT: {fileID: 1760005670}
+  vel: 0
+  forca: 1.2
+  HeroiRB: {fileID: 1760005667}
+  liberapulo: 0
+  anim: {fileID: 1760005663}
+  vivo: 1
+  vida: 100
+  BarraDeVida: {fileID: 72280784}
+  "cabe\xE7a": {fileID: 387651549}
+  BarraDeEstamina: {fileID: 1541743763}
+  "cora\xE7ao": {fileID: 595885450}
+  pedra: 0
+  texPedra: {fileID: 1410036187}
+  balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
+  BulletSpawn: {fileID: 398537261}
+  bulletSpawn: {fileID: 0}
+  objeto: {fileID: 1311918739}
+  pausa: 1
+  panel: {fileID: 695659382}
+  reniciar: 0
   vel: 0
   face: 1
   x: 1
   y: 0
-  z: 0
   f: 0
   g: 0
   HeroiT: {fileID: 0}
@@ -8768,7 +8819,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afe4cfa22e958164eb67565340054f3e, type: 3}
   m_Name: 
@@ -8788,7 +8839,7 @@ GameObject:
   - component: {fileID: 1788385166}
   - component: {fileID: 1788385169}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Cima
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

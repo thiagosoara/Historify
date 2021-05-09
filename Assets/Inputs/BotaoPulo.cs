@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BotaoPulo : MonoBehaviour
 {
-    public int forca = 0;
+    public float forca;
     public bool liberapulo = false;
     public Rigidbody2D HeroiRB;
     public Animator anim;
@@ -23,7 +23,7 @@ public class BotaoPulo : MonoBehaviour
     }
     public void pulo()
     {
-        forca = 7;
+        forca = 10f;
         acao();
     }
     public void acao()
@@ -40,7 +40,7 @@ public class BotaoPulo : MonoBehaviour
         if (outro.gameObject.CompareTag("chao"))
         {
             liberapulo = true;
-           anim.SetBool("Idle", true);
+            anim.SetBool("Idle", true);
             anim.SetBool("Pulo", false);
         }
         
@@ -50,7 +50,7 @@ public class BotaoPulo : MonoBehaviour
         if (outro.gameObject.CompareTag("chao"))
         {
             liberapulo = false;
-            anim.SetBool("Idle", false);
+            anim.SetBool("Idle", true);
             anim.SetBool("Pulo", true);
 
         }
