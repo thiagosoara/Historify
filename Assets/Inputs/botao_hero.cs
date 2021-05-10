@@ -23,6 +23,10 @@ public class botao_hero : Move_Mateu
     // g =garruncha
     public bool g = false;
 
+    //p = atira pedra 
+    public bool p = false;
+
+
     public Transform HeroiT;
     public Animator anim;
     public Rigidbody2D HeroiRB;
@@ -57,6 +61,7 @@ public class botao_hero : Move_Mateu
         {
             f = false;
             g = false;
+            p = false;
         }
     }
     void Flip()
@@ -126,14 +131,17 @@ public class botao_hero : Move_Mateu
     {
         anim.SetBool("Idle", x);
         anim.SetBool("Corre", y);
+        anim.SetBool("Pedra", p);
         //anim.SetBool("Golpe", z);
         //anim.SetBool("Facao", f);
         //anim.SetBool("Garruncha", g);
     }
     public void jogarPedra(){
         if (pedra>0){
-            anim.SetBool("Idle", false);
-            anim.SetBool("Pedra", true);
+            //anim.SetBool("Idle", false);
+            //anim.SetBool("Pedra", true);
+            x= true;
+            p= true;
             balas = Instantiate(balas, new Vector3(BulletSpawn.transform.position.x,BulletSpawn.transform.position.y,BulletSpawn.transform.position.z),transform.rotation);
 
             if(!face){
@@ -145,11 +153,13 @@ public class botao_hero : Move_Mateu
             print("quantidade de pedra:"+pedra);
         }
         else{
-            anim.SetBool("Idle", true);
-            anim.SetBool("Pedra", false);
+            x = true;
+            p = false;
+            //anim.SetBool("Idle", true);
+            //anim.SetBool("Pedra", false);
             print("sem pedra");
         }
-        //print("aqui é para jogar pedra");
+      
     }
     
     /*void OnCollisionEnter2D(Collision2D outro)
