@@ -169,9 +169,14 @@ public class botao_hero : Move_Mateu
     }
     // ANIMAÇÃO DE PULO
     public void Pulo(){
+        if (liberapulo==true){
         forca = 10f;
         HeroiRB.AddForce(new Vector2(0, forca), ForceMode2D.Impulse);
         pl = true;
+        }
+        if(liberapulo==false){
+            pl=false;
+        }
         //print ("pular");
     }
     
