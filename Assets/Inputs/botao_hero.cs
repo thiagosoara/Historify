@@ -26,6 +26,9 @@ public class botao_hero : Move_Mateu
     //p = atira pedra 
     public bool p = false;
 
+    //pl= pulo
+    public bool pl = false;
+
 
     public Transform HeroiT;
     public Animator anim;
@@ -62,6 +65,7 @@ public class botao_hero : Move_Mateu
             f = false;
             g = false;
             p = false;
+            pl = false;
         }
     }
     void Flip()
@@ -132,10 +136,12 @@ public class botao_hero : Move_Mateu
         anim.SetBool("Idle", x);
         anim.SetBool("Corre", y);
         anim.SetBool("Pedra", p);
+        anim.SetBool("Pulo", pl);
         //anim.SetBool("Golpe", z);
         //anim.SetBool("Facao", f);
         //anim.SetBool("Garruncha", g);
     }
+    // ANIMAÇÃO DE MATEU JOGANDO PEDRA
     public void jogarPedra(){
         if (pedra>0){
             //anim.SetBool("Idle", false);
@@ -150,16 +156,23 @@ public class botao_hero : Move_Mateu
             
             pedra= pedra-1;
             texPedra.text = pedra.ToString();    
-            print("quantidade de pedra:"+pedra);
+            
         }
         else{
             x = true;
             p = false;
             //anim.SetBool("Idle", true);
             //anim.SetBool("Pedra", false);
-            print("sem pedra");
+            
         }
       
+    }
+    // ANIMAÇÃO DE PULO
+    public void Pulo(){
+        forca = 10f;
+        HeroiRB.AddForce(new Vector2(0, forca), ForceMode2D.Impulse);
+        pl = true;
+        //print ("pular");
     }
     
     /*void OnCollisionEnter2D(Collision2D outro)
