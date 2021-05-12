@@ -179,7 +179,14 @@ public class botao_hero : Move_Mateu
         }
         //print ("pular");
     }
-    
+    //ANIMAÇÃO DE LEVANTAR 
+    public void levantar(){
+        print("O personagem deve se levantar");
+    }
+    //ANIMAÇÃO PARA SE ABAIXA
+    public void abaixa(){
+        print("O personagem deve se abaixa-se");
+    }
     /*void OnCollisionEnter2D(Collision2D outro)
     {
         if ((z == true) && (outro.gameObject.CompareTag("inimigo")))
