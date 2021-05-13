@@ -1605,7 +1605,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pedra
-  m_Speed: 0.006
+  m_Speed: 0.06
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 2970787971029629530}
