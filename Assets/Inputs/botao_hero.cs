@@ -29,6 +29,17 @@ public class botao_hero : Move_Mateu
     //pl= pulo
     public bool pl = false;
 
+    // b= baixando
+    public bool b = false;
+
+    // a = andando agachando
+    public bool a = false;
+
+    //l= levantado
+
+    //levantado
+    public bool levantado = true;
+
 
     public Transform HeroiT;
     public Animator anim;
@@ -66,6 +77,10 @@ public class botao_hero : Move_Mateu
             g = false;
             p = false;
             pl = false;
+            b = false;
+            a = false;
+
+
         }
     }
     void Flip()
@@ -86,10 +101,21 @@ public class botao_hero : Move_Mateu
     //ANIMAÇÃO MOVIMENTO PARA A DIREITA
     public void direita()
     {
-        vel = 3.5f;
-        x = true;
-        y = true;
+        if (levantado==true){
+            vel = 3.5f;
+            x = true;
+            y = true;
+        }
+        
         //z = false;
+
+        else if(levantado ==false){
+            vel = 2.0f;
+            x=true;
+            a=true; 
+            print("animação dele andando agachando");
+        }
+
         if (!face)
         {
             Flip();
@@ -137,6 +163,8 @@ public class botao_hero : Move_Mateu
         anim.SetBool("Corre", y);
         anim.SetBool("Pedra", p);
         anim.SetBool("Pulo", pl);
+        anim.SetBool("agachando",b);
+        anim.SetBool("andaAgachando",a);
         //anim.SetBool("Golpe", z);
         //anim.SetBool("Facao", f);
         //anim.SetBool("Garruncha", g);
@@ -181,11 +209,27 @@ public class botao_hero : Move_Mateu
     }
     //ANIMAÇÃO DE LEVANTAR 
     public void levantar(){
-        print("O personagem deve se levantar");
+        if (levantado == false){
+            levantado = true;
+            x = true;
+            b = false;
+        }
+        
+        //print("O personagem deve se levantar");
     }
     //ANIMAÇÃO PARA SE ABAIXA
     public void abaixa(){
-        print("O personagem deve se abaixa-se");
+        if (levantado == true){
+            x=true;
+            b=true;
+            levantado = false;
+        }
+        
+        
+        
+
+
+        //print("O personagem deve se abaixa-se");
     }
     /*void OnCollisionEnter2D(Collision2D outro)
     {
