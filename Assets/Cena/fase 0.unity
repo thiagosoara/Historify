@@ -4826,7 +4826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019709858}
   m_LocalRotation: {x: -0, y: -0, z: -0.10450708, w: 0.9945242}
-  m_LocalPosition: {x: -11.042893, y: 2.9636712, z: 0}
+  m_LocalPosition: {x: -11.077, y: 2.707, z: 0}
   m_LocalScale: {x: -1.0016074, y: 1.057277, z: 1}
   m_Children: []
   m_Father: {fileID: 1265675398}
@@ -6106,6 +6106,7 @@ GameObject:
   - component: {fileID: 1268441435}
   - component: {fileID: 1268441434}
   - component: {fileID: 1268441432}
+  - component: {fileID: 1268441433}
   m_Layer: 13
   m_Name: 'Capataz '
   m_TagString: Enemy
@@ -6234,6 +6235,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.32
+--- !u!114 &1268441433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268441427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9999e144131e30146bc2871c8d5d253b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1268441434
 MonoBehaviour:
   m_ObjectHideFlags: 0
