@@ -78,7 +78,7 @@ public class botao_hero : Move_Mateu
             p = false;
             pl = false;
             b = false;
-            a = false;
+            
 
 
         }
@@ -105,16 +105,17 @@ public class botao_hero : Move_Mateu
             vel = 3.5f;
             x = true;
             y = true;
+            b= false; 
         }
-        
-        //z = false;
 
-        else if(levantado ==false){
+        if (levantado==false){
             vel = 2.0f;
-            x=true;
-            a=true; 
-            print("animação dele andando agachando");
+            x = true;
+            b = true;
+            y= false;
         }
+       
+        //z = false;
 
         if (!face)
         {
@@ -124,9 +125,19 @@ public class botao_hero : Move_Mateu
     //ANIMAÇÃO MOVIMENTO PARA A ESQUERDA
     public void esquerda()
     {
+        if (levantado==true){
         vel = -3.5f;
         x = true;
         y = true;
+        }
+
+        if (levantado==false){
+            vel = -2.0f;
+            x = true;
+            b = true;
+            y= false;
+        }
+
         //z = false;
         if (face)
         {
@@ -164,7 +175,7 @@ public class botao_hero : Move_Mateu
         anim.SetBool("Pedra", p);
         anim.SetBool("Pulo", pl);
         anim.SetBool("agachando",b);
-        anim.SetBool("andaAgachando",a);
+        //anim.SetBool("andaAgachando",a);
         //anim.SetBool("Golpe", z);
         //anim.SetBool("Facao", f);
         //anim.SetBool("Garruncha", g);
@@ -209,22 +220,24 @@ public class botao_hero : Move_Mateu
     }
     //ANIMAÇÃO DE LEVANTAR 
     public void levantar(){
-        if (levantado == false){
-            levantado = true;
+        levantado = true;
+
+            vel = 0;
             x = true;
+            y = false;   
             b = false;
-        }
         
         //print("O personagem deve se levantar");
     }
     //ANIMAÇÃO PARA SE ABAIXA
     public void abaixa(){
         if (levantado == true){
-            x=true;
             b=true;
-            levantado = false;
+
         }
-        
+        levantado = false;
+
+       
         
         
 
