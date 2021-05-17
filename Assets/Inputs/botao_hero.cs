@@ -36,6 +36,8 @@ public class botao_hero : Move_Mateu
     public bool a = false;
 
     //l= levantado
+    public bool l = false;
+
 
     //levantado
     public bool levantado = true;
@@ -78,6 +80,8 @@ public class botao_hero : Move_Mateu
             p = false;
             pl = false;
             b = false;
+            l= false;
+            
             
 
 
@@ -175,6 +179,7 @@ public class botao_hero : Move_Mateu
         anim.SetBool("Pedra", p);
         anim.SetBool("Pulo", pl);
         anim.SetBool("agachando",b);
+        anim.SetBool("Levantar",l);
         //anim.SetBool("andaAgachando",a);
         //anim.SetBool("Golpe", z);
         //anim.SetBool("Facao", f);
@@ -224,6 +229,7 @@ public class botao_hero : Move_Mateu
 
             vel = 0;
             x = true;
+            l= true;
             y = false;   
             b = false;
         
