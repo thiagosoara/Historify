@@ -14,6 +14,7 @@ TagManager:
   - Limbo
   - imagem1
   - alerta
+  - Water
   layers:
   - Default
   - TransparentFX
