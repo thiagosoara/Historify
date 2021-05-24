@@ -6229,7 +6229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268441427}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.78, y: -1.94, z: 24.161074}
+  m_LocalPosition: {x: -10.55, y: -1.61, z: 24.161074}
   m_LocalScale: {x: -0.7128568, y: 0.7036543, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
@@ -6263,6 +6263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9999e144131e30146bc2871c8d5d253b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  graveto: {fileID: 0}
 --- !u!114 &1268441434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6285,6 +6286,8 @@ MonoBehaviour:
   vulneravel: 0
   objeto: {fileID: 1311918739}
   pause: 1
+  graveto: {fileID: 1884460321}
+  seguindo: 0
 --- !u!70 &1268441435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9957,7 +9960,8 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.05000153, y: -0.17413816}
-  - {x: 2.4139824, y: 1.61312}
+  - {x: 1.587008, y: 1.3493816}
+  - {x: 2.520932, y: 2.2185583}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -9974,6 +9978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9999e144131e30146bc2871c8d5d253b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  graveto: {fileID: 1884460321}
 --- !u!1 &1888405013
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,6 +28,10 @@ public class sequirHeroi : MonoBehaviour
     //inicio
     public GameObject objeto;
     public bool pause = true;
+    
+    public GameObject graveto;
+    public bool seguindo = false;
+
 
     
     
@@ -41,6 +45,8 @@ public class sequirHeroi : MonoBehaviour
 
     void Update()
     {
+          
+        
         //libera a contagem para o vilão começa a seguir o heroi depois da historia
         if(objeto.activeInHierarchy == true){
             pause=true;
@@ -51,15 +57,15 @@ public class sequirHeroi : MonoBehaviour
             pause=false;
             //print("objeto desativado");
         }
+        if (graveto.activeInHierarchy == false){
+            seguindo=true;
+            }
         // vilão seguir heroi depois que a contagem acaba
         if (pause==false){
-         if(contagem > 0.0f)
-        {
-            contagem -= Time.deltaTime;
-            
-        }
-        else
-        {
+
+            if (seguindo==true){
+                print("aiaiaiaiaiaiaiaiiaiaiaiiai");
+         
             // vilão seguir Player 
             if(vilaoVivo==true){
                 if (Vector2.Distance(transform.position, Target.position) > distancia){

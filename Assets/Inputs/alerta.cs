@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class alerta : MonoBehaviour
 {
-    private bool liberaPer;
+     public GameObject graveto;
 
 
 
@@ -18,14 +18,17 @@ public class alerta : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      
     }
-    void OnTriggerEnter2D (Collider2D alerta){
-        if (alerta.gameObject.CompareTag("Player"))
-             liberaPer = true;
-
+    void OnTriggerEnter2D(Collider2D outro){
+        if (graveto.activeInHierarchy == true){
+            if (outro.gameObject.CompareTag("Player")){
+                //GetComponent<SpriteRenderer>().enabled = false;
+                gameObject.SetActive(false);
+                //print("graveto");
+            }
+        }
     }
-
 
 }
 
