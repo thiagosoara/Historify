@@ -5855,7 +5855,7 @@ GameObject:
   - component: {fileID: 1128683966}
   - component: {fileID: 1128683965}
   m_Layer: 5
-  m_Name: Estamina
+  m_Name: BarraDeStamina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8557,7 +8557,7 @@ GameObject:
   - component: {fileID: 1541743764}
   - component: {fileID: 1541743763}
   m_Layer: 5
-  m_Name: BarraDeEstamina
+  m_Name: BarraDeEXP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
