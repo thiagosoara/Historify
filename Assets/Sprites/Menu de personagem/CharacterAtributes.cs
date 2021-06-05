@@ -20,11 +20,13 @@ public class CharacterAtributes : MonoBehaviour
 
    public int maxStamina;
 
-   [Header("Status")]
+   [Header("Attributes")]
 
    public int forca = 1;
    public int resistencia = 1;
    public int dano = 1;
    public int defesa = 1;
    public float velocidade = 2f;
+
+   
 }
