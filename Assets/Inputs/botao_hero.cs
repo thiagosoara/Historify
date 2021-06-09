@@ -79,8 +79,9 @@ public class botao_hero : Move_Mateu
             g = false;
             p = false;
             pl = false;
-            b = false;
+            a = false;
             l= false;
+            b= false;
             
             
 
@@ -109,13 +110,13 @@ public class botao_hero : Move_Mateu
             vel = 3.5f;
             x = true;
             y = true;
-            b= false; 
+            a= false; 
         }
 
         if (vivo==true && levantado==false){
             vel = 2.0f;
             x = true;
-            b = true;
+            a = true;
             y= false;
         }
        
@@ -138,7 +139,7 @@ public class botao_hero : Move_Mateu
         if (vivo==true && levantado==false){
             vel = -2.0f;
             x = true;
-            b = true;
+            a = true;
             y= false;
         }
 
@@ -178,8 +179,9 @@ public class botao_hero : Move_Mateu
         anim.SetBool("Corre", y);
         anim.SetBool("Pedra", p);
         anim.SetBool("Pulo", pl);
-        anim.SetBool("agachando",b);
+        anim.SetBool("agachando",a);
         anim.SetBool("Levantar",l);
+        anim.SetBool("agachado",b);
         //anim.SetBool("andaAgachando",a);
         //anim.SetBool("Golpe", z);
         //anim.SetBool("Facao", f);
@@ -232,7 +234,7 @@ public class botao_hero : Move_Mateu
                 x = true;
                 l= true;
                 y = false;   
-                b = false;
+                a = false;
         }
         
         //print("O personagem deve se levantar");
