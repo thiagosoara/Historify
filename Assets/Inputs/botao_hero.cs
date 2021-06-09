@@ -59,7 +59,7 @@ public class botao_hero : Move_Mateu
     void Update()
     {
         
-
+        //print("vida de mateu"+vivo);
         animacao();
         mover();
 
@@ -105,14 +105,14 @@ public class botao_hero : Move_Mateu
     //ANIMAÇÃO MOVIMENTO PARA A DIREITA
     public void direita()
     {
-        if (levantado==true){
+        if (vivo==true && levantado==true){
             vel = 3.5f;
             x = true;
             y = true;
             b= false; 
         }
 
-        if (levantado==false){
+        if (vivo==true && levantado==false){
             vel = 2.0f;
             x = true;
             b = true;
@@ -121,7 +121,7 @@ public class botao_hero : Move_Mateu
        
         //z = false;
 
-        if (!face)
+        if (vivo==true && !face)
         {
             Flip();
         }
@@ -129,13 +129,13 @@ public class botao_hero : Move_Mateu
     //ANIMAÇÃO MOVIMENTO PARA A ESQUERDA
     public void esquerda()
     {
-        if (levantado==true){
+        if (vivo==true && levantado==true){
         vel = -3.5f;
         x = true;
         y = true;
         }
 
-        if (levantado==false){
+        if (vivo==true && levantado==false){
             vel = -2.0f;
             x = true;
             b = true;
@@ -143,7 +143,7 @@ public class botao_hero : Move_Mateu
         }
 
         //z = false;
-        if (face)
+        if (vivo==true && face)
         {
             Flip();
         }
@@ -187,7 +187,7 @@ public class botao_hero : Move_Mateu
     }
     // ANIMAÇÃO DE MATEU JOGANDO PEDRA
     public void jogarPedra(){
-        if (pedra>0){
+        if (vivo==true && pedra>0){
             //anim.SetBool("Idle", false);
             //anim.SetBool("Pedra", true);
             x= true;
@@ -213,31 +213,33 @@ public class botao_hero : Move_Mateu
     }
     // ANIMAÇÃO DE PULO
     public void Pulo(){
-        if (liberapulo==true){
+        if (vivo==true && liberapulo==true){
         forca = 10f;
         HeroiRB.AddForce(new Vector2(0, forca), ForceMode2D.Impulse);
         pl = true;
         }
-        if(liberapulo==false){
+        if(vivo==true && liberapulo==false){
             pl=false;
         }
         //print ("pular");
     }
     //ANIMAÇÃO DE LEVANTAR 
     public void levantar(){
-        levantado = true;
+        if (vivo==true){
+            levantado = true;
 
-            vel = 0;
-            x = true;
-            l= true;
-            y = false;   
-            b = false;
+                vel = 0;
+                x = true;
+                l= true;
+                y = false;   
+                b = false;
+        }
         
         //print("O personagem deve se levantar");
     }
     //ANIMAÇÃO PARA SE ABAIXA
     public void abaixa(){
-        if (levantado == true){
+        if (vivo==true && levantado == true){
             b=true;
 
         }
