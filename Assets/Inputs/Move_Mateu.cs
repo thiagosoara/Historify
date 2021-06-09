@@ -21,6 +21,7 @@ public class Move_Mateu : MonoBehaviour
     public Image cabeça;
     public Image BarraDeEstamina;
     public Image coraçao;
+    public Image stamina; 
 
 
     //coleta itens
@@ -246,6 +247,7 @@ public class Move_Mateu : MonoBehaviour
                     cabeça.fillAmount= 0;
                     BarraDeEstamina.fillAmount= 0;
                     coraçao.fillAmount=0;
+                    stamina.fillAmount=0; 
                 }
                 print("morreu");
                 }

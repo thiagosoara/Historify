@@ -9959,6 +9959,7 @@ MonoBehaviour:
   "cabe\xE7a": {fileID: 387651549}
   BarraDeEstamina: {fileID: 1541743763}
   "cora\xE7ao": {fileID: 595885450}
+  stamina: {fileID: 0}
   pedra: 0
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
@@ -10009,6 +10010,7 @@ MonoBehaviour:
   "cabe\xE7a": {fileID: 387651549}
   BarraDeEstamina: {fileID: 1541743763}
   "cora\xE7ao": {fileID: 595885450}
+  stamina: {fileID: 1128683965}
   pedra: 0
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
