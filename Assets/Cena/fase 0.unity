@@ -803,9 +803,10 @@ GameObject:
   - component: {fileID: 168258759}
   - component: {fileID: 168258758}
   - component: {fileID: 168258757}
-  m_Layer: 13
+  - component: {fileID: 168258764}
+  m_Layer: 0
   m_Name: 'Capataz '
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -818,7 +819,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168258755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.22, y: -1.54, z: 24.161074}
+  m_LocalPosition: {x: 40.28, y: -1.59, z: 24.161074}
   m_LocalScale: {x: 0.71286, y: 0.70365006, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
@@ -831,7 +832,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168258755}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9999e144131e30146bc2871c8d5d253b, type: 3}
   m_Name: 
@@ -852,7 +853,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.32
+  m_Radius: 20
 --- !u!114 &168258759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,7 +861,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168258755}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6507f263f5d518b4b8293c02aa9fef6a, type: 3}
   m_Name: 
@@ -984,6 +985,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &168258764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168258755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce8cb1c718d9e44b8592b93b2677f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vel: 3
+  liberaPer: 0
+  distancia: 0
+  Hero: {fileID: 1760005670}
+  face: 1
 --- !u!1 &169967115
 GameObject:
   m_ObjectHideFlags: 0
@@ -7097,6 +7115,42 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3507517075712864443, guid: ad047a7c3408a9842a80292179df61ce, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ad047a7c3408a9842a80292179df61ce, type: 3}
+--- !u!1 &1298367002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1298367003}
+  m_Layer: 5
+  m_Name: Reniciar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1298367003
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298367002}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.27833334, y: 0.27833334, z: 0.27833334}
+  m_Children:
+  - {fileID: 1311918749}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1379.6407, y: 600}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1311918739
 GameObject:
   m_ObjectHideFlags: 0
@@ -7384,8 +7438,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 695659387}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1298367003}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9967,7 +10021,7 @@ MonoBehaviour:
   bulletSpawn: {fileID: 0}
   objeto: {fileID: 1311918739}
   pausa: 1
-  panel: {fileID: 695659382}
+  panel: {fileID: 1298367002}
   reniciar: 0
 --- !u!114 &1760005665
 MonoBehaviour:
@@ -11828,7 +11882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 62.734177
-    width: 79.310326
+    width: 81.34327
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11859,11 +11913,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 142.78622, y: -2.3542726}
+  scrollPos: {x: 111.789406, y: -5.5536857}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 264
-  zoom: 0.5800004
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343

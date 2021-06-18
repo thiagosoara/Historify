@@ -64,6 +64,7 @@ public class Move_Mateu : MonoBehaviour
     {
         print("reniciar"+reniciar);
         if (reniciar >=1){
+            print ("reniciar ok ");
             panel.SetActive(false);
         }
         if(objeto.activeInHierarchy == true){
