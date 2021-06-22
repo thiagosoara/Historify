@@ -800,9 +800,7 @@ GameObject:
   - component: {fileID: 168258762}
   - component: {fileID: 168258761}
   - component: {fileID: 168258760}
-  - component: {fileID: 168258759}
   - component: {fileID: 168258758}
-  - component: {fileID: 168258757}
   - component: {fileID: 168258764}
   m_Layer: 0
   m_Name: 'Capataz '
@@ -820,24 +818,11 @@ Transform:
   m_GameObject: {fileID: 168258755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 40.28, y: -1.59, z: 24.161074}
-  m_LocalScale: {x: 0.71286, y: 0.70365006, z: 1}
+  m_LocalScale: {x: -0.71286, y: 0.70365006, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &168258757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168258755}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9999e144131e30146bc2871c8d5d253b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  graveto: {fileID: 0}
 --- !u!58 &168258758
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -854,30 +839,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 20
---- !u!114 &168258759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168258755}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6507f263f5d518b4b8293c02aa9fef6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vidaVilao1: 100
-  Speed: 3.5
-  distancia: 1.5
-  anim: {fileID: 168258762}
-  vilaoVivo: 1
-  contagem: 30
-  tempoDano: 0.1
-  vulneravel: 0
-  objeto: {fileID: 1311918739}
-  pause: 1
-  graveto: {fileID: 1884460321}
-  seguindo: 0
 --- !u!70 &168258760
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1002,6 +963,7 @@ MonoBehaviour:
   distancia: 0
   Hero: {fileID: 1760005670}
   face: 1
+  capataz: {fileID: 168258756}
 --- !u!1 &169967115
 GameObject:
   m_ObjectHideFlags: 0
@@ -11882,7 +11844,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 62.734177
-    width: 81.34327
+    width: 77.868835
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11913,11 +11875,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 111.789406, y: -5.5536857}
+  scrollPos: {x: 139.99005, y: -6.434526}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 264
-  zoom: 0.6700003
+  zoom: 0.6100004
   scrollViewRect:
     serializedVersion: 2
     x: -343

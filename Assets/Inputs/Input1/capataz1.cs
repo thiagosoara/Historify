@@ -8,7 +8,8 @@ public class capataz1 : MonoBehaviour
     public bool liberaPer = false;
     public float distancia;
     public Transform Hero;
-    public bool face = true; 
+    public bool face = true;
+    public Transform capataz; 
 
     // Start is called before the first frame update
     void Start()
@@ -46,8 +47,11 @@ public class capataz1 : MonoBehaviour
     }
     void flip(){
         face = !face;
-        Vector3  scala = this.transform.localScale;
-        this.transform.localScale = scala;
+        //Vector3  scala = this.transform.localScale;
+        //this.transform.localScale = scala;
+        Vector3 scala = capataz.localScale;
+        scala.x *= -1;
+        capataz.localScale = scala;
 
     }
     void OnTriggerEnter2D (Collider2D outro)
