@@ -156,9 +156,16 @@ public class botao_hero : Move_Mateu
         vel = 0;
         x = true;
         y = false;
+        if(levantado==false){
+            vel = 0;
+            x=false;
+            a=false;
+            b=true;
+        }
         //z = false;
         
     }
+    public void paradoAgachado(){}
     //ANIMAÇÃO GOLPES
     public void golpe()
     {

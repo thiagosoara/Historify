@@ -64,7 +64,7 @@ public class sequirHeroi : MonoBehaviour
         if (pause==false){
 
             if (seguindo==true){
-                print("aiaiaiaiaiaiaiaiiaiaiaiiai");
+                
          
             // vilão seguir Player 
             if(vilaoVivo==true){

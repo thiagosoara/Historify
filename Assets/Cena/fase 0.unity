@@ -964,6 +964,7 @@ MonoBehaviour:
   Hero: {fileID: 1760005670}
   face: 1
   capataz: {fileID: 168258756}
+  capatazAnimacao: {fileID: 168258762}
 --- !u!1 &169967115
 GameObject:
   m_ObjectHideFlags: 0
