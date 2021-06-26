@@ -10,13 +10,14 @@ public class capataz1 : MonoBehaviour
     public Transform Hero;
     public bool face = true;
     public Transform capataz;
-    public Animator capatazAnimacao;
+    public Animator anim;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        capatazAnimacao = GetComponent<Animator>();
+        anim= GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -38,20 +39,20 @@ public class capataz1 : MonoBehaviour
             if (Hero.transform.position.x < this.transform.position.x)
             {
                 transform.Translate (new Vector2 (-vel *  Time.deltaTime, 0));
-                capatazAnimacao.SetBool ("Correndo", true);
-                capatazAnimacao.SetBool ("Idle",false);
+                anim.SetBool("Idle", false);
+                anim.SetBool("Correndo", true);
                 
             }
             else if (Hero.transform.position.x > this.transform.position.x){
                 transform.Translate(new Vector2 (vel * Time.deltaTime, 0));
-                capatazAnimacao.SetBool ("Correndo", true);
-                capatazAnimacao.SetBool ("Idle",false);
+                anim.SetBool("Idle", false);
+                anim.SetBool("Correndo", true);
             
             }
             else
             {
-                capatazAnimacao.SetBool ("Correndo", false);
-                capatazAnimacao.SetBool ("Idle",true);
+                anim.SetBool("Idle", true);
+                anim.SetBool("Correndo", false);
             }
             
         }

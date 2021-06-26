@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 168258764}
   m_Layer: 0
   m_Name: 'Capataz '
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -964,7 +964,7 @@ MonoBehaviour:
   Hero: {fileID: 1760005670}
   face: 1
   capataz: {fileID: 168258756}
-  capatazAnimacao: {fileID: 168258762}
+  anim: {fileID: 0}
 --- !u!1 &169967115
 GameObject:
   m_ObjectHideFlags: 0

@@ -187,6 +187,15 @@ public class Move_Mateu : MonoBehaviour
             anim.SetBool("Idle", true);
             anim.SetBool("Pulo", false);
         }
+        if (outro.gameObject.CompareTag("inimigo")){
+             if (vida>0){
+                DamagePlayer();
+                vida = vida-40;
+                BarraDeVida.fillAmount= (float) vida/100;
+                print(vida);
+
+            }
+        }
     }
     void OnCollisionExit2D(Collision2D outro)
     {
@@ -215,7 +224,6 @@ public class Move_Mateu : MonoBehaviour
         StartCoroutine ( Damage());
     }
 
-    // Mateu morto
     
     //coleta itens
     void OnTriggerEnter2D(Collider2D outro){
