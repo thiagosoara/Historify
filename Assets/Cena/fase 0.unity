@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 168258758}
   - component: {fileID: 168258764}
   m_Layer: 0
-  m_Name: 'Capataz '
+  m_Name: "M\xE3o vazia"
   m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
