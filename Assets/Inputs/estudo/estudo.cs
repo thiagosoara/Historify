@@ -7,7 +7,7 @@ public class estudo : MonoBehaviour
 {
     // Start is called before the first frame update
     int carteira;
-    float carteira2 = 10.5f;
+    float Carteira2 = 10.5f;
     bool teste = false;
     void Start()
     {

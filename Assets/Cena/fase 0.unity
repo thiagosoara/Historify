@@ -7302,7 +7302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9999e144131e30146bc2871c8d5d253b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  graveto: {fileID: 0}
+  graveto: {fileID: 1884460321}
 --- !u!114 &1268441434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10458,8 +10458,8 @@ MonoBehaviour:
   pausa: 1
   panel: {fileID: 695659382}
   reniciar: 0
-  vel: 0
-  face: 1
+  Vel: 0
+  Face: 1
   x: 1
   y: 0
   f: 0
@@ -10470,9 +10470,9 @@ MonoBehaviour:
   a: 0
   l: 0
   levantado: 1
-  HeroiT: {fileID: 0}
-  anim: {fileID: 1760005663}
-  HeroiRB: {fileID: 1760005667}
+  Heroit: {fileID: 0}
+  Anim: {fileID: 0}
+  Heroirb: {fileID: 0}
 --- !u!50 &1760005667
 Rigidbody2D:
   serializedVersion: 4
@@ -11483,7 +11483,7 @@ GameObject:
   - component: {fileID: 1884460322}
   - component: {fileID: 1884460324}
   - component: {fileID: 1884460325}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: graveto
   m_TagString: alerta
   m_Icon: {fileID: 0}

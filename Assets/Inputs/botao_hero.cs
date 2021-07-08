@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class botao_hero : Move_Mateu
 {
     [SerializeField]
-    private float vel = 0;
-    public bool face = true;
+    private float Vel = 0;
+    public bool Face = true;
     //x = idle
     public bool x = true;
 
@@ -43,9 +43,9 @@ public class botao_hero : Move_Mateu
     public bool levantado = true;
 
 
-    public Transform HeroiT;
-    public Animator anim;
-    public Rigidbody2D HeroiRB;
+    public Transform Heroit;
+    public Animator Anim;
+    public Rigidbody2D Heroirb;
     // Start is called before the first frame update
     void Start()
     {
