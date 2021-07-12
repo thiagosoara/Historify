@@ -20,7 +20,7 @@ public class alerta : MonoBehaviour
     {
       
     }
-    void OnTriggerEnter2D(Collider2D outro){
+    private void OnTriggerEnter2D(Collider2D outro){
         if (graveto.activeInHierarchy == true){
             if (outro.gameObject.CompareTag("Player")){
                 //GetComponent<SpriteRenderer>().enabled = false;
