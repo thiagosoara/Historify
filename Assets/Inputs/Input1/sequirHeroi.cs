@@ -57,7 +57,7 @@ public class sequirHeroi : MonoBehaviour
             pause=false;
             //print("objeto desativado");
         }
-        if (graveto.activeInHierarchy == false){
+        if (graveto.activeInHierarchy == true){
             seguindo=true;
             }
         // vilão seguir heroi depois que a contagem acaba
