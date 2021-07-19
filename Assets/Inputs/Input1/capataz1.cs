@@ -24,6 +24,15 @@ public class capataz1 : MonoBehaviour
     void Update()
     {
         distancia = Vector2.Distance (this.transform.position, Hero.transform.position);
+        if(distancia==distancia){
+            anim.SetBool("Idle", false);
+            anim.SetBool("Chicote", true);
+            print("ok");
+        }
+        else{
+            anim.SetBool("Idle", true);
+            anim.SetBool("Chicote", false);
+        }
 
         if((Hero.transform.position.x > this.transform.position.x) && !face)
         {

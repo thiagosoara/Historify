@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class sequirHeroi : MonoBehaviour
+public class capataz : MonoBehaviour
 {
-    public int vidaVilao1 = 100;
+public int vidaVilao1 = 100;
     public float Speed;
     private Transform Target;
     public float distancia;
@@ -37,6 +37,8 @@ public class sequirHeroi : MonoBehaviour
     public bool face = true;
     public Transform Hero;
 
+    
+
 
     
     
@@ -66,6 +68,7 @@ public class sequirHeroi : MonoBehaviour
             seguindo=true;
             }
 
+
         //flip do capataz
         if((Hero.transform.position.x > this.transform.position.x) && !face)
         {
@@ -75,6 +78,7 @@ public class sequirHeroi : MonoBehaviour
         {
             flip();
         }
+
         // vilão seguir heroi depois que a contagem acaba
         if (pause==false){
 
@@ -111,14 +115,6 @@ public class sequirHeroi : MonoBehaviour
 
       
     }
-
-    /*void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            other.gameObject.GetComponent<PlayerLife>().perdeVida();
-        }
-    }*/
     void flip(){
         face = !face;
         //Vector3  scala = this.transform.localScale;
@@ -129,12 +125,17 @@ public class sequirHeroi : MonoBehaviour
 
     }
 
+ 
     public void DamageEnemy(int damagePedra){
         vidaVilao1 -= damagePedra;
         StartCoroutine (Damage());
         if (vidaVilao1>1){
-            print("dano");
+            vidaVilao1 = vidaVilao1-20;
+            print("vida capataz 2 "+ vidaVilao1);
             }
+        if(vidaVilao1<1){
+            gameObject.SetActive(false);
+        }
         
     }
 
@@ -157,65 +158,8 @@ public class sequirHeroi : MonoBehaviour
         vilaoVivo = true;
 
     }
+    
 
-    //void OnTriggerEnter2D(Collider2D outro){
-      //  if (outro.gameObject.CompareTag("pedraCriada")){
-        //    StartCoroutine (Damage());
-          /*for (float i=0f; i < 1f; i +=0.1f){
-              //anim.SetBool("Idle", true);
-              //anim.SetBool("Correndo", false);
-              vilaoVivo = false;
-              new WaitForSeconds (0.1f);
-              gameObject.SetActive(false);
-              new WaitForSeconds (0.1f);
-              gameObject.SetActive(true);
-              print("i"+i);
-                
-
-          }*/
-        //  }
-          //print ("seguindo novamente");
-          //vilaoVivo = true;
-          //Update();
-
-            /*if(vidaVilao1 >=1)
-            {
-                for (float i=0f; i < 1f; i +=0.1f){
-                    anim.SetBool("Idle", true);
-                    anim.SetBool("Correndo", false);
-                    vidaVilao1 = vidaVilao1 -10;
-                    vilaoVivo=false;
-                    vulneravel= true;
-                    StartCoroutine ( Damage());
-                    print("vilão " + vidaVilao1);
-                }
-
-
-            if (vulneravel== true){
-                vilaoVivo = true;
-                Update();
-                print ("seguir novamente vilão");
-            }
-                    //vilaoVivo = true;
-                     //Update();
-                    //anim.SetBool("Idle", false);
-                    //anim.SetBool("Correndo", true);
-                   // print ("seguir novamente vilão");
-
-            }*/
-
-            //else{
-                //animação de morrente por pedra 
-                //vilaoVivo=false;
-               // anim.SetBool("Idle", false);
-               // anim.SetBool("Correndo", true);
-               // print ("Vilão Morreu");
-          //  }
-
-
-           //pedra++;
-           //texPedra.text = pedra.ToString();
-           //Destroy(outro.gameObject); 
-        
-//        }
+  
 }
+

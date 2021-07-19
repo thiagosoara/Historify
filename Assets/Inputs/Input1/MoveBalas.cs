@@ -31,6 +31,13 @@ public class MoveBalas : MonoBehaviour
             }
 
         }
+         if (outro.gameObject.CompareTag("Enemy")){
+            capataz enemy = outro.GetComponent<capataz>();
+            if (enemy !=null){
+                enemy.DamageEnemy (damage);
+            }
+
+        }
 
     }
 }

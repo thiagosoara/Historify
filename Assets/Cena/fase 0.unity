@@ -802,9 +802,10 @@ GameObject:
   - component: {fileID: 168258760}
   - component: {fileID: 168258758}
   - component: {fileID: 168258764}
-  m_Layer: 0
+  - component: {fileID: 168258757}
+  m_Layer: 13
   m_Name: 'Capataz '
-  m_TagString: inimigo
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -823,6 +824,33 @@ Transform:
   m_Father: {fileID: 123708824}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &168258757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168258755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaVilao1: 100
+  Speed: 3.5
+  distancia: 1.5
+  anim: {fileID: 168258762}
+  vilaoVivo: 1
+  contagem: 1
+  tempoDano: 1
+  vulneravel: 0
+  objeto: {fileID: 1311918739}
+  pause: 1
+  graveto: {fileID: 1884460321}
+  seguindo: 0
+  cap: {fileID: 168258756}
+  face: 1
+  Hero: {fileID: 1760005670}
 --- !u!58 &168258758
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -838,7 +866,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 20
+  m_Radius: 2.32
 --- !u!70 &168258760
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -953,7 +981,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168258755}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ce8cb1c718d9e44b8592b93b2677f29, type: 3}
   m_Name: 
@@ -6988,6 +7016,9 @@ MonoBehaviour:
   pause: 1
   graveto: {fileID: 1884460321}
   seguindo: 0
+  cap: {fileID: 1268441431}
+  face: 1
+  Hero: {fileID: 1760005670}
 --- !u!70 &1268441435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9958,7 +9989,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be04cf293be20574083cf343a3468cc9, type: 3}
   m_Name: 
