@@ -29,7 +29,7 @@ public int vidaVilao1 = 100;
     public GameObject objeto;
     public bool pause = true;
     
-    public GameObject graveto;
+    public GameObject pedra;
     public bool seguindo = false;
 
     //flip
@@ -64,7 +64,7 @@ public int vidaVilao1 = 100;
             pause=false;
             //print("objeto desativado");
         }
-        if (graveto.activeInHierarchy == false){
+        if (pedra.activeInHierarchy == false){
             seguindo=true;
             }
 

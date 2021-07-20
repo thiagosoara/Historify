@@ -5,6 +5,8 @@ using UnityEngine;
 public class alerta : MonoBehaviour
 {
      public GameObject graveto;
+     public GameObject pedra;
+
 
 
 
@@ -26,6 +28,11 @@ public class alerta : MonoBehaviour
                 //GetComponent<SpriteRenderer>().enabled = false;
                 gameObject.SetActive(false);
                 //print("graveto");
+            }
+        }
+        if (pedra.activeInHierarchy == true){
+            if (outro.gameObject.CompareTag("Player")){
+                gameObject.SetActive(false);
             }
         }
     }
