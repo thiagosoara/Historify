@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 1fc3d5e7b6526224a957aec0fe6074d7, type: 3}
+  - logo: {fileID: 21300000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -274,42 +274,42 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1fc3d5e7b6526224a957aec0fe6074d7, type: 3}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1fc3d5e7b6526224a957aec0fe6074d7, type: 3}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 512
       m_Height: 512
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1fc3d5e7b6526224a957aec0fe6074d7, type: 3}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 256
       m_Height: 256
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 64
       m_Height: 64
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 48
       m_Height: 48
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1fc3d5e7b6526224a957aec0fe6074d7, type: 3}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 32
       m_Height: 32
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1fc3d5e7b6526224a957aec0fe6074d7, type: 3}
+      m_Icon: {fileID: 2800000, guid: 51a8cbb42b458e6469b82486de686bf2, type: 3}
       m_Width: 16
       m_Height: 16
       m_Kind: 0
