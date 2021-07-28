@@ -786,15 +786,15 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: -1.45}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -2.1696806, y: 4.186549}
-  - {x: -4.53052, y: 2.1625934}
+  - {x: -1.9764055, y: 3.8165596}
+  - {x: -4.337245, y: 1.7926037}
   - {x: -4.7610393, y: 2.9258769}
   - {x: -4.6787543, y: 3.404522}
   - {x: -4.5032635, y: 3.8045857}
   - {x: -4.252615, y: 4.0991106}
   - {x: -3.9202523, y: 4.3066015}
   - {x: -3.549784, y: 4.4450326}
-  - {x: -2.4181905, y: 4.4808793}
+  - {x: -1.6322266, y: 4.50817}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -10510,8 +10510,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.060035046, y: 0}
-  m_Size: {x: 1.1862113, y: 3.7700005}
+  m_Offset: {x: 0.07665241, y: 0.0058777737}
+  m_Size: {x: 1.2194461, y: 3.8287897}
   m_Direction: 0
 --- !u!114 &1760005662
 MonoBehaviour:
@@ -10725,7 +10725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.2, y: -6.8, z: -1}
+  m_LocalPosition: {x: -16.191, y: -6.698, z: -1}
   m_LocalScale: {x: -0.76730734, y: 0.7229496, z: 1}
   m_Children:
   - {fileID: 398537262}
