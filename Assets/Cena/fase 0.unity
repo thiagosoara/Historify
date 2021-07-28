@@ -786,10 +786,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: -1.45}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 1.6357399, y: 1.4576814}
-  - {x: 1.1470728, y: 1.4677078}
-  - {x: -3.0311291, y: 1.4969795}
-  - {x: -3.1737938, y: 1.4918772}
+  - {x: 0.572407, y: 4.444129}
+  - {x: -2.709725, y: 1.501495}
   - {x: -3.3374205, y: 1.4641379}
   - {x: -3.5549586, y: 1.4912379}
   - {x: -3.8677964, y: 1.5931885}
@@ -803,15 +801,7 @@ EdgeCollider2D:
   - {x: -3.9202523, y: 4.3066015}
   - {x: -3.549784, y: 4.4450326}
   - {x: -2.4181905, y: 4.4808793}
-  - {x: 3.2827508, y: 4.4832325}
-  - {x: 3.8067732, y: 4.432213}
-  - {x: 4.2262254, y: 4.188089}
-  - {x: 4.6073704, y: 3.7564993}
-  - {x: 4.7275076, y: 3.4594405}
-  - {x: 4.7621417, y: 3.180893}
-  - {x: 4.7628493, y: 2.5791256}
-  - {x: 4.578402, y: 2.2232594}
-  - {x: 4.388814, y: 1.9892709}
+  - {x: 0.5713728, y: 4.503366}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -9740,7 +9730,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1648688958}
   - component: {fileID: 1648688957}
-  - component: {fileID: 1648688956}
   m_Layer: 0
   m_Name: tronco seco (1)
   m_TagString: Untagged
@@ -9748,35 +9737,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!68 &1648688956
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648688955}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.41}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -3.9287121, y: -1.2575551}
-  - {x: -4.3813815, y: -0.90798914}
-  - {x: -4.6886444, y: -0.3406018}
-  - {x: -4.770599, y: 0.2710346}
-  - {x: -4.549965, y: 0.9311484}
-  - {x: -4.095412, y: 1.3827664}
-  - {x: -3.510689, y: 1.6058732}
-  - {x: -1.2539388, y: 1.7268671}
-  - {x: 3.6806705, y: 1.7193769}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!212 &1648688957
 SpriteRenderer:
   m_ObjectHideFlags: 0
