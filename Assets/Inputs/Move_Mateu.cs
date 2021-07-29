@@ -64,8 +64,12 @@ public class Move_Mateu : MonoBehaviour
     {
         print("reniciar"+reniciar);
         if (reniciar >=1){
-            print ("reniciar ok ");
-            panel.SetActive(false);
+            if (panel.activeInHierarchy == true){
+                print ("reniciar ok ");
+                //gameObject.SetActive(false);
+            }
+            
+
         }
         if(objeto.activeInHierarchy == true){
             pausa=true;
@@ -271,8 +275,9 @@ public class Move_Mateu : MonoBehaviour
 
     //reniciar a fase 
     void ReloadLevel(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         reniciar=reniciar+1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
     
 

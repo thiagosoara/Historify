@@ -256,7 +256,13 @@ public class botao_hero : Move_Mateu
 
        
         
-        
+    //tronco
+    void OnTriggerEnter2D(Collider2D outro){
+        if (outro.gameObject.CompareTag("tronco"))
+        {
+            print("teste");
+        }
+    }    
 
 
         //print("O personagem deve se abaixa-se");
