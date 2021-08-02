@@ -15,6 +15,7 @@ TagManager:
   - imagem1
   - alerta
   - Water
+  - tronco
   layers:
   - Default
   - TransparentFX

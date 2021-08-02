@@ -46,6 +46,9 @@ public class botao_hero : Move_Mateu
     public Transform HeroiT;
     public Animator anim;
     public Rigidbody2D HeroiRB;
+
+    //tronco
+    public GameObject tc;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,9 +58,18 @@ public class botao_hero : Move_Mateu
 
     }
 
+
     // Update is called once per frame
     void Update()
     {
+        if (tronco==1){
+            if (a ==true){
+                tc.SetActive(false);
+
+            }
+            
+        }
+        
         
         //print("vida de mateu"+vivo);
         animacao();
@@ -256,17 +268,14 @@ public class botao_hero : Move_Mateu
 
        
         
-    //tronco
-    void OnTriggerEnter2D(Collider2D outro){
-        if (outro.gameObject.CompareTag("tronco"))
-        {
-            print("teste");
-        }
-    }    
+    
 
 
         //print("O personagem deve se abaixa-se");
     }
+
+    
+
     /*void OnCollisionEnter2D(Collision2D outro)
     {
         if ((z == true) && (outro.gameObject.CompareTag("inimigo")))

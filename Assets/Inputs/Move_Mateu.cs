@@ -41,6 +41,8 @@ public class Move_Mateu : MonoBehaviour
     public GameObject panel;
     public int reniciar = 0;
 
+    public int tronco =0;
+
 
     
 
@@ -200,6 +202,16 @@ public class Move_Mateu : MonoBehaviour
 
             }
         }
+
+
+
+        //tronco
+        if (outro.gameObject.CompareTag("tronco")){
+            tronco=1;
+            
+
+        }
+
     }
     void OnCollisionExit2D(Collision2D outro)
     {
