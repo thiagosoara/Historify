@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: "Narrador(Dirceu): Mateu, ent\xE3o, segue correrdo em sua fuga.   "
+  storyText: "Dirceu: Mateu, ent\xE3o, segue correrdo em sua fuga.   "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1997,8 +1997,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: 'Narrador (Dirceu): Mateu dialoga com seu aliado enquanto voltam do
-    trabalho para a senzala.
+  storyText: 'Dirceu: Mateu dialoga com seu aliado enquanto voltam do trabalho para
+    a senzala.
 
 
 
@@ -2087,7 +2087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "Narrador: Chegando \xE0 fazenda, Mateu continua o di\xE1logo.\r\n\n"
+  storyText: "Dirceu: Chegando \xE0 fazenda, Mateu continua o di\xE1logo.\r\n\n"
   description: 
   character: {fileID: 1089665313}
   portrait: {fileID: 21300000, guid: add39d97e4041e54abec8fbe1de1cd06, type: 3}
@@ -2170,8 +2170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "Narrador (Dirceu): O aliado come\xE7a, ent\xE3o, a explicar o plano
-    de fuga.\r\n"
+  storyText: "Dirceu: O aliado come\xE7a, ent\xE3o, a explicar o plano de fuga.\r\n"
   description: 
   character: {fileID: 344196440}
   portrait: {fileID: 21300000, guid: 1b69a79c299e1674f8b8833c48a705c3, type: 3}
@@ -2227,8 +2226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: 'Narrador (Dirceu): Ao chegarem na senzala, os dois sentam-se, encostados
-    em uma das paredes, para conversarem sobre os detalhes do plano.
+  storyText: 'Dirceu: Ao chegarem na senzala, os dois sentam-se, encostados em uma
+    das paredes, para conversarem sobre os detalhes do plano.
 
 
 '
@@ -2288,7 +2287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: 'Narrador: Mateu pergunta diretamente ao aliado:
+  storyText: 'Dirceu: Mateu pergunta diretamente ao aliado:
 
 
 '
@@ -2374,8 +2373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: "Narrador (Dirceu): O capataz, enfurecido com a briga entre os escravos,
-    tenta apart\xE1-los, gritando em alto e bom tom.\r\n"
+  storyText: "Dirceu: O capataz, enfurecido com a briga entre os escravos, tenta
+    apart\xE1-los, gritando em alto e bom tom.\r\n"
   description: 
   character: {fileID: 911209138}
   portrait: {fileID: 21300000, guid: 84a33d81a9fa59f4bad72b6fa0e1b147, type: 3}
@@ -2402,8 +2401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: 'Narrador (Dirceu): As batidas dos tambores aumentam e Tonico alerta
-    Mateu
+  storyText: 'Dirceu: As batidas dos tambores aumentam e Tonico alerta Mateu
 
 '
   description: 
@@ -2459,8 +2457,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Narrador (Dirceu): Ao come\xE7ar a correr, o aliado de Mateu \xE9 capturado
-    e os outros s\xE3o contidos. Mateu, no entanto,  consegue escapar.\r\n"
+  storyText: "Dirceu: Ao come\xE7ar a correr, o aliado de Mateu \xE9 capturado e
+    os outros s\xE3o contidos. Mateu, no entanto,  consegue escapar.\r\n"
   description: 
   character: {fileID: 1351988064}
   portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
