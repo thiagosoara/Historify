@@ -1667,6 +1667,18 @@ GameObject:
   - component: {fileID: 1259198816}
   - component: {fileID: 1259198815}
   - component: {fileID: 1259198814}
+  - component: {fileID: 1259198857}
+  - component: {fileID: 1259198856}
+  - component: {fileID: 1259198855}
+  - component: {fileID: 1259198854}
+  - component: {fileID: 1259198851}
+  - component: {fileID: 1259198835}
+  - component: {fileID: 1259198830}
+  - component: {fileID: 1259198829}
+  - component: {fileID: 1259198826}
+  - component: {fileID: 1259198825}
+  - component: {fileID: 1259198824}
+  - component: {fileID: 1259198823}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1733,7 +1745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.352936
     y: 65.176476
-    width: 60
+    width: 80.58823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1776,6 +1788,18 @@ MonoBehaviour:
   - {fileID: 1259198816}
   - {fileID: 1259198815}
   - {fileID: 1259198814}
+  - {fileID: 1259198857}
+  - {fileID: 1259198856}
+  - {fileID: 1259198855}
+  - {fileID: 1259198854}
+  - {fileID: 1259198851}
+  - {fileID: 1259198835}
+  - {fileID: 1259198830}
+  - {fileID: 1259198829}
+  - {fileID: 1259198826}
+  - {fileID: 1259198825}
+  - {fileID: 1259198824}
+  - {fileID: 1259198823}
   suppressAllAutoSelections: 0
 --- !u!114 &1259198811
 MonoBehaviour:
@@ -1804,7 +1828,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198814}
+  - {fileID: 1259198823}
   variables: []
   description: 
   stepPause: 0
@@ -2112,6 +2136,119 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1259198823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 72
+  indentLevel: 0
+  storyText: "Guarda Provinciano - Vamos capturar aqueles criminosos e deix\xE1-los
+    na pris\xE3o!\r\n"
+  description: 
+  character: {fileID: 911209138}
+  portrait: {fileID: 21300000, guid: 9f554abb8478f434b8259cb3f4143347, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 71
+  indentLevel: 0
+  storyText: "Como os Cabanos eram poss\xEDveis inimigos do governo da \xE9poca,
+    tinham que ser capturados e julgados devidamente por atentado \xE0 Prov\xEDncia.\r\n"
+  description: 
+  character: {fileID: 911209138}
+  portrait: {fileID: 21300000, guid: 9f554abb8478f434b8259cb3f4143347, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  storyText: "Narrador - Uma das unidades mais eficientes da \xE9poca, a Guarda da
+    Prov\xEDncia, funcionava como uma conten\xE7\xE3o ou como a atual Pol\xEDcia
+    Militar."
+  description: 
+  character: {fileID: 911209138}
+  portrait: {fileID: 21300000, guid: 9f554abb8478f434b8259cb3f4143347, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  indentLevel: 0
+  storyText: "Eu consegui escapar, mas meu companheiro n\xE3o teve a mesma sorte
+    que eu."
+  description: 
+  character: {fileID: 1363389287}
+  portrait: {fileID: 21300000, guid: 2667cf8fb9ec2cc4dbb4c10337e1c28e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1259198827
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2159,6 +2296,63 @@ MonoBehaviour:
   description: 
   character: {fileID: 2079304731}
   portrait: {fileID: 21300000, guid: 4288ae0142e4d724b8f71184b43bb15f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  storyText: "Capataz - Eu e um companheiro meu est\xE1vamos levando um escravo para
+    a freguesia de Rio Formoso e ent\xE3o fomos atacados por \xEDndios."
+  description: 
+  character: {fileID: 1363389287}
+  portrait: {fileID: 21300000, guid: 2667cf8fb9ec2cc4dbb4c10337e1c28e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  storyText: 'Guarda provinciano - Fique calmo e fale devagar!
+
+'
+  description: 
+  character: {fileID: 1363389287}
+  portrait: {fileID: 21300000, guid: 2667cf8fb9ec2cc4dbb4c10337e1c28e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2271,6 +2465,34 @@ MonoBehaviour:
   description: 
   character: {fileID: 1257132201}
   portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 66
+  indentLevel: 0
+  storyText: "Capataz - Socorro!! Senhores, eu fui atacado pelos Cabanos quando eu
+    estava levando um escravo para a freguesia de Rio Formoso e da\xED fomos atacados.\r\n"
+  description: 
+  character: {fileID: 1363389287}
+  portrait: {fileID: 21300000, guid: 2667cf8fb9ec2cc4dbb4c10337e1c28e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2704,6 +2926,35 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1259198851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  indentLevel: 0
+  storyText: "Narrador - Os Cabanos eram compostos de pessoas fugidas, adeptos da
+    causa e os ind\xEDgenas Kariri Xucuru, que s\xE3o guerreiros experientes quando
+    se fala de conhecimento sobre as matas.\r\n"
+  description: 
+  character: {fileID: 344196440}
+  portrait: {fileID: 21300000, guid: 51e96232196c194479d1b0b78ab4df3c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1259198852
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2752,6 +3003,119 @@ MonoBehaviour:
   description: 
   character: {fileID: 349042139}
   portrait: {fileID: 21300000, guid: a1b3c869037247c4f93734dc41b5eabf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  storyText: "Xucuru 2 - Ele parece estar muito machucado e fraco, n\xE3o sei se
+    vai conseguir nos acompanhar. Parece que um capataz fugiu e eu n\xE3o tenho mais
+    balas.\r\n"
+  description: 
+  character: {fileID: 344196440}
+  portrait: {fileID: 21300000, guid: 51e96232196c194479d1b0b78ab4df3c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  storyText: "Xucuru  1 - Est\xE1 dando para andar?\r"
+  description: 
+  character: {fileID: 344196440}
+  portrait: {fileID: 21300000, guid: 51e96232196c194479d1b0b78ab4df3c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  storyText: "uma boa rota de fuga seriam as florestas e para n\xE3o se ter falhas
+    nessas fugas e quem mais experiente no terreno do que quem nasceu era nascido
+    na regi\xE3o.\r\n"
+  description: 
+  character: {fileID: 675922201}
+  portrait: {fileID: 21300000, guid: 8da1ec37c0ad9564c8d9e65ca62f2aa2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  storyText: "Narrador - Os ind\xEDgenas Kariri Xucuru foram de grande import\xE2ncia
+    para a Guerra dos Cabanos, pois, nas invas\xF5es"
+  description: 
+  character: {fileID: 675922201}
+  portrait: {fileID: 21300000, guid: 8da1ec37c0ad9564c8d9e65ca62f2aa2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
