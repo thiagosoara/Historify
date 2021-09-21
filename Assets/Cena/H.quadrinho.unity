@@ -1788,7 +1788,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198813}
+  - {fileID: 1259198845}
   variables: []
   description: 
   stepPause: 0
@@ -1816,7 +1816,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1259198813
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2815,7 +2815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39275002, y: 0.37348333}
   m_AnchorMax: {x: 0.60562503, y: 0.6187417}
-  m_AnchoredPosition: {x: 0.000015258789, y: -6.262001}
+  m_AnchoredPosition: {x: 0, y: -6.2619934}
   m_SizeDelta: {x: 0.000030517578, y: -12.523987}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1677715205
