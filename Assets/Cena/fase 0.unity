@@ -12386,6 +12386,9 @@ GameObject:
   - component: {fileID: 1927804654}
   - component: {fileID: 1927804653}
   - component: {fileID: 1927804634}
+  - component: {fileID: 1927804637}
+  - component: {fileID: 1927804636}
+  - component: {fileID: 1927804635}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -12421,6 +12424,57 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1927804635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927804633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  soundClip: {fileID: 0}
+  volume: 1
+  loop: 0
+--- !u!114 &1927804636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927804633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 968b33b3267be9b45b017f86493b2543, type: 3}
+  volume: 1
+  loop: 0
+--- !u!114 &1927804637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927804633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: aae1926f62267364aa43ff4636789f2b, type: 3}
+  volume: 1
+  loop: 0
 --- !u!114 &1927804653
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12662,8 +12716,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1927804661}
   commandList:
+  - {fileID: 1927804637}
   - {fileID: 1927804660}
+  - {fileID: 1927804635}
   - {fileID: 1927804657}
+  - {fileID: 1927804636}
   - {fileID: 1927804658}
   - {fileID: 1927804659}
   - {fileID: 1927804656}
@@ -12687,7 +12744,7 @@ MonoBehaviour:
   scrollPos: {x: 139.99005, y: -6.434526}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 264
+  blockViewHeight: 200
   zoom: 0.6100004
   scrollViewRect:
     serializedVersion: 2
@@ -12697,8 +12754,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1927804662}
-  selectedCommands:
-  - {fileID: 1927804654}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0

@@ -1377,7 +1377,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702576}
+  - {fileID: 507702580}
   variables: []
   description: 
   stepPause: 0
@@ -1868,7 +1868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 609e604746f02f24aaf7b0f69602db34, type: 3}
+  soundClip: {fileID: 8300000, guid: 3db966ebd12f3d5448befd8dc2312b05, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702580
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 98b598d01c2a3a843820743e7df9238d, type: 3}
+  soundClip: {fileID: 8300000, guid: 09a68b340355d484688885e27b519a0d, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702581
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: e4cd9920f41b0054d91414e592c1fa6f, type: 3}
+  soundClip: {fileID: 8300000, guid: 8cd8732d4bf86e94f84360ef15a98315, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702583
@@ -1987,7 +1987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 777782420946c3f48ba51eb493721f93, type: 3}
+  soundClip: {fileID: 8300000, guid: 49ffad139bf388449829b15d99be0fa1, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702587
@@ -2021,7 +2021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: d0171b71b46430c4b8539cb0b86d1025, type: 3}
+  soundClip: {fileID: 8300000, guid: 5b0f21daa8e8b764cb0f66acf81d1e31, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702589
@@ -2055,7 +2055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 72bbf27f8d172b14f8a814e7ba10dab2, type: 3}
+  soundClip: {fileID: 8300000, guid: 603d4043936551942a80c820717b1dfc, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702591
@@ -2106,7 +2106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 537c1985ed6be2d4e8d54184e5d929ae, type: 3}
+  soundClip: {fileID: 8300000, guid: 49692de9fa91b1a46a1d92666fb91fc3, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702594
