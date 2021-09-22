@@ -1679,6 +1679,13 @@ GameObject:
   - component: {fileID: 1259198825}
   - component: {fileID: 1259198824}
   - component: {fileID: 1259198823}
+  - component: {fileID: 1259198860}
+  - component: {fileID: 1259198859}
+  - component: {fileID: 1259198858}
+  - component: {fileID: 1259198861}
+  - component: {fileID: 1259198864}
+  - component: {fileID: 1259198863}
+  - component: {fileID: 1259198862}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1700,7 +1707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: "Senhor de escravo - Este escravo est\xE1 me dando muito trabalho: j\xE1
+  storyText: "Senhor de escravo: Este escravo est\xE1 me dando muito trabalho: j\xE1
     \xE9 a d\xE9cima vez que tenta fugir!"
   description: 
   character: {fileID: 1257132201}
@@ -1755,6 +1762,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1259198809}
   commandList:
   - {fileID: 1259198831}
+  - {fileID: 1259198860}
   - {fileID: 1259198827}
   - {fileID: 1259198828}
   - {fileID: 1259198832}
@@ -1762,19 +1770,24 @@ MonoBehaviour:
   - {fileID: 1259198834}
   - {fileID: 1259198833}
   - {fileID: 1259198838}
+  - {fileID: 1259198859}
   - {fileID: 1259198836}
   - {fileID: 1259198837}
   - {fileID: 1259198839}
   - {fileID: 1259198840}
   - {fileID: 1259198841}
+  - {fileID: 1259198858}
   - {fileID: 1259198842}
   - {fileID: 1259198843}
+  - {fileID: 1259198861}
   - {fileID: 1259198844}
   - {fileID: 1259198845}
   - {fileID: 1259198847}
   - {fileID: 1259198846}
   - {fileID: 1259198849}
+  - {fileID: 1259198864}
   - {fileID: 1259198848}
+  - {fileID: 1259198863}
   - {fileID: 1259198850}
   - {fileID: 1259198852}
   - {fileID: 1259198853}
@@ -1785,6 +1798,7 @@ MonoBehaviour:
   - {fileID: 1259198819}
   - {fileID: 1259198818}
   - {fileID: 1259198817}
+  - {fileID: 1259198862}
   - {fileID: 1259198816}
   - {fileID: 1259198815}
   - {fileID: 1259198814}
@@ -1828,7 +1842,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198823}
+  - {fileID: 1259198832}
   variables: []
   description: 
   stepPause: 0
@@ -1924,7 +1938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: "Narrador - Muitas pessoas fizeram parte dessa guerra, mas uma das etnias
+  storyText: "Dirceu: Muitas pessoas fizeram parte dessa guerra, mas uma das etnias
     que se destacou foi a dos indigenas que tinham como pensamento que a escravid\xE3o
     era uma coisa errada e sem se sentido.\r\n"
   description: 
@@ -1953,8 +1967,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: "Mateu - Por obs\xE9quio e pelo amor de Jesus, n\xE3o me matem, sinhozinhos
-    , eu ainda quero viver um bocado bom!\r\n"
+  storyText: "Mateu: Por obs\xE9quio e pelo amor de Jesus, n\xE3o me matem, sinhozinhos,
+    eu ainda quero viver um bocado bom!\r\n"
   description: 
   character: {fileID: 1089665313}
   portrait: {fileID: 21300000, guid: 5773c01269d3d9b4882b70f7eb66bf38, type: 3}
@@ -1983,7 +1997,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "muitas vezes, essas viagens demoravam dias acarretando em desnutri\xE7\xE3o
     dos escravizados que pegavam doen\xE7as durante os trajetos ou at\xE9 chegavam
-    a \xF3bito. Enfim, essa \xE9poca era terr\xEDvel se voc\xEA fosse escravizado."
+    a \xF3bito."
   description: 
   character: {fileID: 1323469895}
   portrait: {fileID: 21300000, guid: 381b85526c358004eb034fe15c224318, type: 3}
@@ -2010,9 +2024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: "Narrador - Como dito antes, o transporte de escravos era desumano,
-    onde eles eram levados para l\xE1 e pra c\xE1 alimentados apenas com um pouco
-    de charque com farinha ou mesmo com nada, e"
+  storyText: "Dirceu: Como dito antes, o transporte de escravos era desumano, onde
+    eles eram levados para l\xE1 e pra c\xE1 alimentados apenas com um pouco de charque
+    com farinha ou mesmo com nada, e"
   description: 
   character: {fileID: 1323469895}
   portrait: {fileID: 21300000, guid: 381b85526c358004eb034fe15c224318, type: 3}
@@ -2067,7 +2081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: "Narrador - Por muitas vezes, a Guarda da Prov\xEDncia se via ca\xE7ando
+  storyText: "Dirceu: Por muitas vezes, a Guarda da Prov\xEDncia se via ca\xE7ando
     os revoltosos por v\xE1rios lugares do nordeste brasileiro e norte das Alagoas.\r\n"
   description: 
   character: {fileID: 719295793}
@@ -2150,7 +2164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: "Guarda Provinciano - Vamos capturar aqueles criminosos e deix\xE1-los
+  storyText: "Guarda Provinciano: Vamos capturar aqueles criminosos e deix\xE1-los
     na pris\xE3o!\r\n"
   description: 
   character: {fileID: 911209138}
@@ -2206,9 +2220,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: "Narrador - Uma das unidades mais eficientes da \xE9poca, a Guarda da
-    Prov\xEDncia, funcionava como uma conten\xE7\xE3o ou como a atual Pol\xEDcia
-    Militar."
+  storyText: "Dirceu: Uma das unidades mais eficientes da \xE9poca, a Guarda da Prov\xEDncia,
+    funcionava como uma conten\xE7\xE3o ou como a atual Pol\xEDcia Militar."
   description: 
   character: {fileID: 911209138}
   portrait: {fileID: 21300000, guid: 9f554abb8478f434b8259cb3f4143347, type: 3}
@@ -2263,7 +2276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "Capataz - Ti\xE3o? Ainda bem que pegou esse escravo! Se a gente perdesse
+  storyText: "Capataz: Ti\xE3o? Ainda bem que pegou esse escravo! Se a gente perdesse
     ele, nosso patr\xE3o iria tirar o nosso couro."
   description: 
   character: {fileID: 2079304731}
@@ -2291,8 +2304,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Narrador - Naquela \xE9poca, a compra e venda de escravos era algo
-    comum, o que hoje em dia seria repudiado pela crueldade e mesmo ilegal,\n\n"
+  storyText: "Dirceu: Naquela \xE9poca, a compra e venda de escravos era algo comum,
+    o que hoje em dia seria repudiado pela crueldade e mesmo ilegal\n\n"
   description: 
   character: {fileID: 2079304731}
   portrait: {fileID: 21300000, guid: 4288ae0142e4d724b8f71184b43bb15f, type: 3}
@@ -2319,7 +2332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: "Capataz - Eu e um companheiro meu est\xE1vamos levando um escravo para
+  storyText: "Capataz: Eu e um companheiro meu est\xE1vamos levando um escravo para
     a freguesia de Rio Formoso e ent\xE3o fomos atacados por \xEDndios."
   description: 
   character: {fileID: 1363389287}
@@ -2376,8 +2389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "Narrador- Continuando de onde paramos, um escravo quando era capturado,
-    muitas vezes, sofria bastante com viol\xEAncia e abusos de todos os tipos imagin\xE1veis.\n"
+  storyText: 'Dirceu: Continuando de onde paramos, um escravo quando era capturado,
+    muitas vezes
+
+'
   description: 
   character: {fileID: 2138322092}
   portrait: {fileID: 21300000, guid: e969af93dc3506b4d842a9865cd7057c, type: 3}
@@ -2488,7 +2503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: "Capataz - Socorro!! Senhores, eu fui atacado pelos Cabanos quando eu
+  storyText: "Capataz: Socorro!! Senhores, eu fui atacado pelos Cabanos quando eu
     estava levando um escravo para a freguesia de Rio Formoso e da\xED fomos atacados.\r\n"
   description: 
   character: {fileID: 1363389287}
@@ -2516,7 +2531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: "Mateu - \u2026Est\xE1 escuro? Ai\u2026 agora lembrei..."
+  storyText: "Mateu: \u2026Est\xE1 escuro? Ai\u2026 agora lembrei..."
   description: 
   character: {fileID: 736014117}
   portrait: {fileID: 21300000, guid: a66bcec70e09f5b4d96a1245afd67601, type: 3}
@@ -2543,8 +2558,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "Narrador - Como eram tratados como objetos, muitos escravos sofriam
-    tamb\xE9m em seu transporte: era t\xE3o desumano que muitos morriam.\r\n"
+  storyText: "Dirceu: Como eram tratados como objetos, muitos escravos sofriam tamb\xE9m
+    em seu transporte: era t\xE3o desumano que muitos morriam.\r\n"
   description: 
   character: {fileID: 736014117}
   portrait: {fileID: 21300000, guid: a66bcec70e09f5b4d96a1245afd67601, type: 3}
@@ -2571,9 +2586,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "Narrador - Muitas vezes, naquela \xE9poca, os castigos dados aos escravos
-    eram considerados como uma forma adequada de corre\xE7\xE3o aplicada pelos senhores,
-    j\xE1 que  escravos eram uma mercadorias."
+  storyText: "Dirceu: Muitas vezes, naquela \xE9poca, os castigos dados aos escravos
+    eram considerados"
   description: 
   character: {fileID: 1257132201}
   portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
@@ -2600,7 +2614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Mateu - Meu pai Ogum, ainda bem que n\xE3o estou morto dessa vez! Desta
+  storyText: "Mateu: Meu pai Ogum, ainda bem que n\xE3o estou morto dessa vez! Desta
     vez, quase que eu consegui fugir, meu sonho chegou perto.\r\n"
   description: 
   character: {fileID: 313755409}
@@ -2628,7 +2642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "Narrador- Mateu se v\xEA sem esperan\xE7a quase se entregando ao desespero."
+  storyText: "Dirceu: Mateu se v\xEA sem esperan\xE7a quase se entregando ao desespero."
   description: 
   character: {fileID: 313755409}
   portrait: {fileID: 21300000, guid: 76c00d1c8f03e5249bbe8440e46ad77b, type: 3}
@@ -2656,9 +2670,7 @@ MonoBehaviour:
   itemId: 28
   indentLevel: 0
   storyText: "A luz de um sonho ao longe fora apagada, por\xE9m este n\xE3o era um
-    sentimento apenas seu, mas sim de todo escravo da \xE9poca e este sentimento
-    era utilizado pelos senhores de escravos para dominar, de forma definitiva, o
-    escravizado.\r\n"
+    sentimento apenas seu, mas sim de todo escravo da \xE9poca"
   description: 
   character: {fileID: 313755409}
   portrait: {fileID: 21300000, guid: 76c00d1c8f03e5249bbe8440e46ad77b, type: 3}
@@ -2685,8 +2697,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "Narrador - Em meio a solavancos e ao cheiro f\xE9tido de esterco de
-    porco, esse jovem garoto mergulha em certos pensamentos.\r\n\r\n"
+  storyText: "Dirceu: Em meio a solavancos e ao cheiro f\xE9tido de esterco de porco,
+    esse jovem garoto mergulha em certos pensamentos.\r\n\r\n"
   description: 
   character: {fileID: 1082322235}
   portrait: {fileID: 21300000, guid: 0866c89fea2f0254eb903a7ac76141f2, type: 3}
@@ -2713,9 +2725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: "Mateus - Que ideia besta: um nascido escravo conseguir a liberdade!
-    Parece at\xE9 idiotice querer fugir, se toda vez que eu tentar, vou ter um castigo
-    pior e agora estou indo para algum lugar que n\xE3o sei onde \xE9..."
+  storyText: "Mateus: Que ideia besta: um nascido escravo conseguir a liberdade!
+    Parece at\xE9 idiotice querer fugir, se toda vez que eu tentar"
   description: 
   character: {fileID: 1082322235}
   portrait: {fileID: 21300000, guid: 0866c89fea2f0254eb903a7ac76141f2, type: 3}
@@ -2770,9 +2781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "Narrador - \xC9 nesse cen\xE1rio de injusti\xE7as, que a Guerra dos
-    Cabanos tem o seu real prop\xF3sito, ao contr\xE1rio do que \xE9 dito nos livros
-    de hist\xF3ria"
+  storyText: "Dirceu: \xC9 nesse cen\xE1rio de injusti\xE7as, que a Guerra dos Cabanos
+    tem o seu real prop\xF3sito, ao contr\xE1rio do que \xE9 dito nos livros de hist\xF3ria"
   description: 
   character: {fileID: 1082322235}
   portrait: {fileID: 21300000, guid: 0866c89fea2f0254eb903a7ac76141f2, type: 3}
@@ -2856,8 +2866,7 @@ MonoBehaviour:
   itemId: 37
   indentLevel: 0
   storyText: "muitas vezes, atacaram os revoltosos com todo o poderio que tinham
-    em suas m\xE3os, mas muitos revoltosos usara t\xE1ticas de guerrilha para n\xE3o
-    terem perdas nessas investidas contra o sistema escravocrata."
+    em suas m\xE3os"
   description: 
   character: {fileID: 1270511021}
   portrait: {fileID: 21300000, guid: edb328e427982b843aaab2e466864c6b, type: 3}
@@ -2884,9 +2893,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: "Narrador - Geralmente, a liberta\xE7\xE3o dos negros da escravid\xE3o
-    era objeto de lutas bastante esquematisadas, j\xE1 que alguns senhores de escravos
-    eram completamente contr\xE1rios \xE0 liberta\xE7\xE3o dos escravizados e"
+  storyText: "Dirceu: Geralmente, a liberta\xE7\xE3o dos negros da escravid\xE3o
+    era objeto de lutas bastante esquematisadas"
   description: 
   character: {fileID: 1270511021}
   portrait: {fileID: 21300000, guid: edb328e427982b843aaab2e466864c6b, type: 3}
@@ -2940,9 +2948,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: "Narrador - Os Cabanos eram compostos de pessoas fugidas, adeptos da
-    causa e os ind\xEDgenas Kariri Xucuru, que s\xE3o guerreiros experientes quando
-    se fala de conhecimento sobre as matas.\r\n"
+  storyText: "Dirceu: Os Cabanos eram compostos de pessoas fugidas, adeptos da causa
+    e os ind\xEDgenas Kariri Xucuru, que s\xE3o guerreiros experientes quando se
+    fala de conhecimento sobre as matas.\r\n"
   description: 
   character: {fileID: 344196440}
   portrait: {fileID: 21300000, guid: 51e96232196c194479d1b0b78ab4df3c, type: 3}
@@ -2969,7 +2977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "Mateu - Agora lascou de vez! \xC9  hoje que morro e vou para o colo
+  storyText: "Mateu: Agora lascou de vez! \xC9  hoje que morro e vou para o colo
     de Deus! Se um desses tiros pegar em mim vou falar pessoalmente com Pai Ogum
     no outro mundo.\r"
   description: 
@@ -2998,7 +3006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: "Narrador - Os personagens envolvidos na revolta eram de diversas etnias,
+  storyText: "Dirceu: Os personagens envolvidos na revolta eram de diversas etnias,
     mas lutavam pelas mesmas causas.\r"
   description: 
   character: {fileID: 349042139}
@@ -3026,8 +3034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: "Xucuru 2 - Ele parece estar muito machucado e fraco, n\xE3o sei se
-    vai conseguir nos acompanhar. Parece que um capataz fugiu e eu n\xE3o tenho mais
+  storyText: "Xucuru 2: Ele parece estar muito machucado e fraco, n\xE3o sei se vai
+    conseguir nos acompanhar. Parece que um capataz fugiu e eu n\xE3o tenho mais
     balas.\r\n"
   description: 
   character: {fileID: 344196440}
@@ -3055,7 +3063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: "Xucuru  1 - Est\xE1 dando para andar?\r"
+  storyText: "Xucuru  1: Est\xE1 dando para andar?\r"
   description: 
   character: {fileID: 344196440}
   portrait: {fileID: 21300000, guid: 51e96232196c194479d1b0b78ab4df3c, type: 3}
@@ -3111,11 +3119,207 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: "Narrador - Os ind\xEDgenas Kariri Xucuru foram de grande import\xE2ncia
+  storyText: "Dirceu: Os ind\xEDgenas Kariri Xucuru foram de grande import\xE2ncia
     para a Guerra dos Cabanos, pois, nas invas\xF5es"
   description: 
   character: {fileID: 675922201}
   portrait: {fileID: 21300000, guid: 8da1ec37c0ad9564c8d9e65ca62f2aa2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  indentLevel: 0
+  storyText: 'e este sentimento era utilizado pelos senhores de escravos para dominar,
+    de forma definitiva, o escravizado.
+
+'
+  description: 
+  character: {fileID: 313755409}
+  portrait: {fileID: 21300000, guid: 76c00d1c8f03e5249bbe8440e46ad77b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  storyText: "como uma forma adequada de corre\xE7\xE3o aplicada pelos senhores,
+    j\xE1 que  escravos eram uma mercadorias."
+  description: 
+  character: {fileID: 1257132201}
+  portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 73
+  indentLevel: 0
+  storyText: "sofria bastante com viol\xEAncia e abusos de todos os tipos imagin\xE1veis.\n"
+  description: 
+  character: {fileID: 2138322092}
+  portrait: {fileID: 21300000, guid: e969af93dc3506b4d842a9865cd7057c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  indentLevel: 0
+  storyText: "vou ter um castigo pior e agora estou indo para algum lugar que n\xE3o
+    sei onde \xE9..."
+  description: 
+  character: {fileID: 1082322235}
+  portrait: {fileID: 21300000, guid: 0866c89fea2f0254eb903a7ac76141f2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  indentLevel: 0
+  storyText: "Enfim, essa \xE9poca era terr\xEDvel se voc\xEA fosse escravizado."
+  description: 
+  character: {fileID: 1323469895}
+  portrait: {fileID: 21300000, guid: 381b85526c358004eb034fe15c224318, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  indentLevel: 0
+  storyText: "mas muitos revoltosos usara t\xE1ticas de guerrilha para n\xE3o terem
+    perdas nessas investidas contra o sistema escravocrata."
+  description: 
+  character: {fileID: 1270511021}
+  portrait: {fileID: 21300000, guid: edb328e427982b843aaab2e466864c6b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1259198864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  indentLevel: 0
+  storyText: "j\xE1 que alguns senhores de escravos eram completamente contr\xE1rios
+    \xE0 liberta\xE7\xE3o dos escravizados e"
+  description: 
+  character: {fileID: 1270511021}
+  portrait: {fileID: 21300000, guid: edb328e427982b843aaab2e466864c6b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
