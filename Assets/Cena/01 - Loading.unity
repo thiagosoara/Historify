@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.66700006, y: 0.03080986}
   m_AnchorMax: {x: 0.924, y: 0.2353455}
-  m_AnchoredPosition: {x: -7, y: 1.0739441}
+  m_AnchoredPosition: {x: -7, y: 1.0739746}
   m_SizeDelta: {x: 4.5264587, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &543677
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 70
+    y: 68.93617
     width: 98.93617
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1376,7 +1376,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 507702560}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 507702580}
   variables: []
   description: 
   stepPause: 0
@@ -1855,7 +1856,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &507702579
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1867,12 +1868,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 609e604746f02f24aaf7b0f69602db34, type: 3}
+  soundClip: {fileID: 8300000, guid: 3db966ebd12f3d5448befd8dc2312b05, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702580
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1884,12 +1885,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 98b598d01c2a3a843820743e7df9238d, type: 3}
+  soundClip: {fileID: 8300000, guid: 09a68b340355d484688885e27b519a0d, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702581
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1906,7 +1907,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702582
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1918,12 +1919,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: e4cd9920f41b0054d91414e592c1fa6f, type: 3}
+  soundClip: {fileID: 8300000, guid: 8cd8732d4bf86e94f84360ef15a98315, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702583
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1940,7 +1941,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702584
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1957,7 +1958,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702585
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1974,7 +1975,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702586
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1986,12 +1987,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 777782420946c3f48ba51eb493721f93, type: 3}
+  soundClip: {fileID: 8300000, guid: 49ffad139bf388449829b15d99be0fa1, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702587
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2008,7 +2009,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702588
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2020,12 +2021,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: d0171b71b46430c4b8539cb0b86d1025, type: 3}
+  soundClip: {fileID: 8300000, guid: 5b0f21daa8e8b764cb0f66acf81d1e31, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702589
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2042,7 +2043,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702590
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2054,12 +2055,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 72bbf27f8d172b14f8a814e7ba10dab2, type: 3}
+  soundClip: {fileID: 8300000, guid: 603d4043936551942a80c820717b1dfc, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702591
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2076,7 +2077,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702592
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2093,7 +2094,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702593
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2105,12 +2106,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 537c1985ed6be2d4e8d54184e5d929ae, type: 3}
+  soundClip: {fileID: 8300000, guid: 49692de9fa91b1a46a1d92666fb91fc3, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702594
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2127,7 +2128,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702595
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

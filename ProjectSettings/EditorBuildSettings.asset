@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cena/DialogoFinalFase0.unity
     guid: f169a0b9c1225a64486ee09cffbe7d3d
+  - enabled: 1
+    path: Assets/Cena/H.quadrinho - fase1.unity
+    guid: 4d93439d3a17ff44e8e8035ed1191a7c
+  - enabled: 1
+    path: Assets/Cena/fase 1.unity
+    guid: 74941eda7cae25343b12358c72a9a8c0
   - enabled: 0
     path: Assets/Cena/02.1 - Cena1.unity
     guid: d886e660bce4ef24d85e723303ca122d
@@ -53,7 +59,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Cena/historia em quadrinho/00.6Historia em quadrinhos.unity
     guid: a05a8dd6488e3ff46ba96b5e1114e31b
-  - enabled: 1
-    path: Assets/Cena/fase 1.unity
-    guid: 74941eda7cae25343b12358c72a9a8c0
   m_configObjects: {}

@@ -1840,7 +1840,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198859}
+  - {fileID: 1259198853}
   variables: []
   description: 
   stepPause: 0
@@ -1868,7 +1868,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1259198813
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1924,7 +1924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 9eb7ca4aaeaf3df4d912a7409e4aba52, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198816
@@ -2043,7 +2043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: f72e448fa703847459977e674116bd4f, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198823
@@ -2348,7 +2348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 3e5c68de31bcbc041923741522da7149, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198836
@@ -2884,7 +2884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 3e6316562bf38ce43b0109de52a91183, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198856
@@ -2935,7 +2935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 068096d11bd27d14094dba0febc70f73, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198859
@@ -2952,7 +2952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: fe3526bac93119d4fb71e3b02d3e9c17, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198860
@@ -3020,7 +3020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 8770404d1adbe5b45a3b6ca95c911271, type: 3}
+  soundClip: {fileID: 8300000, guid: 8246c33b96de94e4f86aa733b394c658, type: 3}
   volume: 1
   loop: 0
 --- !u!1 &1270511019
@@ -3309,7 +3309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39275002, y: 0.37348333}
   m_AnchorMax: {x: 0.60562503, y: 0.6187417}
-  m_AnchoredPosition: {x: 0.000015258789, y: -6.262001}
+  m_AnchoredPosition: {x: 0, y: -6.2619934}
   m_SizeDelta: {x: 0.000030517578, y: -12.523987}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1677715205
