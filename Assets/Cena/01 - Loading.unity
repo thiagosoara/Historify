@@ -1377,7 +1377,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702580}
+  - {fileID: 507702589}
   variables: []
   description: 
   stepPause: 0
@@ -2038,7 +2038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 9818789800bbcfe4dbcc5b933068ca63, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702590
@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 2659b9ea10c633143bc722fcb53535e6, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702592
@@ -2123,7 +2123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 07fd2283407654442ae41af6f2dbdc46, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702595
