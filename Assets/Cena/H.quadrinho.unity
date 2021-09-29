@@ -1685,6 +1685,7 @@ GameObject:
   - component: {fileID: 1259198816}
   - component: {fileID: 1259198815}
   - component: {fileID: 1259198814}
+  - component: {fileID: 1259198864}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1749,8 +1750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 63
-    y: 64
+    x: 61.82353
+    y: 58.11765
     width: 80.58823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1812,6 +1813,7 @@ MonoBehaviour:
   - {fileID: 1259198853}
   - {fileID: 1259198814}
   - {fileID: 1259198813}
+  - {fileID: 1259198864}
   suppressAllAutoSelections: 0
 --- !u!114 &1259198811
 MonoBehaviour:
@@ -1840,7 +1842,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198855}
+  - {fileID: 1259198864}
   variables: []
   description: 
   stepPause: 0
@@ -1941,7 +1943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 6607e0a98c7088949a0451b3cdfaf123, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198817
@@ -1975,7 +1977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: b713205d89320b840bb2fcaf0685980a, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198819
@@ -2077,7 +2079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: b23ca7ff58cfb69439d0a751822e5bad, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198825
@@ -2196,7 +2198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: e004e9f919506e24a93faeac5cba8e8f, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198830
@@ -2901,7 +2903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: b2fc394ef207d6941ad6ef9e10d339cf, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198857
@@ -3022,6 +3024,23 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 8246c33b96de94e4f86aa733b394c658, type: 3}
   volume: 1
+  loop: 0
+--- !u!114 &1259198864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259198807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: cc7f630023ca1b348911b179c76f48a1, type: 3}
+  volume: 0
   loop: 0
 --- !u!1 &1270511019
 GameObject:
