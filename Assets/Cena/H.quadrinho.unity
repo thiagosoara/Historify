@@ -1076,7 +1076,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9b43b9d8c4790d948bd59ae32b3b2c05, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
   m_FillAmount: 1
@@ -1752,7 +1752,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.82353
     y: 58.11765
-    width: 60
+    width: 80.58823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1841,7 +1841,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1259198810}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1259198861}
   variables: []
   description: 
   stepPause: 0
@@ -2010,7 +2011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: f96b5079222242c4094b109976989f11, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198821
@@ -2868,7 +2869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: e84085ee2cbccc04588c9c267cc2d220, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198855
@@ -2987,7 +2988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: aa642b2ea5362754bbc11ec0c3f909ab, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198862
