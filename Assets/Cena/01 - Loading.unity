@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -747,7 +747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -871,7 +871,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4c1633a9f751f5e4d9c819f57b5301d8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.168
+  m_Volume: 0.743
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -998,7 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -1042,8 +1042,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1187, y: -694}
-  m_SizeDelta: {x: 2133.3594, y: 894.63574}
+  m_AnchoredPosition: {x: 1599.8, y: -694.2}
+  m_SizeDelta: {x: 2419.98, y: 904.27454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &412360633
 MonoBehaviour:
@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -1404,7 +1404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 68.93617
-    width: 98.93617
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2381,7 +2381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -2418,7 +2418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -2500,7 +2500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -2703,7 +2703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -2886,7 +2886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3016,7 +3016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3232,7 +3232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3468,7 +3468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3570,7 +3570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3700,7 +3700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -4124,7 +4124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Historia
+  nameText: "Hist\xF3ria"
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:

@@ -2697,7 +2697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 69
-    width: 96
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3200,7 +3200,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4c1633a9f751f5e4d9c819f57b5301d8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.168
+  m_Volume: 0.77
   m_Pitch: 1
   Loop: 1
   Mute: 0
