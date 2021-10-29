@@ -921,6 +921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 764017778}
   - component: {fileID: 764017777}
+  - component: {fileID: 764017779}
   m_Layer: 0
   m_Name: tronco seco (1)
   m_TagString: Untagged
@@ -987,12 +988,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764017776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15, y: -6.16, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.83, y: -6.26, z: 0}
+  m_LocalScale: {x: 0.08021034, y: 0.100666136, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &764017779
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764017776}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000013500303, y: 1.5810962}
+  m_Size: {x: 9.500003, y: 2.9353402}
+  m_Direction: 1
 --- !u!1 &812507714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,6 +1842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1178756616}
   - component: {fileID: 1178756615}
+  - component: {fileID: 1178756617}
   m_Layer: 0
   m_Name: areias
   m_TagString: chao
@@ -1898,6 +1916,110 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1178756617
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178756614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -10.505, y: 0.19077347}
+  - {x: -10.2068815, y: 0.1779331}
+  - {x: -9.908877, y: 0.19404447}
+  - {x: -9.808155, y: 0.18282449}
+  - {x: -8.854025, y: 0.18740547}
+  - {x: -8.820285, y: 0.16598403}
+  - {x: -8.761839, y: 0.13824785}
+  - {x: -8.6962385, y: 0.13089836}
+  - {x: -8.6490965, y: 0.13063276}
+  - {x: -8.19433, y: 0.13432634}
+  - {x: -8.141369, y: 0.14442098}
+  - {x: -8.102173, y: 0.1709441}
+  - {x: -8.024059, y: 0.17011344}
+  - {x: -7.9832907, y: 0.12846601}
+  - {x: -7.9013658, y: 0.13011873}
+  - {x: -7.876796, y: 0.15291822}
+  - {x: -7.7248836, y: 0.15644538}
+  - {x: -7.7098627, y: 0.13460195}
+  - {x: -7.593887, y: 0.14094245}
+  - {x: -7.568109, y: 0.1576122}
+  - {x: -7.5186915, y: 0.157256}
+  - {x: -7.482188, y: 0.16903436}
+  - {x: -7.3838644, y: 0.14661968}
+  - {x: -6.5022345, y: 0.15504062}
+  - {x: -6.1915693, y: 0.15282428}
+  - {x: -5.4852624, y: 0.14753139}
+  - {x: -5.3474073, y: 0.1547755}
+  - {x: -5.1496897, y: 0.14630783}
+  - {x: -5.078183, y: 0.06620635}
+  - {x: -4.8629584, y: -0.010565393}
+  - {x: -4.6623983, y: -0.110222444}
+  - {x: -4.5757093, y: -0.12266121}
+  - {x: -4.575709, y: -0.12266121}
+  - {x: -4.5757055, y: -0.12266169}
+  - {x: -4.567636, y: -0.12381945}
+  - {x: -4.5546727, y: -0.1256796}
+  - {x: -4.532612, y: -0.12884484}
+  - {x: -4.326356, y: -0.16109285}
+  - {x: -4.316462, y: -0.1751195}
+  - {x: -4.2153044, y: -0.16807279}
+  - {x: -4.1350045, y: -0.17139636}
+  - {x: -3.8648794, y: -0.15741882}
+  - {x: -3.5457103, y: -0.101728536}
+  - {x: -3.2229795, y: -0.045056924}
+  - {x: -2.790362, y: 0.015985861}
+  - {x: -2.6102796, y: 0.072691806}
+  - {x: -2.5088506, y: 0.07214488}
+  - {x: -2.2898448, y: 0.09332741}
+  - {x: -1.9913956, y: 0.102484114}
+  - {x: -1.5946825, y: 0.10481012}
+  - {x: -1.1867008, y: 0.12289846}
+  - {x: -0.8008643, y: 0.12163627}
+  - {x: -0.3946176, y: 0.07335079}
+  - {x: -0.14808099, y: 0.0315956}
+  - {x: 0.07304993, y: 0.03406752}
+  - {x: 0.23164466, y: -0.02609311}
+  - {x: 0.3447047, y: -0.09126817}
+  - {x: 0.4273865, y: -0.110491365}
+  - {x: 0.6488212, y: -0.14481458}
+  - {x: 1.2492892, y: -0.18471774}
+  - {x: 1.8693435, y: -0.19103917}
+  - {x: 2.652283, y: -0.17912635}
+  - {x: 3.4074163, y: -0.18827495}
+  - {x: 3.788679, y: -0.10937701}
+  - {x: 4.056138, y: -0.04021083}
+  - {x: 4.446334, y: 0.06022398}
+  - {x: 4.538006, y: 0.042629138}
+  - {x: 4.6786785, y: 0.0798148}
+  - {x: 4.8600945, y: 0.10612668}
+  - {x: 5.0644546, y: 0.089623824}
+  - {x: 5.271356, y: 0.07024515}
+  - {x: 5.4738917, y: 0.046841502}
+  - {x: 5.710262, y: 0.03714454}
+  - {x: 5.897321, y: 0.015480887}
+  - {x: 6.0055666, y: 0.012102019}
+  - {x: 6.174189, y: -0.009365189}
+  - {x: 6.7446218, y: 0.01321925}
+  - {x: 6.994772, y: 0.019925488}
+  - {x: 7.25612, y: 0.02604426}
+  - {x: 7.8390627, y: 0.04022301}
+  - {x: 8.408814, y: 0.022990596}
+  - {x: 8.867044, y: 0.0143641345}
+  - {x: 10.391225, y: -0.03446494}
+  - {x: 10.494583, y: -0.070578575}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1186298545
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,6 +2522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1367153875}
   - component: {fileID: 1367153874}
+  - component: {fileID: 1367153876}
   m_Layer: 0
   m_Name: tronco seco
   m_TagString: Untagged
@@ -2466,12 +2589,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367153873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.533, y: -6.081, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.96, y: -6.23, z: 0}
+  m_LocalScale: {x: 0.08329261, y: 0.09791374, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1367153876
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367153873}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.04569196, y: 1.366759}
+  m_Size: {x: 9.682812, y: 3.2613328}
+  m_Direction: 1
 --- !u!1 &1452802166
 GameObject:
   m_ObjectHideFlags: 0
@@ -3451,8 +3590,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056348923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.29, y: -6.122, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.071, y: -6.143, z: 0}
+  m_LocalScale: {x: 1.1481788, y: 0.92735994, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
