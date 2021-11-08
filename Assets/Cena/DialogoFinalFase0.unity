@@ -2189,7 +2189,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: H.quadrinho - fase1
+          m_StringArgument: Cena final
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &987164729
@@ -2697,7 +2697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 69
-    width: 60
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
