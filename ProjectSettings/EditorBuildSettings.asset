@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Cena/historia em quadrinho/00.6Historia em quadrinhos.unity
     guid: a05a8dd6488e3ff46ba96b5e1114e31b
+  - enabled: 1
+    path: Assets/Cena/Cena final.unity
+    guid: 26d5776ef797b344ba9f29bbeaeb2798
   m_configObjects: {}

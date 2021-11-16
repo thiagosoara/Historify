@@ -1849,7 +1849,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.82353
     y: 58.11765
-    width: 60
+    width: 80.58823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1939,7 +1939,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198861}
+  - {fileID: 1259198814}
   variables: []
   description: 
   stepPause: 0
@@ -2006,7 +2006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 0a18a7b8e8a6b2b419b076634b6f6ded, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198815
@@ -2057,7 +2057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 9fa7c48524e0fb54bb95c204e7444a1f, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198818
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: c7d5f56a82f64114a8d1c1d4398e4248, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198820
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: dd1bdea55746cd247a8415137450d64e, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198822
@@ -2159,7 +2159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: b3bcf1a9c89a7194ea04215fb1a587c3, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198824
@@ -2193,7 +2193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 0dc1cdbbb20a6fe4eb5a07ec5c480fae, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198826
@@ -2312,7 +2312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 00c76516e26e4dc448da3c67961fe0cf, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198831
@@ -2891,7 +2891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 1a8c28811ba8ab440b48e42662b92320, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198852
@@ -3017,7 +3017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 9aa17e0c7d621094e9d24c848c151f4e, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198858

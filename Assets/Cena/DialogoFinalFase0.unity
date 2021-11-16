@@ -2189,7 +2189,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: H.quadrinho - fase1
+          m_StringArgument: Cena final
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &987164729
@@ -2546,6 +2546,11 @@ GameObject:
   - component: {fileID: 1441274174}
   - component: {fileID: 1441274159}
   - component: {fileID: 1441274162}
+  - component: {fileID: 1441274165}
+  - component: {fileID: 1441274164}
+  - component: {fileID: 1441274163}
+  - component: {fileID: 1441274161}
+  - component: {fileID: 1441274160}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2582,6 +2587,40 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1441274160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441274158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  soundClip: {fileID: 0}
+  volume: 1
+  loop: 0
+--- !u!114 &1441274161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441274158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  soundClip: {fileID: 0}
+  volume: 1
+  loop: 0
 --- !u!114 &1441274162
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2610,6 +2649,57 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1441274163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441274158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 84a769ae58772a94ebed23a8abc9f106, type: 3}
+  volume: 1
+  loop: 0
+--- !u!114 &1441274164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441274158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  soundClip: {fileID: 0}
+  volume: 1
+  loop: 0
+--- !u!114 &1441274165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441274158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 9469689f10366d84594630ea4926b92b, type: 3}
+  volume: 1
+  loop: 0
 --- !u!114 &1441274174
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2697,7 +2787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 69
-    width: 60
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2706,10 +2796,15 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1441274176}
   commandList:
+  - {fileID: 1441274164}
   - {fileID: 1441274175}
+  - {fileID: 1441274165}
   - {fileID: 1441274162}
+  - {fileID: 1441274163}
   - {fileID: 1441274174}
+  - {fileID: 1441274161}
   - {fileID: 1441274159}
+  - {fileID: 1441274160}
   suppressAllAutoSelections: 0
 --- !u!114 &1441274178
 MonoBehaviour:
@@ -2737,7 +2832,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1441274177}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1441274163}
   variables: []
   description: 
   stepPause: 0
