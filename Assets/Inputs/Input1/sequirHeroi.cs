@@ -37,6 +37,9 @@ public class sequirHeroi : MonoBehaviour
     public bool face = true;
     public Transform Hero;
 
+    //efeito do chicote 
+    public GameObject efeitoChicote;
+
 
     
     
@@ -99,8 +102,14 @@ public class sequirHeroi : MonoBehaviour
         //chicote
         if (pause==false && vilaoVivo==true){
             if (Vector2.Distance(transform.position, Target.position) < distancia){
+            
             anim.SetBool("Idle", false);
             anim.SetBool("Chicote", true);
+
+            
+        // efeito
+        Instantiate(efeitoChicote,new Vector3(this.gameObject.transform.position.x,this.gameObject.transform.position.y,this.gameObject.transform.position.z),Quaternion.identity);
+        
          }
          else {
             anim.SetBool("Idle", true);
