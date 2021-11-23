@@ -42,6 +42,9 @@ public class botao_hero : Move_Mateu
     //levantado
     public bool levantado = true;
 
+    //efeito do pulo 
+    public GameObject efeitoPulo;
+
 
     public Transform HeroiT;
     public Animator anim;
@@ -238,6 +241,11 @@ public class botao_hero : Move_Mateu
         forca = 10f;
         HeroiRB.AddForce(new Vector2(0, forca), ForceMode2D.Impulse);
         pl = true;
+        // efeito de pulo
+        Instantiate(efeitoPulo,new Vector3(this.gameObject.transform.position.x,this.gameObject.transform.position.y,this.gameObject.transform.position.z),Quaternion.identity);
+
+
+
         }
         if(vivo==true && liberapulo==false){
             pl=false;
