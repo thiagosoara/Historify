@@ -1522,6 +1522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 235107663}
+  efeitoAnadandoCana: {fileID: 7234308353985372945, guid: 05edce66a033bb6488c0eb950d6d97c7, type: 3}
 --- !u!70 &235107659
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4878,6 +4879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+  efeitoAnadandoCana: {fileID: 0}
 --- !u!70 &833921563
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -13170,6 +13172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+  efeitoAnadandoCana: {fileID: 0}
 --- !u!95 &1949789403
 Animator:
   serializedVersion: 3

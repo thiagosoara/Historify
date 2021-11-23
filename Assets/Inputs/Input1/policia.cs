@@ -7,6 +7,8 @@ public class policia : MonoBehaviour
 {
     //animação
     public Animator anim;
+    //efeito de Mateu anfdando na cana
+    public GameObject efeitoAnadandoCana;
     
     void Start()
     {
@@ -50,7 +52,12 @@ public class policia : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D outro){
         if (outro.gameObject.CompareTag("Player")){
-            Invoke ("NextLevel", 1f);}
+            Invoke ("NextLevel", 1f);
+            
+            //efeito de Mateu andando na cana
+            Instantiate(efeitoAnadandoCana,new Vector3(this.gameObject.transform.position.x,this.gameObject.transform.position.y,this.gameObject.transform.position.z),Quaternion.identity);
+
+            }
             }
 
     void NextLevel(){
