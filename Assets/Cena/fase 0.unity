@@ -1072,6 +1072,7 @@ MonoBehaviour:
   cap: {fileID: 168258756}
   face: 1
   Hero: {fileID: 1760005670}
+  efeitoChicote: {fileID: 7402571108512499900, guid: 082a4bc4105675c45a325deefb7e179c, type: 3}
 --- !u!58 &168258758
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1521,6 +1522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 235107663}
+  efeitoAnadandoCana: {fileID: 7234308353985372945, guid: 05edce66a033bb6488c0eb950d6d97c7, type: 3}
 --- !u!70 &235107659
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2531,7 +2533,6 @@ GameObject:
   - component: {fileID: 375012774}
   - component: {fileID: 375012773}
   - component: {fileID: 375012772}
-  - component: {fileID: 375012776}
   m_Layer: 5
   m_Name: Button pulo
   m_TagString: Untagged
@@ -2668,102 +2669,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375012770}
   m_CullTransparentMesh: 0
---- !u!82 &375012776
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375012770}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 179bb2e4a0a693d4dae01cbd22b5dce6, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &376763373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4974,6 +4879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+  efeitoAnadandoCana: {fileID: 0}
 --- !u!70 &833921563
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7541,6 +7447,7 @@ MonoBehaviour:
   cap: {fileID: 1268441431}
   face: 1
   Hero: {fileID: 1760005670}
+  efeitoChicote: {fileID: 7402571108512499900, guid: 082a4bc4105675c45a325deefb7e179c, type: 3}
 --- !u!70 &1268441435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -10947,6 +10854,7 @@ MonoBehaviour:
   a: 0
   l: 0
   levantado: 1
+  efeitoPulo: {fileID: 5814977986851457034, guid: 2de29a34c9bcca7478bebc2e75a36086, type: 3}
   HeroiT: {fileID: 0}
   anim: {fileID: 1760005663}
   HeroiRB: {fileID: 1760005667}
@@ -13009,7 +12917,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 62.734177
-    width: 77.868835
+    width: 78.124985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13049,11 +12957,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 139.99005, y: -6.434526}
+  scrollPos: {x: 114.78516, y: -12.120993}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.6100004
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -13264,6 +13172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+  efeitoAnadandoCana: {fileID: 0}
 --- !u!95 &1949789403
 Animator:
   serializedVersion: 3

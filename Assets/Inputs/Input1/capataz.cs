@@ -37,6 +37,10 @@ public int vidaVilao1 = 100;
     public bool face = true;
     public Transform Hero;
 
+    //efeito do chicote 
+    public GameObject efeitoChicote;
+    
+
     
 
 
@@ -90,7 +94,11 @@ public int vidaVilao1 = 100;
                 if (Vector2.Distance(transform.position, Target.position) > distancia){
                 transform.position = Vector2.MoveTowards(transform.position,Target.position, Speed * Time.deltaTime);
                 anim.SetBool("Idle", false);
-                anim.SetBool("Correndo", true);}
+                anim.SetBool("Correndo", true);
+              
+                
+                
+                }
 
                 else{
                 anim.SetBool("Idle", true);
@@ -105,6 +113,10 @@ public int vidaVilao1 = 100;
             if (Vector2.Distance(transform.position, Target.position) < distancia){
             anim.SetBool("Idle", false);
             anim.SetBool("Chicote", true);
+
+        // efeito
+        Instantiate(efeitoChicote,new Vector3(this.gameObject.transform.position.x,this.gameObject.transform.position.y,this.gameObject.transform.position.z),Quaternion.identity);
+        
          }
          else {
             anim.SetBool("Idle", true);
