@@ -1404,7 +1404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 68.93617
-    width: 98.93617
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1462,11 +1462,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 5.872336, y: 0.25531882}
+  scrollPos: {x: 292, y: 229.56383}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.94000006
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702582}
+  - {fileID: 507702567}
   variables: []
   description: 
   stepPause: 0
@@ -1628,8 +1628,7 @@ MonoBehaviour:
   itemId: 13
   indentLevel: 0
   storyText: "Professor: Acredito que eles gostar\xE3o do dia de hoje, j\xE1 que
-    voc\xEA \xE9 um perito no assunto, Dirceu. Estou indo e mais tarde o levaria
-    de volta para casa, certo? Mais uma vez muito obrigado!\r\n"
+    voc\xEA \xE9 um perito no assunto, Dirceu.\n"
   description: 
   character: {fileID: 1617015502}
   portrait: {fileID: 21300000, guid: ff50fd5aba0dc0c408499937ea4dae96, type: 3}
@@ -2244,7 +2243,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &507702596
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
