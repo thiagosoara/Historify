@@ -1801,7 +1801,7 @@ MonoBehaviour:
   itemId: 50
   indentLevel: 0
   storyText: "Meus pais j\xE1 morreram na escravid\xE3o, sem conhecer liberdade.
-    Quero isso n\xE3o! Meus companheiros e eu vamos fugir na noite de hoje."
+    Oxe! Quero isso n\xE3o! Meus companheiros e eu vamos fugir na noite de hoje."
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -1931,7 +1931,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198845}
+  - {fileID: 1259198834}
   variables: []
   description: 
   stepPause: 0
@@ -2202,8 +2202,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Dirceu: Que bom que voc\xEAs est\xE3o abertos a aprender uma nova perspectiva
-    da Hist\xF3ria.\r\n\n"
+  storyText: "Dirceu: Que bom que voc\xEAs est\xE3o Prop\xEDcios a aprender uma nova
+    perspectiva da Hist\xF3ria.\r\n\n"
   description: 
   character: {fileID: 1270511021}
   portrait: {fileID: 21300000, guid: 00474c260ed8bbf4bb479e8d4a97c06d, type: 3}
@@ -2294,7 +2294,7 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   storyText: "Mateu: Me chamo Mateu. Vim da Bahia. Meu dono vendeu eu pra um sinh\xF4
-    de Pernambuco. Quando moleque, falavam que eu s\xF3 ia saber ser escravo."
+    de Pernambuco. Quando moleque, falavam que eu s\xF3 ia servir pra ser escravo."
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -2354,8 +2354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Aliado: Mateu, j\xE1 est\xE1 tudo certo para hoje \xE0 noite! Falei
-    com todos os outros que v\xE3o fugir com a gente.\n"
+  storyText: "Aliado: Mateu, ta tudo certo para hoje \xE0 noite! Falei com todos
+    os outros que v\xE3o fugir com a gente.\n"
   description: 
   character: {fileID: 675922201}
   portrait: {fileID: 21300000, guid: fc04d8392dd78704b80f1d63e2b21d27, type: 3}

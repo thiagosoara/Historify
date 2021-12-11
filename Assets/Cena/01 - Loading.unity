@@ -1087,7 +1087,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
-    m_FontSize: 75
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1390,8 +1390,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 66.93617
+    x: -99.44098
+    y: 889.77826
     width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 166, y: 229.56383}
+  scrollPos: {x: 222.0937, y: -801.3822}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
@@ -1451,7 +1451,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 507702560}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 507702576}
   variables: []
   description: 
   stepPause: 0
@@ -1776,7 +1777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 07fd2283407654442ae41af6f2dbdc46, type: 3}
+  soundClip: {fileID: 8300000, guid: 35be3eeefc131584eaddf03aadb1399f, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702581
