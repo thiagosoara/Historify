@@ -973,7 +973,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
-    m_FontSize: 75
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   itemId: 50
   indentLevel: 0
   storyText: "Meus pais j\xE1 morreram na escravid\xE3o, sem conhecer liberdade.
-    Oxe! Quero isso n\xE3o! Meus companheiros e eu vamos fugir na noite de hoje."
+    Oxe! Quero isso n\xE3o, meus companheiros e eu vamos fugir na noite de hoje."
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -1931,7 +1931,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198834}
+  - {fileID: 1259198839}
   variables: []
   description: 
   stepPause: 0
@@ -2455,8 +2455,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "Mateu: Certo! Bora deixar para falar disso quando o capataz n\xE3o
-    estiver olhando.\r\n\r\n"
+  storyText: "Mateu: Certo! Certo! Bora deixar para falar disso quando o capataz
+    n\xE3o estiver olhando.\r\n\r\n"
   description: 
   character: {fileID: 675922201}
   portrait: {fileID: 21300000, guid: fc04d8392dd78704b80f1d63e2b21d27, type: 3}
@@ -2483,7 +2483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Mateu: Tonico, me repassa o plano, mas fala baixo pro capataz n\xE3o
+  storyText: "Mateu: Tonico, me repassa o plano, mas fala baixo pra capataz n\xE3o
     escutar!\n\n"
   description: 
   character: {fileID: 1089665313}
