@@ -973,7 +973,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
-    m_FontSize: 75
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1730,9 +1730,7 @@ GameObject:
   - component: {fileID: 1259198811}
   - component: {fileID: 1259198810}
   - component: {fileID: 1259198809}
-  - component: {fileID: 1259198831}
   - component: {fileID: 1259198828}
-  - component: {fileID: 1259198827}
   - component: {fileID: 1259198826}
   - component: {fileID: 1259198834}
   - component: {fileID: 1259198833}
@@ -1756,9 +1754,7 @@ GameObject:
   - component: {fileID: 1259198852}
   - component: {fileID: 1259198808}
   - component: {fileID: 1259198813}
-  - component: {fileID: 1259198863}
   - component: {fileID: 1259198862}
-  - component: {fileID: 1259198861}
   - component: {fileID: 1259198860}
   - component: {fileID: 1259198859}
   - component: {fileID: 1259198858}
@@ -1805,7 +1801,7 @@ MonoBehaviour:
   itemId: 50
   indentLevel: 0
   storyText: "Meus pais j\xE1 morreram na escravid\xE3o, sem conhecer liberdade.
-    Quero isso n\xE3o! Meus companheiros e eu vamos fugir na noite de hoje."
+    Oxe! Quero isso n\xE3o, meus companheiros e eu vamos fugir na noite de hoje."
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -1858,12 +1854,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1259198809}
   commandList:
-  - {fileID: 1259198863}
-  - {fileID: 1259198831}
   - {fileID: 1259198862}
   - {fileID: 1259198826}
-  - {fileID: 1259198861}
-  - {fileID: 1259198827}
   - {fileID: 1259198860}
   - {fileID: 1259198828}
   - {fileID: 1259198859}
@@ -1939,7 +1931,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198814}
+  - {fileID: 1259198839}
   variables: []
   description: 
   stepPause: 0
@@ -2210,39 +2202,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Dirceu: Que bom que voc\xEAs est\xE3o abertos a aprender uma nova perspectiva
-    da Hist\xF3ria.\r\n\n"
+  storyText: "Dirceu: Que bom que voc\xEAs est\xE3o Prop\xEDcios a aprender uma nova
+    perspectiva da Hist\xF3ria.\r\n\n"
   description: 
   character: {fileID: 1270511021}
   portrait: {fileID: 21300000, guid: 00474c260ed8bbf4bb479e8d4a97c06d, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1259198827
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 0
-  storyText: "Narrador: Ent\xE3o, Dirceu come\xE7a a apresentar uma narrativa que,
-    na verdade, \xE9 uma viagem no tempo.\n"
-  description: 
-  character: {fileID: 349042139}
-  portrait: {fileID: 21300000, guid: 3451b4c1aa604da4892b852c865cfa2a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2315,35 +2279,6 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 00c76516e26e4dc448da3c67961fe0cf, type: 3}
   volume: 1
   loop: 0
---- !u!114 &1259198831
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  storyText: 'Narrador: Dirceu continua sua aula.
-
-'
-  description: 
-  character: {fileID: 1270511021}
-  portrait: {fileID: 21300000, guid: 00474c260ed8bbf4bb479e8d4a97c06d, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1259198832
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2359,7 +2294,7 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   storyText: "Mateu: Me chamo Mateu. Vim da Bahia. Meu dono vendeu eu pra um sinh\xF4
-    de Pernambuco. Quando moleque, falavam que eu s\xF3 ia saber ser escravo."
+    de Pernambuco. Quando moleque, falavam que eu s\xF3 ia servir pra ser escravo."
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -2419,8 +2354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Aliado: Mateu, j\xE1 est\xE1 tudo certo para hoje \xE0 noite! Falei
-    com todos os outros que v\xE3o fugir com a gente.\n"
+  storyText: "Aliado: Mateu, ta tudo certo para hoje \xE0 noite! Falei com todos
+    os outros que v\xE3o fugir com a gente.\n"
   description: 
   character: {fileID: 675922201}
   portrait: {fileID: 21300000, guid: fc04d8392dd78704b80f1d63e2b21d27, type: 3}
@@ -2520,8 +2455,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "Mateu: Certo! Bora deixar para falar disso quando o capataz n\xE3o
-    estiver olhando.\r\n\r\n"
+  storyText: "Mateu: Certo! Certo! Bora deixar para falar disso quando o capataz
+    n\xE3o estiver olhando.\r\n\r\n"
   description: 
   character: {fileID: 675922201}
   portrait: {fileID: 21300000, guid: fc04d8392dd78704b80f1d63e2b21d27, type: 3}
@@ -2548,7 +2483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Mateu: Tonico, me repassa o plano, mas fala baixo pro capataz n\xE3o
+  storyText: "Mateu: Tonico, me repassa o plano, mas fala baixo pra capataz n\xE3o
     escutar!\n\n"
   description: 
   character: {fileID: 1089665313}
@@ -2723,8 +2658,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "Mateu: Que sinal? Tomara que eu n\xE3o seja pego de novo! A sova da
-    outra vez ainda d\xF3i.\n"
+  storyText: "Mateu: Que sinal? Tomara que eu n\xE3o seja pego de novo! AI, A sova
+    da outra vez ainda d\xF3i.\n"
   description: 
   character: {fileID: 1363389287}
   portrait: {fileID: 21300000, guid: 06c7bab217eb6304ab350913b5dcf1c5, type: 3}
@@ -3071,23 +3006,6 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: e72b7cab679e2c14fbe301bc7e08561a, type: 3}
   volume: 1
   loop: 0
---- !u!114 &1259198861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 54
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: aa642b2ea5362754bbc11ec0c3f909ab, type: 3}
-  volume: 1
-  loop: 0
 --- !u!114 &1259198862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3103,23 +3021,6 @@ MonoBehaviour:
   itemId: 53
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 11010738600fd2741968ea4a005dc740, type: 3}
-  volume: 1
-  loop: 0
---- !u!114 &1259198863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259198807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 52
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 8246c33b96de94e4f86aa733b394c658, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &1259198864

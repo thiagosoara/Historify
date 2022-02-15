@@ -2572,7 +2572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Narrador: \u2026 Ou, \xE0s vezes, eram capturados de forma muito abrupta,
+  storyText: "Dirceu: \u2026 Ou, \xE0s vezes, eram capturados de forma muito abrupta,
     frustrando planos e sonhos.  E assim encerramos a introdu\xE7\xE3o da nossa hist\xF3ria
     ."
   description: 
@@ -2742,8 +2742,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Narrador: Um jovem bastante astuto e forte, a qualquer hora ou dia,
-    poderia, com muito esfor\xE7o, fugir da escravid\xE3o...\r\n"
+  storyText: "Dirceu: Um jovem bastante astuto e forte, a qualquer hora ou dia, poderia,
+    com muito esfor\xE7o, fugir da escravid\xE3o...\r\n"
   description: 
   character: {fileID: 638809582}
   portrait: {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
@@ -2833,7 +2833,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1441274177}
   selectedCommands:
-  - {fileID: 1441274160}
+  - {fileID: 1441274159}
   variables: []
   description: 
   stepPause: 0
