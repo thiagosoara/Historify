@@ -1452,7 +1452,29 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
+  - {fileID: 507702581}
+  - {fileID: 507702577}
+  - {fileID: 507702580}
+  - {fileID: 507702558}
+  - {fileID: 507702595}
+  - {fileID: 507702564}
+  - {fileID: 507702594}
+  - {fileID: 507702565}
+  - {fileID: 507702592}
+  - {fileID: 507702567}
+  - {fileID: 507702591}
+  - {fileID: 507702568}
+  - {fileID: 507702589}
+  - {fileID: 507702570}
+  - {fileID: 507702587}
+  - {fileID: 507702572}
+  - {fileID: 507702585}
+  - {fileID: 507702574}
+  - {fileID: 507702584}
+  - {fileID: 507702575}
+  - {fileID: 507702583}
   - {fileID: 507702576}
+  - {fileID: 507702596}
   variables: []
   description: 
   stepPause: 0
