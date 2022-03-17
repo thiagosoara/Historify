@@ -935,7 +935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506639865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -175.16, y: -1.55, z: -1}
+  m_LocalPosition: {x: -76.45, y: 0.42, z: -1}
   m_LocalScale: {x: -0.76730734, y: 0.7229496, z: 1}
   m_Children:
   - {fileID: 1785465374}
@@ -1266,7 +1266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764017776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -123.67, y: -4.07, z: 0}
+  m_LocalPosition: {x: -124.51, y: -4.03, z: 0}
   m_LocalScale: {x: 0.38520592, y: 0.37712455, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1651,6 +1651,8 @@ GameObject:
   m_Component:
   - component: {fileID: 868254823}
   - component: {fileID: 868254822}
+  - component: {fileID: 868254825}
+  - component: {fileID: 868254824}
   m_Layer: 0
   m_Name: Rio una
   m_TagString: Water
@@ -1695,9 +1697,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 262839233
-  m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingLayerID: 1489566823
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3f702e72b93cc8242abb8df97d1a7d00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.77254903}
   m_FlipX: 0
@@ -1717,12 +1719,57 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868254821}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -78.74999, y: -4.91, z: 0}
-  m_LocalScale: {x: 7.194403, y: 9.840217, z: 1}
+  m_LocalPosition: {x: -79.24, y: -4.82, z: 0}
+  m_LocalScale: {x: 7.3840685, y: 9.840217, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!253 &868254824
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868254821}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 0
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: -30
+--- !u!61 &868254825
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868254821}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.5, y: 0.29}
+    newSize: {x: 5.5, y: 0.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 0.29}
+  m_EdgeRadius: 0
 --- !u!1 &1095558554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,7 +2302,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 262839233
   m_SortingLayer: 1
-  m_SortingOrder: -1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 456bf2923ec25a5458e8ff77eb3e060c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2988,7 +3035,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1367153875}
   - component: {fileID: 1367153874}
-  - component: {fileID: 1367153876}
   m_Layer: 0
   m_Name: tronco seco
   m_TagString: Untagged
@@ -3033,9 +3079,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 262839233
-  m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 679ede6e7dd604c4cbc730d67d3ae116, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3055,28 +3101,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367153873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.925, y: -4.37, z: 0}
+  m_LocalPosition: {x: -133.13, y: -4.33, z: 0}
   m_LocalScale: {x: 0.4207395, y: 0.4827035, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1367153876
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367153873}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.04569196, y: 1.366759}
-  m_Size: {x: 9.682812, y: 3.2613328}
-  m_Direction: 1
 --- !u!1 &1452802166
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,7 +3324,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.1855278
+  orthographic size: 7.960856
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3318,8 +3348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613580677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -171.9, y: -0.88, z: -10.28}
-  m_LocalScale: {x: 3.6910532, y: 5.226433, z: 0.64223}
+  m_LocalPosition: {x: -80.3, y: 0.18, z: -10.54}
+  m_LocalScale: {x: 7.2, y: 5.24, z: 1.05}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -4080,6 +4110,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2056348925}
   - component: {fileID: 2056348924}
+  - component: {fileID: 2056348927}
+  - component: {fileID: 2056348926}
   m_Layer: 0
   m_Name: Riacho seco
   m_TagString: Water
@@ -4126,7 +4158,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1489566823
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f03038e4952fdbc40be9135bf16b2bb7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.64705884}
   m_FlipX: 0
@@ -4152,6 +4184,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!253 &2056348926
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056348923}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 0
+  m_Density: 1
+  m_LinearDrag: 1
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: -5
+--- !u!61 &2056348927
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056348923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.11594665}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.82, y: 0.59}
+    newSize: {x: 2.82, y: 0.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.82, y: 0.3581066}
+  m_EdgeRadius: 0
 --- !u!1 &2056767178
 GameObject:
   m_ObjectHideFlags: 0
