@@ -1848,7 +1848,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.82353
     y: 58.11765
-    width: 80.58823
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1908,7 +1908,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198825}
+  - {fileID: 1259198813}
   variables: []
   description: 
   stepPause: 0
@@ -1953,7 +1953,7 @@ MonoBehaviour:
     sob a vis\xE3o de quem mais sofreu e que levou essa luta a durar por mais tempo...
     \n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 474513620}
   portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1999,7 +1999,7 @@ MonoBehaviour:
     nos livros, na qual a guerra teve seu in\xEDcio com a sa\xEDda de D. Pedro I,
     entre 1832 a 1835."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 474513620}
   portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2046,7 +2046,7 @@ MonoBehaviour:
     da minha experi\xEAncia de pesquisa com essa importante parte da hist\xF3ria
     do pa\xEDs."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 474513620}
   portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   storyText: "Dirceu: Meu nome \xE9 Dirceu Lindoso e tenho uma proposta especial
     a fazer-lhes.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 170092975}
   portrait: {fileID: 21300000, guid: d05bef7a2c66c514ba5126dc06e24766, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2137,7 +2137,7 @@ MonoBehaviour:
     o meu amigo. Mas serei eu que o substituirei hoje, pois ele tem coisas um tanto
     urgentes para resolver.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1458616168}
   portrait: {fileID: 21300000, guid: d95dea909aea7c54b8cc0410720b4790, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2182,7 +2182,7 @@ MonoBehaviour:
   storyText: "Dirceu: Obrigado digo eu, meu amigo, por me fazer relembrar minha \xE9poca
     de professor! Ser\xE1 bom para revirar a mem\xF3ria!\r\n\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1886498356}
   portrait: {fileID: 21300000, guid: ff50fd5aba0dc0c408499937ea4dae96, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2227,8 +2227,8 @@ MonoBehaviour:
   storyText: "Professor: Acredito que eles gostar\xE3o do dia de hoje, j\xE1 que
     voc\xEA \xE9 um perito no assunto.\n"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1886498356}
+  portrait: {fileID: 21300000, guid: ff50fd5aba0dc0c408499937ea4dae96, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2271,7 +2271,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Dirceu: Sim, mas um dia de descanso n\xE3o mata ningu\xE9m."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 442426328}
   portrait: {fileID: 21300000, guid: c36634f73e6f51a40a49be35182d3900, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2316,8 +2316,8 @@ MonoBehaviour:
   storyText: "Professor: Espero n\xE3o estar atrapalhando voc\xEA em suas pesquisas,
     sei que falta pouco para a publica\xE7\xE3o.\r\n"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 442426328}
+  portrait: {fileID: 21300000, guid: c36634f73e6f51a40a49be35182d3900, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2361,8 +2361,8 @@ MonoBehaviour:
   storyText: "Dirceu: Tudo bem, meu amigo! Hoje eu o ajudo e um dia, talvez, voc\xEA
     me ajude...\r\n"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1427644306}
+  portrait: {fileID: 21300000, guid: 6872ac8a240ba334c900e59baeba373d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2406,8 +2406,8 @@ MonoBehaviour:
   storyText: "Professor: Obrigado, Dirceu, por me ajudar hoje! Sei que voc\xEA tinha
     outras coisas a fazer.\r\n"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1427644306}
+  portrait: {fileID: 21300000, guid: 6872ac8a240ba334c900e59baeba373d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
