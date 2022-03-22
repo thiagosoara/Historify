@@ -12823,7 +12823,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1927804635
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12840,7 +12840,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804636
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12857,7 +12857,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804637
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12874,7 +12874,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804638
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12891,7 +12891,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804639
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12908,7 +12908,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804640
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12925,7 +12925,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804641
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12942,7 +12942,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804642
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12959,7 +12959,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1927804643
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12988,8 +12988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "Muitas dessas fugas poderiam provocar um embate de fato, mas sendo
-    voc\xEA um fugitido o melhor n\xE3o seria combater os seus captores e sim deix\xE1-los
+  storyText: "Muitas dessas fugas poderiam provocar um embate, de fato, mas sendo
+    voc\xEA um fugitivo, o melhor n\xE3o seria combater os seus captores e sim deix\xE1-los
     distra\xEDdos ou apag\xE1-los..\r\n"
   description: 
   character: {fileID: 1725552426}
@@ -13075,9 +13075,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Naquela \xE9poca ap\xF3s a captura diante de uma fugas, muitos  escravos
+  storyText: "Naquela \xE9poca, ap\xF3s a captura diante de uma fuga, muitos  escravos
     eram mortos imediatamente ou  acabavam morrendo por causa  de castigos feitos 
-    em pra\xE7a p\xFAblica isso tudo por desejar a liberdade.\r\n\n"
+    em pra\xE7a p\xFAblica isso tudo por desejarem a liberdade.\r\n\n"
   description: 
   character: {fileID: 1725552426}
   portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -13132,9 +13132,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Pular, correr e se esgueirar era o certo a se fazer, pois para isso
-    a pr\xE1tica da capoeira tinham todos esses movimentos disfar\xE7ados, como uma
-    dan\xE7a t\xEDpica que agrada os olhos dos senhores de escravos."
+  storyText: "Pular, correr e se esgueirar era o certo a se fazer. Para isso, a pr\xE1tica
+    da capoeira oferecia todos esses movimentos disfar\xE7ados, como uma dan\xE7a
+    t\xEDpica que agradava aos olhos dos senhores de escravos."
   description: 
   character: {fileID: 1725552426}
   portrait: {fileID: 21300000, guid: b7fbf124a398a35428aa51ff033eb2f4, type: 3}
@@ -13260,7 +13260,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1927804662}
   selectedCommands:
-  - {fileID: 1927804654}
+  - {fileID: 1927804653}
   variables: []
   description: 
   stepPause: 0

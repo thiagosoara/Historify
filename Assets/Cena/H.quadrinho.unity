@@ -1801,7 +1801,7 @@ MonoBehaviour:
   itemId: 50
   indentLevel: 0
   storyText: "Meus pais j\xE1 morreram na escravid\xE3o, sem conhecer liberdade.
-    Oxe! Quero isso n\xE3o, meus companheiros e eu vamos fugir na noite de hoje."
+    Oxe! Quero isso n\xE3o! Meus companheiros e eu vamos fugir na noite de hoje."
   description: 
   character: {fileID: 719295793}
   portrait: {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
@@ -1931,7 +1931,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198839}
+  - {fileID: 1259198813}
   variables: []
   description: 
   stepPause: 0
@@ -2202,7 +2202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Dirceu: Que bom que voc\xEAs est\xE3o Prop\xEDcios a aprender uma nova
+  storyText: "Dirceu: Que bom que voc\xEAs est\xE3o prop\xEDcios a aprender uma nova
     perspectiva da Hist\xF3ria.\r\n\n"
   description: 
   character: {fileID: 1270511021}
@@ -2321,7 +2321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: 'Dirceu: Mateu dialoga com seu aliado enquanto voltam do trabalho para
+  storyText: 'Dirceu: Mateu dialoga com seu aliado, enquanto voltam do trabalho para
     a senzala.
 
 
@@ -2354,7 +2354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Aliado: Mateu, ta tudo certo para hoje \xE0 noite! Falei com todos
+  storyText: "Aliado: Mateu, t\xE1 tudo certo para hoje \xE0 noite! Falei com todos
     os outros que v\xE3o fugir com a gente.\n"
   description: 
   character: {fileID: 675922201}
@@ -2540,7 +2540,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Tonico:  T\xE1 vendo os dois camaradas jogando angola? T\xE3o distraindo
     os capatazes. Outros companheiros v\xE3o segurar os homens pra gente escapar
-    e buscar ajuda. Depois a gente volta pra soltar o restante.\n"
+    e buscar ajuda. Depois, a gente volta pra soltar o restante.\n"
   description: 
   character: {fileID: 344196440}
   portrait: {fileID: 21300000, guid: 1b69a79c299e1674f8b8833c48a705c3, type: 3}
@@ -2658,7 +2658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "Mateu: Que sinal? Tomara que eu n\xE3o seja pego de novo! AI, A sova
+  storyText: "Mateu: Que sinal? Tomara que eu n\xE3o seja pego de novo! Ai! A sova
     da outra vez ainda d\xF3i.\n"
   description: 
   character: {fileID: 1363389287}
