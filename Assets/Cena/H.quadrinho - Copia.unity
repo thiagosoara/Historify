@@ -1848,7 +1848,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.82353
     y: 58.11765
-    width: 60
+    width: 80.58823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1949,7 +1949,7 @@ MonoBehaviour:
   itemId: 100
   indentLevel: 0
   storyText: "Citaria alguns nomes importantes desse evento e  acabar\xEDamos, ent\xE3o,
-    a aula por isso mesmo. Mas aqui a minha proposta \xE9 outra: contar a hist\xF3ria
+    a aula por isso mesmo. Mas, aqui, a minha proposta \xE9 outra: contar a hist\xF3ria
     sob a vis\xE3o de quem mais sofreu e que levou essa luta a durar por mais tempo...
     \n"
   description: 
