@@ -58,16 +58,16 @@
      <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\JSON\Editor\JSONChecker.cs" />
      <None Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\JSON\Editor\Fungus.FungusLuaJSONCheckerEditor.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -255,6 +255,9 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
@@ -262,13 +265,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
