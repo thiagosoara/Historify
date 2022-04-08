@@ -75,10 +75,10 @@
      <None Include="Assets\FungusExamples\FungusLua\Localization\stringtable.txt" />
      <None Include="Assets\FungusExamples\FungusLua\Narrative\Resources\Lua\junglestory.txt" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,9 +266,6 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
@@ -276,13 +273,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

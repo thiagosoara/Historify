@@ -193,11 +193,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Est\xE1 foi nossa vers\xE3o alpha do game. Obrigado por ter escolhido
-    o Historify!\n\n\rAjude a comunidade de desenvolvimento do game com sugest\xF5es,
-    identifica\xE7\xE3o de bugs ou outra contribui\xE7\xE3o de qualquer natureza.
-    Entre em contato com\r histohistorify@gmail.com\n\r\nEstamos em fase de desenvolvimento
-    de novas fases do jogo, em breve novidades!"
+  m_Text: "Esta foi nossa vers\xE3o alpha do game. Obrigado por ter escolhido o Historify!\n\n\rAjude
+    a comunidade de desenvolvimento do game com sugest\xF5es, identifica\xE7\xE3o
+    de bugs ou outra contribui\xE7\xE3o de qualquer natureza. Entre em contato com\r
+    histohistorify@gmail.com\n\r\nEstamos em fase de desenvolvimento de novas fases
+    do jogo. Em breve novidades!"
 --- !u!222 &4199258
 CanvasRenderer:
   m_ObjectHideFlags: 0
