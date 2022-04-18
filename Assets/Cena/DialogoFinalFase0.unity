@@ -2589,7 +2589,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1441274160
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2606,7 +2606,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1441274161
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2651,7 +2651,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1441274163
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2668,7 +2668,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1441274164
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2685,7 +2685,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &1441274165
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2785,7 +2785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
+    x: 66
     y: 69
     width: 96
     height: 40
@@ -2833,7 +2833,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1441274177}
   selectedCommands:
-  - {fileID: 1441274159}
+  - {fileID: 1441274160}
   variables: []
   description: 
   stepPause: 0
