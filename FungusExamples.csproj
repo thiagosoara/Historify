@@ -74,11 +74,11 @@
      <None Include="Assets\FungusExamples\FirstPerson\Visuals\Google Poly\Key\CC-BY.txt" />
      <None Include="Assets\FungusExamples\FungusLua\Localization\stringtable.txt" />
      <None Include="Assets\FungusExamples\FungusLua\Narrative\Resources\Lua\junglestory.txt" />
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
