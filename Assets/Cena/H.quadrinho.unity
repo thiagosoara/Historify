@@ -1149,10 +1149,10 @@ RectTransform:
   m_Father: {fileID: 14360423}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.80200005, y: 0.776}
-  m_AnchorMax: {x: 0.91070443, y: 0.89265466}
-  m_AnchoredPosition: {x: -16.244263, y: 18.888184}
-  m_SizeDelta: {x: -32.383026, y: -36.4942}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -120.8, y: -66.4}
+  m_SizeDelta: {x: 217.13889, y: 156.59534}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603962645
 MonoBehaviour:
@@ -1229,8 +1229,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 38f0caeb25914104f92dd93020f8f65e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1717,7 +1717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pular
+  m_Text: "\tPular"
 --- !u!222 &1045132389
 CanvasRenderer:
   m_ObjectHideFlags: 0
