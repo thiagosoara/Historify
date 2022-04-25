@@ -751,6 +751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 1977277718}
   passaCena: 0
+  contagem: 1
 --- !u!1 &442428865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,6 +2292,7 @@ GameObject:
   - component: {fileID: 1677107068}
   - component: {fileID: 1677107067}
   - component: {fileID: 1677107070}
+  - component: {fileID: 1677107071}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2376,6 +2378,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logoImg: {fileID: 0}
+--- !u!114 &1677107071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677107066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ce5d4887b02b448b38cf6564c7818c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1977277718}
+  passaCena: 0
+  contagem: 1
 --- !u!1 &1688615321
 GameObject:
   m_ObjectHideFlags: 0
