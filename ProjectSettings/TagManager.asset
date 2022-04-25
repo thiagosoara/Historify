@@ -16,6 +16,7 @@ TagManager:
   - alerta
   - Water
   - tronco
+  - passaCena
   layers:
   - Default
   - TransparentFX

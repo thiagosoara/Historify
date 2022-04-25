@@ -14,18 +14,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cena/00 - Menu.unity
     guid: 7a48834fe2dfdde40815b8d34072ba08
-  - enabled: 0
+  - enabled: 1
     path: Assets/Cena/01 - Loading.unity
     guid: c974b824de2390a4785a14c570f18b52
+  - enabled: 1
+    path: Assets/Cena/AceitarOuNegar.unity
+    guid: 335afe05394569646a2e39b036bc5f30
+  - enabled: 1
+    path: Assets/Cena/H.quadrinho.unity
+    guid: 32dfc6e4e25d2cb45b48794e2d12a48e
   - enabled: 1
     path: Assets/Cena/H.quadrinho - Copia.unity
     guid: c130f397d3164714f9fcf3ae594c0763
   - enabled: 1
     path: Assets/Cena/02.2Escolha.unity
     guid: 8ead54ca2151bba4cbf0e1b0e625234b
-  - enabled: 1
-    path: Assets/Cena/H.quadrinho.unity
-    guid: 32dfc6e4e25d2cb45b48794e2d12a48e
   - enabled: 1
     path: Assets/Cena/04 - ComandoJogo.unity
     guid: 103b749c44e0f5b4f8c58db32b6bfb0f
