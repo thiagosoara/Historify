@@ -390,7 +390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.055}
   m_AnchorMin: {x: 0.42632326, y: 0}
   m_AnchorMax: {x: 0.98242223, y: 0.96250015}
-  m_AnchoredPosition: {x: 362.6, y: 22.504}
+  m_AnchoredPosition: {x: 362.60004, y: 22.504028}
   m_SizeDelta: {x: -612.76697, y: 43.880005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342169771
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702576}
+  - {fileID: 507702567}
   variables: []
   description: 
   stepPause: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   itemId: 13
   indentLevel: 0
   storyText: "Professor: Acredito que eles gostar\xE3o do dia de hoje, j\xE1 que
-    voc\xEA \xE9 um perito no assunto, Dirceu.\n"
+    voc\xEA \xE9 um perito no assunto.\n"
   description: 
   character: {fileID: 1617015502}
   portrait: {fileID: 21300000, guid: ff50fd5aba0dc0c408499937ea4dae96, type: 3}
