@@ -278,7 +278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 558, y: 72}
+  m_AnchoredPosition: {x: 569, y: 72}
   m_SizeDelta: {x: 64.98413, y: 64.30432}
   m_Pivot: {x: 0.49999997, y: 0.49999937}
 --- !u!114 &1610106
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.34901962}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2600,8 +2600,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357055024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.428, y: 0.33, z: 0}
-  m_LocalScale: {x: 0.6749963, y: 0.64300215, z: 1}
+  m_LocalPosition: {x: 6.336, y: 0.019, z: 0}
+  m_LocalScale: {x: 0.7362896, y: 0.91075474, z: 1}
   m_Children: []
   m_Father: {fileID: 1699783448}
   m_RootOrder: 2
@@ -7046,8 +7046,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153331179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.4016, y: -0.25, z: 0}
-  m_LocalScale: {x: 0.641346, y: 0.58694226, z: 1}
+  m_LocalPosition: {x: 4.304, y: -0.366, z: 0}
+  m_LocalScale: {x: 0.7064702, y: 0.6873495, z: 1}
   m_Children: []
   m_Father: {fileID: 1699783448}
   m_RootOrder: 1
@@ -11146,7 +11146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.90588236}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.4745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13842,7 +13842,7 @@ GameObject:
   - component: {fileID: 1919705442}
   m_Layer: 4
   m_Name: efeito azulado
-  m_TagString: Limbo
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14438,7 +14438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.4375
     y: 58.04668
-    width: 80.08848
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
