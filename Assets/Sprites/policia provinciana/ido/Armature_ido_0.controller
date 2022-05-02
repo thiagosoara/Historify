@@ -82,20 +82,20 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -6136780463244166903}
-    m_Position: {x: 340, y: -20, z: 0}
+    m_Position: {x: 190, y: 100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7663085355610231507}
-    m_Position: {x: 320, y: 230, z: 0}
+    m_Position: {x: 300, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2884742144076395054}
-    m_Position: {x: 270, y: 100, z: 0}
+    m_Position: {x: 420, y: 100, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 40, y: 0, z: 0}
-  m_EntryPosition: {x: 50, y: 80, z: 0}
+  m_EntryPosition: {x: 90, y: -110, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -6136780463244166903}
@@ -146,7 +146,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: Pulo
     m_Type: 9
