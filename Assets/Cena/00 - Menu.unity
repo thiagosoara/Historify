@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.72934383, y: 0}
   m_AnchorMax: {x: 1, y: 0.96870804}
-  m_AnchoredPosition: {x: -19, y: 24.87233}
+  m_AnchoredPosition: {x: -18.999994, y: 24.87233}
   m_SizeDelta: {x: 378.88116, y: 14.326752}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106879304
@@ -342,7 +342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.72934383, y: 0}
   m_AnchorMax: {x: 1, y: 0.96870804}
-  m_AnchoredPosition: {x: -113, y: -32}
+  m_AnchoredPosition: {x: -112.99998, y: -32}
   m_SizeDelta: {x: 239.46332, y: 28.995544}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &140745548
@@ -424,7 +424,6 @@ GameObject:
   - component: {fileID: 172396499}
   - component: {fileID: 172396498}
   - component: {fileID: 172396502}
-  - component: {fileID: 172396503}
   m_Layer: 5
   m_Name: Button sair
   m_TagString: Untagged
@@ -580,18 +579,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &172396503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172396496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efabf7e1df3978941bd669d5013576de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &276619037
 GameObject:
   m_ObjectHideFlags: 0

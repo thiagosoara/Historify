@@ -13,7 +13,9 @@ public class Sair : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
+        if (Input.GetKey("Escape")){
             Application.Quit();
+        }
             
     }
 }
