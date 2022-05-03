@@ -10403,7 +10403,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 50662a2062e843146b7bfbd9a6642457, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.734
+  m_Volume: 0.301
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -10847,7 +10847,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1124375, y: 0.21438923}
   m_AnchorMax: {x: 0.1124375, y: 0.21438923}
-  m_AnchoredPosition: {x: -443, y: -88}
+  m_AnchoredPosition: {x: -443, y: -120.09999}
   m_SizeDelta: {x: 296.68317, y: 175.86209}
   m_Pivot: {x: 0.50000006, y: 0.50000024}
 --- !u!114 &1621547671
@@ -13223,7 +13223,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865809981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.84, y: -4.02, z: 0}
+  m_LocalPosition: {x: 21.66, y: -2.42, z: 0}
   m_LocalScale: {x: 9.018578, y: 1.4404618, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14438,7 +14438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.4375
     y: 58.04668
-    width: 60
+    width: 80.08848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
