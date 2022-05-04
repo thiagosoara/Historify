@@ -79,6 +79,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.device-simulator": {
+      "version": "3.0.3-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.5",
       "depth": 0,
