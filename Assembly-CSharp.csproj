@@ -90,7 +90,6 @@
      <Compile Include="Assets\Inputs\Input1\Bullet.cs" />
      <Compile Include="Assets\Inputs\PlayerTrigger.cs" />
      <Compile Include="Assets\Inputs\Move_Tween.cs" />
-     <Compile Include="Assets\Orc Warrior\Scripts\MouseController.cs" />
      <Compile Include="Assets\Inputs\Input1\capataz.cs" />
      <Compile Include="Assets\Inputs\Move_Inimigos.cs" />
      <Compile Include="Assets\Inputs\CameraSegue.cs" />
