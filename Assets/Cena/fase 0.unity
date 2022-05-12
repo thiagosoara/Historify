@@ -6238,7 +6238,7 @@ GameObject:
   - component: {fileID: 1025855114}
   - component: {fileID: 1025855113}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Contador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10362,6 +10362,7 @@ GameObject:
   - component: {fileID: 1541743762}
   - component: {fileID: 1541743764}
   - component: {fileID: 1541743763}
+  - component: {fileID: 1541743765}
   m_Layer: 5
   m_Name: BarraDeEXP
   m_TagString: Untagged
@@ -10386,8 +10387,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.84900004, y: 0.777}
   m_AnchorMax: {x: 0.89456254, y: 0.8326187}
-  m_AnchoredPosition: {x: -79.27, y: -45.63}
-  m_SizeDelta: {x: 52.74772, y: 18.12995}
+  m_AnchoredPosition: {x: -79.2, y: -46.21}
+  m_SizeDelta: {x: 52.874603, y: 18.510397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1541743763
 MonoBehaviour:
@@ -10414,7 +10415,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.04
+  m_FillAmount: 0.009
   m_FillClockwise: 1
   m_FillOrigin: 1
   m_UseSpriteMesh: 0
@@ -10427,6 +10428,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541743761}
   m_CullTransparentMesh: 0
+--- !u!114 &1541743765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541743761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40644aaee144d74438fd531a52ea389a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575145979
 GameObject:
   m_ObjectHideFlags: 0
@@ -12050,8 +12063,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06830652, y: 0.0058777737}
-  m_Size: {x: 1.2361382, y: 3.8287897}
+  m_Offset: {x: 0.07866471, y: 0.005877786}
+  m_Size: {x: 1.2154216, y: 3.8287897}
   m_Direction: 0
 --- !u!114 &1760005662
 MonoBehaviour:
@@ -12269,8 +12282,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.15, y: -6.64, z: -1}
-  m_LocalScale: {x: -0.76730734, y: 0.7229496, z: 1}
+  m_LocalPosition: {x: -17.1624, y: -6.66, z: -1}
+  m_LocalScale: {x: -0.7523457, y: 0.7124424, z: 1}
   m_Children:
   - {fileID: 398537262}
   - {fileID: 1203107632}
