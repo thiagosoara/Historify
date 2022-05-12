@@ -560,7 +560,7 @@ MonoBehaviour:
   nameColor: {r: 0.9433962, g: 0.92501575, b: 0.022249907, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: d6c372c5ea37ace4e9b7de19e3edfb3b, type: 3}
+  - {fileID: 21300000, guid: d66dbda5ff7872640a836c006f707cf4, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -14433,7 +14433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.4375
     y: 58.04668
-    width: 60
+    width: 79.14286
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14487,7 +14487,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1927804662}
   selectedCommands:
-  - {fileID: 1927804654}
+  - {fileID: 1927804660}
   variables: []
   description: 
   stepPause: 0
