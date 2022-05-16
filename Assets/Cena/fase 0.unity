@@ -1696,9 +1696,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.025338382, y: 0.064}
-  m_AnchorMax: {x: 0.97516394, y: 0.82663673}
-  m_AnchoredPosition: {x: 213.4, y: 11}
-  m_SizeDelta: {x: -301.03784, y: -21.981628}
+  m_AnchorMax: {x: 0.97516394, y: 0.88145053}
+  m_AnchoredPosition: {x: 206.92, y: 32.789}
+  m_SizeDelta: {x: -295.95093, y: 219.45532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &169967117
 MonoBehaviour:
@@ -7085,10 +7085,10 @@ RectTransform:
   m_Father: {fileID: 346296204}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -563, y: 166}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 69.3, y: -60.800003}
+  m_SizeDelta: {x: 138.53822, y: 122.02176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1080674533
 GameObject:
@@ -7949,8 +7949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -128.18, y: 75.33}
-  m_SizeDelta: {x: 244.66342, y: 150.664}
+  m_AnchoredPosition: {x: 0.000061035156, y: 123}
+  m_SizeDelta: {x: 172.02914, y: 131.27075}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1184081842
 MonoBehaviour:
@@ -10425,9 +10425,9 @@ RectTransform:
   m_Father: {fileID: 1431359237}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000091552734, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 31.000092, y: -36}
   m_SizeDelta: {x: 62.76689, y: 71.70232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481061908
@@ -14704,7 +14704,7 @@ MonoBehaviour:
     com os revoltosos.\r\n"
   description: 
   character: {fileID: 52173108}
-  portrait: {fileID: 21300000, guid: d6c372c5ea37ace4e9b7de19e3edfb3b, type: 3}
+  portrait: {fileID: 21300000, guid: d66dbda5ff7872640a836c006f707cf4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14944,7 +14944,7 @@ MonoBehaviour:
   storyText: "Os capatazes t\xE3o chegando!"
   description: 
   character: {fileID: 52173108}
-  portrait: {fileID: 21300000, guid: d6c372c5ea37ace4e9b7de19e3edfb3b, type: 3}
+  portrait: {fileID: 21300000, guid: d66dbda5ff7872640a836c006f707cf4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15001,7 +15001,7 @@ MonoBehaviour:
     chegando perto.\r\n"
   description: 
   character: {fileID: 52173108}
-  portrait: {fileID: 21300000, guid: d6c372c5ea37ace4e9b7de19e3edfb3b, type: 3}
+  portrait: {fileID: 21300000, guid: d66dbda5ff7872640a836c006f707cf4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15058,7 +15058,7 @@ MonoBehaviour:
     e morro....\r\n"
   description: 
   character: {fileID: 52173108}
-  portrait: {fileID: 21300000, guid: d6c372c5ea37ace4e9b7de19e3edfb3b, type: 3}
+  portrait: {fileID: 21300000, guid: d66dbda5ff7872640a836c006f707cf4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15153,7 +15153,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1927804662}
   selectedCommands:
-  - {fileID: 1927804660}
+  - {fileID: 1927804654}
   variables: []
   description: 
   stepPause: 0
