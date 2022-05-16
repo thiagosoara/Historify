@@ -733,7 +733,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "PR\xD3XIMO"
 --- !u!222 &232595188
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2787,7 +2787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 69
-    width: 60
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
