@@ -4,18 +4,9 @@ using UnityEngine;
 
 public class Sair : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+ public void FecharJogo()
     {
-        
-    }
-
-    // Update is called once per frame
-    public void Update()
-    {
-        if (Input.GetKey("Escape")){
-            Application.Quit();
-        }
-            
-    }
+        Debug.Log("Fechou!");
+        Application.Quit();
+    } 
 }
