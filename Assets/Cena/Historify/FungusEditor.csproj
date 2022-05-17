@@ -11,10 +11,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8D51EEF-A5F1-0CBB-3BF3-6A8CBB636664}</ProjectGuid>
+    <ProjectGuid>{C50B9C66-F9E4-F188-FC7F-5AFC13F9DEB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>FungusEditorTests</AssemblyName>
+    <AssemblyName>FungusEditor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -24,7 +24,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_17;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_17;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -55,25 +55,93 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Tests\Editor\TestUtils.cs" />
-     <Compile Include="Assets\Tests\Editor\GenerateEverythingMenuItem.cs" />
-     <Compile Include="Assets\Tests\Editor\FungusTextVariationSelectionTests.cs" />
-     <Compile Include="Assets\Tests\Editor\FungusConversationParseTests.cs" />
-     <Compile Include="Assets\Tests\Editor\FungusCollectionTests.cs" />
-     <Compile Include="Assets\Tests\Editor\TextTagParserTests.cs" />
-     <Compile Include="Assets\Tests\Editor\FungusPrioritySignalsTest.cs" />
-     <None Include="Assets\Tests\Editor\FungusEditorTests.asmdef" />
- <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\Fungus\Scripts\Editor\DialogInputEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\BlockReferenceDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\LocalizationEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\WriteEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\Vector4VariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableReferenceDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\RigidbodyVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\InvokeEventEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SaveMenuEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\AnyVariableAndDataPairDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\Vector2VariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\WriterAudioEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\Matrix4x4VariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CommandListAdaptor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorResources.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SerializedPropertyExtensions.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\Collider2DVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\PopupContent\VariableSelectPopupWindowContent.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\PopupContent\EventSelectorPopupWindowContent.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\ExportReferenceDocs.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\GenerateVariableWindow.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CharacterEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\HierarchyIcons.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\BlockEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\ControlAudioEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\GenerateVariableHelper.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CallEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\MenuTimerEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\PopupContent\CommandSelectorPopupWindowContent.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\LuaScriptedImporter.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\GameObjectVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\TransformVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CameraMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EnumFlagDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\BlockInspector.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CommandEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\ViewEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\CollectionVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EventHandlerEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CustomGUI.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\TextureVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SayEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\StageEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\Vector3VariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\AssetModProcessor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\BasePopupWindowContent.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\Rigidbody2DVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EditorZoomArea.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\ColorVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\MaterialVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AudioSourceVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\InvokeMethodEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SaveMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\ColliderVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SetVariableEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EditorExtensions.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartWindow.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\SpriteVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorResourcesGenerated.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SpriteMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CustomVariableDrawerLookup.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorPreferences.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableConditionEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SolutionFileFixer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableListAdaptor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\LabelEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\NarrativeMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EventWindow.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\MenuEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\QuaternionVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AnimatorVariableDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\PortraitEditor.cs" />
+     <None Include="Assets\Fungus\Scripts\Editor\FungusEditor.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -261,17 +329,20 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/FRAN/Documents/ProjetoExtensao/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -623,10 +694,6 @@
     <ProjectReference Include="Fungus.csproj">
       <Project>{26520114-374C-B952-8A89-AD64E78F5678}</Project>
       <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="FungusEditor.csproj">
-      <Project>{C87FB732-2FB5-4B36-B597-0C511C1A2615}</Project>
-      <Name>FungusEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
