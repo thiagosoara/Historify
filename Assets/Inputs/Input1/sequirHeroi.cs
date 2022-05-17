@@ -56,15 +56,7 @@ public class sequirHeroi : MonoBehaviour
           
         
         //libera a contagem para o vilão começa a seguir o heroi depois da historia
-        if(objeto.activeInHierarchy == true){
-            pause=true;
-            //print("objeto ativo ");
-        }
-        else if (objeto.activeInHierarchy == false)
-        {
-            pause=false;
-            //print("objeto desativado");
-        }
+
         if (graveto.activeInHierarchy == false){
             seguindo=true;
             }
@@ -79,7 +71,7 @@ public class sequirHeroi : MonoBehaviour
             flip();
         }
         // vilão seguir heroi depois que a contagem acaba
-        if (pause==false){
+        
 
             if (seguindo==true){
                 
@@ -98,9 +90,9 @@ public class sequirHeroi : MonoBehaviour
             
 
 
-        }}
+        }
         //chicote
-        if (pause==false && vilaoVivo==true){
+        if (vilaoVivo==true){
             if (Vector2.Distance(transform.position, Target.position) < distancia){
             
             anim.SetBool("Idle", false);

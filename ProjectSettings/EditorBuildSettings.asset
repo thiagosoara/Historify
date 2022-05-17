@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Cena/04 - ComandoJogo.unity
     guid: 103b749c44e0f5b4f8c58db32b6bfb0f
   - enabled: 1
+    path: Assets/Cena/Desbug.unity
+    guid: 3317a4575d6d72a4cb5f9a61c58d3447
+  - enabled: 1
     path: Assets/Cena/fase 0.unity
     guid: e2e21a1cb6a5e154e8d2e36e7fc77189
   - enabled: 1
