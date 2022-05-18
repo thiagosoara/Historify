@@ -11684,7 +11684,7 @@ MonoBehaviour:
   liberapulo: 0
   anim: {fileID: 1760005663}
   vivo: 1
-  vida: 100
+  vida: 5
   BarraDeVida: {fileID: 72280784}
   "cabe\xE7a": {fileID: 387651549}
   BarraDeEstamina: {fileID: 1541743763}
