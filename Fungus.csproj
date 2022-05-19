@@ -721,6 +721,7 @@
      <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Fungus\Integrations\Playmaker\ReadMe.txt" />
      <None Include="Assets\Fungus\Scripts\link.xml" />
+     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Fonts &amp; Materials\Readme.txt" />
      <None Include="Assets\Fungus\Thirdparty\FungusLua\Resources\Types\UnityTypes.txt" />
      <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Fungus\Fonts\Exo2\OFL.txt" />
