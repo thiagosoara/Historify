@@ -466,9 +466,9 @@ GameObject:
   - component: {fileID: 167513089}
   - component: {fileID: 167513088}
   - component: {fileID: 167513087}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: areias (1)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -486,7 +486,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.08698815}
+  m_Offset: {x: -7.7442303, y: -0.047213852}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -497,7 +497,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 21.01, y: 0.23637521}
+  m_Size: {x: 5.3115387, y: 0.32413507}
   m_EdgeRadius: 0
 --- !u!212 &167513088
 SpriteRenderer:
@@ -558,8 +558,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167513086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -232.9, y: -3.689, z: 0}
-  m_LocalScale: {x: 5.3140106, y: 10.593138, z: 1}
+  m_LocalPosition: {x: -232.938, y: -3.42, z: 0}
+  m_LocalScale: {x: 5.3176723, y: 11.905121, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
