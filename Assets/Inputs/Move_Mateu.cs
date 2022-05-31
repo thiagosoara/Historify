@@ -8,8 +8,8 @@ public class Move_Mateu : MonoBehaviour
 {
     public bool face = true;
     public Transform HeroiT;
-    public float vel = 2.5f;
-    public float forca = 1.2f;
+    public float vel = 3.5f;
+    public float forca = 7.5f;
     public Rigidbody2D HeroiRB;
     public bool liberapulo = false;
     public Animator anim;
@@ -68,6 +68,11 @@ public class Move_Mateu : MonoBehaviour
   
         //print(pedra);
         //print (vida);
+
+        BarraDeVida.fillAmount= (float) vida/100;
+
+
+
         if (vivo==true)
         {
             //DIRECIONAMENTO DE MATEU
