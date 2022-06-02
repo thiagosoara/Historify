@@ -63,11 +63,11 @@
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
