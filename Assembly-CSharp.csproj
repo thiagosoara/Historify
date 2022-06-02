@@ -104,7 +104,6 @@
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
-     <None Include="Assets\ColorfulButtons\Credits.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

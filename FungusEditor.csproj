@@ -131,11 +131,11 @@
      <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AnimatorVariableDrawer.cs" />
      <Compile Include="Assets\Fungus\Scripts\Editor\PortraitEditor.cs" />
      <None Include="Assets\Fungus\Scripts\Editor\FungusEditor.asmdef" />
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
