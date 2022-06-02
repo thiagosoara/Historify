@@ -11886,7 +11886,7 @@ BuoyancyEffector2D:
   m_AngularDrag: 5
   m_FlowAngle: 0
   m_FlowMagnitude: 0
-  m_FlowVariation: -70
+  m_FlowVariation: -20
 --- !u!4 &1923869369 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3507517075712864441, guid: ad047a7c3408a9842a80292179df61ce, type: 3}

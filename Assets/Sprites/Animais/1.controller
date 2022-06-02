@@ -84,7 +84,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
-  m_Solo: 0
+  m_Solo: 1
   m_Mute: 0
   m_IsExit: 1
   serializedVersion: 3
