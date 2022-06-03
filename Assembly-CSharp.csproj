@@ -89,13 +89,13 @@
      <Compile Include="Assets\Inputs\Input1\Bullet.cs" />
      <Compile Include="Assets\Inputs\PlayerTrigger.cs" />
      <Compile Include="Assets\Inputs\Move_Tween.cs" />
-     <Compile Include="Assets\Orc Warrior\Scripts\MouseController.cs" />
      <Compile Include="Assets\Inputs\Input1\capataz.cs" />
      <Compile Include="Assets\Inputs\Move_Inimigos.cs" />
      <Compile Include="Assets\Inputs\CameraSegue.cs" />
      <Compile Include="Assets\Inputs\teste.cs" />
      <Compile Include="Assets\Inputs\botao_hero.cs" />
      <Compile Include="Assets\Inputs\Input1\audio1.cs" />
+     <Compile Include="Assets\Orc Warrior\Scripts\MouseController.cs" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\ColorfulButtons\Credits.txt" />
  <Reference Include="Unity.Timeline.Editor">
