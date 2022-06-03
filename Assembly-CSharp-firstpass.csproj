@@ -101,9 +101,6 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.DeviceSimulator.Editor">
- <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
@@ -148,6 +145,9 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.DeviceSimulator.Editor">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -337,6 +337,7 @@
  </Reference>
  <Reference Include="Google.MiniJson">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Compat">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
  </Reference>
