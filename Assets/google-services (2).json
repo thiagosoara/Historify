@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630062946440",
+    "project_id": "historify-4ed6a",
+    "storage_bucket": "historify-4ed6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630062946440:android:4419c1351b9a0009d3273d",
+        "android_client_info": {
+          "package_name": "com.ifpe.Historify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630062946440-2foasnbr404lgc8b4qfg3m2pm4edqqos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLfr6SEZC-yhCTh8nNKJBk_Pzv2MIJmpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630062946440-2foasnbr404lgc8b4qfg3m2pm4edqqos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
