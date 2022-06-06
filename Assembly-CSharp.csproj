@@ -58,6 +58,7 @@
      <Compile Include="Assets\Inputs\Input1\MoveBalas.cs" />
      <Compile Include="Assets\Inputs\TWEEN.cs" />
      <Compile Include="Assets\Inputs\BotaoPulo.cs" />
+     <Compile Include="Assets\Inputs\Sair.cs" />
      <Compile Include="Assets\Inputs\Input1\EnemyController.cs" />
      <Compile Include="Assets\Inputs\Input1\barraDeVida.cs" />
      <Compile Include="Assets\Inputs\PlayerLife.cs" />
@@ -67,17 +68,21 @@
      <Compile Include="Assets\Inputs\Input1\MoverHorei.cs" />
      <Compile Include="Assets\Inputs\Input1\botao.cs" />
      <Compile Include="Assets\Inputs\alerta.cs" />
+     <Compile Include="Assets\Inputs\Exp.cs" />
+     <Compile Include="Assets\Inputs\reniciar.cs" />
      <Compile Include="Assets\Inputs\Input1\DanoHeroi.cs" />
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterAtributes.cs" />
      <Compile Include="Assets\Inputs\LOADCOD.cs" />
      <Compile Include="Assets\Inputs\Input1\Pedra.cs" />
      <Compile Include="Assets\Inputs\Input1\CriaBalas.cs" />
      <Compile Include="Assets\Inputs\Input1\Vilao.cs" />
+     <Compile Include="Assets\Inputs\tronco.cs" />
      <Compile Include="Assets\Inputs\estudo\estudo.cs" />
      <Compile Include="Assets\Inputs\Colisao.cs" />
      <Compile Include="Assets\Inputs\Input1\PassaCenaComTempo.cs" />
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterMenu.cs" />
      <Compile Include="Assets\Inputs\Move_Mateu.cs" />
+     <Compile Include="Assets\Inputs\BarraDeEXP.cs" />
      <Compile Include="Assets\Inputs\Input1\policia.cs" />
      <Compile Include="Assets\Inputs\Input1\Tiro.cs" />
      <Compile Include="Assets\Inputs\Move_Horizon_Tween.cs" />
@@ -86,6 +91,7 @@
      <Compile Include="Assets\Inputs\Input1\AtivaDesativa.cs" />
      <Compile Include="Assets\Inputs\TweenLOGOMARCA.cs" />
      <Compile Include="Assets\Inputs\segundos.cs" />
+     <Compile Include="Assets\Inputs\troncoAtive.cs" />
      <Compile Include="Assets\Inputs\Input1\Bullet.cs" />
      <Compile Include="Assets\Inputs\PlayerTrigger.cs" />
      <Compile Include="Assets\Inputs\Move_Tween.cs" />
@@ -95,12 +101,7 @@
      <Compile Include="Assets\Inputs\teste.cs" />
      <Compile Include="Assets\Inputs\botao_hero.cs" />
      <Compile Include="Assets\Inputs\Input1\audio1.cs" />
-     <Compile Include="Assets\Inputs\Sair.cs" />
-     <Compile Include="Assets\Inputs\Exp.cs" />
-     <Compile Include="Assets\Inputs\reniciar.cs" />
-     <Compile Include="Assets\Inputs\tronco.cs" />
-     <Compile Include="Assets\Inputs\BarraDeEXP.cs" />
-     <Compile Include="Assets\Inputs\troncoAtive.cs" />
+     <Compile Include="Assets\Firebase\FirebaseInit.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
@@ -139,6 +140,9 @@
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.DeviceSimulator.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -184,9 +188,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.DeviceSimulator.Editor">
- <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -362,35 +363,35 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
+ <Reference Include="Firebase.Analytics">
+ <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Auth">
+ <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Platform">
+ <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.TaskExtension">
+ <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>E:/Historify/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>E:/Historify/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>E:/Historify/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>E:/Historify/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>E:/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.App">
- <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Platform">
- <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Tasks">
- <HintPath>E:/Historify/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
- </Reference>
- <Reference Include="Google.MiniJson">
- <HintPath>E:/Historify/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Auth">
- <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Compat">
- <HintPath>E:/Historify/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.TaskExtension">
- <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Analytics">
- <HintPath>E:/Historify/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
