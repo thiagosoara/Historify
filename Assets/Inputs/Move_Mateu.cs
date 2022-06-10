@@ -8,8 +8,8 @@ public class Move_Mateu : MonoBehaviour
 {
     public bool face = true;
     public Transform HeroiT;
-    public float vel = 2.5f;
-    public float forca = 1.2f;
+    public float vel = 3.5f;
+    public float forca = 7.5f;
     public Rigidbody2D HeroiRB;
     public bool liberapulo = false;
     public Animator anim;
@@ -38,8 +38,8 @@ public class Move_Mateu : MonoBehaviour
     public bool pausa = true;
 
     //reniciar
-    public GameObject panel;
-    public int reniciar = 0;
+    
+    //public int reniciar = 0;
 
     public int tronco =0;
 
@@ -64,28 +64,16 @@ public class Move_Mateu : MonoBehaviour
    
     void Update()
     {
-        print("reniciar"+reniciar);
-        if (reniciar >=1){
-            if (panel.activeInHierarchy == true){
-                //gameObject.SetActive(false);
-                print ("reniciar ok ");
-            }
-            
 
-        }
-        if(objeto.activeInHierarchy == true){
-            pausa=true;
-            //print("objeto ativo ");
-        }
-        else if (objeto.activeInHierarchy == false)
-        {
-            pausa=false;
-            //print("objeto desativado");
-        }
-
+  
         //print(pedra);
         //print (vida);
-        if (pausa==false && vivo==true)
+
+        BarraDeVida.fillAmount= (float) vida/100;
+
+
+
+        if (vivo==true)
         {
             //DIRECIONAMENTO DE MATEU
             if (Input.GetKey(KeyCode.RightArrow) && !face)
@@ -97,7 +85,7 @@ public class Move_Mateu : MonoBehaviour
                 Flip();
             }
             //MOVIMENTO DE MATEU
-            if (pausa==false && vivo == true)
+            if (vivo == true)
             {
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
@@ -119,7 +107,7 @@ public class Move_Mateu : MonoBehaviour
                 }
             }
             //PULO DE MATEU
-            if (pausa==false && vivo == true)
+            if (vivo == true)
             {
                 if (Input.GetKey(KeyCode.UpArrow) && liberapulo == true)
                 {
@@ -140,7 +128,7 @@ public class Move_Mateu : MonoBehaviour
         }
         // jogar pedra
         if(pedra >=1){
-        if (pausa==false && vivo == true){
+        if (vivo == true){
             if (Input.GetKeyDown(KeyCode.Space)){
                 anim.SetBool("Idle", false);
                 anim.SetBool("Pedra", true);
@@ -287,7 +275,6 @@ public class Move_Mateu : MonoBehaviour
 
     //reniciar a fase 
     void ReloadLevel(){
-        reniciar=reniciar+1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         
     }

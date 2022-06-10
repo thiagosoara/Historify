@@ -59,15 +59,6 @@ public int vidaVilao1 = 100;
           
         
         //libera a contagem para o vilão começa a seguir o heroi depois da historia
-        if(objeto.activeInHierarchy == true){
-            pause=true;
-            //print("objeto ativo ");
-        }
-        else if (objeto.activeInHierarchy == false)
-        {
-            pause=false;
-            //print("objeto desativado");
-        }
         if (pedra.activeInHierarchy == false){
             seguindo=true;
             }
@@ -84,7 +75,7 @@ public int vidaVilao1 = 100;
         }
 
         // vilão seguir heroi depois que a contagem acaba
-        if (pause==false){
+        
 
             if (seguindo==true){
                 
@@ -107,9 +98,9 @@ public int vidaVilao1 = 100;
             
 
 
-        }}
+        }
         //chicote
-        if (pause==false && vilaoVivo==true){
+        if (vilaoVivo==true){
             if (Vector2.Distance(transform.position, Target.position) < distancia){
             anim.SetBool("Idle", false);
             anim.SetBool("Chicote", true);

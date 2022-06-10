@@ -263,6 +263,48 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/ExternalDependencyManager/Editor/1.2.171/Google.IOSResolver.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/ExternalDependencyManager/Editor/1.2.171/Google.JarResolver.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.PackageManagerResolver">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/ExternalDependencyManager/Editor/1.2.171/Google.PackageManagerResolver.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/ExternalDependencyManager/Editor/1.2.171/Google.VersionHandlerImpl.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Editor">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Analytics">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Auth">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Platform">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.TaskExtension">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>C:/Users/IFPE - P2/Documents/GitHub/Historify/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>

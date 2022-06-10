@@ -96,6 +96,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b1ee666c66c51f4ca654231290d9571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  face: 1
+  HeroiT: {fileID: 0}
+  vel: 2.5
+  forca: 1.2
+  HeroiRB: {fileID: 0}
+  liberapulo: 0
+  anim: {fileID: 0}
+  vivo: 1
+  vida: 100
+  BarraDeVida: {fileID: 0}
+  "cabe\xE7a": {fileID: 0}
+  BarraDeEstamina: {fileID: 0}
+  "cora\xE7ao": {fileID: 0}
+  stamina: {fileID: 0}
+  pedra: 0
+  texPedra: {fileID: 0}
+  balas: {fileID: 0}
+  BulletSpawn: {fileID: 0}
+  bulletSpawn: {fileID: 0}
+  objeto: {fileID: 0}
+  pausa: 1
+  panel: {fileID: 0}
+  reniciar: 0
+  tronco: 0
 --- !u!68 &3507517075712864420
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -132,7 +156,7 @@ EdgeCollider2D:
   - {x: 0.058648698, y: -0.068431}
   - {x: -0.0085080005, y: -0.068661466}
   - {x: -0.09373987, y: -0.07112724}
-  - {x: -0.12402825, y: -0.056902993}
+  - {x: -0.12985398, y: -0.05819113}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
