@@ -4121,11 +4121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 624155136289214888, guid: a440e996c979fb946858aa6eba9ff82f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.22
+      value: 22.3
       objectReference: {fileID: 0}
     - target: {fileID: 624155136289214888, guid: a440e996c979fb946858aa6eba9ff82f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.48
+      value: -6.45
       objectReference: {fileID: 0}
     - target: {fileID: 624155136289214888, guid: a440e996c979fb946858aa6eba9ff82f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12199,7 +12199,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.15}
   serializedVersion: 2
   m_Radius: 1.64
---- !u!114 &2069758637
+--- !u!114 &2069758633
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12208,25 +12208,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2069758631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
+  m_Script: {fileID: 11500000, guid: 79229f7738d07b94c943f4866c5cd17f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaVilao1: 100
-  Speed: 0
-  distancia: 0
-  anim: {fileID: 0}
-  vilaoVivo: 1
-  contagem: 1
-  tempoDano: 1
-  vulneravel: 0
-  objeto: {fileID: 0}
-  pause: 1
-  pedra: {fileID: 0}
-  seguindo: 0
-  cap: {fileID: 0}
-  face: 1
-  Hero: {fileID: 0}
-  efeitoChicote: {fileID: 0}
 --- !u!1 &2074436840
 GameObject:
   m_ObjectHideFlags: 0

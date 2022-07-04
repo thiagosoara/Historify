@@ -82,6 +82,4 @@ public class Cartola : MonoBehaviour
                 liberaPer = true;
             }
         }
-
-
     }
