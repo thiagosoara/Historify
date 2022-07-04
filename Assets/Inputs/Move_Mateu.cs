@@ -239,6 +239,14 @@ public class Move_Mateu : MonoBehaviour
 
 
         }
+        if (outro.gameObject.CompareTag("vida")){
+            vida = vida + 10;
+            Destroy(outro.gameObject); 
+
+            print("babosa");
+
+        }
+
          //dano no heroi
          
         if (outro.gameObject.CompareTag("Enemy")){
@@ -264,7 +272,9 @@ public class Move_Mateu : MonoBehaviour
                 }
                 print("morreu");
                 }
+            
         }
+
         if (outro.gameObject.CompareTag("Limbo")){
             Invoke ("ReloadLevel", 2f);
             }
