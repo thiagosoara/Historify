@@ -187,6 +187,12 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="XiaomiSupport">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -390,6 +396,12 @@
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>E:/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>E:/Historify/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityStore">
+ <HintPath>E:/Historify/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
