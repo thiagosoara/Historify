@@ -142,6 +142,9 @@
  <Reference Include="Unity.DeviceSimulator.Editor">
  <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
@@ -175,6 +178,9 @@
  <Reference Include="Unity.Mathematics.Editor">
  <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="XiaomiSupport">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
@@ -186,12 +192,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Editor">
- <HintPath>E:/Historify/Library/ScriptAssemblies/Editor.dll</HintPath>
- </Reference>
- <Reference Include="XiaomiSupport">
- <HintPath>E:/Historify/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
