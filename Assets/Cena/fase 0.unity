@@ -1027,7 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaVilao1: 100
+  vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
   anim: {fileID: 168258762}
@@ -5815,7 +5815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaVilao1: 100
+  vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
   anim: {fileID: 971249308}
@@ -8286,7 +8286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaVilao1: 100
+  vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
   anim: {fileID: 1312366162}
@@ -9276,7 +9276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaVilao1: 100
+  vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
   anim: {fileID: 1488844164}
@@ -14557,7 +14557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaVilao1: 100
+  vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
   anim: {fileID: 2124558100}
