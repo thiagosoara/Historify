@@ -480,8 +480,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76649378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.847, y: -10.005, z: 0}
-  m_LocalScale: {x: 3.5223389, y: 7.9544353, z: 1}
+  m_LocalPosition: {x: 2.847, y: -10.051, z: 0}
+  m_LocalScale: {x: 3.5223389, y: 8.183406, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -967,8 +967,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140719929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.206, y: -10.259, z: 0}
-  m_LocalScale: {x: 3.5152862, y: 6.6479535, z: 1}
+  m_LocalPosition: {x: 77.252, y: -10.342, z: 0}
+  m_LocalScale: {x: 3.510926, y: 7.0601015, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 18
@@ -13269,6 +13269,7 @@ GameObject:
   - component: {fileID: 1919705440}
   - component: {fileID: 1919705441}
   - component: {fileID: 1919705442}
+  - component: {fileID: 1919705443}
   m_Layer: 4
   m_Name: efeito azulado
   m_TagString: chao
@@ -13316,7 +13317,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 58
-  m_Sprite: {fileID: 21300000, guid: 84fb5e0a8a3e87449bad0e03910c1e18, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d7acb7ac2714a0d4cacbecb485d10c67, type: 3}
   m_Color: {r: 0.13333334, g: 0.8509804, b: 0.22745098, a: 0.74509805}
   m_FlipX: 0
   m_FlipY: 0
@@ -13335,8 +13336,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919705437}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -92.572, y: -3.546, z: 1}
-  m_LocalScale: {x: -1.4697826, y: 0.81365514, z: 1}
+  m_LocalPosition: {x: -92.488, y: -4.428, z: 1}
+  m_LocalScale: {x: -1.4777383, y: 1.2001797, z: 1}
   m_Children: []
   m_Father: {fileID: 1575145980}
   m_RootOrder: 7
@@ -13380,7 +13381,7 @@ EdgeCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.38}
+  m_Offset: {x: 0, y: 2.16}
   m_EdgeRadius: 0
   m_Points:
   - {x: -11.123188, y: -0.7706682}
@@ -13406,13 +13407,32 @@ BuoyancyEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_SurfaceLevel: 2.3
+  m_SurfaceLevel: 2.04
   m_Density: 1
   m_LinearDrag: 5
   m_AngularDrag: 5
   m_FlowAngle: 0
   m_FlowMagnitude: 0
   m_FlowVariation: -20
+--- !u!95 &1919705443
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919705437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 74b7be9960512364fa0d9cbf6293c46e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1929776503
 PrefabInstance:
   m_ObjectHideFlags: 0
