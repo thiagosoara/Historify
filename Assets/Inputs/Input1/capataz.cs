@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class capataz : MonoBehaviour
 {
-public int vidaVilao1 = 100;
+public int vidaVilao1 = 50;
     public float Speed;
     private Transform Target;
     public float distancia;
@@ -133,7 +133,7 @@ public int vidaVilao1 = 100;
         vidaVilao1 -= damagePedra;
         StartCoroutine (Damage());
         if (vidaVilao1>1){
-            vidaVilao1 = vidaVilao1-20;
+            vidaVilao1 = vidaVilao1-4;
             print("vida capataz 2 "+ vidaVilao1);
             }
         if(vidaVilao1<1){
