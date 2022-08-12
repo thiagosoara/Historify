@@ -149,6 +149,138 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.CacheServer">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Simulator.VRR.Extension">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.VRR.Extension.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Samsung.Android.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.Samsung.Android.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Samsung.Android">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.Samsung.Android.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.Stores">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.Codeless">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.SecurityCore">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing.SecurityStub">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARSubsystems">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARSubsystems.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARFoundation.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARFoundation">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARCore">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARCore.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARKit">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARKit.FaceTracking">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.EditorCoroutines.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARKit.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Services.Authentication">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Services.Authentication.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Services.Core.Analytics">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Services.Core">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Services.Core.Environments">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InputSystem">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Services.Analytics.Editor">
+ <HintPath>E:/Historify/Library/ScriptAssemblies/Unity.Services.Analytics.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -352,6 +484,18 @@
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>E:/Historify/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>E:/Historify/Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>E:/Historify/Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>E:/Historify/Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>E:/Historify/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
