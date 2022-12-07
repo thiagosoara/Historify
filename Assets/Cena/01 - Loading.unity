@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.126}
   m_AnchorMin: {x: 0.19036657, y: 0.916667}
   m_AnchorMax: {x: 0.20788828, y: 0.916667}
-  m_AnchoredPosition: {x: 482.76004, y: 0}
+  m_AnchoredPosition: {x: 482.76013, y: 0}
   m_SizeDelta: {x: 1266.1534, y: 161.77052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302184499
@@ -1109,8 +1109,21 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 507702560}
+  selectedCommands:
+  - {fileID: 507702568}
+  - {fileID: 507702581}
+  - {fileID: 507702577}
+  - {fileID: 507702580}
+  - {fileID: 507702558}
+  - {fileID: 507702595}
+  - {fileID: 507702564}
+  - {fileID: 507702594}
+  - {fileID: 507702565}
+  - {fileID: 507702592}
+  - {fileID: 507702567}
+  - {fileID: 507702591}
   variables: []
   description: 
   stepPause: 0
@@ -2321,7 +2334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.79052126, y: 0.034166668}
   m_AnchorMax: {x: 0.80235255, y: 0.0875}
-  m_AnchoredPosition: {x: -791.68, y: 458.12085}
+  m_AnchoredPosition: {x: -791.68005, y: 458.12085}
   m_SizeDelta: {x: 2639.063, y: 1136.0339}
   m_Pivot: {x: 0.49999997, y: 0.43938383}
 --- !u!1 &1617015500
