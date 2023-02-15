@@ -19,6 +19,7 @@ TagManager:
   - passaCena
   - Eneriga
   - "Muni\xE7\xE3o"
+  - mel
   layers:
   - Default
   - TransparentFX

@@ -247,6 +247,14 @@ public class Move_Mateu : MonoBehaviour
 
         }
 
+        if (outro.gameObject.CompareTag("mel")){
+            vida = vida + 20;
+            Destroy(outro.gameObject); 
+
+            print("mel");
+            
+        }
+
          //dano no heroi
          
         if (outro.gameObject.CompareTag("Enemy")){
