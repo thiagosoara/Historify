@@ -7,6 +7,7 @@ public class nacu : MonoBehaviour
     public float speed = 2f; // Velocidade de movimento do inimigo
     public Transform pointA; // Ponto de início da patrulha
     public Transform pointB; // Ponto final da patrulha
+    public Animator anim;
 
     private bool movingRight = true; // Variável que controla a direção de movimento do inimigo
 
@@ -26,7 +27,10 @@ public class nacu : MonoBehaviour
                 movingRight = false;
                 // Inverte a direção em que o inimigo está olhando
                 transform.localScale = new Vector3(-1f, 1f, 1f);
+
             }
+            anim.SetBool("ido", false);
+            anim.SetBool("correr", true);
         }
         // Se o inimigo estiver se movendo para a esquerda
         else
@@ -42,6 +46,8 @@ public class nacu : MonoBehaviour
                 // Inverte a direção em que o inimigo está olhando
                 transform.localScale = new Vector3(1f, 1f, 1f);
             }
+            anim.SetBool("ido", false);
+            anim.SetBool("correr", true);
         }
     }
 
