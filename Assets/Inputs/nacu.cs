@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class onca : MonoBehaviour
+public class nacu : MonoBehaviour
 {
     public float speed = 2f; // Velocidade de movimento do inimigo
     public Transform pointA; // Ponto de início da patrulha
@@ -69,4 +69,3 @@ public class onca : MonoBehaviour
         speed = 2f;
     }
 }
-
