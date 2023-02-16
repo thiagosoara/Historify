@@ -100,6 +100,8 @@
      <Compile Include="Assets\Inputs\botao_hero.cs" />
      <Compile Include="Assets\Inputs\Script de itens\Centralizar.cs" />
      <Compile Include="Assets\Inputs\Script de itens\Consumiveis.cs" />
+     <Compile Include="Assets\Inputs\jacare.cs" />
+     <Compile Include="Assets\Inputs\onca1.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
