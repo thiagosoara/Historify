@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Inputs\Input1\MoveBalas.cs" />
+     <Compile Include="Assets\Inputs\nacu.cs" />
      <Compile Include="Assets\Inputs\TWEEN.cs" />
      <Compile Include="Assets\Inputs\BotaoPulo.cs" />
      <Compile Include="Assets\Firebase\FirebaseInit.cs" />
@@ -80,6 +81,7 @@
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterMenu.cs" />
      <Compile Include="Assets\Inputs\Move_Mateu.cs" />
      <Compile Include="Assets\Inputs\Script de itens\Armas.cs" />
+     <Compile Include="Assets\Inputs\moverObjetos.cs" />
      <Compile Include="Assets\Inputs\BarraDeEXP.cs" />
      <Compile Include="Assets\Inputs\Input1\policia.cs" />
      <Compile Include="Assets\Inputs\onca1.cs" />
@@ -102,8 +104,6 @@
      <Compile Include="Assets\Inputs\botao_hero.cs" />
      <Compile Include="Assets\Inputs\Script de itens\Centralizar.cs" />
      <Compile Include="Assets\Inputs\Script de itens\Consumiveis.cs" />
-     <Compile Include="Assets\Inputs\moverObjetos.cs" />
-     <Compile Include="Assets\Inputs\nacu.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Environment Pack\README.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />

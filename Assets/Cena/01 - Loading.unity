@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.126}
   m_AnchorMin: {x: 0.19036657, y: 0.916667}
   m_AnchorMax: {x: 0.20788828, y: 0.916667}
-  m_AnchoredPosition: {x: 482.76013, y: 0}
+  m_AnchoredPosition: {x: 482.7601, y: 0}
   m_SizeDelta: {x: 1266.1534, y: 161.77052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302184499
@@ -912,23 +912,11 @@ GameObject:
   - component: {fileID: 507702561}
   - component: {fileID: 507702560}
   - component: {fileID: 507702559}
-  - component: {fileID: 507702577}
   - component: {fileID: 507702576}
   - component: {fileID: 507702575}
   - component: {fileID: 507702574}
   - component: {fileID: 507702572}
   - component: {fileID: 507702570}
-  - component: {fileID: 507702568}
-  - component: {fileID: 507702567}
-  - component: {fileID: 507702565}
-  - component: {fileID: 507702564}
-  - component: {fileID: 507702558}
-  - component: {fileID: 507702581}
-  - component: {fileID: 507702580}
-  - component: {fileID: 507702595}
-  - component: {fileID: 507702594}
-  - component: {fileID: 507702592}
-  - component: {fileID: 507702591}
   - component: {fileID: 507702589}
   - component: {fileID: 507702587}
   - component: {fileID: 507702585}
@@ -942,34 +930,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &507702558
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 18
-  indentLevel: 0
-  storyText: "Dirceu: Tudo bem, meu amigo! Hoje eu o ajudo e um dia, talvez, voc\xEA
-    me ajude...\r\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6872ac8a240ba334c900e59baeba373d, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &507702559
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1001,7 +961,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -99.44098
     y: 889.77826
-    width: 60
+    width: 98.93617
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1010,18 +970,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 507702559}
   commandList:
-  - {fileID: 507702581}
-  - {fileID: 507702577}
-  - {fileID: 507702580}
-  - {fileID: 507702558}
-  - {fileID: 507702595}
-  - {fileID: 507702564}
-  - {fileID: 507702594}
-  - {fileID: 507702565}
-  - {fileID: 507702592}
-  - {fileID: 507702567}
-  - {fileID: 507702591}
-  - {fileID: 507702568}
   - {fileID: 507702589}
   - {fileID: 507702570}
   - {fileID: 507702587}
@@ -1047,11 +995,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 222.0937, y: -801.3822}
+  scrollPos: {x: 230.88708, y: -801.2164}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1061,7 +1009,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702577}
+  - {fileID: 507702589}
   variables: []
   description: 
   stepPause: 0
@@ -1087,117 +1035,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &507702564
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  storyText: "Professor: Espero n\xE3o estar atrapalhando voc\xEA em suas pesquisas,
-    sei que falta pouco para a publica\xE7\xE3o.\r\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c36634f73e6f51a40a49be35182d3900, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &507702565
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  storyText: "Dirceu: Sim, mas um dia de descanso n\xE3o mata ningu\xE9m."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c36634f73e6f51a40a49be35182d3900, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &507702567
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  storyText: "Professor: Acredito que eles gostar\xE3o do dia de hoje, j\xE1 que
-    voc\xEA \xE9 um perito no assunto.\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ff50fd5aba0dc0c408499937ea4dae96, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &507702568
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  storyText: "Dirceu: Obrigado digo eu, meu amigo, por me fazer relembrar minha \xE9poca
-    de professor! Ser\xE1 bom para revirar a mem\xF3ria!\r\n\r\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ff50fd5aba0dc0c408499937ea4dae96, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &507702570
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1344,68 +1181,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &507702577
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: "Professor: Obrigado, Dirceu, por me ajudar hoje! Sei que voc\xEA tinha
-    outras coisas a fazer.\r\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6872ac8a240ba334c900e59baeba373d, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &507702580
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 21
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 35be3eeefc131584eaddf03aadb1399f, type: 3}
-  volume: 1
-  loop: 0
---- !u!114 &507702581
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 34f79f4de229709439c5f465fe31df3c, type: 3}
-  volume: 1
-  loop: 0
 --- !u!114 &507702583
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1489,74 +1264,6 @@ MonoBehaviour:
   itemId: 29
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 9818789800bbcfe4dbcc5b933068ca63, type: 3}
-  volume: 1
-  loop: 0
---- !u!114 &507702591
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 27
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 2659b9ea10c633143bc722fcb53535e6, type: 3}
-  volume: 1
-  loop: 0
---- !u!114 &507702592
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 26
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 89e67cab3f513614fb7ed90b9e2f3a2c, type: 3}
-  volume: 1
-  loop: 0
---- !u!114 &507702594
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 24
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 07fd2283407654442ae41af6f2dbdc46, type: 3}
-  volume: 1
-  loop: 0
---- !u!114 &507702595
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507702557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 23
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 485c52dd93621ae4585c833312a1c386, type: 3}
   volume: 1
   loop: 0
 --- !u!114 &507702596
