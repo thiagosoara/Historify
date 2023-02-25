@@ -6,6 +6,7 @@ public class tronco : MonoBehaviour
 {
     public GameObject gravetoDesativa;
     public GameObject troncos;
+    public GameObject button;
     public bool animacao = false;
   
    
@@ -37,7 +38,11 @@ public class tronco : MonoBehaviour
                 troncos.SetActive(false);
                 
             }
+            if (button.activeInHierarchy==false){
+                button.SetActive(true);
+            }
         }
+
      
 
     }

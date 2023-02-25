@@ -7,7 +7,9 @@ public class troncoAtive : MonoBehaviour
     public GameObject gravetoAtiva;
     // tc = tronco
     public GameObject tc;
+    public GameObject buttonLevantar;
     public bool ativa = false;
+    public GameObject buttonBaixar;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +37,14 @@ public class troncoAtive : MonoBehaviour
             if(tc.activeInHierarchy == false){
                 tc.SetActive(true);
                 
+            }
+            if (buttonBaixar.activeInHierarchy ==true){
+                buttonBaixar.SetActive(false);
+            }
+            
+            if (buttonLevantar.activeInHierarchy == false){
+                buttonLevantar.SetActive(true);
+
             }
         }
      
