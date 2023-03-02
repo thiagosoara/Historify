@@ -19348,7 +19348,7 @@ PrefabInstance:
     - target: {fileID: 3612609059772700078, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: eb3e113611f1a8a4ebf54cf1035795c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 8e47c6d98fd1acc4da65517e9abb6fef, type: 3}
     - target: {fileID: 3612609059772700078, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -19388,10 +19388,10 @@ PrefabInstance:
     - target: {fileID: 3612609060344057938, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: b9f95121fe48e0e41b54f5614ae02ad8, type: 3}
     - target: {fileID: 3612609060344057938, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060686050474, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Name
@@ -19481,6 +19481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3612609061051110689, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 3612609061051110691, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Type
       value: 0
@@ -19488,7 +19492,7 @@ PrefabInstance:
     - target: {fileID: 3612609061051110691, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: eb3e113611f1a8a4ebf54cf1035795c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 8e47c6d98fd1acc4da65517e9abb6fef, type: 3}
     - target: {fileID: 3612609061051110691, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Color.a
       value: 1
