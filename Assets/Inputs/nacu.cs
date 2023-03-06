@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class nacu : MonoBehaviour
 {
@@ -8,6 +9,12 @@ public class nacu : MonoBehaviour
     public Transform pointA; // Ponto de início da patrulha
     public Transform pointB; // Ponto final da patrulha
     public Animator anim;
+    public GameObject apresentacao;
+    public GameObject escolha;
+    public GameObject Player1;
+    public GameObject Player2;
+
+
 
     private bool movingRight = true; // Variável que controla a direção de movimento do inimigo
 
@@ -59,6 +66,9 @@ public class nacu : MonoBehaviour
         {
             // Executa a lógica do jogo correspondente (por exemplo, reduzindo a saúde do jogador)
             // ...
+            if(apresentacao.activeInHierarchy == false){
+                apresentacao.SetActive(true);
+            }
             // Faz o inimigo parar de se mover por 2 segundos antes de atacar novamente
             StartCoroutine(StopForSeconds(2));
         }
@@ -72,6 +82,16 @@ public class nacu : MonoBehaviour
         // Espera o número de segundos especificado
         yield return new WaitForSeconds(seconds);
         // Restaura o movimento do inimigo
-        speed = 2f;
+        if (apresentacao.activeInHierarchy== true){
+            apresentacao.SetActive(false);
+        }
+        if(apresentacao.activeInHierarchy == false){
+            if (escolha.activeInHierarchy == false){
+                escolha.SetActive(true);
+                Player1.SetActive(false);
+                Player2.SetActive(false);
+            }
+        }
+        speed = 0f;
     }
 }

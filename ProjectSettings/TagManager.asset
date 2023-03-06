@@ -20,6 +20,8 @@ TagManager:
   - Eneriga
   - "Muni\xE7\xE3o"
   - mel
+  - morceguino
+  - amigo
   layers:
   - Default
   - TransparentFX
@@ -33,7 +35,7 @@ TagManager:
   - Player
   - inimigo
   - 
-  - 
+  - amigo
   - Enemy
   - Trigger
   - 
