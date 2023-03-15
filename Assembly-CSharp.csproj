@@ -216,6 +216,9 @@
  <Reference Include="UnityEngine.Purchasing.Codeless">
  <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+ <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Purchasing.SecurityCore">
  <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
  </Reference>
@@ -236,6 +239,9 @@
  </Reference>
  <Reference Include="Unity.AdaptivePerformance.Editor">
  <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.DeviceSimulator.Editor">
+ <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Analytics">
  <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/Analytics.dll</HintPath>
@@ -317,12 +323,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Animation.Triangle.Runtime">
- <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.DeviceSimulator.Editor">
- <HintPath>C:/Users/Historify/Documents/GitHub/Historify/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
