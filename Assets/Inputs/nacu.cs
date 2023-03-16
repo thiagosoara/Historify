@@ -11,8 +11,9 @@ public class nacu : MonoBehaviour
     public Animator anim;
     public GameObject apresentacao;
     public GameObject escolha;
-    public GameObject Player1;
-    public GameObject Player2;
+
+    public GameObject chuva;
+  
 
 
 
@@ -88,8 +89,8 @@ public class nacu : MonoBehaviour
         if(apresentacao.activeInHierarchy == false){
             if (escolha.activeInHierarchy == false){
                 escolha.SetActive(true);
-                Player1.SetActive(false);
-                Player2.SetActive(false);
+                chuva.SetActive(false);
+                
             }
         }
         speed = 0f;
