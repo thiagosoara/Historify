@@ -27,6 +27,8 @@ public class nacu : MonoBehaviour
         {
             // Move o inimigo para a direita ao longo do eixo X
             transform.Translate(Vector2.right * speed * Time.deltaTime);
+            anim.SetBool("ido", false);
+            anim.SetBool("correr", true);
 
             // Se o inimigo atingiu o ponto final da patrulha
             if (transform.position.x >= pointB.position.x)
@@ -37,14 +39,15 @@ public class nacu : MonoBehaviour
                 transform.localScale = new Vector3(-1f, 1f, 1f);
 
             }
-            anim.SetBool("ido", false);
-            anim.SetBool("correr", true);
+            
         }
         // Se o inimigo estiver se movendo para a esquerda
         else
         {
             // Move o inimigo para a esquerda ao longo do eixo X
             transform.Translate(-Vector2.right * speed * Time.deltaTime);
+            anim.SetBool("ido", false);
+            anim.SetBool("correr", true);
 
             // Se o inimigo atingiu o ponto de início da patrulha
             if (transform.position.x <= pointA.position.x)
@@ -54,8 +57,7 @@ public class nacu : MonoBehaviour
                 // Inverte a direção em que o inimigo está olhando
                 transform.localScale = new Vector3(1f, 1f, 1f);
             }
-            anim.SetBool("ido", false);
-            anim.SetBool("correr", true);
+            
         }
     }
 

@@ -19434,7 +19434,7 @@ MonoBehaviour:
   speed: 2
   pointA: {fileID: 1764370700}
   pointB: {fileID: 1683422681}
-  anim: {fileID: 0}
+  anim: {fileID: 2044381357}
   apresentacao: {fileID: 204474273}
   escolha: {fileID: 326059272}
   chuva: {fileID: 303501573}
@@ -20493,7 +20493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4164090706343687498, guid: b31379359c9b7a549a726bba62629d2b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -64.089
+      value: -64.08899
       objectReference: {fileID: 0}
     - target: {fileID: 4164090706343687498, guid: b31379359c9b7a549a726bba62629d2b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
