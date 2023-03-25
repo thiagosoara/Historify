@@ -42,7 +42,7 @@ public class nacu : MonoBehaviour
             
         }
         // Se o inimigo estiver se movendo para a esquerda
-        else
+        else 
         {
             // Move o inimigo para a esquerda ao longo do eixo X
             transform.Translate(-Vector2.right * speed * Time.deltaTime);
@@ -59,6 +59,7 @@ public class nacu : MonoBehaviour
             }
             
         }
+
     }
 
     // Detecta colisões com outros objetos
@@ -67,13 +68,18 @@ public class nacu : MonoBehaviour
         // Se o inimigo colidiu com o jogador
         if (other.CompareTag("Player"))
         {
+            anim.SetBool("ido", true);
+            anim.SetBool("correr", false);
             // Executa a lógica do jogo correspondente (por exemplo, reduzindo a saúde do jogador)
             // ...
             if(apresentacao.activeInHierarchy == false){
                 apresentacao.SetActive(true);
+                anim.SetBool("ido", true);
+                anim.SetBool("correr", false);
             }
             // Faz o inimigo parar de se mover por 2 segundos antes de atacar novamente
             StartCoroutine(StopForSeconds(2));
+
         }
     }
 
@@ -82,6 +88,8 @@ public class nacu : MonoBehaviour
     {
         // Para o movimento do inimigo
         speed = 0f;
+        anim.SetBool("ido", true);
+        anim.SetBool("correr", false);
         // Espera o número de segundos especificado
         yield return new WaitForSeconds(seconds);
         // Restaura o movimento do inimigo
@@ -96,5 +104,6 @@ public class nacu : MonoBehaviour
             }
         }
         speed = 0f;
+
     }
 }
