@@ -9,6 +9,8 @@ public class ativaMateu : MonoBehaviour
     public GameObject escolha;
     public GameObject chuva;
     public GameObject player;
+    public GameObject botãoMoverMateu;
+    public GameObject botãoMoverNacu;
 
     public GameObject mateu;
     // Start is called before the first frame update
@@ -42,6 +44,8 @@ public class ativaMateu : MonoBehaviour
             chuva.SetActive(true);
             nacu.SetActive(false);
             player.SetActive(true);
+            botãoMoverMateu.SetActive(false);
+            botãoMoverNacu.SetActive(true);
 
             
         }
