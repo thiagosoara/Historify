@@ -1218,7 +1218,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272672548}
   m_LocalRotation: {x: -0.010660956, y: 0.024462035, z: 0.3993809, w: 0.9163967}
-  m_LocalPosition: {x: -138.3, y: -4.11, z: 0}
+  m_LocalPosition: {x: -138.45, y: -4.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6829,7 +6829,7 @@ MonoBehaviour:
   forca: 7.5
   HeroiRB: {fileID: 316234144}
   anim: {fileID: 316234145}
-  HeroiT: {fileID: 316234147}
+  HeroiT: {fileID: 0}
   anim: {fileID: 316234145}
   HeroiRB: {fileID: 316234144}
   face: 1
@@ -8538,8 +8538,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512784463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.214, y: -0.267, z: 0}
-  m_LocalScale: {x: 0.95324093, y: 1.4025418, z: 1}
+  m_LocalPosition: {x: 5.3897, y: -0.1409, z: 0}
+  m_LocalScale: {x: 0.9025853, y: 1.486293, z: 1}
   m_Children: []
   m_Father: {fileID: 290214594}
   m_RootOrder: 0
@@ -15977,7 +15977,7 @@ GameObject:
   - component: {fileID: 988006374}
   m_Layer: 0
   m_Name: pinho
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18409,7 +18409,7 @@ GameObject:
   - component: {fileID: 1636121765}
   m_Layer: 0
   m_Name: Jaqueira
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19782,6 +19782,7 @@ GameObject:
   - component: {fileID: 1780700344}
   - component: {fileID: 1780700343}
   - component: {fileID: 1780700346}
+  - component: {fileID: 1780700348}
   m_Layer: 8
   m_Name: tronco seco (1)
   m_TagString: chao
@@ -19864,7 +19865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780700342}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -125.82, y: -6.44, z: 0}
+  m_LocalPosition: {x: -131.12, y: -4.41, z: 0}
   m_LocalScale: {x: 0.33615386, y: 0.34169343, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19885,6 +19886,27 @@ MonoBehaviour:
   speed: 2
   pointA: {fileID: 1560555427}
   pointB: {fileID: 1436202143}
+--- !u!50 &1780700348
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780700342}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1785462286
 GameObject:
   m_ObjectHideFlags: 0
@@ -19978,6 +20000,7 @@ GameObject:
   - component: {fileID: 1836420081}
   - component: {fileID: 1836420083}
   - component: {fileID: 1836420082}
+  - component: {fileID: 1836420084}
   m_Layer: 8
   m_Name: arvore 2
   m_TagString: chao
@@ -20010,13 +20033,16 @@ EdgeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.41339904, y: -0.29769167}
-  - {x: -0.24281901, y: -0.2935295}
+  - {x: -0.5689317, y: -0.65054953}
+  - {x: -0.5058733, y: -0.5795445}
+  - {x: -0.44126317, y: -0.50501746}
+  - {x: -0.33467996, y: -0.3969773}
+  - {x: -0.27272934, y: -0.3151331}
   - {x: 0.18398574, y: 0.19994193}
   - {x: 0.44832548, y: 0.20316945}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -20074,6 +20100,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!252 &1836420084
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836420080}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 1
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1841767957
 GameObject:
   m_ObjectHideFlags: 0
