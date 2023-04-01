@@ -6824,12 +6824,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   face: 1
-  HeroiT: {fileID: 0}
+  HeroiT: {fileID: 316234147}
   vel: 3.5
   forca: 7.5
   HeroiRB: {fileID: 316234144}
   anim: {fileID: 316234145}
-  HeroiT: {fileID: 0}
+  HeroiT: {fileID: 316234147}
   anim: {fileID: 316234145}
   HeroiRB: {fileID: 316234144}
   face: 1

@@ -35,30 +35,49 @@ public class botão_nacu : Move_naçu
     }
   
     public void esquerdaN(){
-
-        
         vel = -3.5f;
         x = false;
         y = true;
+
+        if (face)
+        {
+            Flip();
+        }
+
     }
     public void direitaN(){
-
         vel = 3.5f;
         x = false;
         y = true;
+
+        if (!face)
+        {
+            Flip();
+        }
+
+
     }
     public void paradoN(){
         vel = 0;
         x = true;
         y = false;
+
     }
 
     void animacaoNacu(){
         anim.SetBool("ido", x);
         anim.SetBool("correr", y);
+
+
     }
 
     public void mover(){
         transform.Translate(new Vector2(vel * Time.deltaTime, 0));
+    }
+    void Flip(){
+        face = !face;
+        Vector3 scala = HeroiT.localScale;
+        scala.x *= -1;
+        HeroiT.localScale = scala;
     }
 }
