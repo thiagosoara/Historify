@@ -81,3 +81,4 @@ public class botão_nacu : Move_naçu
         HeroiT.localScale = scala;
     }
 }
+

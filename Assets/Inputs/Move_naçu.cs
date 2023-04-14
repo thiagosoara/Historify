@@ -36,20 +36,17 @@ public class Move_naçu : MonoBehaviour
             if (Input.GetKey(KeyCode.RightArrow))
                 {
                     transform.Translate(new Vector2(vel * Time.deltaTime, 0));
-                     anim.SetBool("ido", false);
-                     anim.SetBool("correr", true);
+                     
                 }
             else if (Input.GetKey(KeyCode.LeftArrow))
                 {
                     transform.Translate(new Vector2(-vel * Time.deltaTime, 0));
-                    anim.SetBool("ido", false);
-                    anim.SetBool("correr", true);
+
                 }
                 //MATEU PARADO
             else
                 {
-                    anim.SetBool("ido", true);
-                    anim.SetBool("correr", false);
+
                 }
             
         
