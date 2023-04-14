@@ -13,6 +13,9 @@ public class nacu : MonoBehaviour
     public GameObject escolha;
 
     public GameObject chuva;
+
+    public GameObject andando;
+    public GameObject parado;
   
 
 
@@ -88,6 +91,9 @@ public class nacu : MonoBehaviour
     {
         // Para o movimento do inimigo
         speed = 0f;
+        andando.SetActive(false);
+        parado.SetActive(true);
+
         anim.SetBool("ido", true);
         anim.SetBool("correr", false);
         // Espera o número de segundos especificado
