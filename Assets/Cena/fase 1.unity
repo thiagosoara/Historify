@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d488f17470aa1c14ab77f6d4674118b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nacu: {fileID: 2044381351}
+  nacu: {fileID: 2069191849}
   escolha: {fileID: 326059272}
   chuva: {fileID: 303501573}
   player: {fileID: 316234140}
@@ -26493,7 +26493,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2069191850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26503,18 +26503,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2069191849}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dde90bf0668b68d468bd408386b50f75, type: 3}
+  m_Script: {fileID: 11500000, guid: a1010735c1976d442926ad39acb1d535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  pointA: {fileID: 1764370700}
-  pointB: {fileID: 1683422681}
-  anim: {fileID: 2069191854}
   apresentacao: {fileID: 204474273}
   escolha: {fileID: 326059272}
   chuva: {fileID: 303501573}
-  andando: {fileID: 2044381351}
-  parado: {fileID: 2069191849}
+  NacuAndando: {fileID: 2044381351}
 --- !u!58 &2069191851
 CircleCollider2D:
   m_ObjectHideFlags: 0
