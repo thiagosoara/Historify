@@ -18,6 +18,9 @@ public class botão_nacu : Move_naçu
     //y = andando
     public bool y = false;
 
+    //pl= pulo
+    public bool pl = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +41,7 @@ public class botão_nacu : Move_naçu
         vel = -3.5f;
         x = false;
         y = true;
+        pl=false;
 
         if (face)
         {
@@ -49,6 +53,7 @@ public class botão_nacu : Move_naçu
         vel = 3.5f;
         x = false;
         y = true;
+        pl=false;
 
         if (!face)
         {
@@ -61,12 +66,14 @@ public class botão_nacu : Move_naçu
         vel = 0;
         x = true;
         y = false;
+        pl= false;
 
     }
 
     void animacaoNacu(){
         anim.SetBool("ido", x);
         anim.SetBool("correr", y);
+        anim.SetBool("pulo", pl);
 
 
     }
@@ -79,6 +86,26 @@ public class botão_nacu : Move_naçu
         Vector3 scala = HeroiT.localScale;
         scala.x *= -1;
         HeroiT.localScale = scala;
+    }
+    // ANIMAÇÃO DE PULO
+    public void PuloNacu(){
+        if (liberapulo==true){
+            forca = 6f;
+            HeroiRB.AddForce(new Vector2(0, forca), ForceMode2D.Impulse);
+            pl = true;
+            y=false;
+            x= false;
+           
+        }
+        if(liberapulo==false){
+            pl=false;
+            y=false;
+            x=true;
+
+        }
+
+
+
     }
 }
 

@@ -11,6 +11,8 @@ public class Move_naçu : MonoBehaviour
     public float forca = 7.5f;
     public Rigidbody2D HeroiRB;
     public Animator anim;
+
+    public bool liberapulo = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,4 +61,24 @@ public class Move_naçu : MonoBehaviour
         HeroiT.localScale = scala;
 
     }
+
+    //VERIFICAÇÃO DE PULO
+    void OnCollisionEnter2D(Collision2D outro)
+    {
+        if (outro.gameObject.CompareTag("chao"))
+        {
+            liberapulo = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D outro)
+    {
+        if (outro.gameObject.CompareTag("chao"))
+        {
+            liberapulo = false;
+
+        }
+    }
+
+
 }
