@@ -8116,7 +8116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268441427}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.3, y: -1.67, z: 24.161074}
+  m_LocalPosition: {x: -11.08, y: -1.54, z: 24.161074}
   m_LocalScale: {x: -0.7128568, y: 0.7036543, z: 1}
   m_Children: []
   m_Father: {fileID: 123708824}
@@ -12374,6 +12374,7 @@ GameObject:
   - component: {fileID: 1841767962}
   - component: {fileID: 1841767964}
   - component: {fileID: 1841767965}
+  - component: {fileID: 1841767966}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12522,6 +12523,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logoImg: {fileID: 0}
+--- !u!68 &1841767966
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841767957}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -6.277799, y: -0.932586}
+  - {x: -6.276058, y: 0.9106429}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1845734556
 GameObject:
   m_ObjectHideFlags: 0
