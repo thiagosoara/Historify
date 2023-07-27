@@ -612,6 +612,57 @@ MonoBehaviour:
   panel: {fileID: 14360413}
   passaCena: 0
   contagem: 1
+--- !u!1 &230716876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230716877}
+  - component: {fileID: 230716878}
+  m_Layer: 0
+  m_Name: Quadrinho.19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &230716877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230716876}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2138322093}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &230716878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230716876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: "Hist\xF3ria"
+  nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &313755407
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0.8068229}
-  m_AnchoredPosition: {x: 1360.3, y: 1.4536743}
+  m_AnchoredPosition: {x: 1238, y: 1.4542847}
   m_SizeDelta: {x: 2370.7083, y: -2.9075928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542260350
@@ -1813,7 +1864,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.82353
     y: 58.11765
-    width: 60
+    width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1888,7 +1939,7 @@ MonoBehaviour:
   scrollPos: {x: 64.78119, y: 62.15451}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 633
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -1899,7 +1950,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1259198810}
   selectedCommands:
-  - {fileID: 1259198813}
+  - {fileID: 1259198853}
   variables: []
   description: 
   stepPause: 0
@@ -1941,8 +1992,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Dirceu: Mateu, ent\xE3o, segue correndo em sua fuga.   "
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 230716878}
+  portrait: {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2371,8 +2422,8 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 675922201}
-  portrait: {fileID: 21300000, guid: fc04d8392dd78704b80f1d63e2b21d27, type: 3}
+  character: {fileID: 1089665313}
+  portrait: {fileID: 21300000, guid: add39d97e4041e54abec8fbe1de1cd06, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2398,8 +2449,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Dirceu: Chegando \xE0 fazenda, Mateu continua o di\xE1logo.\r\n\n"
   description: 
-  character: {fileID: 1089665313}
-  portrait: {fileID: 21300000, guid: add39d97e4041e54abec8fbe1de1cd06, type: 3}
+  character: {fileID: 344196440}
+  portrait: {fileID: 21300000, guid: 1b69a79c299e1674f8b8833c48a705c3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2454,8 +2505,8 @@ MonoBehaviour:
   storyText: "Mateu: Tonico, me repassa o plano, mas fala baixo pra capataz n\xE3o
     escutar!\n\n"
   description: 
-  character: {fileID: 1089665313}
-  portrait: {fileID: 21300000, guid: add39d97e4041e54abec8fbe1de1cd06, type: 3}
+  character: {fileID: 675922201}
+  portrait: {fileID: 21300000, guid: fc04d8392dd78704b80f1d63e2b21d27, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2481,8 +2532,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Dirceu: O aliado come\xE7a, ent\xE3o, a explicar o plano de fuga.\r\n"
   description: 
-  character: {fileID: 344196440}
-  portrait: {fileID: 21300000, guid: 1b69a79c299e1674f8b8833c48a705c3, type: 3}
+  character: {fileID: 1047917408}
+  portrait: {fileID: 21300000, guid: 7c64ee2ba0c256f4d974661dcaca3e97, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2510,8 +2561,8 @@ MonoBehaviour:
     os capatazes. Outros companheiros v\xE3o segurar os homens pra gente escapar
     e buscar ajuda. Depois, a gente volta pra soltar o restante.\n"
   description: 
-  character: {fileID: 344196440}
-  portrait: {fileID: 21300000, guid: 1b69a79c299e1674f8b8833c48a705c3, type: 3}
+  character: {fileID: 1047917408}
+  portrait: {fileID: 21300000, guid: 7c64ee2ba0c256f4d974661dcaca3e97, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2571,8 +2622,8 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 1047917408}
-  portrait: {fileID: 21300000, guid: 7c64ee2ba0c256f4d974661dcaca3e97, type: 3}
+  character: {fileID: 1363389287}
+  portrait: {fileID: 21300000, guid: 06c7bab217eb6304ab350913b5dcf1c5, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2601,8 +2652,8 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 1363389287}
-  portrait: {fileID: 21300000, guid: 06c7bab217eb6304ab350913b5dcf1c5, type: 3}
+  character: {fileID: 911209138}
+  portrait: {fileID: 21300000, guid: 84a33d81a9fa59f4bad72b6fa0e1b147, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2629,8 +2680,8 @@ MonoBehaviour:
   storyText: "Mateu: Que sinal? Tomara que eu n\xE3o seja pego de novo! Ai! A sova
     da outra vez ainda d\xF3i.\n"
   description: 
-  character: {fileID: 1363389287}
-  portrait: {fileID: 21300000, guid: 06c7bab217eb6304ab350913b5dcf1c5, type: 3}
+  character: {fileID: 911209138}
+  portrait: {fileID: 21300000, guid: 84a33d81a9fa59f4bad72b6fa0e1b147, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2657,8 +2708,8 @@ MonoBehaviour:
   storyText: "Capataz: PAREM, SEUS VERMES! SE N\xC3O SABEM SE DISTRAIR COMO GENTE,
     V\xC3O APRENDER NA CHIBATA!\r\n\n"
   description: 
-  character: {fileID: 911209138}
-  portrait: {fileID: 21300000, guid: 84a33d81a9fa59f4bad72b6fa0e1b147, type: 3}
+  character: {fileID: 1762435727}
+  portrait: {fileID: 21300000, guid: 44645d415d655c2439dcf6a4b4dd90b7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2685,8 +2736,8 @@ MonoBehaviour:
   storyText: "Dirceu: O capataz, enfurecido com a briga entre os escravos, tenta
     apart\xE1-los, gritando em alto e bom tom.\r\n"
   description: 
-  character: {fileID: 911209138}
-  portrait: {fileID: 21300000, guid: 84a33d81a9fa59f4bad72b6fa0e1b147, type: 3}
+  character: {fileID: 1762435727}
+  portrait: {fileID: 21300000, guid: 44645d415d655c2439dcf6a4b4dd90b7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2741,8 +2792,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Tonico: Bora, Mateu, levanta e corre! Bora fugir! Esse \xE9 o sinal!\r\n\n"
   description: 
-  character: {fileID: 1762435727}
-  portrait: {fileID: 21300000, guid: 44645d415d655c2439dcf6a4b4dd90b7, type: 3}
+  character: {fileID: 1351988064}
+  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2816,8 +2867,8 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 1351988064}
-  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
+  character: {fileID: 230716878}
+  portrait: {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2844,8 +2895,8 @@ MonoBehaviour:
   storyText: "Mateu: Obrigado, meu irm\xE3o! N\xE3o vou me esquecer de voc\xEA! Prometo
     que irei voltar!!\r\n"
   description: 
-  character: {fileID: 1351988064}
-  portrait: {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
+  character: {fileID: 230716878}
+  portrait: {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4023,6 +4074,7 @@ Transform:
   - {fileID: 911209137}
   - {fileID: 1762435726}
   - {fileID: 1351988063}
+  - {fileID: 230716877}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
