@@ -9,6 +9,7 @@ public class AudioControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //modulo de selecao de musicas por fase jogavel
         AudioClip musicasDeFundoDessaFase = musicasDeFundo[0];
         audioSorceMusicaDeFundo.clip = musicasDeFundoDessaFase;
         audioSorceMusicaDeFundo.Play();

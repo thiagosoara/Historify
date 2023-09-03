@@ -81,6 +81,7 @@
      <Compile Include="Assets\Inputs\tronco.cs" />
      <Compile Include="Assets\Inputs\estudo\estudo.cs" />
      <Compile Include="Assets\Inputs\Colisao.cs" />
+     <Compile Include="Assets\Inputs\AudioControler.cs" />
      <Compile Include="Assets\Inputs\Input1\PassaCenaComTempo.cs" />
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterMenu.cs" />
      <Compile Include="Assets\Inputs\Move_Mateu.cs" />
@@ -109,7 +110,6 @@
      <Compile Include="Assets\Inputs\Script de itens\Centralizar.cs" />
      <Compile Include="Assets\Inputs\Script de itens\Consumiveis.cs" />
      <Compile Include="Assets\Inputs\botão_nacu.cs" />
-     <Compile Include="Assets\Inputs\AudioControler.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
