@@ -85,7 +85,7 @@
      <Compile Include="Assets\Inputs\Input1\PassaCenaComTempo.cs" />
      <Compile Include="Assets\Sprites\Menu de personagem\CharacterMenu.cs" />
      <Compile Include="Assets\Inputs\Move_Mateu.cs" />
-     <Compile Include="Assets\Inputs\Script de itens\Armas.cs" />
+     <Compile Include="Assets\Inputs\Script de itens\Weapons.cs" />
      <Compile Include="Assets\Inputs\moverObjetos.cs" />
      <Compile Include="Assets\Inputs\BarraDeEXP.cs" />
      <Compile Include="Assets\Inputs\Input1\policia.cs" />
@@ -110,6 +110,7 @@
      <Compile Include="Assets\Inputs\Script de itens\Centralizar.cs" />
      <Compile Include="Assets\Inputs\Script de itens\Consumiveis.cs" />
      <Compile Include="Assets\Inputs\botão_nacu.cs" />
+     <Compile Include="Assets\Inputs\Input1\Armas.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
