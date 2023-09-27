@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Pedra : Move_Mateu
 {
-
     /*private void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.gameObject.CompareTag("Player")){
