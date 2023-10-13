@@ -30,8 +30,8 @@ public class nacu : MonoBehaviour
         {
             // Move o inimigo para a direita ao longo do eixo X
             transform.Translate(Vector2.right * speed * Time.deltaTime);
-            anim.SetBool("ido", false);
-            anim.SetBool("correr", true);
+            anim.SetBool("ido", true);
+            anim.SetBool("correr", false);
 
             // Se o inimigo atingiu o ponto final da patrulha
             if (transform.position.x >= pointB.position.x)

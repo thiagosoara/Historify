@@ -117,9 +117,8 @@ MonoBehaviour:
   bulletSpawn: {fileID: 0}
   objeto: {fileID: 0}
   pausa: 1
-  panel: {fileID: 0}
-  reniciar: 0
   tronco: 0
+  WeaponsAtributes: {fileID: 11400000, guid: 6ec550245d53f3b47a3206180c58429e, type: 2}
 --- !u!68 &3507517075712864420
 EdgeCollider2D:
   m_ObjectHideFlags: 0
