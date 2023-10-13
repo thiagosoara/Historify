@@ -6,6 +6,7 @@ using UnityEngine;
 public class Weapons : ScriptableObject
 {
    public string name;
-   public int Damage;
-   public Sprite Imagem;
+   public Sprite icone;
+   public int dano;
+   public float alcance;
 }
