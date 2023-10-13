@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8627813, y: 0.2234072}
   m_AnchorMax: {x: 0.8627813, y: 0.2234072}
-  m_AnchoredPosition: {x: 348.38, y: -140.27}
+  m_AnchoredPosition: {x: 248.1, y: -139.89}
   m_SizeDelta: {x: 101.06436, y: 99.0997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3612609059199876931
@@ -185,7 +185,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1124375, y: 0.12453893}
   m_AnchorMax: {x: 0.1124375, y: 0.12453893}
-  m_AnchoredPosition: {x: 688.008, y: 27.954}
+  m_AnchoredPosition: {x: 589.03, y: 27.955}
   m_SizeDelta: {x: 98.98291, y: 99.37692}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3612609059386644438
@@ -664,9 +664,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 474.19995, y: 61.487}
+  m_AnchoredPosition: {x: 572.87573, y: 61.487015}
   m_SizeDelta: {x: 98.670166, y: 99.746735}
-  m_Pivot: {x: 0.50000024, y: 0.50000006}
+  m_Pivot: {x: 0.5000002, y: 0.50000006}
 --- !u!222 &3612609060174830933
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -907,7 +907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 284.38, y: -67.757}
+  m_AnchoredPosition: {x: 385.44, y: -167.74}
   m_SizeDelta: {x: 101.059616, y: 99.48291}
   m_Pivot: {x: 0.49999976, y: 0.49999955}
 --- !u!222 &3612609060364873377
@@ -1002,7 +1002,7 @@ GameObject:
   - component: {fileID: 3612609060686050485}
   m_Layer: 5
   m_Name: "Bot\xE3o na tela "
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
