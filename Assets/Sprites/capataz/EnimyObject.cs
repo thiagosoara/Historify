@@ -8,4 +8,5 @@ public class EnimyObject : ScriptableObject
     public string name;
     public int health;
     public float speed;
+    public int xpGanho;
 }

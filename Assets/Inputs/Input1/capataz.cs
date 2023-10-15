@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class capataz : MonoBehaviour
 {
+    public EnimyObject enemyAtributes;
+
 public int vidaVilao1 = 50;
     public float Speed;
     private Transform Target;
@@ -120,8 +122,7 @@ public int vidaVilao1 = 50;
     }
     void flip(){
         face = !face;
-        //Vector3  scala = this.transform.localScale;
-        //this.transform.localScale = scala;
+      
         Vector3 scala = cap.localScale;
         scala.x *= -1;
         cap.localScale = scala;
@@ -151,10 +152,10 @@ public int vidaVilao1 = 50;
             anim.SetBool("Correndo", false);
 
             GetComponent<SpriteRenderer>().enabled = false;
-            //sprite.enabled = false;
+        
             yield return new WaitForSeconds(0.1f);
             GetComponent<SpriteRenderer>().enabled = true;
-            //sprite.enabled= true;
+            
             yield return new WaitForSeconds(0.1f);
 
         }

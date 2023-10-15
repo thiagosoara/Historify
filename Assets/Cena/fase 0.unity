@@ -392,6 +392,7 @@ GameObject:
   - component: {fileID: 72280785}
   - component: {fileID: 72280784}
   - component: {fileID: 72280786}
+  - component: {fileID: 72280787}
   m_Layer: 5
   m_Name: 'BarraDeVida '
   m_TagString: Untagged
@@ -415,8 +416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.80731255, y: 0.7374582}
   m_AnchorMax: {x: 0.8976563, y: 0.80948186}
-  m_AnchoredPosition: {x: -89.937, y: -69.8}
-  m_SizeDelta: {x: 75.782074, y: 30.786148}
+  m_AnchoredPosition: {x: -89.07005, y: -69.8}
+  m_SizeDelta: {x: 81.754395, y: 30.786148}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72280784
 MonoBehaviour:
@@ -468,7 +469,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe4cfa22e958164eb67565340054f3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BarraDeVida: {fileID: 0}
+  BarraDeVida: {fileID: 72280784}
+--- !u!95 &72280787
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72280782}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89e30e2742b0cc747b169a1882d726dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &75519730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3507517075712864441, guid: ad047a7c3408a9842a80292179df61ce, type: 3}
@@ -6261,6 +6281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAtributes: {fileID: 0}
   vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
@@ -8594,8 +8615,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9999e144131e30146bc2871c8d5d253b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  graveto: {fileID: 0}
-  pedra: {fileID: 0}
+  graveto: {fileID: 1884460321}
+  pedra: {fileID: 1451219481}
 --- !u!114 &1268441434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8843,6 +8864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAtributes: {fileID: 0}
   vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
@@ -10091,6 +10113,11 @@ Transform:
   m_Father: {fileID: 1575145980}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1451219481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3507517075712864421, guid: ad047a7c3408a9842a80292179df61ce, type: 3}
+  m_PrefabInstance: {fileID: 3507517075654125131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1480222808 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3507517075712864441, guid: ad047a7c3408a9842a80292179df61ce, type: 3}
@@ -10219,6 +10246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAtributes: {fileID: 0}
   vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
@@ -10680,7 +10708,7 @@ GameObject:
   - component: {fileID: 1541743763}
   - component: {fileID: 1541743765}
   m_Layer: 5
-  m_Name: BarraDeEXP
+  m_Name: barraDeExperiencia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10753,9 +10781,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1541743761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40644aaee144d74438fd531a52ea389a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a899e922d4321b4eb63cdcd83b0370c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifeBar: {fileID: 0}
+  valorAtual: 100
+  dano: 10
+  energia: 10
 --- !u!1001 &1546167172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12444,6 +12476,7 @@ MonoBehaviour:
   BarraDeEstamina: {fileID: 1541743763}
   "cora\xE7ao": {fileID: 595885450}
   stamina: {fileID: 1128683965}
+  EXP: {fileID: 0}
   pedra: 0
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
@@ -12494,6 +12527,7 @@ MonoBehaviour:
   BarraDeEstamina: {fileID: 1541743763}
   "cora\xE7ao": {fileID: 595885450}
   stamina: {fileID: 1128683965}
+  EXP: {fileID: 0}
   pedra: 0
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
@@ -12619,7 +12653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe4cfa22e958164eb67565340054f3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BarraDeVida: {fileID: 0}
+  BarraDeVida: {fileID: 72280784}
 --- !u!1 &1760584151
 GameObject:
   m_ObjectHideFlags: 0
@@ -16238,6 +16272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAtributes: {fileID: 0}
   vidaVilao1: 50
   Speed: 3.5
   distancia: 1.5
@@ -16586,7 +16621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612609059199876934, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -211.36
+      value: -88.371
       objectReference: {fileID: 0}
     - target: {fileID: 3612609059386644426, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Name
@@ -16850,7 +16885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060174830920, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 95.51
+      value: -25.176
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060174830921, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_IsActive
@@ -17439,6 +17474,10 @@ PrefabInstance:
       propertyPath: pedra
       value: 
       objectReference: {fileID: 1082742377}
+    - target: {fileID: 8779276264802530043, guid: 0c04daffb8d925d4abee7d9ea343a5b8, type: 3}
+      propertyPath: enemyAtributes
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f5a92b55124b24468fd34b84f7332e4, type: 2}
     - target: {fileID: 8779276264802530045, guid: 0c04daffb8d925d4abee7d9ea343a5b8, type: 3}
       propertyPath: m_Name
       value: 'Capataz '

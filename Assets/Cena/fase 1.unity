@@ -740,6 +740,8 @@ GameObject:
   - component: {fileID: 115412336}
   - component: {fileID: 115412335}
   - component: {fileID: 115412338}
+  - component: {fileID: 115412339}
+  - component: {fileID: 115412340}
   m_Layer: 0
   m_Name: Armature_parado_0
   m_TagString: Untagged
@@ -825,8 +827,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115412334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -204.94, y: -0.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -239.09, y: 1.94, z: 0}
+  m_LocalScale: {x: 0.9625508, y: 0.96694076, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 58
@@ -844,7 +846,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.83, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -855,8 +857,58 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.04, y: 4.07}
+  m_Size: {x: 0.98, y: 4.07}
   m_EdgeRadius: 0
+--- !u!114 &115412339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115412334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83bbd1d232ce3d47a8c5d6cf960bc35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyAtributes: {fileID: 11400000, guid: ed3ca96e99d88b94e8cbd808e67af39b, type: 2}
+  vidaVilao1: 50
+  Speed: 0
+  distancia: 0
+  anim: {fileID: 0}
+  vilaoVivo: 1
+  contagem: 1
+  tempoDano: 1
+  vulneravel: 0
+  objeto: {fileID: 0}
+  pause: 1
+  pedra: {fileID: 0}
+  seguindo: 0
+  cap: {fileID: 0}
+  face: 1
+  Hero: {fileID: 1760005670}
+  efeitoChicote: {fileID: 0}
+--- !u!50 &115412340
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115412334}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &146497040
 GameObject:
   m_ObjectHideFlags: 0
@@ -25698,6 +25750,7 @@ MonoBehaviour:
   BarraDeEstamina: {fileID: 1541743763}
   "cora\xE7ao": {fileID: 595885450}
   stamina: {fileID: 1128683965}
+  EXP: {fileID: 0}
   pedra: 0
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
@@ -25748,6 +25801,7 @@ MonoBehaviour:
   BarraDeEstamina: {fileID: 1541743763}
   "cora\xE7ao": {fileID: 595885450}
   stamina: {fileID: 1128683965}
+  EXP: {fileID: 0}
   pedra: 0
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
@@ -27322,7 +27376,7 @@ MonoBehaviour:
   distancia: 0
   Hero: {fileID: 0}
   face: 1
-  capataz: {fileID: 0}
+  capataz: {fileID: 115412337}
   anim: {fileID: 0}
 --- !u!1 &1909829559
 GameObject:
@@ -27959,7 +28013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044381351}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -241.94, y: -0.004, z: 0}
+  m_LocalPosition: {x: -242, y: -0.15, z: 0}
   m_LocalScale: {x: -1.1570599, y: 0.98518306, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

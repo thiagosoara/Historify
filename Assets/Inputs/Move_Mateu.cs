@@ -22,6 +22,7 @@ public class Move_Mateu : MonoBehaviour
     public Image BarraDeEstamina;
     public Image coraçao;
     public Image stamina; 
+    public Image EXP;
 
 
     //coleta itens
