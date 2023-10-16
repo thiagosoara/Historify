@@ -82,6 +82,7 @@
      <Compile Include="Assets\Inputs\Input1\Vilao.cs" />
      <Compile Include="Assets\Inputs\tronco.cs" />
      <Compile Include="Assets\Inputs\estudo\estudo.cs" />
+     <Compile Include="Assets\Inputs\Input1\Playerdata.cs" />
      <Compile Include="Assets\Inputs\Colisao.cs" />
      <Compile Include="Assets\Inputs\AudioControler.cs" />
      <Compile Include="Assets\Inputs\Input1\PassaCenaComTempo.cs" />

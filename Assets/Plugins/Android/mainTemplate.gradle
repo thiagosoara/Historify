@@ -8,7 +8,7 @@
             url "https://maven.google.com"
         }
         maven {
-            url "file:///C:/Users/nadho/OneDrive/Documentos/GitHub/Nova%20pasta/Historify/Assets/GeneratedLocalRepo/Firebase/m2repository" // Assets/Firebase/Editor/AnalyticsDependencies.xml:18, Assets/Firebase/Editor/AppDependencies.xml:22, Assets/Firebase/Editor/AuthDependencies.xml:20
+            url (unityProjectPath + "/Assets/GeneratedLocalRepo/Firebase/m2repository") // Assets/Firebase/Editor/AnalyticsDependencies.xml:18, Assets/Firebase/Editor/AppDependencies.xml:22, Assets/Firebase/Editor/AuthDependencies.xml:20
         }
         mavenLocal()
         mavenCentral()
