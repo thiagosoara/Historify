@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4217341021148064518}
   - component: {fileID: 1600705277379643823}
+  - component: {fileID: -8869376253871432361}
   m_Layer: 0
   m_Name: rifle
   m_TagString: Untagged
@@ -82,3 +83,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-8869376253871432361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958622019846341940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 931fe990ed2bda7438898702fec3c2ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

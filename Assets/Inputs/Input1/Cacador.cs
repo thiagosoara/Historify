@@ -2,67 +2,58 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hunter : MonoBehaviour
+public class Cacador : MonoBehaviour
 {
-    public Transform player; // Referência ao jogador
-    public float moveSpeed = 5.0f; // Velocidade de movimento
-    public float rotationSpeed = 2.0f; // Velocidade de rotação
-    public GameObject gunPrefab; // Prefab da arma
-    public int initialAmmo = 10; // Munição inicial
+    public Transform player;
+    public float attackRange = 10.0f;
+    public float attackCooldown = 2.0f;
+    public GameObject weaponPrefab;
+    public int initialAmmo = 15;
 
-    private Transform gunSpawnPoint;
+    private Animator animator;
     private int currentAmmo;
+    private float lastAttackTime;
 
     void Start()
     {
-        gunSpawnPoint = transform.Find("GunSpawnPoint");
+        animator = GetComponent<Animator>();
         currentAmmo = initialAmmo;
     }
 
     void Update()
     {
-        // Rotação para encarar o jogador
-        Vector3 playerDirection = player.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(playerDirection);
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, rotationSpeed * Time.deltaTime);
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        // Movimento em direção ao jogador
-        transform.position += transform.forward * moveSpeed * Time.deltaTime;
-
-        // Disparar quando o jogador estiver à vista
-        if (IsPlayerInSight())
+        if (distanceToPlayer <= attackRange && Time.time - lastAttackTime >= attackCooldown)
         {
-            if (currentAmmo > 0)
-            {
-                Shoot();
-            }
+            // Ataque ao jogador
+            Attack();
         }
     }
 
-    bool IsPlayerInSight()
+    void Attack()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, player.position - transform.position, out hit))
+        if (currentAmmo > 0)
         {
-            if (hit.transform == player)
-            {
-                return true;
-            }
+            // Ativar a animação de tiro
+            animator.SetTrigger("tiro");
+
+            // Lógica para causar dano ao jogador
+            // Subtrair munição
+            currentAmmo--;
+
+            // Atualizar o tempo do último ataque
+            lastAttackTime = Time.time;
         }
-        return false;
+        else
+        {
+            // Ativar a animação de recarga
+            animator.SetTrigger("reload");
+            // Recarregar a arma
+            currentAmmo = initialAmmo;
+        }
     }
 
-    void Shoot()
-    {
-        // Lógica de disparo (instanciação de projéteis, controle de munição, causar dano ao jogador, etc.)
-    }
-
-    void Die()
-    {
-        // Lógica para quando o caçador morrer (deixar arma e munição)
-        Instantiate(gunPrefab, transform.position, Quaternion.identity);
-        // Deixe munição com a arma
-        gunPrefab.GetComponent<Weapon>().SetAmmo(currentAmmo);
-        Destroy(gameObject);
-    }
+   
 }
+
