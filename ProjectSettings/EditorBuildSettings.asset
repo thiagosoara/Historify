@@ -50,7 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cena/H.quadrinho - fase1.unity
     guid: 4d93439d3a17ff44e8e8035ed1191a7c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Cena/fase 1.unity
     guid: 74941eda7cae25343b12358c72a9a8c0
   - enabled: 0
