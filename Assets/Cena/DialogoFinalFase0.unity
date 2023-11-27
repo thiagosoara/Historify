@@ -249,7 +249,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: d30c4b6b86fa19347b131e3c005785d5, type: 3}
+  - {fileID: 21300000, guid: e969af93dc3506b4d842a9865cd7057c, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -590,7 +590,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
+  - {fileID: 21300000, guid: 2bdd07f6f18150345873a6bcb34b8df5, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1128,7 +1128,7 @@ MonoBehaviour:
     hist\xF3ria ."
   description: 
   character: {fileID: 139980021}
-  portrait: {fileID: 21300000, guid: d30c4b6b86fa19347b131e3c005785d5, type: 3}
+  portrait: {fileID: 21300000, guid: e969af93dc3506b4d842a9865cd7057c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1189,8 +1189,8 @@ MonoBehaviour:
   storyText: "Mateu: T\xF4 quase perto da minha liberdade! Falta pouco\u2026 Pai
     Ogum vai me ajudar!\r\n\n"
   description: 
-  character: {fileID: 638809582}
-  portrait: {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
+  character: {fileID: 2081896791}
+  portrait: {fileID: 21300000, guid: d30c4b6b86fa19347b131e3c005785d5, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1269,7 +1269,7 @@ MonoBehaviour:
     ajudar o meu povo tamb\xE9m!\r\n"
   description: 
   character: {fileID: 2081896791}
-  portrait: {fileID: 21300000, guid: 2bdd07f6f18150345873a6bcb34b8df5, type: 3}
+  portrait: {fileID: 21300000, guid: d30c4b6b86fa19347b131e3c005785d5, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1297,7 +1297,7 @@ MonoBehaviour:
     com muito esfor\xE7o, fugir da escravid\xE3o...\r\n"
   description: 
   character: {fileID: 638809582}
-  portrait: {fileID: 21300000, guid: e8d6aec05bb697c4d96fd9d79bc11d08, type: 3}
+  portrait: {fileID: 21300000, guid: 2bdd07f6f18150345873a6bcb34b8df5, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1384,7 +1384,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1441274177}
   selectedCommands:
-  - {fileID: 1441274160}
+  - {fileID: 1441274159}
   variables: []
   description: 
   stepPause: 0
@@ -1862,7 +1862,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 2bdd07f6f18150345873a6bcb34b8df5, type: 3}
+  - {fileID: 21300000, guid: d30c4b6b86fa19347b131e3c005785d5, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: e969af93dc3506b4d842a9865cd7057c, type: 3}
+  - {fileID: 21300000, guid: 4288ae0142e4d724b8f71184b43bb15f, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
