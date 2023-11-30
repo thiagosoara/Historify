@@ -334,7 +334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.126}
   m_AnchorMin: {x: 0.19036657, y: 0.916667}
   m_AnchorMax: {x: 0.20788828, y: 0.916667}
-  m_AnchoredPosition: {x: 482.75983, y: 0}
+  m_AnchoredPosition: {x: 482.75974, y: 0}
   m_SizeDelta: {x: 1266.1534, y: 161.77052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302184499
@@ -998,6 +998,13 @@ GameObject:
   - component: {fileID: 507702584}
   - component: {fileID: 507702583}
   - component: {fileID: 507702596}
+  - component: {fileID: 507702563}
+  - component: {fileID: 507702558}
+  - component: {fileID: 507702566}
+  - component: {fileID: 507702565}
+  - component: {fileID: 507702564}
+  - component: {fileID: 507702568}
+  - component: {fileID: 507702567}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1005,6 +1012,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &507702558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: bb775e5d0da5b5b4291c4b7ba715ddd0, type: 3}
+  volume: 1
+  loop: 0
 --- !u!114 &507702559
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1047,15 +1071,22 @@ MonoBehaviour:
   commandList:
   - {fileID: 507702589}
   - {fileID: 507702570}
+  - {fileID: 507702564}
+  - {fileID: 507702565}
+  - {fileID: 507702568}
   - {fileID: 507702587}
   - {fileID: 507702572}
   - {fileID: 507702585}
+  - {fileID: 507702567}
   - {fileID: 507702574}
   - {fileID: 507702584}
   - {fileID: 507702575}
   - {fileID: 507702583}
   - {fileID: 507702576}
   - {fileID: 507702596}
+  - {fileID: 507702558}
+  - {fileID: 507702563}
+  - {fileID: 507702566}
   suppressAllAutoSelections: 0
 --- !u!114 &507702561
 MonoBehaviour:
@@ -1073,7 +1104,7 @@ MonoBehaviour:
   scrollPos: {x: 230.88708, y: -801.2164}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 391
+  blockViewHeight: 510
   zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
@@ -1084,7 +1115,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702576}
+  - {fileID: 507702584}
   variables: []
   description: 
   stepPause: 0
@@ -1110,6 +1141,161 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &507702563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1008956902}
+  portrait: {fileID: 21300000, guid: a1b3c869037247c4f93734dc41b5eabf, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &507702564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 7dc5bdf52fe985f4d83549eea1164b22, type: 3}
+  volume: 1
+  loop: 0
+--- !u!114 &507702565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  storyText: "Bento _  Ti\xE3o? Ainda bem que pegou esse escravo! Se a gente perdesse
+    ele, nosso patr\xE3o iria tirar o nosso couro."
+  description: 
+  character: {fileID: 442428867}
+  portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &507702566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1964102475}
+  portrait: {fileID: 21300000, guid: 42d26ddc2ac27fa41a73b4febb898a48, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &507702567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  storyText: "Dirceu _ Naquela \xE9poca, a compra e venda de escravos era algo comum,
+    o que hoje em dia seria repudiado pela crueldade, pois a escravid\xE3o \xE9 desumana:
+    trata pessoas  como mercadoria e submete-as  a uma vida sem o m\xEDnimo de dignidade."
+  description: 
+  character: {fileID: 35442823}
+  portrait: {fileID: 21300000, guid: a66bcec70e09f5b4d96a1245afd67601, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &507702568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  storyText: "Ti\xE3o _ Por pouco ele n\xE3o foge, quase n\xE3o pego ele."
+  description: 
+  character: {fileID: 442428867}
+  portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &507702570
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1124,9 +1310,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "Dirceu: Ol\xE1, alunos! Sei que voc\xEAs esperavam a aula do seu professor,
-    o meu amigo. Mas serei eu que o substituirei hoje, pois ele tem coisas um tanto
-    urgentes para resolver.\r\n"
+  storyText: "Dirceu _ Continuando de onde paramos, um escravo quando era capturado,
+    muitas vezes, sofria bastante com viol\xEAncia e abusos de todos os tipos."
   description: 
   character: {fileID: 442428867}
   portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
@@ -1153,8 +1338,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "Dirceu: Meu nome \xE9 Dirceu Lindoso e tenho uma proposta especial
-    a fazer-lhes.\r\n"
+  storyText: "Dirceu _ Naquela \xE9poca, a compra e venda de escravos era algo comum,
+    o que hoje em dia seria repudiado pela crueldade, pois a escravid\xE3o \xE9 desumana:
+    trata pessoas  como mercadoria e submete-as  a uma vida sem o m\xEDnimo de dignidade."
   description: 
   character: {fileID: 35442823}
   portrait: {fileID: 21300000, guid: a66bcec70e09f5b4d96a1245afd67601, type: 3}
