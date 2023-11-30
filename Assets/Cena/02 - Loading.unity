@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 15740890}
   - component: {fileID: 15740891}
   m_Layer: 0
-  m_Name: Quadrinho.7
+  m_Name: Quadrinho. 27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 00474c260ed8bbf4bb479e8d4a97c06d, type: 3}
+  - {fileID: 21300000, guid: 0866c89fea2f0254eb903a7ac76141f2, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 35442822}
   - component: {fileID: 35442823}
   m_Layer: 0
-  m_Name: Quadrinho.5
+  m_Name: Quadrinho. 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
+  - {fileID: 21300000, guid: a66bcec70e09f5b4d96a1245afd67601, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -334,7 +334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.126}
   m_AnchorMin: {x: 0.19036657, y: 0.916667}
   m_AnchorMax: {x: 0.20788828, y: 0.916667}
-  m_AnchoredPosition: {x: 482.7599, y: 0}
+  m_AnchoredPosition: {x: 482.75983, y: 0}
   m_SizeDelta: {x: 1266.1534, y: 161.77052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302184499
@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 339510666}
   - component: {fileID: 339510667}
   m_Layer: 0
-  m_Name: Quadrinho.17
+  m_Name: Quadrinho. 37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -426,7 +426,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 44645d415d655c2439dcf6a4b4dd90b7, type: 3}
+  - {fileID: 21300000, guid: 9f554abb8478f434b8259cb3f4143347, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -465,7 +465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.055}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -470, y: -622.95}
+  m_AnchoredPosition: {x: -549.68, y: -622.95}
   m_SizeDelta: {x: 1073.2733, y: 1245.9086}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &342169771
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 367113391}
   - component: {fileID: 367113392}
   m_Layer: 0
-  m_Name: Quadrinho.18
+  m_Name: Quadrinho. 38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,7 +573,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: c1f4b5b8056b10e4da5842f05ae45cbc, type: 3}
+  - {fileID: 21300000, guid: 912e1d262f196244d8577666fb32953c, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -884,7 +884,7 @@ GameObject:
   - component: {fileID: 442428866}
   - component: {fileID: 442428867}
   m_Layer: 0
-  m_Name: Quadrinho.4
+  m_Name: Quadrinho. 24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -920,7 +920,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: d95dea909aea7c54b8cc0410720b4790, type: 3}
+  - {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 452781916}
   - component: {fileID: 452781917}
   m_Layer: 0
-  m_Name: Quadrinho.11
+  m_Name: Quadrinho. 31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,7 +971,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: fc04d8392dd78704b80f1d63e2b21d27, type: 3}
+  - {fileID: 21300000, guid: 381b85526c358004eb034fe15c224318, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1050,8 +1050,8 @@ MonoBehaviour:
   - {fileID: 507702587}
   - {fileID: 507702572}
   - {fileID: 507702585}
-  - {fileID: 507702584}
   - {fileID: 507702574}
+  - {fileID: 507702584}
   - {fileID: 507702575}
   - {fileID: 507702583}
   - {fileID: 507702576}
@@ -1070,11 +1070,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 214.7691, y: -852.47363}
+  scrollPos: {x: 230.88708, y: -801.2164}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 333
-  zoom: 1
+  blockViewHeight: 391
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702570}
+  - {fileID: 507702576}
   variables: []
   description: 
   stepPause: 0
@@ -1129,7 +1129,7 @@ MonoBehaviour:
     urgentes para resolver.\r\n"
   description: 
   character: {fileID: 442428867}
-  portrait: {fileID: 21300000, guid: d95dea909aea7c54b8cc0410720b4790, type: 3}
+  portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1156,8 +1156,8 @@ MonoBehaviour:
   storyText: "Dirceu: Meu nome \xE9 Dirceu Lindoso e tenho uma proposta especial
     a fazer-lhes.\r\n"
   description: 
-  character: {fileID: 2074346310}
-  portrait: {fileID: 21300000, guid: d05bef7a2c66c514ba5126dc06e24766, type: 3}
+  character: {fileID: 35442823}
+  portrait: {fileID: 21300000, guid: a66bcec70e09f5b4d96a1245afd67601, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1186,8 +1186,8 @@ MonoBehaviour:
     da minha experi\xEAncia de pesquisa com essa importante parte da hist\xF3ria
     do pa\xEDs."
   description: 
-  character: {fileID: 35442823}
-  portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
+  character: {fileID: 2074346310}
+  portrait: {fileID: 21300000, guid: 76c00d1c8f03e5249bbe8440e46ad77b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1215,8 +1215,8 @@ MonoBehaviour:
     nos livros, na qual a guerra teve seu in\xEDcio com a sa\xEDda de D. Pedro I,
     entre 1832 a 1835."
   description: 
-  character: {fileID: 35442823}
-  portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
+  character: {fileID: 15740891}
+  portrait: {fileID: 21300000, guid: 0866c89fea2f0254eb903a7ac76141f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1245,8 +1245,8 @@ MonoBehaviour:
     sob a vis\xE3o de quem mais sofreu e que levou essa luta a durar por mais tempo...
     \n"
   description: 
-  character: {fileID: 35442823}
-  portrait: {fileID: 21300000, guid: af72ce4637fcb6c449b359573adc354d, type: 3}
+  character: {fileID: 585353074}
+  portrait: {fileID: 21300000, guid: edb328e427982b843aaab2e466864c6b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1369,7 +1369,7 @@ GameObject:
   - component: {fileID: 585353073}
   - component: {fileID: 585353074}
   m_Layer: 0
-  m_Name: Quadrinho.8
+  m_Name: Quadrinho. 28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1405,7 +1405,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 3451b4c1aa604da4892b852c865cfa2a, type: 3}
+  - {fileID: 21300000, guid: edb328e427982b843aaab2e466864c6b, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1495,7 +1495,7 @@ GameObject:
   - component: {fileID: 791264602}
   - component: {fileID: 791264603}
   m_Layer: 0
-  m_Name: Quadrinho.14
+  m_Name: Quadrinho. 34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1531,7 +1531,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 7c64ee2ba0c256f4d974661dcaca3e97, type: 3}
+  - {fileID: 21300000, guid: 51e96232196c194479d1b0b78ab4df3c, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1546,7 +1546,7 @@ GameObject:
   - component: {fileID: 1008956901}
   - component: {fileID: 1008956902}
   m_Layer: 0
-  m_Name: Quadrinho.9
+  m_Name: Quadrinho. 29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1582,7 +1582,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: a1f1af5ba51485442bf1c869036233b9, type: 3}
+  - {fileID: 21300000, guid: a1b3c869037247c4f93734dc41b5eabf, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1834,7 +1834,7 @@ GameObject:
   - component: {fileID: 1408674872}
   - component: {fileID: 1408674873}
   m_Layer: 0
-  m_Name: Quadrinho.15
+  m_Name: Quadrinho. 35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1870,7 +1870,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 06c7bab217eb6304ab350913b5dcf1c5, type: 3}
+  - {fileID: 21300000, guid: a375f4c4b99e15d42ab43583b5472558, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1964,7 +1964,7 @@ GameObject:
   - component: {fileID: 1500966788}
   - component: {fileID: 1500966789}
   m_Layer: 0
-  m_Name: Quadrinho.13
+  m_Name: Quadrinho. 33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2000,7 +2000,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 1b69a79c299e1674f8b8833c48a705c3, type: 3}
+  - {fileID: 21300000, guid: 5773c01269d3d9b4882b70f7eb66bf38, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -2297,7 +2297,7 @@ GameObject:
   - component: {fileID: 1688615322}
   - component: {fileID: 1688615323}
   m_Layer: 0
-  m_Name: Quadrinho.16
+  m_Name: Quadrinho. 36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2333,7 +2333,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 84a33d81a9fa59f4bad72b6fa0e1b147, type: 3}
+  - {fileID: 21300000, guid: 2667cf8fb9ec2cc4dbb4c10337e1c28e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -2399,7 +2399,7 @@ GameObject:
   - component: {fileID: 1891708048}
   - component: {fileID: 1891708049}
   m_Layer: 0
-  m_Name: Quadrinho.12
+  m_Name: Quadrinho. 32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2435,7 +2435,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: add39d97e4041e54abec8fbe1de1cd06, type: 3}
+  - {fileID: 21300000, guid: 8da1ec37c0ad9564c8d9e65ca62f2aa2, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -2525,7 +2525,7 @@ GameObject:
   - component: {fileID: 1964102474}
   - component: {fileID: 1964102475}
   m_Layer: 0
-  m_Name: Quadrinho.10
+  m_Name: Quadrinho. 30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2561,7 +2561,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 99433ef5b3d742e408fd7d3888167d8a, type: 3}
+  - {fileID: 21300000, guid: 42d26ddc2ac27fa41a73b4febb898a48, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -2870,7 +2870,7 @@ GameObject:
   - component: {fileID: 2074346309}
   - component: {fileID: 2074346310}
   m_Layer: 0
-  m_Name: Quadrinho.6
+  m_Name: Quadrinho. 26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2906,7 +2906,7 @@ MonoBehaviour:
   nameColor: {r: 0.7294118, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: d05bef7a2c66c514ba5126dc06e24766, type: 3}
+  - {fileID: 21300000, guid: 76c00d1c8f03e5249bbe8440e46ad77b, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
