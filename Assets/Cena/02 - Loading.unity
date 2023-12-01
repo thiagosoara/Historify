@@ -334,7 +334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.126}
   m_AnchorMin: {x: 0.19036657, y: 0.916667}
   m_AnchorMax: {x: 0.20788828, y: 0.916667}
-  m_AnchoredPosition: {x: 482.75974, y: 0}
+  m_AnchoredPosition: {x: 482.75977, y: 0}
   m_SizeDelta: {x: 1266.1534, y: 161.77052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302184499
@@ -1005,6 +1005,7 @@ GameObject:
   - component: {fileID: 507702564}
   - component: {fileID: 507702568}
   - component: {fileID: 507702567}
+  - component: {fileID: 507702569}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1060,7 +1061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -99.44098
     y: 889.77826
-    width: 60
+    width: 97.42268
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1073,6 +1074,7 @@ MonoBehaviour:
   - {fileID: 507702570}
   - {fileID: 507702564}
   - {fileID: 507702565}
+  - {fileID: 507702569}
   - {fileID: 507702568}
   - {fileID: 507702587}
   - {fileID: 507702572}
@@ -1101,11 +1103,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 230.88708, y: -801.2164}
+  scrollPos: {x: 218.9108, y: -802.68713}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 510
-  zoom: 0.94000006
+  blockViewHeight: 270
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1115,7 +1117,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702584}
+  - {fileID: 507702569}
   variables: []
   description: 
   stepPause: 0
@@ -1283,7 +1285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "Ti\xE3o _ Por pouco ele n\xE3o foge, quase n\xE3o pego ele."
+  storyText: "Ti\xE3o _ Por pouco ele foge, quase n\xE3o pego."
   description: 
   character: {fileID: 442428867}
   portrait: {fileID: 21300000, guid: 3d28a3c9bac57f444bd575d3ae525174, type: 3}
@@ -1296,6 +1298,23 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &507702569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507702557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 05177c947a331144597a0e0cc8ad5686, type: 3}
+  volume: 1
+  loop: 0
 --- !u!114 &507702570
 MonoBehaviour:
   m_ObjectHideFlags: 2
