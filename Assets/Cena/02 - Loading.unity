@@ -334,7 +334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.126}
   m_AnchorMin: {x: 0.19036657, y: 0.916667}
   m_AnchorMax: {x: 0.20788828, y: 0.916667}
-  m_AnchoredPosition: {x: 482.75977, y: 0}
+  m_AnchoredPosition: {x: 482.7598, y: 0}
   m_SizeDelta: {x: 1266.1534, y: 161.77052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302184499
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 507702560}
   selectedCommands:
-  - {fileID: 507702569}
+  - {fileID: 507702589}
   variables: []
   description: 
   stepPause: 0
@@ -1256,9 +1256,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: "Dirceu _ Naquela \xE9poca, a compra e venda de escravos era algo comum,
-    o que hoje em dia seria repudiado pela crueldade, pois a escravid\xE3o \xE9 desumana:
-    trata pessoas  como mercadoria e submete-as  a uma vida sem o m\xEDnimo de dignidade."
+  storyText: "Amilton Gon\xE7alves (Senhor de escravo) _ Este escravo est\xE1 me
+    dando muito trabalho: j\xE1 \xE9 a d\xE9cima vez que tenta fugir! Parece que
+    a vida boa  que damos a ele n\xE3o \xE9 o suficiente.Ent\xE3o levem esse verme
+    para o meu afilhado, l\xE1 na freguesia de Rio Formoso. Ser\xE1 um presente bom
+    para ele e esse escravo pode sair daqui, j\xE1 que ele n\xE3o se mostra agradecido."
   description: 
   character: {fileID: 35442823}
   portrait: {fileID: 21300000, guid: a66bcec70e09f5b4d96a1245afd67601, type: 3}
@@ -2375,7 +2377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.79052126, y: 0.034166668}
   m_AnchorMax: {x: 0.80235255, y: 0.0875}
-  m_AnchoredPosition: {x: -791.68036, y: 458.12085}
+  m_AnchoredPosition: {x: -791.6804, y: 458.12085}
   m_SizeDelta: {x: 2639.063, y: 1136.0339}
   m_Pivot: {x: 0.49999997, y: 0.43938383}
 --- !u!1 &1677107066
