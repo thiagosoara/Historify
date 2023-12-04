@@ -198,6 +198,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: 0f8ffc4dafc9c5e4a9923fb5c8722cf6, type: 2}
   - {fileID: 0}
   metroInputSource: 0
@@ -244,8 +249,8 @@ PlayerSettings:
   applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 29
-  AndroidMinSdkVersion: 30
-  AndroidTargetSdkVersion: 33
+  AndroidMinSdkVersion: 29
+  AndroidTargetSdkVersion: 30
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
