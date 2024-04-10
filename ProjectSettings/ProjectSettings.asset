@@ -206,6 +206,18 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+<<<<<<< Updated upstream
+=======
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+>>>>>>> Stashed changes
   - {fileID: 11400000, guid: 0f8ffc4dafc9c5e4a9923fb5c8722cf6, type: 2}
   - {fileID: 0}
   metroInputSource: 0
@@ -252,8 +264,13 @@ PlayerSettings:
   applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 29
+<<<<<<< Updated upstream
   AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 31
+=======
+  AndroidMinSdkVersion: 30
+  AndroidTargetSdkVersion: 0
+>>>>>>> Stashed changes
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
