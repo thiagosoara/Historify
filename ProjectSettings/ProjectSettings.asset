@@ -6,8 +6,8 @@ PlayerSettings:
   serializedVersion: 20
   productGUID: 9e18b008132a0d94faea1be9e6252382
   AndroidProfiler: 0
-  AndroidFilterTouchesWhenObscured: 0
-  AndroidEnableSustainedPerformanceMode: 0
+  AndroidFilterTouchesWhenObscured: 1
+  AndroidEnableSustainedPerformanceMode: 1
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
@@ -118,7 +118,7 @@ PlayerSettings:
   stadiaPresentMode: 0
   stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
-  vulkanEnableSetSRGBWrite: 0
+  vulkanEnableSetSRGBWrite: 1
   vulkanEnableLateAcquireNextImage: 0
   m_SupportedAspectRatios:
     4:3: 1
@@ -134,8 +134,40 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 0f8ffc4dafc9c5e4a9923fb5c8722cf6, type: 2}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 0f8ffc4dafc9c5e4a9923fb5c8722cf6, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -177,12 +209,13 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.ifpe.Historify
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 31
-  AndroidTargetSdkVersion: 0
-  AndroidPreferredInstallLocation: 1
+  AndroidMinSdkVersion: 30
+  AndroidTargetSdkVersion: 31
+  AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
@@ -192,7 +225,7 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
-  StripUnusedMeshComponents: 0
+  StripUnusedMeshComponents: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSTargetOSVersionString: 11.0
@@ -264,14 +297,14 @@ PlayerSettings:
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
-  androidUseLowAccuracyLocation: 0
+  androidUseLowAccuracyLocation: 1
   androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  AndroidMinifyWithR8: 1
+  AndroidMinifyWithR8: 0
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
@@ -383,7 +416,9 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
-  m_BuildTargetGroupLightmapEncodingQuality: []
+  m_BuildTargetGroupLightmapEncodingQuality:
+  - m_BuildTarget: Android
+    m_EncodingQuality: 0
   m_BuildTargetGroupLightmapSettings: []
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
@@ -624,17 +659,19 @@ PlayerSettings:
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
-  il2cppCompilerConfiguration: {}
+  il2cppCompilerConfiguration:
+    Android: 2
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 1
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Android: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Historify
