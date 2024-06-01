@@ -3,25 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - chao
-  - vida
-  - inimigo
-  - Enemy
-  - Atributos
-  - pedra
-  - pedraCriada
-  - Limbo
-  - imagem1
-  - alerta
-  - Water
-  - tronco
-  - passaCena
-  - Eneriga
-  - "Muni\xE7\xE3o"
-  - mel
-  - morceguino
-  - amigo
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -31,13 +13,13 @@ TagManager:
   - UI
   - 
   - 
-  - chao
-  - Player
-  - inimigo
   - 
-  - amigo
-  - Enemy
-  - Trigger
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -58,13 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ceu
-    uniqueID: 1387744315
-    locked: 0
-  - name: chao
-    uniqueID: 262839233
-    locked: 0
-  - name: agua
-    uniqueID: 1489566823
     locked: 0
