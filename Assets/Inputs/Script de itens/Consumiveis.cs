@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Consumiveis 
+[CreateAssetMenu(fileName = "Consumivel", menuName = "Consumivel/New Consumivel", order = 1)]
+public class Consumiveis : ScriptableObject
 
 {
     public string id;
