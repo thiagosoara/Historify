@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< Updated upstream
+=======
+  - name: Ceu
+    uniqueID: 1387744315
+    locked: 0
+  - name: chao
+    uniqueID: 262839233
+    locked: 0
+  - name: agua
+    uniqueID: 1489566823
+    locked: 0
+  - name: Player
+    uniqueID: 915746731
+    locked: 0
+>>>>>>> Stashed changes

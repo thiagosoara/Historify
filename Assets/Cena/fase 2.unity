@@ -2980,7 +2980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398537262}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
@@ -7093,7 +7093,7 @@ GameObject:
   - component: {fileID: 1203107632}
   - component: {fileID: 1203107633}
   - component: {fileID: 1203107634}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11278,12 +11278,11 @@ GameObject:
   - component: {fileID: 1760005667}
   - component: {fileID: 1760005672}
   - component: {fileID: 1760005661}
-  - component: {fileID: 1760005662}
   - component: {fileID: 1760005663}
   - component: {fileID: 1760005664}
   - component: {fileID: 1760005665}
   - component: {fileID: 1760005666}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -11306,18 +11305,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.07866471, y: 0.005877786}
   m_Size: {x: 1.2154216, y: 3.8287897}
   m_Direction: 0
---- !u!114 &1760005662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760005660}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 789536b3e063fcb48882a7623972462b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1760005663
 Animator:
   serializedVersion: 3
@@ -11402,7 +11389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   face: 1
   HeroiT: {fileID: 1760005670}
-  vel: 0
+  vel: 10
   forca: 0.87
   HeroiRB: {fileID: 1760005667}
   liberapulo: 0
@@ -11419,8 +11406,8 @@ MonoBehaviour:
   texPedra: {fileID: 1410036187}
   balas: {fileID: 834235928528989156, guid: 5e70535ec156b1449b192c3b69b02d12, type: 3}
   BulletSpawn: {fileID: 398537261}
-  bulletSpawn: {fileID: 0}
-  objeto: {fileID: 0}
+  bulletSpawn: {fileID: 398537262}
+  objeto: {fileID: 1203107631}
   pausa: 1
   tronco: 1
   vel: 0
@@ -11436,7 +11423,7 @@ MonoBehaviour:
   l: 0
   levantado: 1
   efeitoPulo: {fileID: 5814977986851457034, guid: 2de29a34c9bcca7478bebc2e75a36086, type: 3}
-  HeroiT: {fileID: 0}
+  HeroiT: {fileID: 1760005670}
   anim: {fileID: 1760005663}
   HeroiRB: {fileID: 1760005667}
   tc: {fileID: 120175771}
@@ -11498,8 +11485,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 915746731
+  m_SortingLayer: 4
   m_SortingOrder: 39
   m_Sprite: {fileID: 21300000, guid: 18a4da5509f92814ab285711ca04b0bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11520,7 +11507,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760005660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -43.66, y: -6.975, z: -1}
+  m_LocalPosition: {x: -44.29, y: -7.22, z: -1}
   m_LocalScale: {x: -0.6439515, y: 0.5822914, z: 1}
   m_Children:
   - {fileID: 398537262}
@@ -12399,7 +12386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1760005660}
-  HeroiN: {fileID: 0}
+  HeroiN: {fileID: 1760005660}
   canVel: 0.25
 --- !u!114 &1841767962
 MonoBehaviour:
@@ -12442,7 +12429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a899e922d4321b4eb63cdcd83b0370c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeBar: {fileID: 0}
+  lifeBar: {fileID: 72280784}
   valorAtual: 100
   dano: 10
   energia: 10
