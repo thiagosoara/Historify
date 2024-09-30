@@ -29679,7 +29679,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612609059199876934, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< Updated upstream
       value: -204.08
+=======
+<<<<<<< HEAD
+      value: -205.38998
+=======
+      value: -204.08
+>>>>>>> 03f7580aa488d46d180b0237ec5c102dc39d4367
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 3612609059386644426, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_IsActive
@@ -29807,7 +29815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612609059814120380, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -108.61301
+      value: -92.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612609059814120381, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3612609059814120381, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_IsActive
@@ -29863,6 +29875,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060120475494, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+      value: -92
+=======
+>>>>>>> Stashed changes
       value: -143
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060174830920, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
@@ -29904,6 +29922,10 @@ PrefabInstance:
     - target: {fileID: 3612609060174830920, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -204.29
+<<<<<<< Updated upstream
+=======
+>>>>>>> 03f7580aa488d46d180b0237ec5c102dc39d4367
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060174830921, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_IsActive
@@ -29967,7 +29989,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060364873380, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< Updated upstream
       value: -242.74
+=======
+<<<<<<< HEAD
+      value: -231.16
+=======
+      value: -242.74
+>>>>>>> 03f7580aa488d46d180b0237ec5c102dc39d4367
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 3612609060364873382, guid: 0024ad2112f1fab4c8f04ac4f8f9809a, type: 3}
       propertyPath: m_Color.a
